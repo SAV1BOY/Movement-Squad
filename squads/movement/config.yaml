@@ -1,0 +1,557 @@
+# ============================================================
+# MOVEMENT SQUAD — config.yaml (Cérebro de Roteamento)
+# ============================================================
+
+squad:
+  name: movement
+  version: "2.0.0"
+  description: "Movement Marketing: cultura + identidade + narrativa + comunidade + ativação + impacto"
+  chief_agent: movement-chief
+  language: pt-BR
+
+principles:
+  - evidence_over_belief          # Sinais reais, não achismo
+  - movement_not_campaign         # Movimento sustentável, não campanha pontual
+  - community_first               # Comunidade gera movimento, não o contrário
+  - prove_or_kill                 # Sem prova de impacto = pivotar ou matar
+  - tension_is_fuel               # Tensão cultural é o motor do movimento
+
+# ============================================================
+# AGENTS
+# ============================================================
+
+agents:
+  movement-chief:
+    file: agents/movement-chief.md
+    role: "Orquestrador: escopo, prioridade, governança, aprovações e win condition"
+    domain: [governance, strategy, decisions, resource-allocation]
+
+  movement-architect:
+    file: agents/movement-architect.md
+    role: "Arquiteto: desenha o movement engine (identidade, rituais, artefatos, loops)"
+    domain: [system-design, coherence, loops, scalability]
+
+  fenomenologo:
+    file: agents/fenomenologo.md
+    role: "Radar cultural: etnografia rápida, tensões, desejos, linguagem viva"
+    domain: [research, signals, language, cultural-codes]
+
+  identitario:
+    file: agents/identitario.md
+    role: "Identidade coletiva: nós/eles, inimigo comum, pertencimento, símbolos, códigos"
+    domain: [identity, belonging, symbols, boundaries]
+
+  estrategista-de-ciclo:
+    file: agents/estrategista-de-ciclo.md
+    role: "Timing: ciclos culturais/meméticos, sazonalidade, janelas de atenção, cadência"
+    domain: [timing, cycles, momentum, seasonality]
+
+  manifestador:
+    file: agents/manifestador.md
+    role: "Materializa: manifesto, slogans, artefatos, campanhas, rituais, kits e assets"
+    domain: [creation, artifacts, manifestos, memes, rituals]
+
+  analista-de-impacto:
+    file: agents/analista-de-impacto.md
+    role: "Prova: métricas, experimentos, impacto, coortes, causalidade pragmática"
+    domain: [metrics, experiments, attribution, learning]
+
+# ============================================================
+# ROUTING: Task → Agents → Frameworks → Checklists → Templates → Registry
+# ============================================================
+
+routing:
+
+  # ---- RESEARCH ----
+  detect-cultural-signals:
+    agents: [fenomenologo, estrategista-de-ciclo]
+    frameworks: [phenomenology-rapid-ethnography, phenomenology-signal-clustering, radar-layer]
+    checklists: [cultural-insight-quality, fenomenologia/phenomenology-signal-capture, fenomenologia/signal-source-diversity, ciclo/trend-vs-fad-filter]
+    templates: [outputs/cultural-insight-report]
+    registry: [data/registries/signal-archive, data/registries/decision-log]
+    metrics: [data/metrics/content-to-conversation]
+
+  map-audience-language:
+    agents: [fenomenologo]
+    frameworks: [phenomenology-language-mapping, phenomenology-rapid-ethnography]
+    checklists: [fenomenologia/language-and-phrasing-truth, cultural-insight-quality]
+    templates: [outputs/cultural-insight-report]
+    registry: [data/registries/identity-codes, data/research/ethnography-notes]
+
+  map-cultural-tensions:
+    agents: [fenomenologo, identitario]
+    frameworks: [tension-to-movement-framework, phenomenology-counter-narrative]
+    checklists: [fenomenologia/tension-mapping, fenomenologia/counter-signal-capture]
+    templates: [outputs/cultural-insight-report]
+    registry: [data/research/signals, data/registries/movement-theses]
+
+  audit-competitor-movements:
+    agents: [fenomenologo, analista-de-impacto]
+    frameworks: [holt-cultural-strategy, sharp-how-brands-grow]
+    checklists: [cultural-insight-quality]
+    templates: [reports/narrative-audit-report]
+    registry: [data/research/competitor-movements]
+
+  interview-community-members:
+    agents: [fenomenologo]
+    frameworks: [phenomenology-rapid-ethnography, phenomenology-language-mapping]
+    checklists: [fenomenologia/phenomenology-signal-capture, fenomenologia/language-and-phrasing-truth]
+    templates: [outputs/cultural-insight-report]
+    registry: [data/research/interviews]
+
+  track-cultural-trends:
+    agents: [fenomenologo, estrategista-de-ciclo]
+    frameworks: [phenomenology-signal-clustering, cycle-cultural-wave-surfing]
+    checklists: [ciclo/trend-vs-fad-filter, fenomenologia/signal-source-diversity]
+    templates: [outputs/cultural-insight-report]
+    registry: [data/research/trend-briefs]
+
+  map-counter-narratives:
+    agents: [fenomenologo]
+    frameworks: [phenomenology-counter-narrative, narrative-graph-framework]
+    checklists: [fenomenologia/counter-signal-capture]
+    templates: [outputs/cultural-insight-report]
+    registry: [data/research/counter-narratives]
+
+  research-platform-dynamics:
+    agents: [fenomenologo, estrategista-de-ciclo]
+    frameworks: [cycle-cultural-wave-surfing, distribution-trident]
+    checklists: [fenomenologia/signal-source-diversity]
+    templates: [outputs/cultural-insight-report]
+    registry: [data/research/platform-dynamics]
+
+  # ---- STRATEGY ----
+  craft-movement-thesis:
+    agents: [movement-architect, identitario, movement-chief]
+    frameworks: [enemy-dream-mechanism, identity-collective-narrative, identity-enemy-construction, movement-engine-5-loop]
+    checklists: [movement-thesis-quality, identidade/we-us-now-identity, architect/architect-movement-engine-audit]
+    templates: [outputs/movement-thesis, outputs/identity-charter]
+    registry: [data/registries/movement-theses, data/registries/identity-codes]
+
+  design-identity-system:
+    agents: [identitario, movement-architect, manifestador]
+    frameworks: [identity-collective-narrative, identity-symbol-design, identity-belonging-gradient]
+    checklists: [identity-system-quality, identidade/symbol-system, identidade/boundary-and-belonging, identidade/identity-toxic-exclusion-check]
+    templates: [outputs/identity-charter]
+    registry: [data/registries/identity-codes]
+
+  define-win-conditions:
+    agents: [movement-chief, analista-de-impacto]
+    frameworks: [chief-win-conditions-30-60-90, chief-movement-business-canvas, impact-metrics-model]
+    checklists: [chief/chief-win-condition, chief/chief-alignment-with-business, impact-dashboard-quality]
+    templates: [plans/30-60-90-launch-plan, reports/movement-health-dashboard]
+    registry: [data/registries/decision-log]
+
+  plan-launch-sequence:
+    agents: [estrategista-de-ciclo, movement-chief, movement-architect]
+    frameworks: [cycle-launch-sequencing, cycle-attention-calendar, distribution-trident]
+    checklists: [launch-sequencing-quality, ciclo/cycle-timing-window, distribuicao/channel-mix-quality]
+    templates: [outputs/distribution-plan, plans/30-60-90-launch-plan]
+    registry: [data/registries/distribution-plans]
+
+  design-channel-architecture:
+    agents: [movement-architect, estrategista-de-ciclo]
+    frameworks: [architect-channel-architecture, distribution-trident]
+    checklists: [architect/architect-channel-role-clarity, distribuicao/channel-mix-quality]
+    templates: [outputs/distribution-plan]
+    registry: [data/registries/distribution-plans]
+
+  plan-movement-scaling:
+    agents: [movement-chief, movement-architect]
+    frameworks: [movement-lifecycle-framework, scaling-layer]
+    checklists: [movement-scaling-quality, architect/architect-scalability-audit]
+    templates: [plans/movement-scaling-plan]
+    registry: [data/registries/decision-log]
+
+  design-community-structure:
+    agents: [movement-architect, identitario]
+    frameworks: [community-flywheel, identity-belonging-gradient]
+    checklists: [community-activation-quality, comunidade/onboarding-and-roles, comunidade/champion-program-quality]
+    templates: [outputs/community-playbook, outputs/champion-program-blueprint]
+    registry: [data/registries/community-roles]
+
+  plan-movement-to-product-coupling:
+    agents: [movement-chief, analista-de-impacto]
+    frameworks: [movement-to-product-coupling, product-led-movement-framework]
+    checklists: [movement-to-product-fit-quality, chief/chief-alignment-with-business]
+    templates: []
+    registry: [data/registries/decision-log]
+
+  # ---- CREATION ----
+  write-manifesto:
+    agents: [manifestador, identitario, movement-chief]
+    frameworks: [manifestor-manifesto-architecture, manifestor-artifact-stack, memetic-variation-selection]
+    checklists: [manifesto-quality, manifesto/manifesto-structure, memetic-asset-quality]
+    templates: [outputs/manifesto, outputs/slogan-bank, outputs/artifact-kit]
+    registry: [data/registries/manifesto-library, data/registries/memetic-assets, data/registries/slogan-bank]
+
+  create-memetic-assets:
+    agents: [manifestador, estrategista-de-ciclo]
+    frameworks: [manifestor-meme-factory, memetic-variation-selection, cycle-cultural-wave-surfing]
+    checklists: [memetic-asset-quality, memetics/memetic-fidelity, memetics/meme-variation-and-selection, memetics/format-platform-fit]
+    templates: [outputs/meme-variation-set]
+    registry: [data/registries/memetic-assets]
+
+  design-rituals:
+    agents: [manifestador, movement-architect]
+    frameworks: [ritual-reward-loop, manifestor-ritual-design]
+    checklists: [ritual-design-quality, manifesto/artifact-kit-completeness]
+    templates: [outputs/ritual-playbook]
+    registry: [data/registries/rituals]
+
+  create-identity-artifacts:
+    agents: [identitario, manifestador]
+    frameworks: [identity-symbol-design, manifestor-kit-design]
+    checklists: [symbol-system-quality, identity-system-quality]
+    templates: [outputs/artifact-kit]
+    registry: [data/registries/identity-codes, data/registries/memetic-assets]
+
+  create-onboarding-experience:
+    agents: [movement-architect, identitario]
+    frameworks: [identity-belonging-gradient, community-flywheel]
+    checklists: [comunidade/onboarding-and-roles, community-activation-quality]
+    templates: [outputs/movement-onboarding-kit]
+    registry: [data/registries/community-roles]
+
+  create-champion-program:
+    agents: [movement-architect, identitario]
+    frameworks: [identity-belonging-gradient, community-flywheel]
+    checklists: [comunidade/champion-program-quality, community-activation-quality]
+    templates: [outputs/champion-program-blueprint]
+    registry: [data/registries/champion-registry]
+
+  create-creator-briefs:
+    agents: [manifestador, estrategista-de-ciclo]
+    frameworks: [creator-movement-framework, distribution-trident]
+    checklists: [creator-influencer-brief-quality, partner-alignment-quality]
+    templates: [outputs/creator-brief-package]
+    registry: [data/registries/creator-partners]
+
+  create-pr-angles:
+    agents: [manifestador, movement-chief]
+    frameworks: [narrative-graph-framework]
+    checklists: [pr/narrative-pitch-quality, pr/spokesperson-readiness]
+    templates: [outputs/pr-pitch]
+    registry: []
+
+  create-community-rituals:
+    agents: [manifestador, movement-architect]
+    frameworks: [ritual-reward-loop, manifestor-ritual-design, community-flywheel]
+    checklists: [ritual-design-quality, comunidade/engagement-rituals]
+    templates: [outputs/ritual-playbook]
+    registry: [data/registries/rituals]
+
+  create-movement-content:
+    agents: [manifestador, identitario, estrategista-de-ciclo]
+    frameworks: [manifestor-artifact-stack, memetic-variation-selection, cycle-momentum-mapping]
+    checklists: [memetic-asset-quality, narrative-coherence-quality]
+    templates: [outputs/meme-variation-set, outputs/artifact-kit]
+    registry: [data/registries/memetic-assets]
+
+  # ---- ACTIVATION ----
+  launch-activation:
+    agents: [movement-chief, movement-architect, estrategista-de-ciclo, analista-de-impacto]
+    frameworks: [distribution-trident, community-flywheel, cycle-launch-sequencing, ralphloop-kaizen]
+    checklists: [distribution-plan-quality, launch-sequencing-quality, community-activation-quality, impact-dashboard-quality]
+    templates: [outputs/distribution-plan, outputs/community-playbook, reports/weekly-readout]
+    registry: [data/registries/distribution-plans, data/registries/experiment-log]
+    metrics: [data/metrics/movement-health-score, data/metrics/business-impact]
+
+  activate-community:
+    agents: [movement-architect, identitario]
+    frameworks: [community-flywheel, identity-belonging-gradient]
+    checklists: [community-activation-quality, comunidade/onboarding-and-roles, comunidade/moderation-and-safety]
+    templates: [outputs/community-playbook]
+    registry: [data/registries/community-roles]
+
+  activate-creators:
+    agents: [manifestador, estrategista-de-ciclo]
+    frameworks: [creator-movement-framework, cycle-momentum-mapping]
+    checklists: [creator-influencer-brief-quality, distribuicao/paid-amplification-guardrails]
+    templates: [outputs/creator-brief-package]
+    registry: [data/registries/creator-partners]
+
+  activate-paid-amplification:
+    agents: [estrategista-de-ciclo, analista-de-impacto]
+    frameworks: [distribution-trident, cycle-momentum-mapping]
+    checklists: [distribuicao/paid-amplification-guardrails, distribuicao/attribution-sanity-check]
+    templates: [outputs/distribution-plan]
+    registry: [data/registries/distribution-plans]
+
+  activate-pr:
+    agents: [manifestador, movement-chief]
+    frameworks: [narrative-graph-framework]
+    checklists: [pr/narrative-pitch-quality, pr/spokesperson-readiness, pr/backlash-mitigation]
+    templates: [outputs/pr-pitch]
+    registry: [data/metrics/earned-media-metrics]
+
+  activate-partnerships:
+    agents: [movement-chief, manifestador]
+    frameworks: [distribution-trident, creator-movement-framework]
+    checklists: [partner-alignment-quality, distribuicao/channel-mix-quality]
+    templates: [outputs/creator-brief-package]
+    registry: [data/registries/creator-partners]
+
+  activate-employee-advocacy:
+    agents: [movement-chief, identitario]
+    frameworks: [employee-movement-framework, identity-collective-narrative]
+    checklists: [community-activation-quality]
+    templates: [outputs/community-playbook]
+    registry: []
+
+  # ---- MEASUREMENT ----
+  run-experiments:
+    agents: [analista-de-impacto, movement-chief]
+    frameworks: [impact-experiment-design, impact-learning-loop]
+    checklists: [experimentation-quality, impacto/experiment-readout]
+    templates: [outputs/experiment-plan, reports/experiment-results-report]
+    registry: [data/registries/experiment-log]
+
+  measure-movement-health:
+    agents: [analista-de-impacto]
+    frameworks: [movement-health-score-framework, impact-cohort-analysis]
+    checklists: [impact-dashboard-quality, impacto/vanity-metric-filter]
+    templates: [reports/movement-health-dashboard]
+    registry: [data/metrics/movement-health-score]
+
+  measure-community-health:
+    agents: [analista-de-impacto]
+    frameworks: [community-flywheel, impact-cohort-analysis]
+    checklists: [comunidade/community-health-indicators, impacto/vanity-metric-filter]
+    templates: [reports/community-health-report]
+    registry: [data/metrics/community-growth-quality]
+
+  measure-business-impact:
+    agents: [analista-de-impacto, movement-chief]
+    frameworks: [impact-movement-attribution, impact-metrics-model]
+    checklists: [impacto/causal-attribution-sanity, chief/chief-alignment-with-business]
+    templates: [reports/movement-impact-report]
+    registry: [data/metrics/business-impact]
+
+  analyze-cohort-retention:
+    agents: [analista-de-impacto]
+    frameworks: [impact-cohort-analysis]
+    checklists: [impacto/cohort-and-retention, impacto/vanity-metric-filter]
+    templates: [reports/movement-health-dashboard]
+    registry: [data/metrics/cohort-retention]
+
+  analyze-content-to-conversation:
+    agents: [analista-de-impacto, fenomenologo]
+    frameworks: [impact-metrics-model, community-flywheel]
+    checklists: [impacto/vanity-metric-filter]
+    templates: [reports/weekly-readout]
+    registry: [data/metrics/content-to-conversation]
+
+  # ---- REVIEW ----
+  impact-review:
+    agents: [analista-de-impacto, movement-chief]
+    frameworks: [impact-learning-loop, ralphloop-kaizen]
+    checklists: [impacto/learning-to-playbook]
+    templates: [reports/weekly-readout]
+    registry: [data/registries/lessons-learned-registry, data/registries/decision-log]
+
+  narrative-consistency-review:
+    agents: [movement-architect, identitario]
+    frameworks: [narrative-graph-framework, architect-system-map]
+    checklists: [narrative-coherence-quality, architect/architect-system-coherence]
+    templates: [reports/narrative-audit-report]
+    registry: [data/registries/decision-log]
+
+  community-health-review:
+    agents: [movement-architect, analista-de-impacto]
+    frameworks: [community-flywheel, impact-cohort-analysis]
+    checklists: [comunidade/community-health-indicators, comunidade/community-to-movement-bridge]
+    templates: [reports/community-health-report]
+    registry: [data/metrics/community-growth-quality]
+
+  artifact-freshness-review:
+    agents: [manifestador, estrategista-de-ciclo]
+    frameworks: [memetic-variation-selection, manifestor-artifact-stack]
+    checklists: [manifesto/artifact-shelf-life-check, memetics/meme-lifecycle-audit]
+    templates: [reports/narrative-audit-report]
+    registry: [data/registries/memetic-assets]
+
+  crisis-readiness-review:
+    agents: [movement-chief, movement-architect]
+    frameworks: [crisis-to-movement-framework, governance-layer]
+    checklists: [crisis-and-backlash-quality, pr/backlash-mitigation]
+    templates: [plans/crisis-response-plan]
+    registry: [data/registries/decision-log]
+
+  # ---- OPERATIONS ----
+  weekly-signal-radar:
+    agents: [fenomenologo, estrategista-de-ciclo]
+    frameworks: [phenomenology-signal-clustering, radar-layer]
+    checklists: [fenomenologia/phenomenology-signal-capture]
+    templates: [operational/signal-capture-entry]
+    registry: [data/registries/signal-archive]
+
+  weekly-kaizen-loop:
+    agents: [analista-de-impacto, movement-chief]
+    frameworks: [ralphloop-kaizen, impact-learning-loop]
+    checklists: [impacto/learning-to-playbook]
+    templates: [reports/weekly-readout, operational/learning-entry]
+    registry: [data/registries/lessons-learned-registry]
+
+  monthly-movement-review:
+    agents: [movement-chief, analista-de-impacto]
+    frameworks: [movement-health-score-framework, impact-metrics-model]
+    checklists: [impact-dashboard-quality]
+    templates: [reports/monthly-movement-report]
+    registry: [data/metrics/movement-health-score]
+
+  quarterly-movement-review:
+    agents: [movement-chief, analista-de-impacto]
+    frameworks: [movement-lifecycle-framework, governance-layer]
+    checklists: [chief/chief-kill-criteria]
+    templates: [reports/quarterly-movement-review]
+    registry: [data/metrics/maturity-score-history]
+
+  cross-squad-sync:
+    agents: [movement-chief, movement-architect]
+    frameworks: [architect-channel-architecture]
+    checklists: [architect/architect-cross-squad-integration]
+    templates: [operational/handoff-template]
+    registry: [data/registries/decision-log]
+
+  update-registries:
+    agents: [movement-architect]
+    frameworks: [architect-system-map]
+    checklists: [governance/decision-log-standard]
+    templates: [operational/decision-log-entry]
+    registry: [data/registries/decision-log]
+
+  curate-swipe-file:
+    agents: [manifestador, fenomenologo]
+    frameworks: [memetic-variation-selection]
+    checklists: [memetic-asset-quality]
+    templates: []
+    registry: [data/registries/memetic-assets]
+
+  onboard-new-member:
+    agents: [movement-chief]
+    frameworks: [identity-belonging-gradient]
+    checklists: [comunidade/onboarding-and-roles]
+    templates: [outputs/movement-onboarding-kit]
+    registry: [data/registries/community-roles]
+
+# ============================================================
+# CROSS-SQUAD INTEGRATION
+# ============================================================
+
+cross_squad:
+  brand_squad:
+    handoff_to_movement:
+      - "brand positioning → movement/frameworks/ (base de identidade)"
+      - "brand guidelines → movement/voice/ (consistência visual/verbal)"
+      - "brand purpose → movement/tasks/strategy/ (fundação de tese)"
+    handoff_from_movement:
+      - "cultural insights → brand/data/research/ (sinais culturais)"
+      - "identity codes → brand/frameworks/ (identidade coletiva → brand identity)"
+      - "movement narrative → brand/reference/ (narrativa central)"
+    shared_assets:
+      - identity-codes
+      - brand-purpose-to-movement-thesis
+
+  copy_squad:
+    handoff_to_movement:
+      - "copy frameworks → movement/templates/ (estrutura de manifesto/slogans)"
+      - "headlines → movement/phrases/ (hooks testados)"
+    handoff_from_movement:
+      - "slogans validados → copy/swipe/ (slogans de movimento)"
+      - "manifesto copy → copy/reference/ (tom e linguagem)"
+      - "movement language → copy/voice/ (linguagem real da audiência)"
+    shared_assets:
+      - slogan-bank
+      - phrases-library
+
+  storytelling_squad:
+    handoff_to_movement:
+      - "public narrative (Ganz) → movement/frameworks/ (Self/Us/Now)"
+      - "founder story → movement/templates/ (narrativa do fundador como motor)"
+    handoff_from_movement:
+      - "movement thesis → storytelling/frameworks/ (enemy/dream como narrativa)"
+      - "cultural tensions → storytelling/data/research/ (tensões = matéria-prima de história)"
+      - "identity narrative → storytelling/reference/ (narrativa de identidade coletiva)"
+    shared_assets:
+      - movement-theses
+      - cultural-tensions
+
+  traffic_squad:
+    handoff_to_movement:
+      - "ad performance data → movement/data/metrics/ (o que amplifica sem matar)"
+      - "winning hooks → movement/swipe/ (hooks que funcionam em paid)"
+    handoff_from_movement:
+      - "memetic assets → traffic/templates/ads/ (memes para amplificação)"
+      - "manifesto clips → traffic/tasks/ (cortes para ads)"
+      - "community UGC → traffic/swipe/ (UGC como creative)"
+    shared_assets:
+      - memetic-assets
+      - hook-bank
+
+  design_squad:
+    handoff_to_movement:
+      - "visual identity → movement/templates/ (artefatos visuais)"
+      - "design system → movement/outputs/ (consistência visual)"
+    handoff_from_movement:
+      - "identity symbols → design/reference/ (símbolos de movimento para design)"
+      - "movement visual language → design/voice/ (linguagem visual do movimento)"
+    shared_assets:
+      - symbol-systems
+      - visual-identity
+
+# ============================================================
+# QUALITY GATES
+# ============================================================
+
+quality_gates:
+  mandatory:
+    - movement-thesis-quality
+    - identity-system-quality
+    - impact-dashboard-quality
+  per_domain:
+    research: [cultural-insight-quality, fenomenologia/phenomenology-signal-capture]
+    identity: [identidade/we-us-now-identity, identidade/boundary-and-belonging]
+    creation: [manifesto-quality, memetic-asset-quality, ritual-design-quality]
+    activation: [distribution-plan-quality, community-activation-quality, launch-sequencing-quality]
+    measurement: [experimentation-quality, impacto/vanity-metric-filter]
+    governance: [governance/ethics-and-boundaries, governance/claim-proof-standard]
+
+# ============================================================
+# KPIs
+# ============================================================
+
+kpis:
+  movement_health:
+    - movement_health_score
+    - content_to_conversation_rate
+    - memetic_spread_rate
+    - ritual_participation_rate
+  community:
+    - community_growth_rate
+    - community_retention_rate
+    - champion_count_and_impact
+    - community_sentiment_score
+  business:
+    - leads_attributed
+    - trials_from_movement
+    - revenue_attributed
+    - brand_search_lift
+  operational:
+    - thesis_validation_rate
+    - experiment_velocity
+    - time_to_first_signal
+    - decision_log_currency
+
+# ============================================================
+# DEFAULTS
+# ============================================================
+
+defaults:
+  review_agent: movement-chief
+  min_checklists: 2
+  registry_on_completion: true
+  output_format: markdown
+  health_score_check: weekly
+  kill_review: quarterly
+  ethics_gate: mandatory
