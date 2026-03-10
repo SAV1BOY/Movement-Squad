@@ -1,0 +1,114 @@
+# ============================================================================
+# Community Roles — Papéis da Comunidade
+# ============================================================================
+# Define os papéis dentro da comunidade do movimento, incluindo moderadores,
+# champions, criadores de conteúdo e contribuidores. Cada papel tem
+# responsabilidades claras, benefícios e critérios de seleção.
+#
+# Status: ativo | pausado | descontinuado
+# ============================================================================
+
+schema_version: "1.0"
+ultima_atualizacao: "2026-03-10"
+
+papeis:
+
+  - id: "ROLE-001"
+    nome: "Champion"
+    status: "ativo"
+    descricao: "Membro altamente engajado que evangeliza o movimento organicamente"
+    quantidade_atual: 8
+    meta: 15
+
+    criterios_selecao:
+      - "Participa ativamente há pelo menos 8 semanas"
+      - "Contribuiu com pelo menos 5 posts/comentários de qualidade"
+      - "Demonstra alinhamento genuíno com valores do movimento"
+      - "Trouxe pelo menos 2 novos membros organicamente"
+
+    responsabilidades:
+      - "Participar de rituais semanais (Sexta do Fracasso etc.)"
+      - "Compartilhar conteúdo do movimento com perspectiva própria"
+      - "Dar boas-vindas a novos membros"
+      - "Reportar sinais e contra-narrativas relevantes"
+
+    beneficios:
+      - "Acesso antecipado a conteúdos e ferramentas"
+      - "Canal direto com o time do movimento"
+      - "Menção e destaque em conteúdos oficiais"
+      - "Convite para eventos exclusivos"
+
+    guidelines:
+      - "Nunca forçar o movimento — autenticidade acima de tudo"
+      - "Não falar mal de concorrentes diretamente"
+      - "Admitir quando não sabe a resposta"
+
+  - id: "ROLE-002"
+    nome: "Moderador"
+    status: "ativo"
+    descricao: "Responsável por manter a qualidade das conversas na comunidade"
+    quantidade_atual: 3
+    meta: 5
+
+    criterios_selecao:
+      - "Champion há pelo menos 12 semanas"
+      - "Histórico de interações construtivas e empáticas"
+      - "Disponibilidade para moderar pelo menos 5h/semana"
+      - "Aprovado pelo Community Architect"
+
+    responsabilidades:
+      - "Moderar discussões seguindo guidelines do movimento"
+      - "Resolver conflitos com empatia e firmeza"
+      - "Escalar situações críticas para o Community Architect"
+      - "Contribuir com notas etnográficas sobre a comunidade"
+
+    beneficios:
+      - "Todos os benefícios de Champion"
+      - "Treinamento em facilitação de comunidades"
+      - "Participação em decisões sobre a comunidade"
+
+  - id: "ROLE-003"
+    nome: "Creator Partner"
+    status: "ativo"
+    descricao: "Criador de conteúdo externo alinhado com o movimento"
+    quantidade_atual: 5
+    meta: 12
+
+    criterios_selecao:
+      - "Audiência relevante e alinhada com o público-alvo"
+      - "Conteúdo que demonstra valores compatíveis com o movimento"
+      - "Interesse genuíno no tema (não apenas transacional)"
+
+    responsabilidades:
+      - "Criar conteúdo original inspirado nas teses do movimento"
+      - "Participar de co-criações quando convidado"
+      - "Dar feedback sobre narrativas e mensagens"
+
+    beneficios:
+      - "Acesso a pesquisas e insights exclusivos"
+      - "Co-criação com o time do movimento"
+      - "Amplificação nas plataformas do movimento"
+
+  - id: "ROLE-004"
+    nome: "Contribuidor"
+    status: "ativo"
+    descricao: "Membro que contribui esporadicamente com conteúdo ou insights"
+    quantidade_atual: 45
+    meta: 100
+
+    criterios_selecao:
+      - "Qualquer membro da comunidade que contribuiu pelo menos 1 vez"
+
+    responsabilidades:
+      - "Seguir guidelines da comunidade"
+      - "Contribuir quando tiver algo relevante"
+
+    beneficios:
+      - "Acesso à comunidade e conteúdos"
+      - "Possibilidade de promoção a Champion"
+
+evolucao_de_papeis:
+  caminho_natural:
+    - "Contribuidor → Champion → Moderador"
+    - "Contribuidor → Creator Partner"
+  revisao: "Trimestral, pelo Community Architect com aprovação do Chief"

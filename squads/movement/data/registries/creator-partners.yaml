@@ -1,0 +1,101 @@
+# ============================================================================
+# Creator Partners — Criadores e Parcerias
+# ============================================================================
+# Registro de todos os criadores de conteúdo e parceiros que colaboram
+# com o movimento. Inclui perfil, tipo de parceria, conteúdos produzidos
+# e performance.
+#
+# Status: prospectando | em-conversa | ativo | pausado | encerrado
+# Tipo: co-criacao | amplificacao | conteudo-original | evento | embaixador
+# ============================================================================
+
+schema_version: "1.0"
+ultima_atualizacao: "2026-03-10"
+
+parceiros:
+
+  - id: "CREATOR-001"
+    nome_publico: "Ana Metrics"
+    status: "ativo"
+    tipo_parceria: "co-criacao"
+    data_inicio: "2026-01-20"
+    plataformas:
+      - nome: "LinkedIn"
+        followers: 28000
+        engajamento_medio: "4.2%"
+      - nome: "Newsletter"
+        subscribers: 5200
+        open_rate: "42%"
+
+    alinhamento_tematico:
+      - "Métricas de marketing"
+      - "Cultura data-driven"
+      - "Crítica a vanity metrics"
+
+    conteudos_produzidos:
+      - titulo: "O dashboard que ninguém olha"
+        data: "2026-02-10"
+        formato: "post LinkedIn"
+        performance:
+          impressoes: 45000
+          engajamento: 1890
+          comentarios: 127
+          compartilhamentos: 89
+      - titulo: "5 métricas que você deveria parar de medir"
+        data: "2026-02-28"
+        formato: "newsletter"
+        performance:
+          opens: 2340
+          clicks: 890
+          replies: 34
+
+    contato:
+      canal_preferido: "DM LinkedIn"
+      responsavel_relacao: "community-architect"
+      frequencia_contato: "quinzenal"
+
+    notas: "Muito alinhada com tese principal. Interesse genuíno no tema."
+
+  - id: "CREATOR-002"
+    nome_publico: "Pedro Growth"
+    status: "em-conversa"
+    tipo_parceria: "amplificacao"
+    data_primeiro_contato: "2026-03-01"
+    plataformas:
+      - nome: "YouTube"
+        subscribers: 42000
+        views_medio: 8500
+      - nome: "Instagram"
+        followers: 15000
+        engajamento_medio: "3.1%"
+
+    alinhamento_tematico:
+      - "Growth marketing"
+      - "Experimentação"
+      - "Métricas de produto"
+
+    proximos_passos:
+      - "Call de alinhamento marcada para 2026-03-15"
+      - "Enviar manifesto do movimento"
+      - "Propor co-criação de conteúdo piloto"
+
+    contato:
+      canal_preferido: "Email"
+      responsavel_relacao: "distribution-hacker"
+      frequencia_contato: "a definir"
+
+    notas: "Audiência muito relevante. Verificar alinhamento de valores antes."
+
+criterios_avaliacao:
+  qualidade_parceria:
+    - "Alinhamento genuíno com valores do movimento (peso 40%)"
+    - "Qualidade do conteúdo produzido (peso 25%)"
+    - "Engajamento gerado (peso 20%)"
+    - "Facilidade de trabalhar junto (peso 15%)"
+  red_flags:
+    - "Interesse apenas transacional"
+    - "Conteúdo que contradiz valores do movimento"
+    - "Histórico de polêmicas graves"
+    - "Audiência comprada ou inflada"
+
+revisao: "Mensal pelo Community Architect e Distribution Hacker"

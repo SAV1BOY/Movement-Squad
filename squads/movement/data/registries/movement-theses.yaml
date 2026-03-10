@@ -1,0 +1,91 @@
+# ============================================================================
+# Movement Theses — Teses do Movimento
+# ============================================================================
+# Cada tese articula a estrutura Enemy/Dream/Mechanism que sustenta o
+# movimento. Teses são hipóteses vivas — devem ser testadas, validadas
+# e evoluídas continuamente.
+#
+# Status possíveis: rascunho | em-teste | validada | invalidada | arquivada
+# ============================================================================
+
+schema_version: "1.0"
+ultima_atualizacao: "2026-03-10"
+
+teses:
+  - id: "THESIS-001"
+    nome: "A Tirania das Métricas de Vaidade"
+    status: "validada"
+    data_criacao: "2026-01-15"
+    data_ultimo_teste: "2026-03-01"
+    autor: "chief-of-movement"
+
+    enemy:
+      descricao: "O sistema de métricas de vaidade que premia volume sobre impacto"
+      manifestacoes:
+        - "Dashboards cheios de números que não mudam decisões"
+        - "Pressão por likes e followers em vez de conversas reais"
+        - "Reports bonitos que mascaram falta de resultado"
+
+    dream:
+      descricao: "Um mundo onde métricas servem para aprender, não para impressionar"
+      visao_futura:
+        - "Times medindo o que importa de verdade"
+        - "Decisões baseadas em sinais, não em vaidade"
+        - "Transparência sobre o que funciona e o que não funciona"
+
+    mechanism:
+      descricao: "Frameworks práticos para medir impacto real"
+      elementos:
+        - "Dashboard de saúde do movimento (não de vaidade)"
+        - "Métricas de conversão de conversa, não só de alcance"
+        - "Rituais de revisão que celebram aprendizado"
+
+    evidencias:
+      - tipo: "verbatim"
+        fonte: "entrevista-champion-012"
+        conteudo: "Cansei de fazer report bonito que ninguém lê"
+      - tipo: "sinal"
+        fonte: "signals/2026-02-20_linkedin_fadiga-dashboards.md"
+        conteudo: "Thread com 400+ comentários sobre métricas inúteis"
+
+    hipoteses_derivadas:
+      - "Conteúdo que critica métricas de vaidade terá alto engajamento"
+      - "Ferramentas práticas de medição serão mais compartilhadas que teoria"
+
+    notas: "Tese principal do movimento. Validada com 15+ entrevistas."
+
+  - id: "THESIS-002"
+    nome: "O Vazio da Automação Sem Alma"
+    status: "em-teste"
+    data_criacao: "2026-02-20"
+    data_ultimo_teste: "2026-03-08"
+    autor: "anthropologist-agent"
+
+    enemy:
+      descricao: "A automação que remove humanidade das interações"
+      manifestacoes:
+        - "Bots que fingem ser humanos"
+        - "Sequências de email genéricas e frias"
+        - "IA usada para parecer pessoal sem ser pessoal"
+
+    dream:
+      descricao: "Tecnologia que amplifica humanidade em vez de substituí-la"
+      visao_futura:
+        - "Automação para o operacional, humanidade para o relacional"
+        - "IA como copiloto, não como substituto"
+
+    mechanism:
+      descricao: "Princípios e práticas para automação humanizada"
+      elementos:
+        - "Checklist de 'teste de humanidade' para automações"
+        - "Exemplos de automação que amplifica conexão"
+
+    evidencias:
+      - tipo: "tendencia"
+        fonte: "trend-briefs/2026-02-25_fadiga-automacao.md"
+        conteudo: "Crescente rejeição a interações automatizadas genéricas"
+
+    hipoteses_derivadas:
+      - "Conteúdo 'behind the scenes' mostrando o humano terá alta retenção"
+
+    notas: "Tese secundária. Precisa de mais evidências de entrevistas."

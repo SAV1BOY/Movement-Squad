@@ -1,0 +1,94 @@
+# ============================================================================
+# Signal Archive — Arquivo Histórico de Sinais
+# ============================================================================
+# Sinais que já foram processados e avaliados. Este arquivo serve como
+# memória histórica do movimento — permite identificar padrões ao longo
+# do tempo e evitar repetir análises já feitas.
+#
+# Relevancia: alta | media | baixa
+# Acao_tomada: incorporado | monitorando | descartado | gerou-tese
+# ============================================================================
+
+schema_version: "1.0"
+ultima_atualizacao: "2026-03-10"
+
+sinais_arquivados:
+
+  - id: "SIG-001"
+    data_captura: "2026-01-10"
+    data_arquivamento: "2026-02-01"
+    titulo: "Thread viral sobre dashboards inúteis"
+    descricao: >
+      Thread no LinkedIn com 400+ comentários criticando dashboards que
+      ninguém consulta. Múltiplos profissionais de marketing relataram
+      gastar horas criando reports que nunca geram decisão.
+    fonte: "LinkedIn — perfil de influenciador de marketing"
+    categoria: "frustração-com-metricas"
+    relevancia: "alta"
+    acao_tomada: "gerou-tese"
+    tese_relacionada: "THESIS-001"
+    capturado_por: "anthropologist-agent"
+    aprendizado: "Frustração com métricas é mais profunda e difundida do que esperávamos"
+
+  - id: "SIG-002"
+    data_captura: "2026-01-18"
+    data_arquivamento: "2026-02-01"
+    titulo: "Newsletter cancelada por excesso de métricas de vaidade"
+    descricao: >
+      Criador de conteúdo anunciou que parou de enviar newsletter porque
+      ficava obcecado com open rate em vez de focar no conteúdo. Post
+      gerou muita identificação.
+    fonte: "Twitter/X"
+    categoria: "comportamento-criador"
+    relevancia: "media"
+    acao_tomada: "incorporado"
+    uso: "Referência para conteúdo sobre armadilhas de métricas para criadores"
+    capturado_por: "anthropologist-agent"
+    aprendizado: "Criadores também sofrem com métricas de vaidade — público potencial"
+
+  - id: "SIG-003"
+    data_captura: "2026-02-05"
+    data_arquivamento: "2026-03-01"
+    titulo: "Ferramenta de IA promete 'dashboards perfeitos'"
+    descricao: >
+      Nova startup levantou $5M para criar dashboards com IA que prometem
+      resolver o problema de métricas. Narrativa oposta ao nosso movimento.
+    fonte: "TechCrunch Brasil"
+    categoria: "concorrente-narrativo"
+    relevancia: "media"
+    acao_tomada: "monitorando"
+    contra_narrativa_relacionada: null
+    capturado_por: "memetic-engineer"
+    aprendizado: "Há quem tente resolver com mais tecnologia o que é problema de cultura"
+
+  - id: "SIG-004"
+    data_captura: "2026-02-12"
+    data_arquivamento: "2026-03-01"
+    titulo: "CMO demitido por focar em vanity metrics"
+    descricao: >
+      Caso relatado anonimamente em comunidade de marketing: CMO foi
+      demitido após investir pesado em branding sem conseguir conectar
+      a métricas de negócio.
+    fonte: "Comunidade Slack de CMOs"
+    categoria: "consequencia-real"
+    relevancia: "alta"
+    acao_tomada: "incorporado"
+    uso: "Case anônimo para conteúdo sobre riscos reais de métricas de vaidade"
+    capturado_por: "anthropologist-agent"
+    aprendizado: "Métricas de vaidade têm consequências reais de carreira"
+
+categorias_validas:
+  - "frustração-com-metricas"
+  - "comportamento-criador"
+  - "concorrente-narrativo"
+  - "consequencia-real"
+  - "mudanca-plataforma"
+  - "tendencia-cultural"
+  - "linguagem-emergente"
+  - "contra-narrativa"
+
+regras_arquivamento:
+  - "Sinais são arquivados quando já foram processados e tiveram ação definida"
+  - "Manter no arquivo por no mínimo 12 meses"
+  - "Revisão trimestral para identificar padrões transversais"
+  - "Sinais de alta relevância nunca são deletados"
