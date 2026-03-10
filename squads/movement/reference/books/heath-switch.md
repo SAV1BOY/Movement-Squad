@@ -76,6 +76,22 @@ Cultivar identidade que suporte a mudança. Não é "faça isso" — é "seja es
 - "Não diga 'coma de forma mais saudável'. Diga 'troque o leite integral pelo desnatado'. Clareza é a chave da mudança."
 - "A identidade triunfa sobre a instrução. 'Seja um inventor' funciona melhor que 'tente inventar algo'."
 
+## Aplicação Prática
+
+### Diagnóstico Condutor-Elefante-Caminho
+Exercício para identificar onde a mudança está travando:
+
+1. **Teste do Condutor**: Pedir a potenciais membros que descrevam exatamente o que fariam para participar. Se hesitam, o Condutor está confuso.
+2. **Teste do Elefante**: Observar reações emocionais ao contato com o movimento. Se não há emoção, o Elefante está dormindo.
+3. **Teste do Caminho**: Tentar participar como um novato completo. Onde surge fricção? O Caminho tem obstáculos.
+4. **Busca de Pontos Brilhantes**: Quem já está participando com sucesso? O que eles fazem diferente?
+
+### Armadilhas Comuns
+- Dar mais informação quando o problema é emocional (Elefante, não Condutor)
+- Motivar quando o problema é estrutural (Caminho, não Elefante)
+- Ignorar pontos brilhantes existentes em busca de soluções novas
+- Propor mudanças grandes quando encolher a mudança seria mais eficaz
+
 ## Cross-references
 
 - [[berger-catalyst]] — Framework complementar de remoção de barreiras à mudança

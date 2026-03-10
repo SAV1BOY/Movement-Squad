@@ -78,6 +78,22 @@ Mudar constantemente a identidade visual e comunicação destrói a disponibilid
 - "Se as pessoas não conseguem lembrar de você no momento que importa, nenhuma proposta de valor salvará sua marca."
 - "A maioria dos seus compradores quase não pensa em você. E é exatamente por isso que ativos distintivos existem."
 
+## Aplicação Prática
+
+### Auditoria de Disponibilidade
+Exercício para avaliar e expandir a disponibilidade mental e física do movimento:
+
+1. **Teste de Recordação**: Perguntar a representantes da audiência-alvo em que situações lembram do movimento. Mapear gaps.
+2. **Inventário de Ativos Distintivos**: Listar todos os elementos visuais, verbais e sonoros. São instantaneamente reconhecíveis?
+3. **Mapa de Presença**: Em quantos canais e momentos o movimento está presente? Onde há ausência?
+4. **Análise de Compradores Leves**: Quem são os participantes "leves" e o que os manteria mais conectados?
+
+### Armadilhas Comuns
+- Focar exclusivamente nos membros mais engajados e ignorar os "leves" que são a maioria
+- Mudar identidade visual frequentemente e destruir ativos de disponibilidade mental
+- Subestimar a importância da presença em múltiplos canais e momentos
+- Confundir profundidade de engajamento com participação de mercado
+
 ## Cross-references
 
 - [[holt-cultural-strategy-book]] — Contraponto: estratégia cultural vs. estratégia de penetração

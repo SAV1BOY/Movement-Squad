@@ -76,6 +76,23 @@ A construção de uma visão de mundo alternativa que desafie o senso comum esta
 - "O intelectual orgânico não fala para o povo — fala com o povo, usando a linguagem do povo para articular o que o povo sente."
 - "A contra-hegemonia não é destruição — é construção de uma alternativa tão convincente que o antigo senso comum se torna insustentável."
 
+## Aplicação Prática
+
+### Exercício de Análise Hegemônica
+Protocolo para mapear a hegemonia cultural na categoria do movimento:
+
+1. **Mapa do Senso Comum**: O que "todo mundo sabe" sobre a categoria? Que crenças são tão aceitas que nem são questionadas?
+2. **Análise de Beneficiários**: Quem se beneficia desse senso comum? Quem é prejudicado?
+3. **Detecção de Rachaduras**: Onde o senso comum está começando a falhar? Que contradições estão emergindo?
+4. **Identificação de Intelectuais Orgânicos**: Quem da própria comunidade está articulando uma visão alternativa?
+5. **Design de Posição**: Que "posição" cultural pode ser conquistada com os recursos disponíveis?
+
+### Armadilhas Comuns
+- Atacar a hegemonia frontalmente quando a guerra de posição seria mais eficaz
+- Ignorar que o senso comum é internalizado inclusive pelos que ele prejudica
+- Não construir coalizões e tentar agir isoladamente
+- Propor contra-hegemonia sem construir infraestrutura cultural (mídia, rituais, linguagem) que a sustente
+
 ## Cross-references
 
 - [[holt-cultural-strategy-book]] — Estratégia cultural como aplicação prática da análise hegemônica

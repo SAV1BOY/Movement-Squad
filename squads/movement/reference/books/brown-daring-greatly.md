@@ -76,6 +76,22 @@ A distinção entre quem está na "arena" (arriscando, sendo vulnerável, agindo
 - "A crítica da arquibancada não importa. O que importa é quem está na arena, suando, errando e tentando de novo."
 - "Se você escolhe conforto em vez de coragem, nunca saberá do que é capaz."
 
+## Aplicação Prática
+
+### Protocolo de Cultura de Vulnerabilidade
+Exercício para cultivar autenticidade e conexão no movimento:
+
+1. **Modelagem de Liderança**: Líderes compartilham uma história pessoal de fracasso e aprendizado em cada encontro.
+2. **Espaço Seguro**: Criar rituais de abertura que normalizam a vulnerabilidade (rodas de partilha, check-ins emocionais).
+3. **Resposta a Erros**: Estabelecer protocolo de resposta a erros que celebra aprendizado, não pune falha.
+4. **Arena vs. Arquibancada**: Definir claramente cujo feedback importa — quem está na arena.
+
+### Armadilhas Comuns
+- Forçar vulnerabilidade em vez de criar condições para que ela emerja naturalmente
+- Confundir vulnerabilidade com compartilhar tudo — limites são saudáveis
+- Não proteger quem se arrisca quando a comunidade não está pronta
+- Performar vulnerabilidade sem senti-la — a autenticidade é reconhecida instantaneamente
+
 ## Cross-references
 
 - [[ganz-public-narrative-papers]] — Story of Self como exercício de vulnerabilidade narrativa

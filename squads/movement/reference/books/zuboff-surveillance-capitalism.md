@@ -76,6 +76,23 @@ O direito de saber e decidir quem sabe sobre você. Zuboff argumenta que o capit
 - "O instrumentarianismo não precisa de força. Precisa de design. O poder está nos estímulos que automaticamente produzem o comportamento desejado."
 - "Privacidade não é algo que você tem — é algo que você é. Violá-la é violar a autonomia humana."
 
+## Aplicação Prática
+
+### Auditoria de Privacidade e Ética de Dados
+Exercício para alinhar as práticas de dados do movimento com seus valores:
+
+1. **Inventário de Dados**: Que dados coletamos dos membros? São todos necessários?
+2. **Análise de Fluxo**: Para onde esses dados vão? Quais plataformas têm acesso?
+3. **Consentimento Real**: Os membros entendem genuinamente o que é coletado e por quê?
+4. **Política de Minimização**: Coletar o mínimo necessário, não o máximo possível.
+5. **Transparência Ativa**: Comunicar proativamente as práticas de dados como diferenciação de valores.
+
+### Armadilhas Comuns
+- Usar ferramentas de vigilância "porque todo mundo usa" sem questionar
+- Coletar dados "para eventual uso futuro" sem necessidade presente
+- Ter termos de uso que ninguém lê em vez de explicações claras e acessíveis
+- Ignorar que a proteção de dados dos membros é expressão dos valores do movimento
+
 ## Cross-references
 
 - [[wu-attention-merchants]] — A economia da atenção como precursora do capitalismo de vigilância

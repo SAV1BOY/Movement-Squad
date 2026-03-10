@@ -76,6 +76,23 @@ O reconhecimento de que decisões de consumo são fundamentalmente emocionais e 
 - "Uma boa narrativa transmídia faz cada plataforma brilhar com o que faz melhor. Nenhuma plataforma é redundante — cada uma é essencial."
 - "A inteligência coletiva de uma comunidade engajada supera qualquer departamento de pesquisa."
 
+## Aplicação Prática
+
+### Design de Ecossistema Transmídia
+Exercício para projetar a presença do movimento em múltiplas plataformas:
+
+1. **Bíblia Narrativa**: Documentar a narrativa central do movimento em detalhes suficientes para guiar todas as adaptações.
+2. **Mapa de Plataformas**: Para cada plataforma, definir que aspecto da narrativa ela conta melhor.
+3. **Pontos de Entrada**: Garantir que cada plataforma funcione como ponto de entrada independente.
+4. **Espaços de Co-criação**: Definir que partes da narrativa os membros podem expandir e adaptar.
+5. **Mecanismos de Coerência**: Criar guidelines que garantam coerência sem sufocar criatividade participativa.
+
+### Armadilhas Comuns
+- Replicar o mesmo conteúdo em todas as plataformas em vez de criar conteúdo específico
+- Controlar a narrativa tão rigidamente que a participação se torna impossível
+- Não criar uma "bíblia" narrativa que guie a coerência entre plataformas
+- Ignorar que cada plataforma tem linguagem e expectativas próprias
+
 ## Cross-references
 
 - [[shirky-here-comes-everybody]] — Infraestrutura organizacional da cultura participativa

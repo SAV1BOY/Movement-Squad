@@ -78,6 +78,22 @@ Narrativas são veículos para mensagens. A ideia ou marca deve ser tão integra
 - "Gatilhos são o motor silencioso do boca-a-boca. A melhor campanha do mundo morre se nada no cotidiano lembra as pessoas dela."
 - "A história é o cavalo de Troia. Se a marca pode ser removida da história sem que ela se quebre, a integração falhou."
 
+## Aplicação Prática
+
+### Sprint STEPPS
+Exercício para aplicar os seis princípios a cada peça de comunicação do movimento:
+
+1. **Sessão de Auditoria**: Para cada peça criativa, pontuar de 1-5 em cada dimensão STEPPS.
+2. **Identificação de Fraquezas**: Quais dimensões estão abaixo de 3? Essas são as oportunidades.
+3. **Redesign Direcionado**: Fortalecer especificamente as dimensões fracas sem enfraquecer as fortes.
+4. **Teste de Campo**: Lançar versão melhorada para grupo pequeno e medir compartilhamento real.
+
+### Armadilhas Comuns
+- Focar apenas em emoção e ignorar gatilhos ambientais de longo prazo
+- Criar conteúdo compartilhável que não carrega a mensagem do movimento (cavalo de Troia vazio)
+- Projetar apenas para viralização digital esquecendo que 93% do boca-a-boca é presencial
+- Confundir número de visualizações com profundidade de compartilhamento qualitativo
+
 ## Cross-references
 
 - [[berger-invisible-influence]] — Complementa com os mecanismos de influência social invisível

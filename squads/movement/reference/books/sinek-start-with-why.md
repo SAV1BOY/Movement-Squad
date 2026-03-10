@@ -75,6 +75,22 @@ Líderes articulam o porquê; a organização amplifica. Se o porquê não é cl
 - "Manipulação e inspiração podem gerar a mesma ação de curto prazo. Apenas a inspiração gera lealdade."
 - "Se você não sabe por que faz o que faz, como espera que outros se importem?"
 
+## Aplicação Prática
+
+### Workshop de Articulação do Porquê
+Exercício para definir e refinar o propósito central do movimento:
+
+1. **Arqueologia de Origem**: Voltar ao momento fundador. Que frustração, visão ou experiência originou o movimento?
+2. **Teste de Ressonância**: Articular o porquê e testar com pessoas externas: gera a resposta "eu também acredito nisso"?
+3. **Teste do Aipo**: Listar todas as atividades atuais. Cada uma reforça o porquê? Se não, por que ainda existe?
+4. **Cascata de Golden Circle**: Traduzir o porquê em "comos" (princípios) e "o quês" (ações concretas) garantindo coerência.
+
+### Armadilhas Comuns
+- Definir o porquê como algo genérico que qualquer organização poderia dizer
+- Confundir o porquê com o que se faz — "fazemos X" não é um porquê
+- Articular um porquê inspirador mas não vivê-lo nas ações cotidianas
+- Comunicar de fora para dentro por hábito, mesmo conhecendo o Golden Circle
+
 ## Cross-references
 
 - [[collins-good-to-great]] — O Hedgehog como complemento estrutural ao Golden Circle

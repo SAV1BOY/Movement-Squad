@@ -75,6 +75,22 @@ As inovações mais bem-sucedidas são familiares o suficiente para não assusta
 - "Não somos influenciados apenas por quem admiramos, mas também por quem desprezamos. Evitar se parecer com o grupo errado é tão motivador quanto querer se parecer com o grupo certo."
 - "O novo que vence não é o radicalmente diferente — é o familiarmente surpreendente."
 
+## Aplicação Prática
+
+### Exercício de Mapeamento de Influência Social
+Protocolo para entender as forças invisíveis operando sobre a audiência:
+
+1. **Grupos de Referência**: Listar os 3-5 grupos que a audiência-alvo quer imitar e os 3-5 que quer evitar.
+2. **Análise de Diferenciação Ótima**: Onde está o equilíbrio entre familiar e novo para esta audiência?
+3. **Varredura de Anti-influência**: Que associações negativas poderiam contaminar o movimento?
+4. **Design de Posicionamento**: Posicionar o movimento no ponto de diferenciação ótima identificado.
+
+### Armadilhas Comuns
+- Assumir que a audiência quer apenas pertencer — o desejo de diferenciação é igualmente forte
+- Ignorar a anti-influência — associação com grupos indesejáveis pode matar um movimento
+- Ser radical demais na inovação e perder a familiaridade necessária para aceitação
+- Não monitorar mudanças nos grupos de referência da audiência ao longo do tempo
+
 ## Cross-references
 
 - [[berger-contagious-book]] — Mecanismos de compartilhamento que operam sobre a influência social

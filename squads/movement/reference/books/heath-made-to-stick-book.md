@@ -79,6 +79,22 @@ O viés cognitivo que impede especialistas de se comunicarem eficazmente com nã
 - "Uma estatística raramente muda comportamento. Uma história quase sempre muda."
 - "A surpresa captura atenção. A curiosidade mantém. Use as duas."
 
+## Aplicação Prática
+
+### Clínica de Mensagem SUCCESs
+Exercício para refinar mensagens do movimento:
+
+1. **Extração de Núcleo**: Escrever a mensagem em 200 palavras, depois 50, depois 10, depois 5. O que resta é o núcleo.
+2. **Injeção de Surpresa**: Que elemento inesperado pode ser adicionado? Que gap de curiosidade pode ser aberto?
+3. **Tradução Concreta**: Substituir toda palavra abstrata por uma imagem sensorial específica.
+4. **Teste Sinatra**: Encontrar o um exemplo que prova tudo — se funciona ali, funciona em qualquer lugar.
+
+### Armadilhas Comuns
+- A Maldição do Conhecimento fazendo a equipe superestimar quanto contexto a audiência tem
+- Tentar comunicar múltiplas mensagens simultaneamente — matar darlings é doloroso mas necessário
+- Usar dados quando uma história seria mais eficaz
+- Focar em surpresa sem criar curiosidade sustentada
+
 ## Cross-references
 
 - [[berger-contagious-book]] — Princípios complementares de compartilhabilidade

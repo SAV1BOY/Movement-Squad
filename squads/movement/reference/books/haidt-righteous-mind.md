@@ -76,6 +76,22 @@ O recurso intangível que uma comunidade acumula quando seus membros compartilha
 - "A moralidade une e cega simultaneamente. Quanto mais coeso o grupo, mais cego para perspectivas externas."
 - "O hive switch é o segredo de toda experiência coletiva transcendente — do estádio de futebol ao templo religioso."
 
+## Aplicação Prática
+
+### Mapeamento de Fundamentos Morais
+Exercício para alinhar o movimento com os fundamentos morais da audiência:
+
+1. **Pesquisa de Fundamentos**: Através de pesquisa qualitativa, identificar quais fundamentos morais são mais ativados na audiência-alvo.
+2. **Análise de Comunicação**: As mensagens atuais ativam os fundamentos certos ou estão desalinhadas?
+3. **Design Multi-fundamento**: Criar comunicações que ativem múltiplos fundamentos simultaneamente para ampliar alcance.
+4. **Planejamento de Hive Switch**: Projetar experiências coletivas que ativem o modo transcendente do grupo.
+
+### Armadilhas Comuns
+- Comunicar apenas nos fundamentos Cuidado/Justiça e ignorar Lealdade/Autoridade/Santidade
+- Não reconhecer que o grupo pode estar moralmente cego para perspectivas externas
+- Ativar o hive switch sem direção clara — energia coletiva sem propósito pode ser destrutiva
+- Assumir que os fundamentos morais da equipe são os mesmos da audiência
+
 ## Cross-references
 
 - [[girard-scapegoat]] — Dinâmicas de coesão grupal e exclusão que Haidt contextualiza moralmente

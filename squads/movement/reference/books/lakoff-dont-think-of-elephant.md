@@ -78,6 +78,23 @@ Muitas pessoas operam com frames diferentes para questões diferentes. Não são
 - "Quem define os termos do debate ganha o debate antes que ele comece."
 - "Toda palavra é uma escolha política. Não existe linguagem neutra quando se trata de questões que importam."
 
+## Aplicação Prática
+
+### Workshop de Framing para Movimentos
+Exercício para desenvolver o frame estratégico do movimento:
+
+1. **Mapa de Frames Existentes**: Como a categoria/questão é enquadrada atualmente pelo mainstream? Que metáforas são usadas?
+2. **Análise de Consequências**: O frame atual favorece ou prejudica o movimento? Que soluções ele torna "óbvias"?
+3. **Design de Frame Alternativo**: Criar um enquadramento que reorganize a questão favoravelmente.
+4. **Vocabulário de Frame**: Definir as palavras-chave que ativam o novo frame — e as palavras proibidas que ativam o frame antigo.
+5. **Disciplina de Implementação**: Treinar todos os porta-vozes para manter o novo frame consistentemente.
+
+### Armadilhas Comuns
+- Negar o frame adversário em vez de criar um frame próprio
+- Usar o vocabulário do frame dominante "por conveniência" e reforçá-lo inadvertidamente
+- Não treinar porta-vozes e membros no vocabulário do novo frame
+- Subestimar a dificuldade e o tempo necessários para estabelecer um novo frame
+
 ## Cross-references
 
 - [[cialdini-pre-suasion]] — Pré-suasão como prática de framing aplicado

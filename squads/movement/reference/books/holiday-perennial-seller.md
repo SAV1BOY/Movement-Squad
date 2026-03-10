@@ -75,6 +75,22 @@ Posicionar para a intersecção entre o atemporal e o relevante. Nem tão genér
 - "A maioria das coisas que viralizam são esquecidas em semanas. Os clássicos demoram anos para alcançar seu público — mas quando alcançam, nunca saem."
 - "A pergunta não é 'como isso viraliza?' — é 'por que alguém ainda se importará com isso daqui a dez anos?'"
 
+## Aplicação Prática
+
+### Teste de Perenidade para Estratégias de Movimento
+Exercício para filtrar decisões pelo critério de durabilidade:
+
+1. **Teste de 10 Anos**: Se olharmos para trás daqui a 10 anos, esta ação terá sido significativa?
+2. **Teste de Evergreen**: O conteúdo que produzimos continuará relevante daqui a 2 anos? Se não, vale o investimento?
+3. **Auditoria de Plataforma**: Quanta da presença do movimento está em canais próprios vs. alocados? A meta deve ser 60%+ próprio.
+4. **Rede de Embaixadores**: Estamos construindo relacionamentos profundos com propagadores de longo prazo?
+
+### Armadilhas Comuns
+- Sacrificar qualidade por velocidade — perenidade exige paciência na criação
+- Medir sucesso apenas por métricas imediatas em vez de acúmulo ao longo do tempo
+- Depender de plataformas que podem mudar algoritmo a qualquer momento
+- Buscar viralização em vez de construir base sólida de boca-a-boca
+
 ## Cross-references
 
 - [[godin-purple-cow]] — Remarkabilidade como complemento à perenidade

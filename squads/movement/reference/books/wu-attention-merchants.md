@@ -76,6 +76,22 @@ Momentos em que o público se rebela contra a exploração de sua atenção. Ess
 - "Os mercadores de atenção não vendem conteúdo — vendem você. Seu tempo, sua atenção, seus dados."
 - "A revolta contra a exploração de atenção é tão antiga quanto a própria exploração. E cada revolta cria uma oportunidade."
 
+## Aplicação Prática
+
+### Auditoria de Soberania de Atenção
+Exercício para avaliar e melhorar a independência do movimento no ecossistema de atenção:
+
+1. **Diagnóstico de Dependência**: Que porcentagem do alcance do movimento depende de algoritmos de terceiros?
+2. **Inventário de Canais Próprios**: Email, site, comunidade própria, eventos presenciais — quão robustos são?
+3. **Plano de Migração**: Se a principal plataforma desaparecesse amanhã, como o movimento se comunicaria com membros?
+4. **Política de Respeito**: Cada comunicação adiciona valor genuíno ou está apenas competindo por atenção?
+
+### Armadilhas Comuns
+- Construir 100% da presença em plataformas que são "mercadores de atenção"
+- Competir por atenção com as mesmas táticas que saturaram a audiência
+- Não investir em canais próprios porque plataformas de terceiros parecem mais fáceis
+- Sacrificar a qualidade do conteúdo pela quantidade necessária para alimentar algoritmos
+
 ## Cross-references
 
 - [[zuboff-surveillance-capitalism]] — A evolução da economia da atenção para capitalismo de vigilância

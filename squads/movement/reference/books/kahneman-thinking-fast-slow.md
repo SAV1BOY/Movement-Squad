@@ -79,6 +79,22 @@ Quando enfrentamos uma pergunta difícil, inconscientemente a substituímos por 
 - "A dor de perder é o dobro do prazer de ganhar. As pessoas não são maximizadoras de ganho — são minimizadoras de perda."
 - "Confiamos demais no que vemos e subestimamos o que não vemos. WYSIATI é o viés mais perigoso de todos."
 
+## Aplicação Prática
+
+### Auditoria Cognitiva de Comunicação
+Exercício para garantir que a comunicação do movimento é projetada para como a mente realmente funciona:
+
+1. **Teste de Sistema 1**: A mensagem é processada intuitiva e emocionalmente? Ou exige esforço cognitivo?
+2. **Check de Ancoragem**: Qual é a primeira informação que a audiência recebe? Ela funciona como âncora favorável?
+3. **Enquadramento de Perda**: A não-adesão está enquadrada como perda (mais motivador) ou a adesão como ganho (menos motivador)?
+4. **WYSIATI**: A narrativa é completa e autossuficiente? Ou depende de informação que a audiência teria que buscar?
+
+### Armadilhas Comuns
+- Projetar comunicação para o Sistema 2 (racional) quando a decisão é do Sistema 1 (intuitivo)
+- Deixar que âncoras desfavoráveis se estabeleçam por omissão
+- Enquadrar benefícios como ganho quando "evitar perda" seria mais motivador
+- Assumir que a audiência buscará informação adicional — WYSIATI diz que não buscará
+
 ## Cross-references
 
 - [[thaler-nudge]] — Aplicação prática dos insights de Kahneman em arquitetura de escolha

@@ -80,6 +80,23 @@ O princípio mais recente e potente. Quando existe identidade compartilhada ("n�
 - "Compromissos pequenos são portais para compromissos grandes. A consistência é uma força psicológica avassaladora."
 - "A escassez não apenas aumenta desejo — ela muda a percepção de valor. O que é raro se torna precioso."
 
+## Aplicação Prática
+
+### Auditoria dos 7 Princípios
+Exercício para garantir que todos os princípios estão sendo ativados eticamente:
+
+1. **Inventário de Reciprocidade**: O que estamos dando antes de pedir? A reciprocidade está genuína?
+2. **Escada de Compromisso**: Qual é o menor primeiro passo? Existe progressão clara de compromisso?
+3. **Painel de Prova Social**: As provas sociais são de pares semelhantes à audiência?
+4. **Mapa de Autoridade**: Quem confere legitimidade e sua autoridade é reconhecida pela audiência?
+5. **Check Ético**: Cada uso dos princípios beneficia também a audiência, não apenas o movimento?
+
+### Armadilhas Comuns
+- Usar escassez artificial que destrói confiança quando descoberta
+- Aplicar prova social de celebridades quando a audiência precisa ver pares
+- Escalar compromisso rápido demais e gerar sensação de manipulação
+- Ignorar o princípio da Unidade — o mais poderoso e menos utilizado
+
 ## Cross-references
 
 - [[cialdini-pre-suasion]] — O preparo do terreno psicológico antes da aplicação dos princípios

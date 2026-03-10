@@ -75,6 +75,23 @@ Combinação de cultura empresarial e ética de disciplina. Pessoas disciplinada
 - "Primeiro quem, depois o quê. As pessoas certas no barco certas farão o barco ir para o lugar certo."
 - "O paradoxo de Stockdale: nunca perca a fé no resultado final, mas confronte a realidade mais brutal do momento presente."
 
+## Aplicação Prática
+
+### Design do Flywheel do Movimento
+Exercício para identificar e construir o volante de momentum:
+
+1. **Identificar Ações-Chave**: Quais são as 4-6 ações que, quando executadas consistentemente, geram momentum para o movimento?
+2. **Mapear Causalidade**: Como cada ação alimenta a próxima? O ciclo é autorreforçador?
+3. **Definir Métricas**: Cada ação-chave tem uma métrica que indica se o volante está acelerando?
+4. **Eliminar Distrações**: Que atividades atuais não contribuem para o flywheel e estão consumindo energia?
+5. **Comprometer-se**: Executar o flywheel com consistência obsessiva por pelo menos 6 meses antes de avaliar.
+
+### Armadilhas Comuns
+- Abandonar o flywheel por resultados lentos no início — o acúmulo é exponencial, não linear
+- Tentar inovar constantemente em vez de executar consistentemente
+- Confundir atividade com progresso — muita ação não é a mesma coisa que as ações certas
+- Liderança que busca holofotes em vez de servir a causa
+
 ## Cross-references
 
 - [[sinek-start-with-why]] — O "porquê" como complemento ao Hedgehog de Collins

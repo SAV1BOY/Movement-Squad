@@ -75,6 +75,23 @@ Tornar a informação relevante visível e proeminente no momento da decisão. O
 - "Um bom nudge torna a opção desejada a mais fácil, não a única."
 - "A fricção mata mais boas intenções que a falta de motivação."
 
+## Aplicação Prática
+
+### Sprint de Remoção de Fricção
+Exercício para eliminar barreiras desnecessárias no caminho de adesão:
+
+1. **Jornada de Novato**: Um membro da equipe tenta participar do movimento como novato completo, documentando cada ponto de fricção.
+2. **Mapa de Fricção**: Plotar cada passo do processo com o nível de esforço exigido.
+3. **Design de Defaults**: Para cada decisão que o novato precisa tomar, qual seria o default mais inteligente?
+4. **Eliminação Radical**: Questionar cada passo — é realmente necessário? Pode ser simplificado? Pode ser eliminado?
+5. **Verificação EAST**: Cada passo restante é Fácil, Atrativo, Social e Oportuno?
+
+### Armadilhas Comuns
+- Testar a jornada internamente (quem já sabe) em vez de com novatos reais
+- Adicionar passos "para qualidade" que na verdade criam fricção desnecessária
+- Não redefinir defaults quando o contexto muda
+- Confundir nudge com manipulação — nudge preserva liberdade de escolha
+
 ## Cross-references
 
 - [[kahneman-thinking-fast-slow]] — Base cognitiva dos vieses que nudges exploram

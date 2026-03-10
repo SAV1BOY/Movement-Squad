@@ -75,6 +75,23 @@ Sequências de contágio que se amplificam através da rede. Pequenas perturbaç
 - "Sua posição na rede determina não apenas quem você influencia, mas quem influencia você — frequentemente sem seu conhecimento."
 - "Felicidade, obesidade, tabagismo e solidão se espalham como vírus. E movimentos também."
 
+## Aplicação Prática
+
+### Análise de Topologia de Rede do Movimento
+Exercício para compreender e otimizar a estrutura de rede do movimento:
+
+1. **Mapeamento**: Usar ferramentas de análise de rede social para visualizar conexões entre membros.
+2. **Identificação de Hubs**: Quem são os nós mais conectados? Estão ativados como propagadores?
+3. **Identificação de Pontes**: Quem conecta clusters diferentes? Essas pontes são fortalecidas ou negligenciadas?
+4. **Detecção de Ilhas**: Existem clusters isolados que poderiam ser conectados ao corpo principal?
+5. **Design de Intervenção**: Ações específicas para fortalecer a topologia (criar novas pontes, ativar hubs).
+
+### Armadilhas Comuns
+- Focar apenas em hubs (popularidade) e ignorar pontes (diversidade de conexão)
+- Não monitorar a degradação natural da rede ao longo do tempo
+- Assumir que conexão online equivale a influência real
+- Ignorar a regra dos três graus — o impacto indireto é tão importante quanto o direto
+
 ## Cross-references
 
 - [[gladwell-tipping-point-book]] — Perspectiva complementar sobre epidemias sociais e agentes de difusão

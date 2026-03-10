@@ -78,6 +78,22 @@ Grupos humanos funcionam de forma eficaz até aproximadamente 150 membros. Acima
 - "O contexto importa mais do que achamos. Mude o ambiente e você muda o comportamento — sem precisar mudar as pessoas."
 - "O ponto de virada é aquele momento mágico em que uma ideia, tendência ou comportamento social cruza um limiar e se espalha como fogo."
 
+## Aplicação Prática
+
+### Mapeamento de Agentes de Propagação
+Exercício para identificar os Conectores, Mavens e Vendedores do ecossistema:
+
+1. **Identificação de Conectores**: Quem tem redes diversas que cruzam múltiplos grupos? Ferramentas de análise de rede podem ajudar.
+2. **Identificação de Mavens**: Quem é procurado como fonte de informação confiável na categoria? Quem outros consultam antes de decidir?
+3. **Identificação de Vendedores**: Quem tem capacidade natural de persuasão interpessoal? Quem convence pela presença?
+4. **Ativação Diferenciada**: Mavens recebem informação exclusiva; Conectores recebem ferramentas de compartilhamento; Vendedores recebem narrativas.
+
+### Armadilhas Comuns
+- Confundir influenciadores de mídia social com Conectores reais — alcance digital não equivale a influência
+- Tratar todos os agentes de propagação igualmente quando cada tipo precisa de abordagem diferente
+- Ignorar o Poder do Contexto — o mesmo agente em contextos diferentes tem eficácia diferente
+- Não aplicar a Regra dos 150 no design de comunidades do movimento
+
 ## Cross-references
 
 - [[rogers-diffusion-innovations-book]] — Framework acadêmico formal que fundamenta a teoria de Gladwell

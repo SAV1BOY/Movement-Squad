@@ -73,6 +73,22 @@ Na economia da atenção, a opção mais arriscada é ser seguro e convencional 
 - "Ser seguro é arriscado. Ser arriscado é seguro."
 - "Se seu produto não é notável, ele é invisível. Não importa quanto dinheiro você gaste em publicidade."
 
+## Aplicação Prática
+
+### Sessão de Design de Remarkabilidade
+Exercício para incorporar remarkabilidade no DNA do movimento:
+
+1. **Audit de Ordinário**: O que na nossa comunicação/experiência atual é completamente previsível e ignorável?
+2. **Benchmark de Vaca Roxa**: Que exemplos de remarkabilidade em outras categorias podem inspirar?
+3. **Ideação Radical**: Gerar 20 ideias deliberadamente extremas. Depois, calibrar para o realizável.
+4. **Teste do Estranho**: Mostrar para alguém que não conhece o movimento e observar — tiraria foto? Contaria para alguém?
+
+### Armadilhas Comuns
+- Confundir remarkabilidade com produção cara — muitas vezes o notável é simples
+- Buscar remarkabilidade apenas na comunicação, não no produto/experiência central
+- Ignorar que a remarkabilidade tem prazo de validade e precisa ser renovada
+- Polarizar sem propósito — a remarkabilidade deve servir ao objetivo, não apenas chocar
+
 ## Cross-references
 
 - [[godin-tribes-book]] — De remarkabilidade individual para mobilização de tribos

@@ -76,6 +76,22 @@ O meio de comunicação não é neutro — ele pré-suade. Uma mensagem por cart
 - "O ambiente nunca é neutro. Cada detalhe do contexto está comunicando algo antes que você diga uma palavra."
 - "As metáforas que usamos não são ornamentos — são molduras. Mude a moldura e você muda o quadro."
 
+## Aplicação Prática
+
+### Auditoria de Pontos de Contato Pré-suasivos
+Exercício para mapear e otimizar os elementos pré-suasivos de cada interação:
+
+1. **Jornada do Primeiro Contato**: Mapear cada estímulo que a pessoa recebe antes da mensagem principal — visual, textual, ambiental.
+2. **Análise de Conceitos Ativados**: Que conceitos cada estímulo pré-ativa? São favoráveis ao objetivo?
+3. **Redesign Sequencial**: Reorganizar a sequência de comunicação para que os estímulos corretos precedam a mensagem.
+4. **Teste A/B de Sequência**: Testar diferentes ordens de apresentação para medir impacto na receptividade.
+
+### Armadilhas Comuns
+- Negligenciar o que acontece antes da mensagem principal
+- Assumir que o ambiente de comunicação é neutro — nunca é
+- Usar metáforas que enquadram a situação desfavoravelmente sem perceber
+- Não testar o efeito da sequência de comunicação
+
 ## Cross-references
 
 - [[cialdini-influence-book]] — Os princípios de influência que são potencializados pela pré-suasão

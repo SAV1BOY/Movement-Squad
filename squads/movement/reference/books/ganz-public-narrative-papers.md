@@ -76,6 +76,23 @@ A liderança de movimento não é baseada em autoridade posicional, mas em rela�
 - "As pessoas agem não por causa do que sabem, mas por causa do que sentem. A narrativa é a ponte entre valores e sentimentos."
 - "Um movimento sem narrativa é um grupo sem alma. A narrativa é o que transforma indivíduos em comunidade com propósito."
 
+## Aplicação Prática
+
+### Workshop de Narrativa Pública
+Protocolo de treinamento para capacitar líderes do movimento em narrativa pública:
+
+1. **Sessão Story of Self**: Cada participante identifica seus momentos de escolha pessoal e pratica a articulação.
+2. **Sessão Story of Us**: O grupo co-cria a narrativa dos valores compartilhados que os unem.
+3. **Sessão Story of Now**: O grupo identifica o desafio urgente e articula por que agir agora.
+4. **Integração**: Cada participante pratica tecer as três narrativas em uma fala de 3-5 minutos.
+5. **Feedback e Refinamento**: Rodadas de feedback focadas em autenticidade emocional, não em perfeição técnica.
+
+### Armadilhas Comuns
+- Criar narrativas polidas demais que perdem autenticidade
+- Pular a Story of Self por desconforto com vulnerabilidade
+- Manter a Story of Now genérica — a urgência deve ser específica e tangível
+- Não atualizar a narrativa quando o contexto muda
+
 ## Cross-references
 
 - [[sachs-winning-story-wars]] — Aplicação de narrativa em contexto de marketing e movimentos culturais

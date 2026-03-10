@@ -75,6 +75,22 @@ Em vez de argumentar diretamente, criar condições para que a pessoa chegue à 
 - "O erro mais comum em persuasão é assumir que mais argumento resolve mais resistência. Geralmente, o oposto é verdade."
 - "Mudança não é um problema de impulso — é um problema de atrito. Reduza o atrito e a mudança acontece sozinha."
 
+## Aplicação Prática
+
+### Workshop de Diagnóstico REDUCE
+Exercício para identificar e remover barreiras à mudança:
+
+1. **Mapa de Resistência**: Onde exatamente o movimento encontra resistência? Em que momento as pessoas param?
+2. **Classificação REDUCE**: Categorizar cada ponto de resistência por tipo de barreira.
+3. **Design de Intervenção**: Para cada barreira, projetar intervenção específica que a remova sem criar novas.
+4. **Teste de Remoção**: Implementar intervenções uma a uma e medir se a barreira diminuiu.
+
+### Armadilhas Comuns
+- Aumentar a força da mensagem quando o problema é reatância (empurrar mais só piora)
+- Ignorar o efeito dotação — as pessoas valorizam mais o que já têm, inclusive crenças
+- Propor mudanças radicais quando a audiência só aceita mudanças incrementais
+- Oferecer apenas uma fonte de evidência quando a mudança exige múltiplas fontes corroboradoras
+
 ## Cross-references
 
 - [[berger-contagious-book]] — Complementa com os mecanismos de difusão após a barreira ser removida

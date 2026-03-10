@@ -75,6 +75,22 @@ A forma como comportamentos, desejos e hostilidades se propagam através de imit
 - "Quando uma comunidade em crise encontra alguém para culpar, experimenta um alívio que confunde com justiça."
 - "Todo movimento precisa decidir: construímos coesão pela visão compartilhada ou pelo inimigo compartilhado? A resposta define nossa ética."
 
+## Aplicação Prática
+
+### Protocolo de Vigilância Mimética
+Exercício regular para identificar dinâmicas girardianas no movimento:
+
+1. **Scan de Bode Expiatório**: A energia do movimento está concentrada "contra" algo/alguém? Se sim, isso é saudável ou tóxico?
+2. **Análise de Desejo Mimético**: As pessoas estão participando por desejo genuíno ou por imitação competitiva?
+3. **Check de Coesão**: A coesão do grupo depende de um inimigo externo ou de visão compartilhada?
+4. **Redirecionamento Construtivo**: Se dinâmicas sacrificiais forem detectadas, redirecionar a energia para criação, não destruição.
+
+### Armadilhas Comuns
+- Usar "inimigos" como atalho para gerar coesão — funciona no curto prazo, corrompe no longo
+- Não reconhecer que o desejo mimético está operando dentro do próprio time
+- Confundir crítica legítima a concorrentes com dinâmica de bode expiatório
+- Ignorar que movimentos sob pressão tendem naturalmente a buscar bodes expiatórios internos
+
 ## Cross-references
 
 - [[le-bon-the-crowd]] — Psicologia das massas que antecipa mecanismos girardianos

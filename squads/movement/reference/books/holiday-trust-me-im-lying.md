@@ -76,6 +76,23 @@ Blogs parecem mais autênticos e confiáveis que mídia tradicional, mas são fr
 - "Se você entende como a mídia funciona, pode navegá-la. Se não entende, ela navega você."
 - "A indignação é o combustível da economia de atenção. E todo combustível eventualmente queima quem o manuseia sem cuidado."
 
+## Aplicação Prática
+
+### Protocolo de Resiliência Midiática
+Exercício para preparar o movimento para navegar o ecossistema de mídia:
+
+1. **Mapeamento de Ecossistema**: Identificar os blogs, portais e jornalistas que cobrem a categoria do movimento.
+2. **Kit de Mídia Proativo**: Criar material factual, citável e compartilhável que facilite cobertura precisa.
+3. **Treinamento de Porta-voz**: Preparar 2-3 pessoas para responder a mídia com disciplina e consistência.
+4. **Plano de Crise**: Ter protocolo pronto para quando narrativas distorcidas ou falsas surgirem.
+5. **Canais Próprios**: Manter canais de comunicação direta que não dependam de intermediários midiáticos.
+
+### Armadilhas Comuns
+- Ser reativo em vez de proativo com a narrativa
+- Alimentar a economia da indignação com declarações emocionais que serão distorcidas
+- Não ter fact-sheet atualizado e acessível para jornalistas
+- Depender exclusivamente de cobertura de terceiros sem canais próprios
+
 ## Cross-references
 
 - [[wu-attention-merchants]] — História macro da economia da atenção que Holiday descreve no nível micro

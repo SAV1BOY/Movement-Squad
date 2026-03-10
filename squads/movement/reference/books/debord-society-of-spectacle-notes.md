@@ -76,6 +76,23 @@ Para os situacionistas, a transformação real acontece na vida quotidiana — n
 - "A transformação real acontece na vida quotidiana — nos gestos, nos encontros, nas experiências concretas — não na produção de mais imagens."
 - "Quanto mais a vida se torna espetáculo, menos as pessoas vivem. Assistir à representação da vida não é viver."
 
+## Aplicação Prática
+
+### Protocolo Anti-Espetáculo
+Exercício para garantir que o movimento prioriza autenticidade sobre espetáculo:
+
+1. **Teste de Realidade**: Para cada ativação, perguntar: isso gera experiência real ou apenas imagem de experiência?
+2. **Métrica de Participação**: Os membros estão criando ou consumindo? A ratio ideal deve ser no mínimo 30% criação.
+3. **Auditoria de Recuperação**: O sistema está absorvendo e neutralizando nosso movimento? A mensagem está se tornando commodity?
+4. **Check de Vida Quotidiana**: A participação no movimento transforma a vida diária dos membros ou existe apenas online?
+5. **Exercício de Détournement**: Que elementos da cultura dominante podem ser subvertidos criativamente?
+
+### Armadilhas Comuns
+- Produzir conteúdo espetacular sobre autenticidade — a contradição performativa mais comum
+- Medir sucesso do movimento por métricas espetaculares (views, likes) em vez de transformação real
+- Não reconhecer quando o próprio movimento está sendo "recuperado" pelo sistema
+- Confundir presença digital com ação real — o espetáculo digital é a forma mais sedutora de passividade
+
 ## Cross-references
 
 - [[gramsci-cultural-hegemony-notes]] — Hegemonia como mecanismo que o espetáculo mantém

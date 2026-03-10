@@ -75,6 +75,23 @@ A internet permite que projetos e grupos experimentem e falhem com custo mínimo
 - "Todo grupo precisa de uma promessa (por que participar), uma ferramenta (como participar) e um acordo (as regras do jogo)."
 - "A lei de potência não é um problema a ser resolvido — é a natureza da participação humana em escala."
 
+## Aplicação Prática
+
+### Design de Estrutura de Participação
+Exercício para projetar a arquitetura de participação do movimento:
+
+1. **Teste Promessa-Ferramenta-Acordo**: A promessa é clara? A ferramenta é adequada? O acordo é justo?
+2. **Escada de Engajamento**: Existe caminho claro de compartilhar → cooperar → agir coletivamente?
+3. **Análise de Potência**: Quem são os 1-5% que produzem a maioria do valor? Estão empoderados?
+4. **Mecanismo de Falha Barata**: O movimento permite experimentação com baixo custo de fracasso?
+5. **Equilíbrio Estrutura/Fluidez**: Há estrutura suficiente para sustentabilidade mas flexibilidade suficiente para adaptação?
+
+### Armadilhas Comuns
+- Tratar a lei de potência como problema em vez de realidade a ser desenhada
+- Criar barreiras de entrada tão baixas que o compromisso é inexistente
+- Não ter caminho claro de escalada para membros mais engajados
+- Buscar organização formal prematuramente quando a fluidez ainda serve melhor
+
 ## Cross-references
 
 - [[godin-tribes-book]] — Tribos como a forma social que Shirky descreve em sua essência organizacional

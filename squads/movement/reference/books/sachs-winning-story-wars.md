@@ -76,6 +76,23 @@ Transformar a interação com a marca em um ritual significativo que reforça os
 - "As histórias que ressoam há milênios seguem padrões. Esses padrões não são fórmulas — são a gramática da comunicação humana."
 - "Valores não são diferenciação de marketing — são a fundação sobre a qual toda narrativa autêntica é construída."
 
+## Aplicação Prática
+
+### Workshop de Narrativa Heroica
+Exercício para construir a narrativa do movimento com o membro como herói:
+
+1. **Mapeamento do Mundo Comum**: Como é a vida do potencial membro antes do movimento?
+2. **Articulação do Chamado**: Que convite o movimento faz? É irrecusável para quem tem os valores certos?
+3. **Design da Jornada**: Quais são os desafios, aprendizados e transformações que o membro vivenciará?
+4. **Auditoria dos 5 Pecados**: Revisão honesta — o movimento comete algum dos pecados mortais?
+5. **Ritual de Retorno**: Como o membro celebra e compartilha sua transformação?
+
+### Armadilhas Comuns
+- Colocar a marca como heroína em vez do membro
+- Prometer transformação que o movimento não pode entregar
+- Usar narrativas de inadequação disfarçadas de empoderamento
+- Criar inimigos artificiais (pandemonismo) para gerar energia narrativa
+
 ## Cross-references
 
 - [[ganz-public-narrative-papers]] — Narrativa pública como framework complementar

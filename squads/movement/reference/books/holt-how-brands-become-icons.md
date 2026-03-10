@@ -76,6 +76,22 @@ A ideia de que marcas icônicas irradiam autoridade cultural que transcende a ca
 - "Mundos populistas são a matéria-prima da autenticidade de marca. Sem eles, qualquer narrativa soa como propaganda vazia."
 - "A maioria dos gestores de marca está jogando xadrez no tabuleiro errado — o tabuleiro que importa é o dos mitos culturais."
 
+## Aplicação Prática
+
+### Exercício de Identificação de Mitos
+Realizar workshops trimestrais para mapear os mitos de identidade ativos na categoria:
+
+1. **Inventário Mítico**: Listar todas as narrativas que marcas da categoria contam. Quais são mitos de identidade? Quais são apenas propostas funcionais?
+2. **Análise de Tensão**: Identificar as tensões culturais atuais que ainda não têm mito de resolução.
+3. **Mapeamento de Mundos Populistas**: Investigar comunidades autênticas que já vivem resoluções para essas tensões.
+4. **Teste de Ressonância**: Criar protótipos narrativos e testar com representantes da audiência-alvo.
+
+### Armadilhas Comuns
+- Criar mitos "de laboratório" desconectados de mundos populistas reais
+- Manter o mito inalterado quando a cultura já mudou
+- Confundir storytelling corporativo com mito de identidade genuíno
+- Ignorar que o mito precisa resolver uma tensão real da audiência, não da marca
+
 ## Cross-references
 
 - [[holt-cultural-strategy-book]] — Evolução da teoria com foco em estratégia operacional

@@ -75,6 +75,22 @@ Sinais que comunicam segurança, pertencimento e credibilidade antes que qualque
 - "As pessoas não querem o que você faz. Querem o que seu produto faz por elas. E o que faz por elas é ajudá-las a se tornarem quem desejam ser."
 - "O menor público viável é a chave. Tente agradar a todos e não agradará a ninguém."
 
+## Aplicação Prática
+
+### Workshop de Menor Público Viável
+Exercício para definir e validar o menor público viável:
+
+1. **Eliminação Progressiva**: Começar com "todo mundo" e ir eliminando segmentos até chegar ao menor grupo que sustenta o movimento.
+2. **Perfil de Empatia**: Para cada membro desse grupo mínimo, mapear desejos, medos, narrativa interna e aspiração de identidade.
+3. **Proposta de Status/Afiliação**: Definir claramente que status o movimento confere e a que grupo afilia.
+4. **Calibração de Tensão**: Ajustar a tensão narrativa — suficiente para motivar, não tanta que paralise.
+
+### Armadilhas Comuns
+- Definir o público viável como "todos que poderiam se interessar" — isso é audiência, não público viável
+- Ignorar que status e afiliação variam entre subculturas
+- Criar tensão excessiva que gera ansiedade em vez de motivação
+- Tratar marketing de permissão como desculpa para não ser ousado
+
 ## Cross-references
 
 - [[godin-tribes-book]] — Fundamentos de liderança de tribo que alimentam a visão de marketing como serviço

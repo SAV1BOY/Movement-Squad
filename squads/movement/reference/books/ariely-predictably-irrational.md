@@ -76,6 +76,23 @@ As pessoas consistentemente sacrificam benefícios futuros por gratificação im
 - "Quando se introduz dinheiro em uma relação social, destrói-se algo que nenhuma quantia pode reconstruir."
 - "Supervalorizamos o que temos simplesmente porque é nosso. Propriedade é um viés, não um julgamento racional."
 
+## Aplicação Prática
+
+### Design de Opções Comportamentais
+Exercício para projetar a arquitetura de opções do movimento considerando a irracionalidade previsível:
+
+1. **Análise de Comparação**: Com que opções a audiência comparará o movimento? Como controlar essa comparação?
+2. **Design de Chamariz**: Criar opção que torne a opção desejada mais atraente por contraste.
+3. **Oferta Gratuita**: Que elemento genuinamente gratuito pode ser a porta de entrada?
+4. **Proteção de Normas Sociais**: As interações estão no frame social (comunidade) ou de mercado (transação)?
+5. **Propriedade Antecipada**: Como dar senso de ownership antes do compromisso total?
+
+### Armadilhas Comuns
+- Usar o efeito chamariz de forma que pareça manipulativa quando descoberta
+- Introduzir dinheiro em relações que funcionavam em normas sociais
+- Oferecer "grátis" de baixa qualidade que desvaloriza a marca
+- Não considerar que o efeito de propriedade funciona contra a mudança (as pessoas valorizam o status quo)
+
 ## Cross-references
 
 - [[kahneman-thinking-fast-slow]] — Fundamentação teórica dos vieses que Ariely demonstra experimentalmente

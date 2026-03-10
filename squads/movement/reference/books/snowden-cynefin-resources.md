@@ -81,6 +81,23 @@ No domínio complexo, a estratégia correta é lançar múltiplas sondas (experi
 - "No complexo, a estratégia correta é sondar, perceber e responder — não planejar, executar e controlar."
 - "Sondas seguras para falhar são o motor da descoberta. Se você não pode errar barato, não pode aprender rápido."
 
+## Aplicação Prática
+
+### Exercício de Diagnóstico de Domínio
+Protocolo para classificar cada aspecto do movimento por domínio Cynefin:
+
+1. **Listagem**: Listar todos os desafios e atividades atuais do movimento.
+2. **Classificação**: Para cada item, responder: "podemos prever o resultado com base em experiência anterior?"
+3. **Atribuição de Domínio**: Sim com certeza = Claro. Sim com análise = Complicado. Não, precisamos experimentar = Complexo. Caos = Caótico.
+4. **Estratégia por Domínio**: Atribuir a abordagem correta para cada domínio.
+5. **Design de Sondas**: Para itens complexos, projetar 3-5 sondas seguras para falhar.
+
+### Armadilhas Comuns
+- Tratar o domínio complexo como complicado (excesso de planejamento e análise)
+- Tratar o domínio complicado como complexo (experimentação quando uma análise resolveria)
+- Não reconhecer quando se está na Desordem — o estado mais perigoso
+- Falhar em reclassificar domínios conforme o contexto evolui
+
 ## Cross-references
 
 - [[rogers-diffusion-innovations-book]] — Modelo de difusão contextualizado por domínios Cynefin

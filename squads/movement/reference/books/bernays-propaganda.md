@@ -75,6 +75,22 @@ Bernays aplica explicitamente os insights de seu tio Freud e de Le Bon sobre psi
 - "O conselheiro de relações públicas não é um propagandista sujo — é um consultor que compreende as correntes da opinião pública."
 - "Os eventos que criamos são mais eficazes que qualquer anúncio. A melhor propaganda é aquela que não parece propaganda."
 
+## Aplicação Prática
+
+### Framework de PR Ética para Movimentos
+Adaptação ética das técnicas de Bernays:
+
+1. **Design de Eventos Genuínos**: Criar acontecimentos que geram cobertura orgânica porque são genuinamente notáveis, não fabricados.
+2. **Ativação de Aliados Naturais**: Identificar especialistas que genuinamente acreditam no movimento, não mercenários.
+3. **Transparência de Intenção**: Se a audiência soubesse nosso processo completo, aprovaria?
+4. **Teste de Longo Prazo**: Esta tática constrói ou destrói confiança ao longo de anos?
+
+### Armadilhas Comuns
+- Racionalizar manipulação como "estratégia" — a linha é tênue e deve ser vigiada
+- Criar pseudo-eventos que parecem autênticos mas não são — quando descobertos, destroem credibilidade
+- Usar terceiras partes que não são genuinamente convencidas — isso é propaganda, não PR
+- Esquecer que na era digital, toda manipulação tem risco exponencialmente maior de ser exposta
+
 ## Cross-references
 
 - [[le-bon-the-crowd]] — Base teórica de psicologia de massas que Bernays operacionalizou
