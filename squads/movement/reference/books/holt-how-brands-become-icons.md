@@ -98,5 +98,5 @@ Realizar workshops trimestrais para mapear os mitos de identidade ativos na cate
 - [[gladwell-tipping-point-book]] — Dinâmicas de viralização que amplificam mitos culturais
 - [[sachs-winning-story-wars]] — Aplicação prática de narrativa mítica em marketing
 - [[frameworks/myth-building-framework]] — Framework operacional de construção de mitos
-- [[agents/narrative-architect-agent]] — Agente que aplica princípios de branding icônico
+- [[agents/manifestador-agent]] — Agente que aplica princípios de branding icônico
 - [[checklists/cultural-relevance-checklist]] — Checklist de relevância cultural para campanhas

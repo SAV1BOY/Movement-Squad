@@ -124,6 +124,6 @@ que otimiza processos e que valoriza design e estética até em planilhas.
 
 - `frameworks/community-growth-engine.md` — Community-led growth como estratégia
 - `frameworks/identity-architecture.md` — Estética como identidade de movimento
-- `agents/community-architect-agent.md` — Programa de embaixadores
+- `agents/movement-architect-agent.md` — Programa de embaixadores
 - `reference/movements/digital-movements/open-source-movement.md` — Comunidade + criação
 - `reference/movements/digital-movements/indiehackers-movement.md` — Builders como tribo

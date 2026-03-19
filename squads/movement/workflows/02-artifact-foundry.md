@@ -200,6 +200,11 @@ priorizados      rituais, kits      verificada                           e organ
 | **Checklists** | `checklists/manifesto-quality.md`, `checklists/manifesto/manifesto-structure.md`, `checklists/memetic-asset-quality.md`, `checklists/memetics/memetic-fidelity.md`, `checklists/memetics/meme-variation-and-selection.md`, `checklists/narrative-coherence-quality.md` |
 | **Registries** | `data/registries/manifesto-library/`, `data/registries/memetic-assets/`, `data/registries/slogan-bank.yaml`, `data/registries/rituals/` |
 
+### Níveis de Quality Gate Aplicáveis
+- **Nível 1 (Agent Self-Eval):** Manifestador valida cada artefato antes de submeter ao QA
+- **Nível 2 (Task Gate):** Checklists de manifesto, memética e narrativa aplicados em cada fase
+- **Nível 4 (Chief Gate):** Movement Chief aprova artefatos estratégicos (manifesto, identity kit) antes de publicação
+
 ### Regras de Fluxo
 - **Quality Gate entre fases:** Fase 1→2: briefs claros e alinhados com thesis; Fase 2→3: produção atende ao brief; Fase 3→4: score ≥ 4 em todos os critérios; Fase 4→5: reação média ≥ 8/10
 - **Rework:** Se QA reprova → feedback específico por critério, iterar e resubmeter

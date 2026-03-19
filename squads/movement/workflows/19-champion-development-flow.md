@@ -203,6 +203,11 @@ e fit cultural   expectativas     facilitação        mentoria          eventos
 | **Checklists** | `checklists/comunidade/champion-program-quality.md`, `checklists/comunidade/onboarding-and-roles.md`, `checklists/community-activation-quality.md`, `checklists/comunidade/community-health-indicators.md` |
 | **Registries** | `data/registries/champion-registry/`, `data/registries/community-roles/` |
 
+### Níveis de Quality Gate Aplicáveis
+- **Nível 2 (Task Gate):** Checklists de champion e onboarding aplicados em cada fase do pipeline
+- **Nível 3 (Domain Gate):** Gate de comunidade valida saúde do programa de champions trimestralmente
+- **Nível 4 (Chief Gate):** Movement Chief aprova convites para champions platinum e decisões de reestruturação do programa
+
 ### Regras de Fluxo
 - **Quality Gate entre fases:** Identificação→Convite: shortlist validada; Convite→Treinamento: aceite confirmado; Treinamento→Empoderar: champion confiante pós-treinamento; Empoderar→Reconhecer: champion atuando ativamente
 - **Rework:** Se champion desengajando → conversa empática e opção de pausa antes de perder

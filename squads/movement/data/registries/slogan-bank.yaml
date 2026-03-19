@@ -19,7 +19,7 @@ slogans:
     tipo: "slogan"
     status: "ativo"
     data_criacao: "2026-01-15"
-    autor: "narrative-architect"
+    autor: "manifestador"
 
     contexto_uso:
       - "Abertura de manifestos"
@@ -48,7 +48,7 @@ slogans:
     tipo: "hashtag"
     status: "ativo"
     data_criacao: "2026-02-01"
-    autor: "community-architect"
+    autor: "movement-architect"
 
     contexto_uso:
       - "Ritual semanal da comunidade"
@@ -87,7 +87,7 @@ slogans:
     tipo: "cta"
     status: "ativo"
     data_criacao: "2026-02-10"
-    autor: "narrative-architect"
+    autor: "manifestador"
 
     contexto_uso:
       - "CTAs em conteúdos educativos"
@@ -111,4 +111,4 @@ regras:
   - "Novos slogans precisam de 4 semanas de teste antes de virar 'ativo'"
   - "Slogans ativos só são aposentados com decisão documentada"
   - "Variações podem ser testadas sem aprovação formal"
-  - "O Narrative Architect é o guardião da coerência linguística"
+  - "O Manifestador é o guardião da coerência linguística"

@@ -4,7 +4,7 @@ name: "Auditar Movimentos dos Concorrentes"
 squad: movement
 type: task
 category: research
-agents: [fenomenologo, estrategista-de-ciclo]
+agents: [fenomenologo, analista-de-impacto]
 frameworks: [holt-cultural-strategy, sharp-how-brands-grow]
 checklists: [cultural-insight-quality]
 templates: [reports/narrative-audit-report]

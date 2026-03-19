@@ -30,7 +30,7 @@ experimentos:
       grupo_teste: "Posts de fracasso toda sexta-feira"
       grupo_controle: "Posts motivacionais tradicionais (segunda e quarta)"
       tamanho_amostra: "8 posts de cada tipo"
-      responsavel: "narrative-architect"
+      responsavel: "manifestador"
 
     execucao:
       data_inicio: "2026-02-01"
@@ -58,7 +58,7 @@ experimentos:
         - "Criar template para facilitar participação"
         - "Testar variações do formato (vídeo, áudio)"
       data_decisao: "2026-03-02"
-      decidido_por: "chief-of-movement"
+      decidido_por: "movement-chief"
 
   - id: "EXP-002"
     titulo: "Conteúdo co-criado com champions performa melhor que editorial"
@@ -76,7 +76,7 @@ experimentos:
       grupo_teste: "3 posts co-criados por semana"
       grupo_controle: "3 posts editoriais tradicionais por semana"
       tamanho_amostra: "18 posts de cada tipo"
-      responsavel: "community-architect"
+      responsavel: "movement-architect"
 
     execucao:
       data_inicio: "2026-02-15"

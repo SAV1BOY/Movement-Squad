@@ -1,7 +1,7 @@
 # ============================================================================
-# Decision Log — Log de Decisões do Chief of Movement
+# Decision Log — Log de Decisões do Movement Chief
 # ============================================================================
-# Registro de todas as decisões estratégicas tomadas pelo Chief of Movement.
+# Registro de todas as decisões estratégicas tomadas pelo Movement Chief.
 # Documentar decisões com contexto, alternativas e trade-offs garante
 # transparência e permite aprender com o passado.
 #
@@ -19,7 +19,7 @@ decisoes:
     tipo: "estrategica"
     impacto: "alto"
     data: "2026-01-15"
-    decidido_por: "chief-of-movement"
+    decidido_por: "movement-chief"
 
     contexto:
       situacao: "Precisávamos definir o enemy central do movimento"
@@ -62,7 +62,7 @@ decisoes:
     tipo: "estrategica"
     impacto: "alto"
     data: "2026-01-20"
-    decidido_por: "chief-of-movement"
+    decidido_por: "movement-chief"
 
     contexto:
       situacao: "Recursos limitados, precisávamos escolher uma plataforma"
@@ -96,7 +96,7 @@ template_nova_decisao:
   tipo: "[estrategica | tatica | operacional | emergencial]"
   impacto: "[alto | medio | baixo]"
   data: "[YYYY-MM-DD]"
-  decidido_por: "chief-of-movement"
+  decidido_por: "movement-chief"
   contexto:
     situacao: "[Descreva o contexto]"
   alternativas_consideradas: []

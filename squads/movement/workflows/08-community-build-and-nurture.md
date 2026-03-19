@@ -184,6 +184,11 @@ primeiro wow     participação      mentoria          reconhecimento
 | **Checklists** | `checklists/community-activation-quality.md`, `checklists/comunidade/onboarding-and-roles.md`, `checklists/comunidade/champion-program-quality.md`, `checklists/comunidade/engagement-rituals.md`, `checklists/comunidade/moderation-and-safety.md`, `checklists/comunidade/community-health-indicators.md` |
 | **Registries** | `data/registries/community-roles/`, `data/registries/champion-registry/`, `data/metrics/community-growth-quality.md` |
 
+### Níveis de Quality Gate Aplicáveis
+- **Nível 2 (Task Gate):** Checklists de onboarding, engajamento e champion aplicados em cada fase
+- **Nível 3 (Domain Gate):** Gate de comunidade valida saúde e qualidade das interações semanalmente
+- **Nível 4 (Chief Gate):** Movement Chief aprova promoções a champion e mudanças estruturais
+
 ### Regras de Fluxo
 - **Quality Gate entre fases:** Onboarding completion ≥ 60% D7; Retenção D30 ≥ 50%; Champions identificados e ativados mensalmente
 - **Rework:** Se retenção D30 < 50% → revisar experiência de onboarding e valor percebido

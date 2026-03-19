@@ -4,7 +4,7 @@ name: "Aprovação e Gestão de Risco Reputacional"
 squad: movement
 type: checklist
 category: chief
-agent: chief-of-movement
+agent: movement-chief
 version: "1.0"
 tags: [risco, reputação, aprovação, limites, compliance]
 ---

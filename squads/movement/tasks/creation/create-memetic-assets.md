@@ -4,7 +4,7 @@ name: "Criar Assets Meméticos e Variações"
 squad: movement
 type: task
 category: creation
-agents: [manifestador, identitario]
+agents: [manifestador, estrategista-de-ciclo]
 frameworks: [manifestor-meme-factory, memetic-variation-selection, cycle-cultural-wave-surfing]
 checklists: [memetic-asset-quality, memetics/memetic-fidelity, memetics/meme-variation-and-selection, memetics/format-platform-fit]
 templates: [outputs/meme-variation-set]

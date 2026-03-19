@@ -4,7 +4,7 @@ name: "Definir Condições de Vitória 30/60/90"
 squad: movement
 type: task
 category: strategy
-agents: [movement-architect, estrategista-de-ciclo, analista-de-impacto]
+agents: [movement-chief, analista-de-impacto]
 frameworks: [chief-win-conditions-30-60-90, chief-movement-business-canvas, impact-metrics-model]
 checklists: [chief/chief-win-condition, chief/chief-alignment-with-business, impact-dashboard-quality]
 templates: [plans/30-60-90-launch-plan, reports/movement-health-dashboard]

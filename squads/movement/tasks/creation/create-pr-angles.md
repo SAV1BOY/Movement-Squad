@@ -4,7 +4,7 @@ name: "Criar Ângulos de PR e Narrativas"
 squad: movement
 type: task
 category: creation
-agents: [estrategista-de-ciclo, manifestador]
+agents: [manifestador, movement-chief]
 frameworks: [narrative-graph-framework]
 checklists: [pr/narrative-pitch-quality, pr/spokesperson-readiness]
 templates: [outputs/pr-pitch]

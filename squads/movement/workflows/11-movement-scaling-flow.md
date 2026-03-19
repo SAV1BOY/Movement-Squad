@@ -205,6 +205,11 @@ gatilhos ok      líderes locais    segmentos/regiões segmentos          próxi
 | **Checklists** | `checklists/movement-scaling-quality.md`, `checklists/architect/architect-scalability-audit.md`, `checklists/community-activation-quality.md`, `checklists/impact-dashboard-quality.md` |
 | **Registries** | `data/registries/decision-log.yaml`, `data/metrics/movement-health-score.md`, `data/metrics/community-growth-quality.md` |
 
+### Níveis de Quality Gate Aplicáveis
+- **Nível 2 (Task Gate):** Checklists de scaling e escalabilidade aplicados em cada fase de expansão
+- **Nível 4 (Chief Gate):** Movement Chief aprova decisão de escalar e valida Scaling Report
+- **Nível 6 (HRM Gate):** Stakeholder humano valida investimento e decisão de expansão para novos mercados
+
 ### Regras de Fluxo
 - **Quality Gate entre fases:** Diagnóstico→Preparação: Scaling Readiness Score ≥ 75; Piloto→Scaling: retenção D30 ≥ 40% em novo segmento; Scaling→Consolidação: impacto no core < -5%
 - **Rework:** Se diluição detectada durante scaling → pausar expansão e reconsolidar core

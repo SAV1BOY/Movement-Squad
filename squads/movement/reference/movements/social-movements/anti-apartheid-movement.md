@@ -118,6 +118,6 @@ em escalas local, nacional e internacional:
 
 - `frameworks/identity-architecture.md` — Ubuntu como modelo de identidade coletiva
 - `frameworks/narrative-strategy.md` — Herói ausente e mitologia de movimento
-- `agents/community-architect-agent.md` — Construção de comunidade multifacetada
+- `agents/movement-architect-agent.md` — Construção de comunidade multifacetada
 - `reference/movements/social-movements/civil-rights-movement.md` — Paralelos com EUA
 - `reference/movements/social-movements/blm-movement.md` — Continuidade da luta racial

@@ -4,7 +4,7 @@ name: "Loop Semanal de Aprendizado (Kaizen)"
 squad: movement
 type: task
 category: operations
-agents: [movement-architect, estrategista-de-ciclo, analista-de-impacto]
+agents: [analista-de-impacto, movement-chief]
 frameworks: [ralphloop-kaizen, impact-learning-loop]
 checklists: [impacto/learning-to-playbook]
 templates: [reports/weekly-readout, operational/learning-entry]

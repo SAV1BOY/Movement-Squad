@@ -87,7 +87,7 @@ Cada nível é sequencial. O output só avança para o próximo nível se aprova
 
 ### Nível 4 — Chief Review
 
-- **Quem aplica:** Movement Chief (chief-of-movement)
+- **Quem aplica:** Movement Chief (movement-chief)
 - **Quando:** Antes de publicação, lançamento ou handoff externo
 - **Critérios:**
   - Alinhamento estratégico com a tese do movimento
@@ -139,7 +139,7 @@ Output reprovado → Feedback → Rework → Resubmissão ao mesmo nível
 
 ## Exemplo de Cascata Completa
 
-**Cenário:** Narrative Architect cria um manifesto para o movimento.
+**Cenário:** Manifestador cria um manifesto para o movimento.
 
 | Nível | Ação | Resultado |
 |-------|------|-----------|

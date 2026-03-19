@@ -203,6 +203,11 @@ feito
 | **Checklists** | `checklists/creator-influencer-brief-quality.md`, `checklists/partner-alignment-quality.md`, `checklists/distribuicao/paid-amplification-guardrails.md`, `checklists/distribuicao/attribution-sanity-check.md` |
 | **Registries** | `data/registries/creator-partners/`, `data/registries/distribution-plans/` |
 
+### Níveis de Quality Gate Aplicáveis
+- **Nível 2 (Task Gate):** Checklists de brief e alinhamento de parceiro aplicados em cada fase
+- **Nível 4 (Chief Gate):** Movement Chief aprova conteúdo de creators antes de publicação
+- **Nível 5 (Cross-Squad Gate):** Squad de Traffic valida assets para amplificação paga
+
 ### Regras de Fluxo
 - **Quality Gate entre fases:** Scout→Brief: shortlist aprovada; Brief→Approve: conteúdo alinhado com thesis; Approve→Amplify: publicação confirmada; Amplify→Measure: dados de 2 semanas coletados
 - **Rework:** Se conteúdo do creator desalinhado → feedback específico e nova rodada de aprovação

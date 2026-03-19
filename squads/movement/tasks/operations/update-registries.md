@@ -4,7 +4,7 @@ name: "Atualizar Registros"
 squad: movement
 type: task
 category: operations
-agents: [analista-de-impacto, estrategista-de-ciclo]
+agents: [movement-architect]
 frameworks: [architect-system-map]
 checklists: [governance/decision-log-standard]
 templates: [operational/decision-log-entry]

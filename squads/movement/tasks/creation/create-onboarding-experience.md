@@ -4,7 +4,7 @@ name: "Criar Experiência de Onboarding"
 squad: movement
 type: task
 category: creation
-agents: [movement-architect, manifestador, identitario]
+agents: [movement-architect, identitario]
 frameworks: [identity-belonging-gradient, community-flywheel]
 checklists: [comunidade/onboarding-and-roles, community-activation-quality]
 templates: [outputs/movement-onboarding-kit]

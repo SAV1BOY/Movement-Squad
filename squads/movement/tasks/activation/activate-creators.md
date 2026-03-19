@@ -4,7 +4,7 @@ name: "Ativar Creators e Influenciadores"
 squad: movement
 type: task
 category: activation
-agents: [movement-chief, estrategista-de-ciclo]
+agents: [manifestador, estrategista-de-ciclo]
 frameworks: [creator-movement-framework, cycle-momentum-mapping]
 checklists: [creator-influencer-brief-quality, distribuicao/paid-amplification-guardrails]
 templates: [outputs/creator-brief-package]

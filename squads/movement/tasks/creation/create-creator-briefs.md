@@ -4,7 +4,7 @@ name: "Criar Briefs para Creators e Influenciadores"
 squad: movement
 type: task
 category: creation
-agents: [estrategista-de-ciclo, manifestador, movement-chief]
+agents: [manifestador, estrategista-de-ciclo]
 frameworks: [creator-movement-framework, distribution-trident]
 checklists: [creator-influencer-brief-quality, partner-alignment-quality]
 templates: [outputs/creator-brief-package]

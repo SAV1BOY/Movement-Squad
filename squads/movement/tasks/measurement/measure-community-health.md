@@ -4,7 +4,7 @@ name: "Medir Saúde da Comunidade"
 squad: movement
 type: task
 category: measurement
-agents: [analista-de-impacto, movement-architect]
+agents: [analista-de-impacto]
 frameworks: [community-flywheel, impact-cohort-analysis]
 checklists: [comunidade/community-health-indicators, impacto/vanity-metric-filter]
 templates: [reports/community-health-report]

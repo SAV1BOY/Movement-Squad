@@ -4,7 +4,7 @@ name: "Ativar Employee Advocacy"
 squad: movement
 type: task
 category: activation
-agents: [movement-chief, movement-architect]
+agents: [movement-chief, identitario]
 frameworks: [employee-movement-framework, identity-collective-narrative]
 checklists: [community-activation-quality]
 templates: [outputs/community-playbook]

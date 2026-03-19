@@ -4,7 +4,7 @@ name: "Projetar Sistema de Identidade Coletiva"
 squad: movement
 type: task
 category: strategy
-agents: [movement-architect, identitario, estrategista-de-ciclo]
+agents: [identitario, movement-architect, manifestador]
 frameworks: [identity-collective-narrative, identity-symbol-design, identity-belonging-gradient]
 checklists: [identity-system-quality, identidade/symbol-system, identidade/boundary-and-belonging, identidade/identity-toxic-exclusion-check]
 templates: [outputs/identity-charter]

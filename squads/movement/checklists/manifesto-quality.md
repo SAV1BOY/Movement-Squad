@@ -84,7 +84,7 @@ e citado de memória.
 1. Devolver ao Narrative Agent com feedback específico por seção
 2. Solicitar reescrita com prazo de 48 horas, mantendo a essência da tese
 3. Realizar teste de leitura em voz alta com 3 pessoas antes de resubmeter
-4. Se falhar no grupo "Contraste Emocional", revisar com Cultural Intelligence Agent
+4. Se falhar no grupo "Contraste Emocional", revisar com fenomenologo
 5. Bloquear publicação até aprovação completa
 
 ## Cross-references

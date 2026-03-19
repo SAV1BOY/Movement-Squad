@@ -36,7 +36,7 @@ tiers:
   platinum:
     descricao: "Champions excepcionais — praticamente co-fundadores do movimento"
     beneficios: ["Todos de gold", "Participação em decisões estratégicas"]
-    criterios_promocao: "Convite exclusivo do Chief of Movement"
+    criterios_promocao: "Convite exclusivo do Movement Chief"
 
 champions:
 
@@ -66,7 +66,7 @@ champions:
 
     contato:
       canal_preferido: "DM LinkedIn"
-      responsavel: "community-architect"
+      responsavel: "movement-architect"
       ultima_interacao: "2026-03-08"
 
   - id: "CHAMP-002"
@@ -94,7 +94,7 @@ champions:
 
     contato:
       canal_preferido: "Telegram"
-      responsavel: "community-architect"
+      responsavel: "movement-architect"
       ultima_interacao: "2026-03-07"
 
 metricas_globais:
@@ -110,6 +110,6 @@ metricas_globais:
 
 revisao:
   frequencia: "Mensal"
-  responsavel: "community-architect"
-  aprovacao: "chief-of-movement"
+  responsavel: "movement-architect"
+  aprovacao: "movement-chief"
   proxima_revisao: "2026-04-01"

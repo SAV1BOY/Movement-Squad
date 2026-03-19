@@ -4,7 +4,7 @@ name: "Radar Semanal de Sinais"
 squad: movement
 type: task
 category: operations
-agents: [fenomenologo]
+agents: [fenomenologo, estrategista-de-ciclo]
 frameworks: [phenomenology-signal-clustering, radar-layer]
 checklists: [fenomenologia/phenomenology-signal-capture]
 templates: [operational/signal-capture-entry]

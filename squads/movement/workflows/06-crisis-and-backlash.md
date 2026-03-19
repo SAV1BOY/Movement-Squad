@@ -202,6 +202,11 @@ detectado        resposta          comunidade         ajustes           atualiza
 | **Checklists** | `checklists/crisis-and-backlash-quality.md`, `checklists/pr/backlash-mitigation.md`, `checklists/pr/spokesperson-readiness.md`, `checklists/comunidade/moderation-and-safety.md`, `checklists/comunidade/community-crisis-protocol.md` |
 | **Registries** | `data/registries/decision-log.yaml`, `data/registries/lessons-learned-registry.yaml` |
 
+### Níveis de Quality Gate Aplicáveis
+- **Nível 4 (Chief Gate):** Movement Chief aprova resposta oficial antes de publicação
+- **Nível 5 (Cross-Squad Gate):** Squads de PR e Brand validam messaging de crise
+- **Nível 6 (HRM Gate):** Stakeholder humano valida decisões de alto impacto reputacional
+
 ### Regras de Fluxo
 - **Quality Gate entre fases:** Fase 1→2: crise confirmada; Fase 2→3: resposta aprovada; Fase 3→4: resposta publicada; Fase 4→5: crise em declínio
 - **Rework:** Se resposta escalou crise → reavaliar na Fase 2 com nova informação

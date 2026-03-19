@@ -4,7 +4,7 @@ name: "Ativar Comunidade"
 squad: movement
 type: task
 category: activation
-agents: [movement-architect, movement-chief]
+agents: [movement-architect, identitario]
 frameworks: [community-flywheel, identity-belonging-gradient]
 checklists: [community-activation-quality, comunidade/onboarding-and-roles, comunidade/moderation-and-safety]
 templates: [outputs/community-playbook]

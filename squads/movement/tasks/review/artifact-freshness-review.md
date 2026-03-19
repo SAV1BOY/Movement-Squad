@@ -4,7 +4,7 @@ name: "Review de Frescor dos Artefatos"
 squad: movement
 type: task
 category: review
-agents: [manifestador, identitario, fenomenologo]
+agents: [manifestador, estrategista-de-ciclo]
 frameworks: [memetic-variation-selection, manifestor-artifact-stack]
 checklists: [manifesto/artifact-shelf-life-check, memetics/meme-lifecycle-audit]
 templates: [reports/narrative-audit-report]

@@ -4,7 +4,7 @@ name: "Definição de Escopo do Movimento"
 squad: movement
 type: checklist
 category: chief
-agent: chief-of-movement
+agent: movement-chief
 version: "1.0"
 tags: [escopo, foco, prioridades, limites, estratégia]
 ---

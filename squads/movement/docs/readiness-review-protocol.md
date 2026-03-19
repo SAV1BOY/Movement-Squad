@@ -146,7 +146,7 @@ review:
   tipo: "pre-scaling"
   movimento: "Sexta do Fracasso"
   participantes:
-    - chief-of-movement
+    - movement-chief
     - movement-architect
     - analista-de-impacto
     - stakeholder-marketing
@@ -160,7 +160,7 @@ review:
       responsavel: "estrategista-de-ciclo"
       prazo: "2026-03-22"
     - acao: "Chief documenta playbook de crise"
-      responsavel: "chief-of-movement"
+      responsavel: "movement-chief"
       prazo: "2026-03-22"
   proxima_review: "2026-03-29"
   registrado_por: "movement-architect"

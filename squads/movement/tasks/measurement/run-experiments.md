@@ -4,7 +4,7 @@ name: "Executar Experimentos e Readout"
 squad: movement
 type: task
 category: measurement
-agents: [analista-de-impacto, estrategista-de-ciclo]
+agents: [analista-de-impacto, movement-chief]
 frameworks: [impact-experiment-design, impact-learning-loop]
 checklists: [experimentation-quality, impacto/experiment-readout]
 templates: [outputs/experiment-plan, reports/experiment-results-report]

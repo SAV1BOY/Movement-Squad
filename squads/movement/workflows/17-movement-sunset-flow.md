@@ -199,6 +199,11 @@ dados claros     plano aprovado    membros           obrigações        legado
 | **Checklists** | `checklists/movement-sunset-quality.md`, `checklists/chief/chief-kill-criteria.md`, `checklists/chief/chief-stakeholder-communication.md` |
 | **Registries** | `data/registries/decision-log.yaml`, `data/registries/lessons-learned-registry.yaml` |
 
+### Níveis de Quality Gate Aplicáveis
+- **Nível 4 (Chief Gate):** Movement Chief valida diagnóstico de kill criteria e plano de transição
+- **Nível 5 (Cross-Squad Gate):** Squads parceiros validam plano de encerramento de handoffs
+- **Nível 6 (HRM Gate):** Stakeholder humano aprova decisão final de sunset ou pivot
+
 ### Regras de Fluxo
 - **Quality Gate entre fases:** Diagnóstico→Decisão: kill criteria documentados; Decisão→Comunicação: decisão formal aprovada por Chief + stakeholders; Comunicação→Encerramento: comunidade informada; Encerramento→Legado: obrigações cumpridas
 - **Rework:** Se comunidade pede reconsideração → ouvir, mas manter decisão se fundamentos não mudaram

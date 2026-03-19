@@ -4,7 +4,7 @@ name: "Medir Health Score do Movimento"
 squad: movement
 type: task
 category: measurement
-agents: [analista-de-impacto, estrategista-de-ciclo]
+agents: [analista-de-impacto]
 frameworks: [movement-health-score-framework, impact-cohort-analysis]
 checklists: [impact-dashboard-quality, impacto/vanity-metric-filter]
 templates: [reports/movement-health-dashboard]

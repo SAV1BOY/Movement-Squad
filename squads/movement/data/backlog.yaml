@@ -18,7 +18,7 @@ items:
     titulo: "Expandir ritual Sexta do Fracasso para LinkedIn"
     prioridade: "alta"
     status: "pendente"
-    owner: "narrative-architect"
+    owner: "manifestador"
     data_criacao: "2026-03-10"
     descricao: >
       O ritual Sexta do Fracasso foi validado no Discord com 2.7x mais engajamento
@@ -37,7 +37,7 @@ items:
     titulo: "Criar programa de embaixadores Tier 2"
     prioridade: "média"
     status: "pendente"
-    owner: "community-architect"
+    owner: "movement-architect"
     data_criacao: "2026-03-12"
     descricao: >
       Atualmente temos champions orgânicos mas sem estrutura formal de embaixadores.

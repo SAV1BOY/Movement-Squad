@@ -4,7 +4,7 @@ name: "Escrever Manifesto + Slogans + Kit"
 squad: movement
 type: task
 category: creation
-agents: [manifestador, movement-architect, identitario]
+agents: [manifestador, identitario, movement-chief]
 frameworks: [manifestor-manifesto-architecture, manifestor-artifact-stack, memetic-variation-selection]
 checklists: [manifesto-quality, manifesto/manifesto-structure, memetic-asset-quality]
 templates: [outputs/manifesto, outputs/slogan-bank, outputs/artifact-kit]

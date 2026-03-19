@@ -4,7 +4,7 @@ name: "Planejar Sequência de Lançamento"
 squad: movement
 type: task
 category: strategy
-agents: [movement-architect, estrategista-de-ciclo, movement-chief]
+agents: [estrategista-de-ciclo, movement-chief, movement-architect]
 frameworks: [cycle-launch-sequencing, cycle-attention-calendar, distribution-trident]
 checklists: [launch-sequencing-quality, ciclo/cycle-timing-window, distribuicao/channel-mix-quality]
 templates: [outputs/distribution-plan, plans/30-60-90-launch-plan]

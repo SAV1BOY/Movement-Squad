@@ -4,7 +4,7 @@ name: "Planejar Acoplamento Movimento-Produto"
 squad: movement
 type: task
 category: strategy
-agents: [movement-architect, estrategista-de-ciclo, analista-de-impacto]
+agents: [movement-chief, analista-de-impacto]
 frameworks: [movement-to-product-coupling, product-led-movement-framework]
 checklists: [movement-to-product-fit-quality, chief/chief-alignment-with-business]
 templates: []

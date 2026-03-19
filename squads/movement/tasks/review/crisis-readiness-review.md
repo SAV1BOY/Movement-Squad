@@ -4,7 +4,7 @@ name: "Review de Prontidão para Crise"
 squad: movement
 type: task
 category: review
-agents: [estrategista-de-ciclo, movement-architect]
+agents: [movement-chief, movement-architect]
 frameworks: [crisis-to-movement-framework, governance-layer]
 checklists: [crisis-and-backlash-quality, pr/backlash-mitigation]
 templates: [plans/crisis-response-plan]

@@ -4,7 +4,7 @@ name: "Onboarding de Novo Membro do Squad"
 squad: movement
 type: task
 category: operations
-agents: [movement-architect, estrategista-de-ciclo]
+agents: [movement-chief]
 frameworks: [identity-belonging-gradient]
 checklists: [comunidade/onboarding-and-roles]
 templates: [outputs/movement-onboarding-kit]

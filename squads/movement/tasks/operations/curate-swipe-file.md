@@ -4,7 +4,7 @@ name: "Curadoria do Swipe File"
 squad: movement
 type: task
 category: operations
-agents: [manifestador, fenomenologo, identitario]
+agents: [manifestador, fenomenologo]
 frameworks: [memetic-variation-selection]
 checklists: [memetic-asset-quality]
 templates: []

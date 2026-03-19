@@ -173,6 +173,11 @@ definida         oportunidades     definidas         publicar
 | **Checklists** | `checklists/narrative-coherence-quality.md`, `checklists/architect/architect-system-coherence.md`, `checklists/architect/architect-cross-squad-integration.md` |
 | **Registries** | `data/registries/decision-log.yaml` |
 
+### Níveis de Quality Gate Aplicáveis
+- **Nível 3 (Domain Gate):** Gate de governance valida consistência narrativa na auditoria mensal
+- **Nível 4 (Chief Gate):** Movement Chief valida correções de desvio narrativo críticas
+- **Nível 5 (Cross-Squad Gate):** Squads parceiros validam guidelines atualizados recebidos no sync
+
 ### Regras de Fluxo
 - **Quality Gate entre fases:** Preparação→Sessão: auditoria completa; Sessão→Follow-up: decisões documentadas; Monitoramento: consistência ≥ 80%
 - **Rework:** Se desvio crítico detectado → intervenção imediata com squad responsável

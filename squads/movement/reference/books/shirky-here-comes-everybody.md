@@ -99,5 +99,5 @@ Exercício para projetar a arquitetura de participação do movimento:
 - [[jenkins-convergence-culture]] — Cultura participativa como expressão da organização sem organizações
 - [[gladwell-tipping-point-book]] — Dinâmicas de massa crítica em grupos auto-organizados
 - [[frameworks/collective-action-framework]] — Framework de ação coletiva para movimentos
-- [[agents/community-architect-agent]] — Agente para design de comunidades auto-organizadas
+- [[agents/movement-architect-agent]] — Agente para design de comunidades auto-organizadas
 - [[checklists/group-formation-checklist]] — Checklist de formação de grupo eficaz

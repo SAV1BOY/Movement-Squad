@@ -125,6 +125,6 @@ simultaneamente ato ideológico e demonstração de competência.
 
 - `frameworks/community-growth-engine.md` — Contribuição voluntária como crescimento
 - `frameworks/identity-architecture.md` — Meritocracia como sistema de identidade
-- `agents/community-architect-agent.md` — Gestão de comunidade de contribuidores
+- `agents/movement-architect-agent.md` — Gestão de comunidade de contribuidores
 - `reference/movements/digital-movements/indiehackers-movement.md` — Builders como tribo
 - `reference/movements/brand-movements/notion-community-led.md` — Community-led growth

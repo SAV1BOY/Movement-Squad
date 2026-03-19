@@ -4,7 +4,7 @@ name: "Sincronização Cross-Squad"
 squad: movement
 type: task
 category: operations
-agents: [movement-architect, estrategista-de-ciclo]
+agents: [movement-chief, movement-architect]
 frameworks: [architect-channel-architecture]
 checklists: [architect/architect-cross-squad-integration]
 templates: [operational/handoff-template]

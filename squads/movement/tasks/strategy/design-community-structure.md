@@ -4,7 +4,7 @@ name: "Estruturar Comunidade"
 squad: movement
 type: task
 category: strategy
-agents: [movement-architect, estrategista-de-ciclo]
+agents: [movement-architect, identitario]
 frameworks: [community-flywheel, identity-belonging-gradient]
 checklists: [community-activation-quality, comunidade/onboarding-and-roles, comunidade/champion-program-quality]
 templates: [outputs/community-playbook, outputs/champion-program-blueprint]

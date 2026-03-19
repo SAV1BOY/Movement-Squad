@@ -20,14 +20,14 @@ que não ressoam e morrem na largada.
 ## Quando Usar
 
 - Antes de aprovar um insight como base para criação de movimento
-- Quando um Cultural Intelligence Agent entrega um relatório de sinais
+- Quando um fenomenologo entrega um relatório de sinais
 - Na revisão de insights que alimentam briefs, teses ou narrativas
 - Quando há dúvida sobre a autenticidade de um insight apresentado
 - Em auditorias trimestrais da base de insights ativos
 
 ## Agentes Responsáveis
 
-- **Cultural Intelligence Agent** — Autor e curador dos insights
+- **fenomenologo** — Autor e curador dos insights
 - **Movement Strategist Agent** — Consumidor principal dos insights
 - **Review & QA Agent** — Executa este checklist como gate de qualidade
 - **Community Agent** — Fornece dados brutos de conversas e comportamentos
@@ -81,7 +81,7 @@ que não ressoam e morrem na largada.
 
 ## Ação se Falhar
 
-1. Devolver o insight ao Cultural Intelligence Agent com gaps destacados
+1. Devolver o insight ao fenomenologo com gaps destacados
 2. Solicitar coleta adicional de evidências com prazo de 72 horas
 3. Proibir uso do insight em briefs ou teses até revalidação
 4. Se o insight falhar duas vezes, descartar e documentar o motivo no repositório

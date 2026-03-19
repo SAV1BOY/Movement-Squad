@@ -4,7 +4,7 @@ name: "Mapear Contra-Narrativas"
 squad: movement
 type: task
 category: research
-agents: [fenomenologo, estrategista-de-ciclo]
+agents: [fenomenologo]
 frameworks: [phenomenology-counter-narrative, narrative-graph-framework]
 checklists: [fenomenologia/counter-signal-capture]
 templates: [outputs/cultural-insight-report]

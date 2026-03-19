@@ -173,6 +173,11 @@ pre-read          o que impactamos  próximos passos   stakeholder deck
 | **Checklists** | `checklists/chief/chief-kill-criteria.md`, `checklists/impact-dashboard-quality.md`, `checklists/chief/chief-win-condition.md`, `checklists/chief/chief-alignment-with-business.md` |
 | **Registries** | `data/metrics/maturity-score-history.md`, `data/metrics/movement-health-score.md`, `data/metrics/business-impact.md`, `data/registries/decision-log.yaml` |
 
+### Níveis de Quality Gate Aplicáveis
+- **Nível 4 (Chief Gate):** Movement Chief conduz review e valida decisões estratégicas do trimestre
+- **Nível 5 (Cross-Squad Gate):** Squads parceiros validam OKRs e prioridades que os afetam
+- **Nível 6 (HRM Gate):** Stakeholder humano aprova decisões de kill/pivot e alocação de budget
+
 ### Regras de Fluxo
 - **Quality Gate entre fases:** Pré-work→Sessão: dados completos e pre-read distribuído; Dia 1→Dia 2: diagnóstico claro; Pós-sessão: tudo documentado e comunicado
 - **Rework:** Se pontos controversos no Dia 1 → resolver antes de planejar futuro no Dia 2

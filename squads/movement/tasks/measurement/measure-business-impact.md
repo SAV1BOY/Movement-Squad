@@ -4,7 +4,7 @@ name: "Medir Impacto em Negócio"
 squad: movement
 type: task
 category: measurement
-agents: [analista-de-impacto, estrategista-de-ciclo]
+agents: [analista-de-impacto, movement-chief]
 frameworks: [impact-movement-attribution, impact-metrics-model]
 checklists: [impacto/causal-attribution-sanity, chief/chief-alignment-with-business]
 templates: [reports/movement-impact-report]

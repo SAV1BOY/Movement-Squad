@@ -4,7 +4,7 @@ name: "Mapear Tensões Culturais do Setor"
 squad: movement
 type: task
 category: research
-agents: [fenomenologo]
+agents: [fenomenologo, identitario]
 frameworks: [tension-to-movement-framework, phenomenology-counter-narrative]
 checklists: [fenomenologia/tension-mapping, fenomenologia/counter-signal-capture]
 templates: [outputs/cultural-insight-report]

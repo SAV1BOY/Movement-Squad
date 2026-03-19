@@ -4,7 +4,7 @@ name: "Criar Programa de Champions"
 squad: movement
 type: task
 category: creation
-agents: [movement-architect, estrategista-de-ciclo]
+agents: [movement-architect, identitario]
 frameworks: [identity-belonging-gradient, community-flywheel]
 checklists: [comunidade/champion-program-quality, community-activation-quality]
 templates: [outputs/champion-program-blueprint]

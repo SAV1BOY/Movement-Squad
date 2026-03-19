@@ -169,6 +169,11 @@ mínimo          Importante/          preenchidos       para squad
 | **Checklists** | `checklists/cultural-insight-quality.md`, `checklists/fenomenologia/phenomenology-signal-capture.md`, `checklists/fenomenologia/signal-source-diversity.md`, `checklists/ciclo/trend-vs-fad-filter.md` |
 | **Registries** | `data/registries/signal-archive.yaml`, `data/registries/decision-log.yaml` |
 
+### Níveis de Quality Gate Aplicáveis
+- **Nível 1 (Agent Self-Eval):** Fenomenólogo valida cada Signal Card antes de registrar
+- **Nível 2 (Task Gate):** Checklist de captura aplicado em cada fase antes de transição
+- **Nível 3 (Domain Gate):** Gate de research valida qualidade dos sinais consolidados semanalmente
+
 ### Regras de Fluxo
 - **Quality Gate entre fases:** Cada fase tem Decision Gate próprio que bloqueia avanço se critérios não atingidos
 - **Rework:** Se sinal urgente perdido → revisar cobertura de fontes e ajustar lista de monitoramento

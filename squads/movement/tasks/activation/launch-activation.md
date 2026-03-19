@@ -4,7 +4,7 @@ name: "Ativar Lançamento por Fase e Canal"
 squad: movement
 type: task
 category: activation
-agents: [movement-chief, estrategista-de-ciclo, movement-architect]
+agents: [movement-chief, movement-architect, estrategista-de-ciclo, analista-de-impacto]
 frameworks: [distribution-trident, community-flywheel, cycle-launch-sequencing, ralphloop-kaizen]
 checklists: [distribution-plan-quality, launch-sequencing-quality, community-activation-quality, impact-dashboard-quality]
 templates: [outputs/distribution-plan, outputs/community-playbook, reports/weekly-readout]

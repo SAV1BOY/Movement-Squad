@@ -4,7 +4,7 @@ name: "Rastrear Tendências Culturais"
 squad: movement
 type: task
 category: research
-agents: [fenomenologo]
+agents: [fenomenologo, estrategista-de-ciclo]
 frameworks: [phenomenology-signal-clustering, cycle-cultural-wave-surfing]
 checklists: [ciclo/trend-vs-fad-filter, fenomenologia/signal-source-diversity]
 templates: [outputs/cultural-insight-report]

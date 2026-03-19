@@ -4,7 +4,7 @@ name: "Gerar Thesis do Movimento"
 squad: movement
 type: task
 category: strategy
-agents: [movement-architect, estrategista-de-ciclo]
+agents: [movement-architect, identitario, movement-chief]
 frameworks: [enemy-dream-mechanism, identity-collective-narrative, identity-enemy-construction, movement-engine-5-loop]
 checklists: [movement-thesis-quality, identidade/we-us-now-identity, architect/architect-movement-engine-audit]
 templates: [outputs/movement-thesis, outputs/identity-charter]

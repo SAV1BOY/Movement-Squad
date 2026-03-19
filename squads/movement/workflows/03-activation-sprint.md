@@ -205,6 +205,11 @@ budget           assets prontos    PR ativados         UGC amplificado  learning
 | **Checklists** | `checklists/distribution-plan-quality.md`, `checklists/launch-sequencing-quality.md`, `checklists/community-activation-quality.md`, `checklists/creator-influencer-brief-quality.md`, `checklists/distribuicao/paid-amplification-guardrails.md` |
 | **Registries** | `data/registries/distribution-plans/`, `data/registries/creator-partners/`, `data/registries/experiment-log.yaml`, `data/metrics/earned-media-metrics.md` |
 
+### Níveis de Quality Gate Aplicáveis
+- **Nível 2 (Task Gate):** Checklists de distribuição, comunidade e creators aplicados em cada fase
+- **Nível 4 (Chief Gate):** Movement Chief aprova Sprint Plan e valida Sprint Report final
+- **Nível 5 (Cross-Squad Gate):** Squads receptores validam assets e handoffs durante ativação
+
 ### Regras de Fluxo
 - **Quality Gate entre fases:** Fase 1→2: plan aprovado pelo Architect; Fase 2→3: tudo preparado; Fase 3→4: tração positiva; Fase 4→5: ROI positivo
 - **Rework:** Se tração fraca → ajustar messaging ou redirecionar budget antes de amplificar

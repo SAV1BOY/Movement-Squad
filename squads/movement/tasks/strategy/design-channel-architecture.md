@@ -4,7 +4,7 @@ name: "Projetar Arquitetura de Canais"
 squad: movement
 type: task
 category: strategy
-agents: [estrategista-de-ciclo, movement-chief]
+agents: [movement-architect, estrategista-de-ciclo]
 frameworks: [architect-channel-architecture, distribution-trident]
 checklists: [architect/architect-channel-role-clarity, distribuicao/channel-mix-quality]
 templates: [outputs/distribution-plan]

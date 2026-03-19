@@ -191,6 +191,11 @@ porque Z"        amostra,          dados coletados  1 página,         pivotar o
 | **Checklists** | `checklists/experimentation-quality.md`, `checklists/impacto/experiment-readout.md`, `checklists/impacto/vanity-metric-filter.md` |
 | **Registries** | `data/registries/experiment-log.yaml`, `data/registries/lessons-learned-registry.yaml` |
 
+### Níveis de Quality Gate Aplicáveis
+- **Nível 1 (Agent Self-Eval):** Analista valida design do experimento antes de execução
+- **Nível 2 (Task Gate):** Checklists de experimentação e readout aplicados em cada fase
+- **Nível 4 (Chief Gate):** Movement Chief valida decisões de implementação de mudanças permanentes
+
 ### Regras de Fluxo
 - **Quality Gate entre fases:** Hipótese→Design: hipótese formatada (Se X, então Y porque Z); Design→Execução: experimento projetado com variáveis claras; Execução→Readout: teste completou período; Readout→Decisão: veredicto claro
 - **Rework:** Se resultado inconclusivo → redesenhar teste com mais rigor ou mais amostra

@@ -4,7 +4,7 @@ name: "Planejar Escala do Movimento"
 squad: movement
 type: task
 category: strategy
-agents: [movement-architect, estrategista-de-ciclo]
+agents: [movement-chief, movement-architect]
 frameworks: [movement-lifecycle-framework, scaling-layer]
 checklists: [movement-scaling-quality, architect/architect-scalability-audit]
 templates: [plans/movement-scaling-plan]

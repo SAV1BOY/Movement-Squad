@@ -189,6 +189,11 @@ cria conteúdo    via movimento     de membro                          case stud
 | **Checklists** | `checklists/movement-to-product-fit-quality.md`, `checklists/chief/chief-alignment-with-business.md`, `checklists/impacto/causal-attribution-sanity.md` |
 | **Registries** | `data/registries/decision-log.yaml`, `data/metrics/business-impact.md` |
 
+### Níveis de Quality Gate Aplicáveis
+- **Nível 2 (Task Gate):** Checklists de product-fit e atribuição causal aplicados em cada fase
+- **Nível 4 (Chief Gate):** Movement Chief valida coupling map e decisões de conversão
+- **Nível 6 (HRM Gate):** Stakeholder humano aprova estratégia de monetização do movimento
+
 ### Regras de Fluxo
 - **Quality Gate entre fases:** Engajamento→Trial: touchpoints gerando consideração; Trial→Conversão: ativação alta; Conversão→Advocacy: NPS alto + referrals ativos
 - **Rework:** Se conversão baixa → revisar coupling e trial experience

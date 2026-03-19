@@ -165,6 +165,11 @@ do's/don'ts      squad             outputs            guidelines
 | **Checklists** | `checklists/architect/architect-cross-squad-integration.md`, `checklists/narrative-coherence-quality.md`, `checklists/architect/architect-system-coherence.md` |
 | **Registries** | `data/registries/decision-log.yaml` |
 
+### Níveis de Quality Gate Aplicáveis
+- **Nível 4 (Chief Gate):** Movement Chief valida Narrative Kit antes de distribuição cross-squad
+- **Nível 5 (Cross-Squad Gate):** Squads receptores validam qualidade e completude do handoff narrativo
+- **Nível 6 (HRM Gate):** Stakeholder humano valida narrativa em casos de posicionamento público sensível
+
 ### Regras de Fluxo
 - **Quality Gate entre fases:** Preparação→Sessão: Narrative Kit atualizado; Sessão→Follow-up: decisões documentadas; Auditoria: consistência ≥ 80%
 - **Rework:** Se consistência < 80% → intensificar suporte e treinamento com squads afetados

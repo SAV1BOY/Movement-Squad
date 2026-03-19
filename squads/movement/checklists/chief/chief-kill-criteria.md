@@ -4,7 +4,7 @@ name: "Critérios de Encerramento do Movimento"
 squad: movement
 type: checklist
 category: chief
-agent: chief-of-movement
+agent: movement-chief
 version: "1.0"
 tags: [encerramento, kill-switch, decisão, racionalidade, corte]
 ---

@@ -4,7 +4,7 @@ name: "Review Mensal do Movimento"
 squad: movement
 type: task
 category: operations
-agents: [movement-architect, estrategista-de-ciclo, analista-de-impacto]
+agents: [movement-chief, analista-de-impacto]
 frameworks: [movement-health-score-framework, impact-metrics-model]
 checklists: [impact-dashboard-quality]
 templates: [reports/monthly-movement-report]

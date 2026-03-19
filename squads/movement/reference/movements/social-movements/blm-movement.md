@@ -126,6 +126,6 @@ sexualidade e classe, recusando a simplificação do ativismo negro anterior.
 
 - `frameworks/identity-architecture.md` — Nome como teste de valores e identidade
 - `frameworks/mobilization-playbook.md` — Descentralização e mobilização por vídeo
-- `agents/community-architect-agent.md` — Capítulos locais autônomos
+- `agents/movement-architect-agent.md` — Capítulos locais autônomos
 - `reference/movements/social-movements/civil-rights-movement.md` — Continuidade histórica
 - `reference/movements/social-movements/arab-spring.md` — Movimentos descentralizados

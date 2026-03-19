@@ -168,6 +168,11 @@ cultura mudou    mockups            feedback           comunicado
 | **Checklists** | `checklists/identity-system-quality.md`, `checklists/identidade/symbol-system.md`, `checklists/identidade/identity-evolution-guardrails.md`, `checklists/identidade/identity-consistency-across-touchpoints.md`, `checklists/identidade/boundary-and-belonging.md` |
 | **Registries** | `data/registries/identity-codes.yaml`, `data/registries/decision-log.yaml` |
 
+### Níveis de Quality Gate Aplicáveis
+- **Nível 2 (Task Gate):** Checklists de identidade e consistência aplicados em cada fase de evolução
+- **Nível 3 (Domain Gate):** Gate de identity valida coerência do sistema atualizado
+- **Nível 4 (Chief Gate):** Movement Chief aprova mudanças de identidade antes de implementação
+
 ### Regras de Fluxo
 - **Quality Gate entre fases:** Diagnóstico→Proposta: identidade precisa evoluir (confirmado); Proposta→Teste: variações aprovadas internamente; Teste→Rollout: aprovação comunidade ≥ 70%
 - **Rework:** Se comunidade rejeita evolução → iterar com feedback antes de forçar mudança

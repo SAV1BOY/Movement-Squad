@@ -184,6 +184,11 @@ atualizados      coortes,           testadas,          implementados,
 | **Checklists** | `checklists/experimentation-quality.md`, `checklists/impacto/experiment-readout.md`, `checklists/impact-dashboard-quality.md`, `checklists/impacto/vanity-metric-filter.md`, `checklists/impacto/cohort-and-retention.md`, `checklists/impacto/causal-attribution-sanity.md` |
 | **Registries** | `data/registries/experiment-log.yaml`, `data/metrics/movement-health-score.md`, `data/metrics/community-growth-quality.md`, `data/metrics/business-impact.md`, `data/metrics/cohort-retention.md`, `data/metrics/content-to-conversation.md` |
 
+### Níveis de Quality Gate Aplicáveis
+- **Nível 2 (Task Gate):** Checklists de experimentação e impacto aplicados em cada fase de análise
+- **Nível 3 (Domain Gate):** Gate de measurement valida qualidade dos readouts e diagnósticos
+- **Nível 4 (Chief Gate):** Movement Chief revisa recomendações estratégicas antes de implementação
+
 ### Regras de Fluxo
 - **Quality Gate entre fases:** Fase 1→2: dados completos; Fase 2→3: diagnóstico claro; Fase 3→4: readouts produzidos com veredicto claro
 - **Rework:** Se resultado de experimento inconclusivo → redesenhar teste com mais rigor ou mais amostra

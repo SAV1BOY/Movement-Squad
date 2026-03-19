@@ -4,7 +4,7 @@ name: "Ativar Parcerias"
 squad: movement
 type: task
 category: activation
-agents: [movement-chief, movement-architect]
+agents: [movement-chief, manifestador]
 frameworks: [distribution-trident, creator-movement-framework]
 checklists: [partner-alignment-quality, distribuicao/channel-mix-quality]
 templates: [outputs/creator-brief-package]

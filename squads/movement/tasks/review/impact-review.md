@@ -4,7 +4,7 @@ name: "Review de Impacto e Decisões"
 squad: movement
 type: task
 category: review
-agents: [movement-architect, estrategista-de-ciclo, analista-de-impacto]
+agents: [analista-de-impacto, movement-chief]
 frameworks: [impact-learning-loop, ralphloop-kaizen]
 checklists: [impacto/learning-to-playbook]
 templates: [reports/weekly-readout]

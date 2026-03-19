@@ -28,7 +28,7 @@ Um brief incompleto gera execução desalinhada e desperdício de recursos criat
 ## Agentes Responsáveis
 
 - **Movement Strategist Agent** — Autor principal do brief
-- **Cultural Intelligence Agent** — Valida insights culturais dentro do brief
+- **fenomenologo** — Valida insights culturais dentro do brief
 - **Review & QA Agent** — Executa este checklist como gate de aprovação
 - **Creative Director Agent** — Confirma viabilidade criativa do brief
 

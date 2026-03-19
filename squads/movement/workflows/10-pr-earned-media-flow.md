@@ -195,6 +195,11 @@ desenvolvidos    customizados     publicada        share,           sentiment,
 | **Checklists** | `checklists/pr/narrative-pitch-quality.md`, `checklists/pr/spokesperson-readiness.md`, `checklists/pr/backlash-mitigation.md`, `checklists/pr/thought-leadership-placement.md`, `checklists/distribuicao/earned-media-quality.md` |
 | **Registries** | `data/metrics/earned-media-metrics.md` |
 
+### Níveis de Quality Gate Aplicáveis
+- **Nível 2 (Task Gate):** Checklists de pitch, porta-voz e backlash aplicados em cada fase
+- **Nível 4 (Chief Gate):** Movement Chief aprova ângulos e respostas à imprensa
+- **Nível 6 (HRM Gate):** Stakeholder humano valida posicionamento público em temas sensíveis
+
 ### Regras de Fluxo
 - **Quality Gate entre fases:** Ângulos→Pitches: ângulos aprovados; Pitches→Placement: veículos mapeados; Placement→Amplify: cobertura obtida; Amplify→Measure: dados coletados
 - **Rework:** Se taxa de resposta < 30% → revisitar ângulos e veículos target

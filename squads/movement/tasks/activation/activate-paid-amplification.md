@@ -4,7 +4,7 @@ name: "Ativar Amplificação Paga"
 squad: movement
 type: task
 category: activation
-agents: [movement-chief, analista-de-impacto]
+agents: [estrategista-de-ciclo, analista-de-impacto]
 frameworks: [distribution-trident, cycle-momentum-mapping]
 checklists: [distribuicao/paid-amplification-guardrails, distribuicao/attribution-sanity-check]
 templates: [outputs/distribution-plan]

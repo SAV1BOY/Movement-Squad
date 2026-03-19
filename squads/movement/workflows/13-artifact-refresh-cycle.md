@@ -168,6 +168,11 @@ list                                testada           arquivados
 | **Checklists** | `checklists/manifesto/artifact-shelf-life-check.md`, `checklists/memetics/meme-lifecycle-audit.md`, `checklists/memetic-asset-quality.md`, `checklists/narrative-coherence-quality.md` |
 | **Registries** | `data/registries/memetic-assets/`, `data/registries/slogan-bank.yaml` |
 
+### Níveis de Quality Gate Aplicáveis
+- **Nível 1 (Agent Self-Eval):** Manifestador valida cada artefato refreshed antes de submeter ao QA
+- **Nível 2 (Task Gate):** Checklists de frescor e consistência narrativa aplicados antes de rotação
+- **Nível 3 (Domain Gate):** Gate de creation valida qualidade dos artefatos novos e refreshed
+
 ### Regras de Fluxo
 - **Quality Gate entre fases:** Auditoria→Produção: inventário completo com scores; Produção→QA: artefatos atendem ao brief; QA→Rotação: QA approval rate ≥ 85%
 - **Rework:** Se QA reprovado → ajustar com feedback específico e revalidar

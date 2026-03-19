@@ -251,32 +251,45 @@ tags: [{tags relevantes}]
 ## 8. CROSS-SQUAD INTEGRATION
 
 ```
-                    ┌───────────────┐
-                    │  MOVEMENT     │
-                    │  SQUAD        │
-                    └───────┬───────┘
-            ┌───────────────┼───────────────┐
-            │               │               │
-     ┌──────▼──────┐ ┌─────▼─────┐ ┌───────▼──────┐
-     │ BRAND SQUAD │ │COPY SQUAD │ │STORYTELLING  │
-     │             │ │           │ │SQUAD         │
-     │ identidade  │ │ slogans   │ │ narrativa    │
-     │ positioning │ │ headlines │ │ public narr. │
-     │ guidelines  │ │ tom/voz   │ │ founder story│
-     └─────────────┘ └───────────┘ └──────────────┘
-            │               │               │
-     ┌──────▼──────┐ ┌─────▼─────┐
-     │TRAFFIC SQUAD│ │DESIGN     │
-     │             │ │SQUAD      │
-     │ amplificação│ │ visual id │
-     │ hooks/ads   │ │ artefatos │
-     │ métricas    │ │ templates │
-     └─────────────┘ └───────────┘
+                         ┌───────────────┐
+                         │  MOVEMENT     │
+                         │  SQUAD        │
+                         └───────┬───────┘
+          ┌──────────┬───────────┼───────────┬──────────┐
+          │          │           │           │          │
+   ┌──────▼──────┐ ┌─▼─────────┐ ┌─▼────────┐ ┌─▼──────┐ ┌▼─────────┐
+   │ BRAND SQUAD │ │COPY SQUAD │ │STORY-    │ │TRAFFIC │ │DESIGN    │
+   │             │ │           │ │TELLING   │ │SQUAD   │ │SQUAD     │
+   │ identidade  │ │ slogans   │ │          │ │        │ │          │
+   │ positioning │ │ headlines │ │ narrativa│ │amplif. │ │ visual id│
+   │ guidelines  │ │ tom/voz   │ │ pub.narr.│ │hooks   │ │ artefatos│
+   └─────────────┘ └───────────┘ └──────────┘ └────────┘ └──────────┘
+          │          │           │           │          │
+   ┌──────▼──────┐ ┌─▼─────────┐ ┌─▼────────┐ ┌─▼──────┐
+   │ DATA SQUAD  │ │DEEP       │ │ADVISORY  │ │C-LEVEL │
+   │             │ │RESEARCH   │ │BOARD     │ │SQUAD   │
+   │ analytics   │ │           │ │          │ │        │
+   │ dashboards  │ │ deep-dives│ │ direção  │ │ visão  │
+   │ experimentos│ │ academia  │ │ governança│ │ OKRs   │
+   │ pipelines   │ │ trends    │ │ budget   │ │ budget │
+   └─────────────┘ └───────────┘ └──────────┘ └────────┘
 ```
 
 ### 8.1 Handoffs Bidirecionais
 
-Detalhados em `config.yaml` na seção `cross_squad`.
+| Squad | Movement Envia (handoff_from) | Movement Recebe (handoff_to) | Shared Assets |
+|-------|-------------------------------|------------------------------|---------------|
+| **Brand Squad** | Cultural insights, identity codes, movement narrative | Brand positioning, brand guidelines, brand purpose | identity-codes, brand-purpose-to-movement-thesis |
+| **Copy Squad** | Slogans validados, manifesto copy, movement language | Copy frameworks, headlines testados | slogan-bank, phrases-library |
+| **Storytelling Squad** | Movement thesis (enemy/dream), cultural tensions, identity narrative | Public narrative (Ganz), founder story | movement-theses, cultural-tensions |
+| **Traffic Squad** | Memetic assets, manifesto clips, community UGC | Ad performance data, winning hooks | memetic-assets, hook-bank |
+| **Design Squad** | Identity symbols, movement visual language | Visual identity, design system | symbol-systems, visual-identity |
+| **Data Squad** | Experiment results, movement health metrics, signal data quantificados, community metrics | Analytics dashboards, experiment infrastructure, cohort models, data pipelines | experiment-log, health-score-dashboard, cohort-retention-data |
+| **DeepResearch Squad** | Research briefs, signal clusters, thesis hypotheses | Cultural deep-dives, competitive movement analysis, academic foundations, trend reports | research-briefs, cultural-context, academic-references |
+| **Advisory Board Squad** | Movement health reports, kill/pivot recommendations, quarterly review | Strategic direction, capital allocation, governance decisions, culture guidelines | decision-log, quarterly-reviews, strategic-alignment |
+| **C-Level Squad** | Movement impact reports, quarterly review, crisis alerts | Brand vision, business objectives, CMO priorities, resource approval | business-impact-metrics, quarterly-movement-review, brand-reputation-score |
+
+> Configuração completa de handoffs em `config.yaml` na seção `cross_squad`.
 
 ---
 

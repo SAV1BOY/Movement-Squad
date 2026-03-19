@@ -4,7 +4,7 @@ name: "Ativar PR e Earned Media"
 squad: movement
 type: task
 category: activation
-agents: [movement-chief, estrategista-de-ciclo]
+agents: [manifestador, movement-chief]
 frameworks: [narrative-graph-framework]
 checklists: [pr/narrative-pitch-quality, pr/spokesperson-readiness, pr/backlash-mitigation]
 templates: [outputs/pr-pitch]

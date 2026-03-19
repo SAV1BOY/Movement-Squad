@@ -28,7 +28,7 @@ fraca colapsa no primeiro contato com a audiência real.
 ## Agentes Responsáveis
 
 - **Movement Strategist Agent** — Autor e defensor da tese
-- **Cultural Intelligence Agent** — Valida fundamentação cultural
+- **fenomenologo** — Valida fundamentação cultural
 - **Review & QA Agent** — Executa este checklist como quality gate
 - **Narrative Agent** — Confirma que a tese sustenta narrativas derivadas
 

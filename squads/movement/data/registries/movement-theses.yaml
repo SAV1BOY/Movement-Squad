@@ -17,7 +17,7 @@ teses:
     status: "validada"
     data_criacao: "2026-01-15"
     data_ultimo_teste: "2026-03-01"
-    autor: "chief-of-movement"
+    autor: "movement-chief"
 
     enemy:
       descricao: "O sistema de métricas de vaidade que premia volume sobre impacto"

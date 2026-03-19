@@ -205,6 +205,11 @@ priorizados      Mecanismo         Inner circle        visuais/verbais/ Identity
 | **Checklists** | `checklists/movement-thesis-quality.md`, `checklists/identidade/we-us-now-identity.md`, `checklists/architect/architect-movement-engine-audit.md`, `checklists/identity-system-quality.md`, `checklists/identidade/symbol-system.md`, `checklists/identidade/boundary-and-belonging.md` |
 | **Registries** | `data/registries/movement-theses.yaml`, `data/registries/identity-codes.yaml`, `data/registries/decision-log.yaml` |
 
+### Níveis de Quality Gate Aplicáveis
+- **Nível 2 (Task Gate):** Aplicado em cada fase antes de transição (tensões, thesis, validação, identidade)
+- **Nível 4 (Chief Gate):** Aprovação final da thesis e Identity Kit pelo Movement Chief
+- **Nível 6 (HRM Gate):** Stakeholder humano valida thesis antes de publicação como north star
+
 ### Regras de Fluxo
 - **Quality Gate entre fases:** Fase 1→2: tensões claras e documentadas; Fase 2→3: pelo menos 1 thesis forte; Fase 3→4: NPS ≥ 8 e stress test aprovado; Fase 4→5: teste de reconhecibilidade aprovado
 - **Rework:** Se thesis reprovada na validação → voltar para Fase 2 com feedback do inner circle

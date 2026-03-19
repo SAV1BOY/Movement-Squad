@@ -4,7 +4,7 @@ name: "Detectar Sinais Culturais"
 squad: movement
 type: task
 category: research
-agents: [fenomenologo]
+agents: [fenomenologo, estrategista-de-ciclo]
 frameworks: [phenomenology-rapid-ethnography, phenomenology-signal-clustering, radar-layer]
 checklists: [cultural-insight-quality, fenomenologia/phenomenology-signal-capture, fenomenologia/signal-source-diversity, ciclo/trend-vs-fad-filter]
 templates: [outputs/cultural-insight-report]

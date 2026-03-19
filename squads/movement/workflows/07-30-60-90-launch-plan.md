@@ -172,6 +172,11 @@ thesis validada          champions emergindo      impacto mensurável
 | **Checklists** | `checklists/launch-sequencing-quality.md`, `checklists/chief/chief-win-condition.md`, `checklists/distribution-plan-quality.md`, `checklists/community-activation-quality.md`, `checklists/impact-dashboard-quality.md` |
 | **Registries** | `data/registries/distribution-plans/`, `data/registries/experiment-log.yaml`, `data/metrics/movement-health-score.md`, `data/metrics/business-impact.md` |
 
+### Níveis de Quality Gate Aplicáveis
+- **Nível 2 (Task Gate):** Checklists de lançamento e win conditions aplicados em cada checkpoint (Dia 30, 60, 90)
+- **Nível 4 (Chief Gate):** Movement Chief valida decisões de go/no-go em cada transição de fase
+- **Nível 6 (HRM Gate):** Stakeholder humano aprova decisões de pivot ou sunset no Dia 90
+
 ### Regras de Fluxo
 - **Quality Gate entre fases:** Dia 30: Win Conditions 30d ≥ 60% → avançar; Dia 60: comunidade engajada + negócio mensurável → avançar; Dia 90: Win Conditions completas → renovar ciclo
 - **Rework:** Se Win Conditions < 60% em qualquer checkpoint → avaliar se problema é execução ou thesis

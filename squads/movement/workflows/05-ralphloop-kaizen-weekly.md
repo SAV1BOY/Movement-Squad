@@ -195,6 +195,11 @@ prontos           top sinais       + causa raiz       implementáveis
 | **Checklists** | `checklists/impacto/learning-to-playbook.md` |
 | **Registries** | `data/registries/lessons-learned-registry.yaml`, `data/registries/decision-log.yaml` |
 
+### Níveis de Quality Gate Aplicáveis
+- **Nível 1 (Agent Self-Eval):** Cada agente valida seus insumos antes da sessão
+- **Nível 2 (Task Gate):** Checklist de learning-to-playbook aplicado nos ajustes definidos
+- **Nível 4 (Chief Gate):** Movement Chief valida ajustes que impactam estratégia ou cross-squad
+
 ### Regras de Fluxo
 - **Quality Gate entre fases:** Pré-sessão→Sessão: material pronto (sessão nunca cancela); Fase 2→3: causa raiz identificada; Fase 3→4: ajustes viáveis e aceitos
 - **Rework:** Se mesmo problema aparece 3+ semanas → escalar para mudança estrutural

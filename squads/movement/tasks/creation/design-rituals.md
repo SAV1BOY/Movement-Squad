@@ -4,7 +4,7 @@ name: "Projetar Rituais e Scripts"
 squad: movement
 type: task
 category: creation
-agents: [movement-architect, manifestador]
+agents: [manifestador, movement-architect]
 frameworks: [ritual-reward-loop, manifestor-ritual-design]
 checklists: [ritual-design-quality, manifesto/artifact-kit-completeness]
 templates: [outputs/ritual-playbook]

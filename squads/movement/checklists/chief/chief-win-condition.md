@@ -4,7 +4,7 @@ name: "Condição de Vitória do Movimento"
 squad: movement
 type: checklist
 category: chief
-agent: chief-of-movement
+agent: movement-chief
 version: "1.0"
 tags: [vitória, metas, marcos, 30-60-90, sucesso]
 ---

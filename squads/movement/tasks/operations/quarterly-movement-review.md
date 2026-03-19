@@ -4,7 +4,7 @@ name: "Review Trimestral do Movimento"
 squad: movement
 type: task
 category: operations
-agents: [movement-architect, estrategista-de-ciclo, analista-de-impacto, manifestador]
+agents: [movement-chief, analista-de-impacto]
 frameworks: [movement-lifecycle-framework, governance-layer]
 checklists: [chief/chief-kill-criteria]
 templates: [reports/quarterly-movement-review]

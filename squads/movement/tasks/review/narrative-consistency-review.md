@@ -4,7 +4,7 @@ name: "Review de Consistência Narrativa"
 squad: movement
 type: task
 category: review
-agents: [fenomenologo, movement-architect]
+agents: [movement-architect, identitario]
 frameworks: [narrative-graph-framework, architect-system-map]
 checklists: [narrative-coherence-quality, architect/architect-system-coherence]
 templates: [reports/narrative-audit-report]

@@ -4,7 +4,7 @@ name: "Pesquisar Dinâmicas de Plataformas"
 squad: movement
 type: task
 category: research
-agents: [fenomenologo]
+agents: [fenomenologo, estrategista-de-ciclo]
 frameworks: [cycle-cultural-wave-surfing, distribution-trident]
 checklists: [fenomenologia/signal-source-diversity]
 templates: [outputs/cultural-insight-report]
