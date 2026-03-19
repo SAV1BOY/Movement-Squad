@@ -1,0 +1,113 @@
+# ============================================================================
+# Risk Log — Registro de Riscos Operacionais
+# ============================================================================
+# Registro de todos os riscos identificados pelo squad. Cada risco é classificado
+# por categoria, probabilidade e impacto, com plano de mitigação e owner definidos.
+# O risk log é revisado quinzenalmente para atualização de status.
+#
+# Categoria: reputacional | operacional | legal | cultural | financeiro
+# Probabilidade: alta | média | baixa
+# Impacto: alto | médio | baixo
+# Status: ativo | mitigado | materializado | encerrado
+# ============================================================================
+
+schema_version: "1.0"
+ultima_atualizacao: "2026-03-19"
+
+riscos:
+
+  - id: "RSK-001"
+    titulo: "Dependência excessiva do founder como voz principal"
+    categoria: "operacional"
+    probabilidade: "alta"
+    impacto: "alto"
+    severidade: "crítico"
+    descricao: >
+      Atualmente 70% do conteúdo de maior engajamento é assinado pelo founder.
+      Se o founder ficar indisponível por qualquer razão, a cadência de conteúdo
+      e o engajamento da comunidade podem cair drasticamente. O movimento precisa
+      de múltiplas vozes para ser sustentável.
+    mitigacao:
+      plano: >
+        Desenvolver 3-5 vozes alternativas na comunidade. Programa de co-criação
+        com champions, onde conteúdo é produzido colaborativamente. Meta: reduzir
+        participação do founder para 40% do conteúdo total em 60 dias.
+      ações:
+        - "Identificar 5 champions com potencial de criação de conteúdo"
+        - "Criar programa de mentoria para co-criadores"
+        - "Testar posts sem assinatura do founder para medir engajamento independente"
+      prazo: "2026-05-15"
+    owner: "community-architect"
+    status: "ativo"
+    data_identificacao: "2026-02-20"
+    data_ultima_revisao: "2026-03-15"
+
+  - id: "RSK-002"
+    titulo: "Percepção de astroturfing pela comunidade"
+    categoria: "reputacional"
+    probabilidade: "média"
+    impacto: "alto"
+    severidade: "alto"
+    descricao: >
+      À medida que o movimento cresce e recebe investimento de marketing, existe
+      risco de membros da comunidade perceberem que se trata de uma iniciativa
+      corporativa disfarçada de movimento orgânico. Isso destruiria a confiança
+      e poderia gerar backlash público nas redes sociais.
+    mitigacao:
+      plano: >
+        Transparência radical sobre a origem e financiamento do movimento.
+        Publicar declaração clara de quem está por trás e por quê. Garantir que
+        a comunidade tenha voz real nas decisões, não apenas a aparência de
+        participação.
+      ações:
+        - "Publicar 'quem somos' transparente na página principal da comunidade"
+        - "Implementar conselho consultivo com membros da comunidade"
+        - "Monitorar sentimento da comunidade semanalmente via pesquisa rápida"
+      prazo: "2026-04-10"
+    owner: "chief-of-movement"
+    status: "ativo"
+    data_identificacao: "2026-03-01"
+    data_ultima_revisao: "2026-03-15"
+
+  - id: "RSK-003"
+    titulo: "Uso de UGC sem permissão adequada"
+    categoria: "legal"
+    probabilidade: "média"
+    impacto: "médio"
+    severidade: "médio"
+    descricao: >
+      O squad amplifica UGC regularmente nas redes sociais. Atualmente o processo
+      de permissão é informal (DM no Instagram). Sem registro formal de autorização,
+      há risco de reclamação por uso de imagem/conteúdo sem consentimento,
+      especialmente se UGC for usado em material pago ou comercial.
+    mitigacao:
+      plano: >
+        Criar processo formal de autorização de UGC com template de permissão
+        padronizado. Implementar registro de todas as permissões concedidas.
+        Diferenciar nível de permissão por uso (orgânico vs. pago vs. comercial).
+      ações:
+        - "Criar template de solicitação de permissão de UGC"
+        - "Implementar planilha de registro de permissões"
+        - "Treinar o time sobre diferenças legais entre tipos de uso"
+      prazo: "2026-04-01"
+    owner: "narrative-architect"
+    status: "ativo"
+    data_identificacao: "2026-03-10"
+    data_ultima_revisao: "2026-03-19"
+
+template_novo_risco:
+  id: "RSK-XXX"
+  titulo: "[Descrição clara do risco]"
+  categoria: "" # reputacional | operacional | legal | cultural | financeiro
+  probabilidade: "" # alta | média | baixa
+  impacto: "" # alto | médio | baixo
+  severidade: "" # crítico | alto | médio | baixo
+  descricao: "[Contexto e cenário de risco]"
+  mitigacao:
+    plano: "[Estratégia de mitigação]"
+    ações: []
+    prazo: "YYYY-MM-DD"
+  owner: "[agente responsável]"
+  status: "ativo"
+  data_identificacao: "YYYY-MM-DD"
+  data_ultima_revisao: "YYYY-MM-DD"

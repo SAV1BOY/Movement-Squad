@@ -1,0 +1,83 @@
+# ============================================================================
+# Backlog — Fila de Melhorias Priorizadas
+# ============================================================================
+# Registro de melhorias, features e iniciativas priorizadas pelo squad.
+# Cada item tem prioridade, owner e status claros. O backlog é revisado
+# semanalmente no ciclo Kaizen para repriorização.
+#
+# Prioridade: crítica | alta | média | baixa
+# Status: pendente | em-progresso | concluído | cancelado
+# ============================================================================
+
+schema_version: "1.0"
+ultima_atualizacao: "2026-03-19"
+
+items:
+
+  - id: "BKL-001"
+    titulo: "Expandir ritual Sexta do Fracasso para LinkedIn"
+    prioridade: "alta"
+    status: "pendente"
+    owner: "narrative-architect"
+    data_criacao: "2026-03-10"
+    descricao: >
+      O ritual Sexta do Fracasso foi validado no Discord com 2.7x mais engajamento
+      que posts motivacionais (EXP-001). Próximo passo é adaptar o formato para
+      LinkedIn, onde o público profissional pode amplificar o alcance. Requer
+      adaptação de tom (mais profissional, menos informal), criação de template
+      específico para a plataforma e identificação de 5 champions dispostos a
+      participar publicamente no LinkedIn.
+    métrica_de_sucesso: "Engajamento médio 2x acima do baseline de posts orgânicos no LinkedIn"
+    prazo_estimado: "2026-04-15"
+    dependências:
+      - "Template de post para LinkedIn"
+      - "Champions confirmados"
+
+  - id: "BKL-002"
+    titulo: "Criar programa de embaixadores Tier 2"
+    prioridade: "média"
+    status: "pendente"
+    owner: "community-architect"
+    data_criacao: "2026-03-12"
+    descricao: >
+      Atualmente temos champions orgânicos mas sem estrutura formal de embaixadores.
+      Um programa Tier 2 formalizaria o papel de membros que amplificam conteúdo
+      e recrutam novos membros, oferecendo benefícios como acesso antecipado a
+      conteúdo, badge exclusivo e participação em sessões de co-criação. O programa
+      deve escalar sem aumentar proporcionalmente o custo operacional.
+    métrica_de_sucesso: "20 embaixadores ativos gerando mínimo 3 conteúdos/mês cada"
+    prazo_estimado: "2026-05-30"
+    dependências:
+      - "Framework de benefícios definido"
+      - "Sistema de tracking de contribuições"
+      - "Kit de onboarding para embaixadores"
+
+  - id: "BKL-003"
+    titulo: "Integrar métricas de earned media no dashboard"
+    prioridade: "alta"
+    status: "em-progresso"
+    owner: "analyst-agent"
+    data_criacao: "2026-03-05"
+    descricao: >
+      O dashboard atual cobre owned media (nosso conteúdo) e paid media (boosts),
+      mas não captura earned media (menções espontâneas, UGC, press). Integrar
+      um módulo de earned media permitirá medir o verdadeiro impacto do movimento
+      além dos canais próprios. Inclui: social listening para menções da marca,
+      tracking de UGC por volume e sentimento, e monitoramento de press mentions.
+    métrica_de_sucesso: "Dashboard com dados de earned media atualizados semanalmente"
+    prazo_estimado: "2026-04-01"
+    dependências:
+      - "Ferramenta de social listening configurada"
+      - "Definição de keywords para monitoramento"
+
+template_novo_item:
+  id: "BKL-XXX"
+  titulo: "[Descrição clara da melhoria]"
+  prioridade: "" # crítica | alta | média | baixa
+  status: "pendente"
+  owner: "[agente responsável]"
+  data_criacao: "YYYY-MM-DD"
+  descricao: "[Contexto, justificativa e escopo da melhoria]"
+  métrica_de_sucesso: "[Como saberemos que está feito e funcionando]"
+  prazo_estimado: "YYYY-MM-DD"
+  dependências: []
