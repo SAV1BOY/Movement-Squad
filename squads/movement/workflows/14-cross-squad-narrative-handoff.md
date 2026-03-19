@@ -155,3 +155,18 @@ do's/don'ts      squad             outputs            guidelines
 | Consistência narrativa cross-squad | >= 80% |
 | Desvios críticos | 0 |
 | Satisfação dos squads parceiros | >= 8/10 |
+
+## Integração
+
+| Tipo | Referência |
+|------|-----------|
+| **Tasks** | `tasks/operations/cross-squad-sync.md`, `tasks/review/narrative-consistency-review.md` |
+| **Frameworks** | `frameworks/architect-channel-architecture.md`, `frameworks/architect-system-map.md`, `frameworks/narrative-graph-framework.md` |
+| **Checklists** | `checklists/architect/architect-cross-squad-integration.md`, `checklists/narrative-coherence-quality.md`, `checklists/architect/architect-system-coherence.md` |
+| **Registries** | `data/registries/decision-log.yaml` |
+
+### Regras de Fluxo
+- **Quality Gate entre fases:** Preparação→Sessão: Narrative Kit atualizado; Sessão→Follow-up: decisões documentadas; Auditoria: consistência ≥ 80%
+- **Rework:** Se consistência < 80% → intensificar suporte e treinamento com squads afetados
+- **Escalation:** Se handoff rejeitado 2x por squad receptor → escalar para Chiefs dos dois squads
+- **Handoff:** Narrative Kit e guidelines alimentam → todos os squads parceiros (brand, copy, storytelling, traffic, design)

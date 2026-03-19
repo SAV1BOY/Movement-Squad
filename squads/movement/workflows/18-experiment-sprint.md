@@ -181,3 +181,18 @@ porque Z"        amostra,          dados coletados  1 página,         pivotar o
 | Decisões implementadas | >= 80% das confirmadas |
 | Hipóteses geradas por readout | >= 1 nova |
 | Aprendizados documentados | 100% |
+
+## Integração
+
+| Tipo | Referência |
+|------|-----------|
+| **Tasks** | `tasks/measurement/run-experiments.md`, `tasks/measurement/measure-movement-health.md`, `tasks/measurement/analyze-content-to-conversation.md` |
+| **Frameworks** | `frameworks/impact-experiment-design.md`, `frameworks/impact-learning-loop.md`, `frameworks/ralphloop-kaizen.md` |
+| **Checklists** | `checklists/experimentation-quality.md`, `checklists/impacto/experiment-readout.md`, `checklists/impacto/vanity-metric-filter.md` |
+| **Registries** | `data/registries/experiment-log.yaml`, `data/registries/lessons-learned-registry.yaml` |
+
+### Regras de Fluxo
+- **Quality Gate entre fases:** Hipótese→Design: hipótese formatada (Se X, então Y porque Z); Design→Execução: experimento projetado com variáveis claras; Execução→Readout: teste completou período; Readout→Decisão: veredicto claro
+- **Rework:** Se resultado inconclusivo → redesenhar teste com mais rigor ou mais amostra
+- **Escalation:** Se experimento revela risco reputacional → pausar e escalar para Movement Chief
+- **Handoff:** Readouts e decisões alimentam → `workflows/05-ralphloop-kaizen-weekly.md` e banco de aprendizados

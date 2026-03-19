@@ -158,3 +158,18 @@ cultura mudou    mockups            feedback           comunicado
 | Frescor percebido | Score de freshness sobe |
 | Tempo de transição | <= 4 semanas |
 | Impacto em engajamento | Neutro ou positivo |
+
+## Integração
+
+| Tipo | Referência |
+|------|-----------|
+| **Tasks** | `tasks/strategy/design-identity-system.md`, `tasks/creation/create-identity-artifacts.md`, `tasks/review/narrative-consistency-review.md` |
+| **Frameworks** | `frameworks/identity-collective-narrative.md`, `frameworks/identity-symbol-design.md`, `frameworks/identity-belonging-gradient.md` |
+| **Checklists** | `checklists/identity-system-quality.md`, `checklists/identidade/symbol-system.md`, `checklists/identidade/identity-evolution-guardrails.md`, `checklists/identidade/identity-consistency-across-touchpoints.md`, `checklists/identidade/boundary-and-belonging.md` |
+| **Registries** | `data/registries/identity-codes.yaml`, `data/registries/decision-log.yaml` |
+
+### Regras de Fluxo
+- **Quality Gate entre fases:** Diagnóstico→Proposta: identidade precisa evoluir (confirmado); Proposta→Teste: variações aprovadas internamente; Teste→Rollout: aprovação comunidade ≥ 70%
+- **Rework:** Se comunidade rejeita evolução → iterar com feedback antes de forçar mudança
+- **Escalation:** Se evolução exige mudança radical → escalar para Movement Chief + stakeholders
+- **Handoff:** Identity System atualizado alimenta → `workflows/02-artifact-foundry.md` e `workflows/14-cross-squad-narrative-handoff.md`

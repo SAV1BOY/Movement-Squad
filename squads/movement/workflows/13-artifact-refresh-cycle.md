@@ -158,3 +158,18 @@ list                                testada           arquivados
 | QA approval rate | >= 85% na primeira rodada |
 | Uso de novos artefatos | >= 30% usados em 30 dias |
 | Engajamento de artefatos novos vs. antigos | >= 10% superior |
+
+## Integração
+
+| Tipo | Referência |
+|------|-----------|
+| **Tasks** | `tasks/review/artifact-freshness-review.md`, `tasks/creation/create-memetic-assets.md`, `tasks/creation/create-movement-content.md`, `tasks/operations/curate-swipe-file.md` |
+| **Frameworks** | `frameworks/memetic-variation-selection.md`, `frameworks/manifestor-artifact-stack.md`, `frameworks/manifestor-meme-factory.md` |
+| **Checklists** | `checklists/manifesto/artifact-shelf-life-check.md`, `checklists/memetics/meme-lifecycle-audit.md`, `checklists/memetic-asset-quality.md`, `checklists/narrative-coherence-quality.md` |
+| **Registries** | `data/registries/memetic-assets/`, `data/registries/slogan-bank.yaml` |
+
+### Regras de Fluxo
+- **Quality Gate entre fases:** Auditoria→Produção: inventário completo com scores; Produção→QA: artefatos atendem ao brief; QA→Rotação: QA approval rate ≥ 85%
+- **Rework:** Se QA reprovado → ajustar com feedback específico e revalidar
+- **Escalation:** Se artefato core datado (manifesto, slogan) → prioridade máxima, escalar para Movement Chief
+- **Handoff:** Biblioteca atualizada alimenta → `workflows/03-activation-sprint.md` e `workflows/02-artifact-foundry.md`

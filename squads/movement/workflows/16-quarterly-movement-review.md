@@ -163,3 +163,18 @@ pre-read          o que impactamos  próximos passos   stakeholder deck
 | Strategy Update distribuído | <= 1 semana pós-sessão |
 | Stakeholder presentation | Realizada |
 | Satisfação do squad com direção | >= 8/10 |
+
+## Integração
+
+| Tipo | Referência |
+|------|-----------|
+| **Tasks** | `tasks/operations/quarterly-movement-review.md`, `tasks/review/impact-review.md`, `tasks/review/narrative-consistency-review.md`, `tasks/review/community-health-review.md`, `tasks/review/artifact-freshness-review.md`, `tasks/review/crisis-readiness-review.md`, `tasks/measurement/measure-movement-health.md`, `tasks/measurement/measure-business-impact.md` |
+| **Frameworks** | `frameworks/movement-lifecycle-framework.md`, `frameworks/governance-layer.md`, `frameworks/movement-health-score-framework.md`, `frameworks/impact-metrics-model.md`, `frameworks/ralphloop-kaizen.md` |
+| **Checklists** | `checklists/chief/chief-kill-criteria.md`, `checklists/impact-dashboard-quality.md`, `checklists/chief/chief-win-condition.md`, `checklists/chief/chief-alignment-with-business.md` |
+| **Registries** | `data/metrics/maturity-score-history.md`, `data/metrics/movement-health-score.md`, `data/metrics/business-impact.md`, `data/registries/decision-log.yaml` |
+
+### Regras de Fluxo
+- **Quality Gate entre fases:** Pré-work→Sessão: dados completos e pre-read distribuído; Dia 1→Dia 2: diagnóstico claro; Pós-sessão: tudo documentado e comunicado
+- **Rework:** Se pontos controversos no Dia 1 → resolver antes de planejar futuro no Dia 2
+- **Escalation:** Se decisão de kill/pivot → escalar para stakeholders com dados e recomendação
+- **Handoff:** OKRs e Strategy Update alimentam → todos os workflows do próximo trimestre

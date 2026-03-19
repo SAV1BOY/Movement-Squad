@@ -189,3 +189,18 @@ dados claros     plano aprovado    membros           obrigações        legado
 | Sentimento pós-comunicação | >= 60% compreensão/respeito |
 | Learnings documentados | Completos e reutilizáveis |
 | Reputação da marca preservada | Sem dano mensurável |
+
+## Integração
+
+| Tipo | Referência |
+|------|-----------|
+| **Tasks** | `tasks/operations/quarterly-movement-review.md`, `tasks/review/impact-review.md`, `tasks/review/community-health-review.md` |
+| **Frameworks** | `frameworks/movement-sunset-framework.md`, `frameworks/movement-lifecycle-framework.md`, `frameworks/governance-layer.md` |
+| **Checklists** | `checklists/movement-sunset-quality.md`, `checklists/chief/chief-kill-criteria.md`, `checklists/chief/chief-stakeholder-communication.md` |
+| **Registries** | `data/registries/decision-log.yaml`, `data/registries/lessons-learned-registry.yaml` |
+
+### Regras de Fluxo
+- **Quality Gate entre fases:** Diagnóstico→Decisão: kill criteria documentados; Decisão→Comunicação: decisão formal aprovada por Chief + stakeholders; Comunicação→Encerramento: comunidade informada; Encerramento→Legado: obrigações cumpridas
+- **Rework:** Se comunidade pede reconsideração → ouvir, mas manter decisão se fundamentos não mudaram
+- **Escalation:** Se decisão de kill contestada → stakeholder final decide
+- **Handoff:** Learnings reutilizáveis alimentam → futuros movimentos e `data/registries/lessons-learned-registry.yaml`

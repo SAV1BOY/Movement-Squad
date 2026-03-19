@@ -179,3 +179,18 @@ cria conteúdo    via movimento     de membro                          case stud
 | LTV membro vs. não-membro | >= 20% maior |
 | NPS membro-cliente | >= 70 |
 | Referral rate | >= 15% dos membros-clientes |
+
+## Integração
+
+| Tipo | Referência |
+|------|-----------|
+| **Tasks** | `tasks/strategy/plan-movement-to-product-coupling.md`, `tasks/measurement/measure-business-impact.md`, `tasks/measurement/analyze-cohort-retention.md` |
+| **Frameworks** | `frameworks/movement-to-product-coupling.md`, `frameworks/product-led-movement-framework.md`, `frameworks/impact-movement-attribution.md`, `frameworks/impact-metrics-model.md` |
+| **Checklists** | `checklists/movement-to-product-fit-quality.md`, `checklists/chief/chief-alignment-with-business.md`, `checklists/impacto/causal-attribution-sanity.md` |
+| **Registries** | `data/registries/decision-log.yaml`, `data/metrics/business-impact.md` |
+
+### Regras de Fluxo
+- **Quality Gate entre fases:** Engajamento→Trial: touchpoints gerando consideração; Trial→Conversão: ativação alta; Conversão→Advocacy: NPS alto + referrals ativos
+- **Rework:** Se conversão baixa → revisar coupling e trial experience
+- **Escalation:** Se LTV baixo apesar de conversão alta → problema de produto, escalar para stakeholders
+- **Handoff:** CAC/LTV e pipeline data alimentam → `workflows/16-quarterly-movement-review.md` e relatórios para stakeholders

@@ -163,3 +163,18 @@ definida         oportunidades     definidas         publicar
 | Oportunidades de sinergia ativadas | >= 1 por mês |
 | Satisfação dos squads parceiros | >= 7/10 |
 | Tempo de resposta a consultas | <= 24h |
+
+## Integração
+
+| Tipo | Referência |
+|------|-----------|
+| **Tasks** | `tasks/review/narrative-consistency-review.md`, `tasks/operations/cross-squad-sync.md`, `tasks/operations/monthly-movement-review.md` |
+| **Frameworks** | `frameworks/narrative-graph-framework.md`, `frameworks/architect-system-map.md`, `frameworks/architect-channel-architecture.md` |
+| **Checklists** | `checklists/narrative-coherence-quality.md`, `checklists/architect/architect-system-coherence.md`, `checklists/architect/architect-cross-squad-integration.md` |
+| **Registries** | `data/registries/decision-log.yaml` |
+
+### Regras de Fluxo
+- **Quality Gate entre fases:** Preparação→Sessão: auditoria completa; Sessão→Follow-up: decisões documentadas; Monitoramento: consistência ≥ 80%
+- **Rework:** Se desvio crítico detectado → intervenção imediata com squad responsável
+- **Escalation:** Se consistência narrativa < 80% por 2+ meses → escalar para Movement Chief + Chiefs dos squads parceiros
+- **Handoff:** Guidelines e Narrative Kit atualizados alimentam → todos os squads parceiros e `workflows/14-cross-squad-narrative-handoff.md`

@@ -193,3 +193,18 @@ e fit cultural   expectativas     facilitação        mentoria          eventos
 | Satisfação de champions | >= 8/10 |
 | Rituais facilitados por champions | >= 50% |
 | Tempo até primeira responsabilidade | <= 2 semanas pós-treinamento |
+
+## Integração
+
+| Tipo | Referência |
+|------|-----------|
+| **Tasks** | `tasks/creation/create-champion-program.md`, `tasks/activation/activate-community.md`, `tasks/creation/create-onboarding-experience.md`, `tasks/strategy/design-community-structure.md` |
+| **Frameworks** | `frameworks/identity-belonging-gradient.md`, `frameworks/community-flywheel.md`, `frameworks/ritual-reward-loop.md` |
+| **Checklists** | `checklists/comunidade/champion-program-quality.md`, `checklists/comunidade/onboarding-and-roles.md`, `checklists/community-activation-quality.md`, `checklists/comunidade/community-health-indicators.md` |
+| **Registries** | `data/registries/champion-registry/`, `data/registries/community-roles/` |
+
+### Regras de Fluxo
+- **Quality Gate entre fases:** Identificação→Convite: shortlist validada; Convite→Treinamento: aceite confirmado; Treinamento→Empoderar: champion confiante pós-treinamento; Empoderar→Reconhecer: champion atuando ativamente
+- **Rework:** Se champion desengajando → conversa empática e opção de pausa antes de perder
+- **Escalation:** Se retenção de champions < 80% → escalar para Movement Architect para revisão do programa
+- **Handoff:** Champions ativos alimentam → `workflows/08-community-build-and-nurture.md` e métricas de comunidade
