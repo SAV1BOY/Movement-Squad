@@ -192,3 +192,18 @@ detectado        resposta          comunidade         ajustes           atualiza
 | Community churn por crise | < 5% |
 | Playbook atualizado | Em até 1 semana pós-crise |
 | Retrospectiva realizada | 100% das crises |
+
+## Integração
+
+| Tipo | Referência |
+|------|-----------|
+| **Tasks** | `tasks/review/crisis-readiness-review.md`, `tasks/activation/activate-pr.md`, `tasks/activation/activate-community.md` |
+| **Frameworks** | `frameworks/crisis-to-movement-framework.md`, `frameworks/governance-layer.md`, `frameworks/narrative-graph-framework.md` |
+| **Checklists** | `checklists/crisis-and-backlash-quality.md`, `checklists/pr/backlash-mitigation.md`, `checklists/pr/spokesperson-readiness.md`, `checklists/comunidade/moderation-and-safety.md`, `checklists/comunidade/community-crisis-protocol.md` |
+| **Registries** | `data/registries/decision-log.yaml`, `data/registries/lessons-learned-registry.yaml` |
+
+### Regras de Fluxo
+- **Quality Gate entre fases:** Fase 1→2: crise confirmada; Fase 2→3: resposta aprovada; Fase 3→4: resposta publicada; Fase 4→5: crise em declínio
+- **Rework:** Se resposta escalou crise → reavaliar na Fase 2 com nova informação
+- **Escalation:** Nível 4 (existencial) → escalar para liderança executiva imediatamente
+- **Handoff:** Learnings pós-crise alimentam → `workflows/05-ralphloop-kaizen-weekly.md` e atualização do Counter-Narrative Playbook

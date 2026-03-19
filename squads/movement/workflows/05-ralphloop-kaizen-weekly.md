@@ -185,3 +185,18 @@ prontos           top sinais       + causa raiz       implementáveis
 | Ajustes implementados | >= 70% dos definidos |
 | Learning Log atualizado | Mesmo dia da sessão |
 | Energia do squad | >= 70% alta/média |
+
+## Integração
+
+| Tipo | Referência |
+|------|-----------|
+| **Tasks** | `tasks/operations/weekly-kaizen-loop.md`, `tasks/operations/weekly-signal-radar.md`, `tasks/review/impact-review.md` |
+| **Frameworks** | `frameworks/ralphloop-kaizen.md`, `frameworks/impact-learning-loop.md` |
+| **Checklists** | `checklists/impacto/learning-to-playbook.md` |
+| **Registries** | `data/registries/lessons-learned-registry.yaml`, `data/registries/decision-log.yaml` |
+
+### Regras de Fluxo
+- **Quality Gate entre fases:** Pré-sessão→Sessão: material pronto (sessão nunca cancela); Fase 2→3: causa raiz identificada; Fase 3→4: ajustes viáveis e aceitos
+- **Rework:** Se mesmo problema aparece 3+ semanas → escalar para mudança estrutural
+- **Escalation:** Se squad sobrecarregado consistentemente → escalar para Movement Chief para repriorização
+- **Handoff:** Ajustes e learnings alimentam → todas as tasks do squad e `workflows/16-quarterly-movement-review.md`

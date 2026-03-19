@@ -185,3 +185,18 @@ desenvolvidos    customizados     publicada        share,           sentiment,
 | Matérias publicadas/mês | >= 2 |
 | Sentimento positivo/neutro | >= 85% |
 | Tráfego incremental pós-PR | Rastreado |
+
+## Integração
+
+| Tipo | Referência |
+|------|-----------|
+| **Tasks** | `tasks/activation/activate-pr.md`, `tasks/creation/create-pr-angles.md` |
+| **Frameworks** | `frameworks/narrative-graph-framework.md` |
+| **Checklists** | `checklists/pr/narrative-pitch-quality.md`, `checklists/pr/spokesperson-readiness.md`, `checklists/pr/backlash-mitigation.md`, `checklists/pr/thought-leadership-placement.md`, `checklists/distribuicao/earned-media-quality.md` |
+| **Registries** | `data/metrics/earned-media-metrics.md` |
+
+### Regras de Fluxo
+- **Quality Gate entre fases:** Ângulos→Pitches: ângulos aprovados; Pitches→Placement: veículos mapeados; Placement→Amplify: cobertura obtida; Amplify→Measure: dados coletados
+- **Rework:** Se taxa de resposta < 30% → revisitar ângulos e veículos target
+- **Escalation:** Se cobertura negativa inesperada → acionar `workflows/06-crisis-and-backlash.md`
+- **Handoff:** PR Report alimenta → `workflows/04-measure-and-learn.md` e `workflows/05-ralphloop-kaizen-weekly.md`

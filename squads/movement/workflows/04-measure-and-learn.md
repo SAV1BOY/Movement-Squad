@@ -174,3 +174,18 @@ atualizados      coortes,           testadas,          implementados,
 | Readouts produzidos | 100% dos experimentos |
 | Tempo de diagnóstico a ação | <= 1 semana |
 | Ações implementadas | >= 80% das recomendadas |
+
+## Integração
+
+| Tipo | Referência |
+|------|-----------|
+| **Tasks** | `tasks/measurement/run-experiments.md`, `tasks/measurement/measure-movement-health.md`, `tasks/measurement/measure-community-health.md`, `tasks/measurement/measure-business-impact.md`, `tasks/measurement/analyze-cohort-retention.md`, `tasks/measurement/analyze-content-to-conversation.md` |
+| **Frameworks** | `frameworks/impact-experiment-design.md`, `frameworks/impact-learning-loop.md`, `frameworks/movement-health-score-framework.md`, `frameworks/impact-cohort-analysis.md`, `frameworks/impact-metrics-model.md`, `frameworks/impact-movement-attribution.md` |
+| **Checklists** | `checklists/experimentation-quality.md`, `checklists/impacto/experiment-readout.md`, `checklists/impact-dashboard-quality.md`, `checklists/impacto/vanity-metric-filter.md`, `checklists/impacto/cohort-and-retention.md`, `checklists/impacto/causal-attribution-sanity.md` |
+| **Registries** | `data/registries/experiment-log.yaml`, `data/metrics/movement-health-score.md`, `data/metrics/community-growth-quality.md`, `data/metrics/business-impact.md`, `data/metrics/cohort-retention.md`, `data/metrics/content-to-conversation.md` |
+
+### Regras de Fluxo
+- **Quality Gate entre fases:** Fase 1→2: dados completos; Fase 2→3: diagnóstico claro; Fase 3→4: readouts produzidos com veredicto claro
+- **Rework:** Se resultado de experimento inconclusivo → redesenhar teste com mais rigor ou mais amostra
+- **Escalation:** Se Health Score em queda crítica (<25) → reunião emergencial com Movement Chief
+- **Handoff:** Insights e recomendações alimentam → `workflows/05-ralphloop-kaizen-weekly.md` e `workflows/16-quarterly-movement-review.md`

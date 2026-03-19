@@ -193,3 +193,18 @@ feito
 | Community entries via creators | Rastreado e reportado |
 | Creators renovados | >= 60% dos ativados |
 | ROI médio por creator | >= 1.5x |
+
+## Integração
+
+| Tipo | Referência |
+|------|-----------|
+| **Tasks** | `tasks/activation/activate-creators.md`, `tasks/creation/create-creator-briefs.md`, `tasks/activation/activate-paid-amplification.md` |
+| **Frameworks** | `frameworks/creator-movement-framework.md`, `frameworks/distribution-trident.md`, `frameworks/cycle-momentum-mapping.md` |
+| **Checklists** | `checklists/creator-influencer-brief-quality.md`, `checklists/partner-alignment-quality.md`, `checklists/distribuicao/paid-amplification-guardrails.md`, `checklists/distribuicao/attribution-sanity-check.md` |
+| **Registries** | `data/registries/creator-partners/`, `data/registries/distribution-plans/` |
+
+### Regras de Fluxo
+- **Quality Gate entre fases:** Scout→Brief: shortlist aprovada; Brief→Approve: conteúdo alinhado com thesis; Approve→Amplify: publicação confirmada; Amplify→Measure: dados de 2 semanas coletados
+- **Rework:** Se conteúdo do creator desalinhado → feedback específico e nova rodada de aprovação
+- **Escalation:** Se ROI negativo consistente → escalar para Movement Chief para revisão de budget
+- **Handoff:** Creator Reports alimentam → `workflows/04-measure-and-learn.md` e `workflows/03-activation-sprint.md`

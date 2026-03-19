@@ -162,3 +162,18 @@ thesis validada          champions emergindo      impacto mensurável
 | Content engagement rate | Baseline | >= +20% | >= +40% |
 | Business leads | Baseline | >= +15% | >= +30% |
 | Health Score | >= 50 | >= 65 | >= 75 |
+
+## Integração
+
+| Tipo | Referência |
+|------|-----------|
+| **Tasks** | `tasks/activation/launch-activation.md`, `tasks/strategy/plan-launch-sequence.md`, `tasks/strategy/define-win-conditions.md`, `tasks/activation/activate-community.md`, `tasks/activation/activate-creators.md`, `tasks/measurement/measure-movement-health.md`, `tasks/measurement/measure-business-impact.md`, `tasks/strategy/plan-movement-scaling.md` |
+| **Frameworks** | `frameworks/cycle-launch-sequencing.md`, `frameworks/chief-win-conditions-30-60-90.md`, `frameworks/distribution-trident.md`, `frameworks/community-flywheel.md`, `frameworks/scaling-layer.md` |
+| **Checklists** | `checklists/launch-sequencing-quality.md`, `checklists/chief/chief-win-condition.md`, `checklists/distribution-plan-quality.md`, `checklists/community-activation-quality.md`, `checklists/impact-dashboard-quality.md` |
+| **Registries** | `data/registries/distribution-plans/`, `data/registries/experiment-log.yaml`, `data/metrics/movement-health-score.md`, `data/metrics/business-impact.md` |
+
+### Regras de Fluxo
+- **Quality Gate entre fases:** Dia 30: Win Conditions 30d ≥ 60% → avançar; Dia 60: comunidade engajada + negócio mensurável → avançar; Dia 90: Win Conditions completas → renovar ciclo
+- **Rework:** Se Win Conditions < 60% em qualquer checkpoint → avaliar se problema é execução ou thesis
+- **Escalation:** Se tudo fraco no Dia 60 → considerar pivot/restructure, escalar para Movement Chief + stakeholders
+- **Handoff:** Quarterly Review alimenta → `workflows/16-quarterly-movement-review.md` e planejamento do Q+1

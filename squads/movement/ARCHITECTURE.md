@@ -352,3 +352,281 @@ Detalhados em `config.yaml` na seção `cross_squad`.
 | **RalphLooping** | Ciclo: Pesquisar→Criar→Lançar→Medir→Aprender→Atualizar→Repetir |
 | **Kill Criteria** | Condições para encerrar/pivotar um movimento |
 | **Quality Gate** | Checklist que precisa passar antes de "final" |
+
+---
+
+## 12. CASCATA DE QUALITY GATES
+
+O Movement Squad opera com uma cascata de 6 níveis de quality gates, cada um progressivamente mais rigoroso. Nenhum output avança para o próximo nível sem aprovação no anterior.
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                         CASCATA DE QUALITY GATES                                │
+│                                                                                 │
+│  Nível 1        Nível 2         Nível 3        Nível 4       Nível 5   Nível 6 │
+│                                                                                 │
+│  Agent      →   Task Quality →  Domain     →   Chief     →  Cross-  → HRM      │
+│  Self-Eval      Gate            Gate           Review        Squad     Gate     │
+│  (8 items)      (checklist)     (per-domain)   (aprovação)   Gate      (final)  │
+│                                                              (handoff          │
+│                                                               rubric)          │
+└─────────────────────────────────────────────────────────────────────────────────┘
+```
+
+### 12.1 Detalhamento por Nível
+
+| Nível | Nome | Quem Aplica | Quando Aplica | Se Reprovar | Escalação |
+|-------|------|-------------|---------------|-------------|-----------|
+| 1 | **Agent Self-Eval** | O próprio agente executor | Antes de submeter qualquer output | Agente corrige internamente, sem registro | Não escala — é autocorreção |
+| 2 | **Task Quality Gate** | Agente reviewer (definido na task) | Após entrega do output pelo agente | Feedback específico → agente corrige (rework policy: max 3 iterações) | Após 2ª rejeição: Chief notificado |
+| 3 | **Domain Gate** | Agente especialista do domínio | Para outputs que cruzam domínios | Reviewer do domínio indica gaps específicos | Se conflito entre domínios: Chief arbitra |
+| 4 | **Chief Review** | Movement Chief | Outputs estratégicos (tese, identidade, kill/pivot) | Chief redefine escopo ou realoca recursos | Se bloqueio persistente: Chief escala para stakeholders |
+| 5 | **Cross-Squad Gate** | Chief + Architect do squad receptor | Handoffs para outros squads | Handoff rejeitado → Chiefs alinham formato e critérios | Após 2ª rejeição: escalação para HRM Chief |
+| 6 | **HRM Gate** | HRM Central Command | Outputs que afetam múltiplos squads ou estratégia global | Retorno com diretrizes de ajuste | Decisão final do HRM Chief |
+
+### 12.2 Regras da Cascata
+
+- **Sequencial e obrigatória:** nenhum nível pode ser pulado.
+- **Rework policy ativa:** máximo 3 iterações por nível (ver `config.yaml > rework_policy`).
+- **Registro automático:** toda rejeição gera entry em `data/registries/lessons-learned-registry.yaml`.
+- **Gates obrigatórios globais:** `movement-thesis-quality`, `identity-system-quality` e `impact-dashboard-quality` são aplicados em TODOS os outputs, independente do domínio.
+- **Gates por domínio:** checklists específicos para research, identity, creation, activation, measurement e governance (ver `config.yaml > quality_gates > per_domain`).
+
+---
+
+## 13. MEMÓRIA E LOOP DE APRENDIZADO
+
+O Movement Squad opera com um sistema de memória institucional baseado no ciclo **RalphLoop/Kaizen**. Nada se perde — todo output, decisão, erro e aprendizado alimenta o próximo ciclo.
+
+### 13.1 Como Outputs Viram Registries
+
+```
+Output do Agente
+    │
+    ├──► Aprovado no Quality Gate
+    │       │
+    │       ├──► Decisão estratégica → data/registries/decision-log.yaml
+    │       ├──► Resultado de experimento → data/registries/experiment-log.yaml
+    │       ├──► Sinal cultural novo → data/registries/signal-archive.yaml
+    │       ├──► Asset validado → data/registries/memetic-assets/ + slogan-bank.yaml
+    │       └──► Lição aprendida → data/registries/lessons-learned-registry.yaml
+    │
+    └──► Rejeitado no Quality Gate
+            │
+            └──► Rework entry → data/registries/lessons-learned-registry.yaml
+                 (causa, correção, prevenção)
+```
+
+### 13.2 Como Registries Influenciam Próximas Execuções
+
+Antes de iniciar qualquer tarefa, o agente executor DEVE consultar a memória relevante:
+
+| Ação | Registry a Consultar | Motivo |
+|------|----------------------|--------|
+| Criar nova tese | `data/registries/movement-theses.yaml` | Evitar repetição, aprender com teses anteriores |
+| Novo experimento | `data/registries/experiment-log.yaml` | Não repetir experimentos já feitos, aprender com resultados |
+| Criar asset | `data/registries/memetic-assets/` | Reusar e evoluir assets existentes |
+| Handoff cross-squad | `data/registries/lessons-learned-registry.yaml` | Evitar erros já documentados |
+| Decisão de kill/pivot | `data/registries/decision-log.yaml` | Entender histórico de decisões similares |
+
+### 13.3 Cadência de Registro
+
+| Frequência | O que é Registrado | Onde |
+|------------|--------------------|----|
+| **Sempre** (a cada output) | Decisões estratégicas, resultados de experimentos, sinais culturais, lessons learned, assets validados | Registries em `data/registries/` |
+| **Semanal** | Signal radar, health score snapshot, kaizen loop learnings | `data/registries/signal-archive.yaml`, `data/metrics/weekly-dashboard.md` |
+| **Mensal** | Movement health review, community health, business impact | `data/metrics/movement-health-score.md`, `data/metrics/community-growth-quality.md` |
+| **Trimestral** | Maturity score, kill/continue review | `data/metrics/maturity-score-history.md`, `data/registries/decision-log.yaml` |
+
+### 13.4 Exemplo de Ciclo Completo de Aprendizado
+
+1. **Semana 1:** Fenomenólogo detecta sinal cultural emergente sobre "fadiga de produtividade tóxica" → registra em `signal-archive.yaml`.
+2. **Semana 2:** Architect + Identitário criam tese baseada no sinal → registram em `movement-theses.yaml`. Manifestador cria 3 memes de teste → registra em `memetic-assets/`.
+3. **Semana 3:** Analista de Impacto roda experimento A/B com memes em 2 canais → registra design em `experiment-log.yaml`.
+4. **Semana 4:** Resultados mostram que meme #2 tem 3x mais compartilhamento. Analista registra resultado em `experiment-log.yaml`. Weekly kaizen identifica padrão: "formato confessional performa melhor que formato imperativo" → registra em `lessons-learned-registry.yaml`.
+5. **Próximo ciclo:** Manifestador consulta `lessons-learned-registry.yaml` ANTES de criar novos assets. Usa formato confessional como baseline. Ciclo se repete com dados enriquecidos.
+
+### 13.5 Retenção de Memória
+
+- **Ativa (0-6 meses):** dados ficam em `data/registries/` para acesso direto.
+- **Arquivo (>6 meses):** dados movidos para `archive/` para desafogar operação.
+- **Permanente (nunca arquivado):** `decision-log`, `experiment-log` e `lessons-learned` — são a memória institucional do squad.
+
+---
+
+## 14. PROTOCOLO GO/NO-GO
+
+O squad utiliza readiness reviews formais em 3 momentos críticos do ciclo de vida de um movimento. Nenhum movimento avança de fase sem aprovação explícita no gate correspondente.
+
+### 14.1 Os 3 Gates de Prontidão
+
+```
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│   PRE-LAUNCH    │────►│  PRE-SCALING    │────►│   PRE-SUNSET    │
+│                 │     │                 │     │                 │
+│ "Estamos pron-  │     │ "Podemos esca-  │     │ "Devemos encer- │
+│  tos para       │     │  lar com segu-  │     │  rar este movi- │
+│  lançar?"       │     │  rança?"        │     │  mento?"        │
+│                 │     │                 │     │                 │
+│ Chief +         │     │ Chief +         │     │ Chief +         │
+│ Architect       │     │ Analista de     │     │ Stakeholder     │
+│                 │     │ Impacto         │     │                 │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+```
+
+### 14.2 Pre-Launch — Gate de Prontidão para Lançamento
+
+**Quem participa:** Chief + Architect assinam go/no-go.
+
+**Critérios (todos obrigatórios):**
+1. Tese validada com no mínimo 5 evidências documentadas
+2. Identidade visual e verbal definida e aprovada
+3. Manifesto escrito e revisado por Chief + Identitário
+4. Mínimo 3 artefatos meméticos prontos para distribuição
+5. Comunidade seed com no mínimo 20 membros ativos
+6. Canais de distribuição mapeados e configurados
+7. Plano 30-60-90 aprovado pelo Chief
+8. Dashboard de métricas configurado com baseline
+9. Plano de crise/backlash documentado
+10. Protocolo de moderação ativo
+
+**Formato:** reunião estruturada com checklist. Cada item é marcado como pass/fail com evidência.
+
+### 14.3 Pre-Scaling — Gate de Prontidão para Scaling
+
+**Quem participa:** Chief + Analista de Impacto assinam.
+
+**Critérios (todos obrigatórios):**
+1. Health Score >60 por no mínimo 4 semanas consecutivas
+2. Taxa de retenção da comunidade >50% em 90 dias
+3. No mínimo 3 champions ativos (tier silver+)
+4. Content-to-conversation rate >15%
+5. Unit economics validado (CAC vs LTV do movimento)
+6. Infraestrutura de moderação escala com crescimento
+
+### 14.4 Pre-Sunset — Gate de Confirmação de Sunset
+
+**Quem participa:** Chief + Stakeholder assinam.
+
+**Critérios (todos obrigatórios):**
+1. Health Score <30 por no mínimo 60 dias
+2. No mínimo 3 tentativas de pivot documentadas e falhadas
+3. Análise de impacto na comunidade existente
+4. Plano de transição/legado documentado
+5. Stakeholders informados e alinhados
+
+### 14.5 Registro e Referência
+
+- **Onde registrar:** `data/readiness-reviews/`
+- **Protocolo completo:** [docs/readiness-review-protocol.md](docs/readiness-review-protocol.md)
+- **Decisões de go/no-go:** também registradas em `data/registries/decision-log.yaml`
+
+---
+
+## 15. GESTÃO DE RISCOS
+
+O Movement Squad gerencia riscos operacionais de forma contínua, com categorização, registro e mitigação estruturados.
+
+### 15.1 Categorias de Risco
+
+| Categoria | Descrição | Exemplos | Agente Monitor |
+|-----------|-----------|----------|----------------|
+| **Reputacional** | Dano à imagem da marca ou do movimento | Backlash cultural, associação indesejada, apropriação de causa | Chief + Architect |
+| **Operacional** | Falhas no processo do squad | Agente sobrecarregado, quality gate quebrado, handoff falhado | Chief |
+| **Legal** | Riscos jurídicos ou de compliance | Uso indevido de imagem, claims sem prova, violação de dados | Chief → Jurídico |
+| **Cultural** | Leitura errada de sinais ou tensões | Movimento que ofende grupo, tom surdo, timing errado | Fenomenólogo + Identitário |
+| **Financeiro** | Investimento sem retorno mensurável | Budget estourado, CAC insustentável, ROI negativo | Analista de Impacto + Chief |
+
+### 15.2 Processo de Gestão
+
+```
+Identificar → Registrar → Classificar → Mitigar → Monitorar → Revisar
+    │              │            │            │           │          │
+    ▼              ▼            ▼            ▼           ▼          ▼
+ Qualquer     risk-log     Severidade   Plano de    Dashboard   Revisão
+ agente       .yaml        + Probab.    ação        semanal     mensal
+ detecta                   + Impacto    concreto    no radar    no review
+```
+
+**Como identificar:**
+- Qualquer agente pode identificar um risco a qualquer momento durante a execução.
+- Sinais de risco incluem: feedback negativo recorrente, queda em métricas, sinais culturais de rejeição, conflitos internos repetidos, compliance flags.
+
+**Como registrar:**
+- Todo risco identificado é registrado em `data/risk-log.yaml` com: descrição, categoria, severidade (1-5), probabilidade (1-5), impacto potencial, responsável pela mitigação, status.
+
+**Como mitigar:**
+- Riscos com severidade x probabilidade >= 12: mitigação imediata + Chief notificado.
+- Riscos com severidade x probabilidade >= 8: plano de mitigação em 7 dias.
+- Riscos com severidade x probabilidade < 8: monitoramento contínuo.
+
+**Como escalar:**
+- Risco reputacional confirmado → pausar execução, Chief decide próximo passo.
+- Risco legal identificado → pausar, consultar jurídico, documentar (ver `config.yaml > escalation_rules`).
+- Risco financeiro >20% do budget → Chief escala para stakeholders.
+
+### 15.3 Referências
+
+- **Registro de riscos:** `data/risk-log.yaml`
+- **Taxonomia de riscos:** [lib/taxonomies/risk-taxonomy.md](lib/taxonomies/risk-taxonomy.md)
+- **Checklists relacionados:** `checklists/governance/ethics-and-boundaries.md`, `checklists/pr/backlash-mitigation.md`
+- **Plano de crise:** `templates/plans/crisis-response-plan.md`
+
+---
+
+## 16. MATRIZ DE DELEGAÇÃO E ESCALAÇÃO
+
+Esta matriz define quem decide o quê no Movement Squad, e quando escalar para um nível superior. Referência completa em `config.yaml` nas seções `escalation_rules` e `delegation_rules`.
+
+### 16.1 Matriz de Decisão
+
+| Tipo de Decisão | Agent (autônomo) | Chief (decide) | Stakeholder (aprova) |
+|-----------------|:----------------:|:--------------:|:--------------------:|
+| Execução dentro do escopo delegado | **DECIDE** | Informado | — |
+| Escolha de framework/método para task | **DECIDE** | — | — |
+| Priorização do backlog | — | **DECIDE** | Informado |
+| Win conditions e métricas de sucesso | — | **DECIDE** | Informado |
+| Aprovação final de tese | Propõe | **DECIDE** | — |
+| Aprovação de identidade do movimento | Propõe | **DECIDE** | — |
+| Conflitos entre agentes | — | **DECIDE** | — |
+| Alocação de recursos entre tasks | — | **DECIDE** | — |
+| Outputs que afetam cross-squad | Propõe | **APROVA** | — |
+| Kill/pivot de movimento | Recomenda | Recomenda | **DECIDE** |
+| Investimento >R$100K ou >6 meses | — | Propõe | **DECIDE** |
+| Risco legal ou compliance | Identifica | Pausa + documenta | **DECIDE** |
+| Budget >20% do previsto | Identifica | Escala | **DECIDE** |
+| Conflito cross-squad não resolvido | — | Tenta resolver | **DECIDE** (HRM Chief) |
+
+### 16.2 Níveis de Autonomia
+
+| Nível | Descrição | Exemplos |
+|-------|-----------|----------|
+| **Autonomia Total** | Agente executa sem aprovação prévia | Pesquisa cultural, criação de draft, análise de métricas, execução dentro do escopo delegado |
+| **Aprovação Necessária** | Agente executa, Chief aprova antes de publicar/entregar | Outputs que afetam identidade, tese, cross-squad handoffs |
+| **Somente Chief** | Apenas Chief pode decidir | Kill decisions, budget >20%, comunicação com stakeholders |
+
+### 16.3 Regras de Escalação
+
+| Condição | De → Para | Ação |
+|----------|-----------|------|
+| Risco reputacional identificado | Agent → Chief | Pausar execução, notificar Chief imediatamente |
+| Conflito entre agentes sobre direção | Agent → Chief | Chief arbitra com base em win conditions |
+| Output reprovado 2x no mesmo quality gate | Agent → Chief | Chief revisa escopo e realoca recursos |
+| Sinal cultural com potencial de tese | Fenomenólogo → Architect + Chief | Avaliar viabilidade e priorizar |
+| Budget necessário >20% do previsto | Agent → Chief → Stakeholder | Chief escala para stakeholders |
+| Kill/pivot de movimento ativo | Chief → Stakeholder | Apresentar dados + recomendação |
+| Investimento >R$100K ou >6 meses | Chief → Stakeholder | Business case formal + aprovação |
+| Risco legal ou compliance | Chief → Jurídico + Stakeholder | Pausar, consultar jurídico, documentar |
+| Handoff rejeitado 2x | Chief → Chief receptor | Chiefs alinham formato e critérios |
+| Dependência bloqueante de outro squad | Chief → Chief receptor | Notificar + deadline, escalar se não resolvido em 48h |
+
+### 16.4 Delegação por Agente
+
+| Agente | Escopo Delegado |
+|--------|----------------|
+| **Movement Architect** | Design de sistema, loops, coerência, arquitetura de canais |
+| **Fenomenólogo** | Pesquisa cultural, sinais, linguagem, tensões |
+| **Identitário** | Sistema de identidade, símbolos, pertencimento |
+| **Estrategista de Ciclo** | Timing, cadência, janelas de atenção, sazonalidade |
+| **Manifestador** | Criação de artefatos, manifestos, memes, rituais |
+| **Analista de Impacto** | Métricas, experimentos, atribuição, health score |

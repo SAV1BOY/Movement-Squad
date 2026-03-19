@@ -195,3 +195,18 @@ budget           assets prontos    PR ativados         UGC amplificado  learning
 | Creator content published | 100% dos confirmados |
 | Paid ROI | >= 1.5x |
 | Sprint Report entregue | Em até 3 dias pós-sprint |
+
+## Integração
+
+| Tipo | Referência |
+|------|-----------|
+| **Tasks** | `tasks/activation/launch-activation.md`, `tasks/activation/activate-community.md`, `tasks/activation/activate-creators.md`, `tasks/activation/activate-paid-amplification.md`, `tasks/activation/activate-pr.md`, `tasks/activation/activate-partnerships.md` |
+| **Frameworks** | `frameworks/distribution-trident.md`, `frameworks/community-flywheel.md`, `frameworks/cycle-launch-sequencing.md`, `frameworks/cycle-momentum-mapping.md`, `frameworks/creator-movement-framework.md` |
+| **Checklists** | `checklists/distribution-plan-quality.md`, `checklists/launch-sequencing-quality.md`, `checklists/community-activation-quality.md`, `checklists/creator-influencer-brief-quality.md`, `checklists/distribuicao/paid-amplification-guardrails.md` |
+| **Registries** | `data/registries/distribution-plans/`, `data/registries/creator-partners/`, `data/registries/experiment-log.yaml`, `data/metrics/earned-media-metrics.md` |
+
+### Regras de Fluxo
+- **Quality Gate entre fases:** Fase 1→2: plan aprovado pelo Architect; Fase 2→3: tudo preparado; Fase 3→4: tração positiva; Fase 4→5: ROI positivo
+- **Rework:** Se tração fraca → ajustar messaging ou redirecionar budget antes de amplificar
+- **Escalation:** Se backlash durante execução → acionar `workflows/06-crisis-and-backlash.md`
+- **Handoff:** Sprint Report alimenta → `workflows/04-measure-and-learn.md` e `workflows/05-ralphloop-kaizen-weekly.md`

@@ -174,3 +174,18 @@ primeiro wow     participação      mentoria          reconhecimento
 | Novos champions/trimestre | >= 5 |
 | Satisfação de champions | >= 8/10 |
 | Community NPS | >= 60 |
+
+## Integração
+
+| Tipo | Referência |
+|------|-----------|
+| **Tasks** | `tasks/activation/activate-community.md`, `tasks/creation/create-onboarding-experience.md`, `tasks/creation/create-champion-program.md`, `tasks/creation/create-community-rituals.md`, `tasks/strategy/design-community-structure.md`, `tasks/measurement/measure-community-health.md` |
+| **Frameworks** | `frameworks/community-flywheel.md`, `frameworks/identity-belonging-gradient.md`, `frameworks/ritual-reward-loop.md` |
+| **Checklists** | `checklists/community-activation-quality.md`, `checklists/comunidade/onboarding-and-roles.md`, `checklists/comunidade/champion-program-quality.md`, `checklists/comunidade/engagement-rituals.md`, `checklists/comunidade/moderation-and-safety.md`, `checklists/comunidade/community-health-indicators.md` |
+| **Registries** | `data/registries/community-roles/`, `data/registries/champion-registry/`, `data/metrics/community-growth-quality.md` |
+
+### Regras de Fluxo
+- **Quality Gate entre fases:** Onboarding completion ≥ 60% D7; Retenção D30 ≥ 50%; Champions identificados e ativados mensalmente
+- **Rework:** Se retenção D30 < 50% → revisar experiência de onboarding e valor percebido
+- **Escalation:** Se community health em queda por 3+ semanas → escalar para Movement Architect
+- **Handoff:** Community Health Reports alimentam → `workflows/04-measure-and-learn.md` e `workflows/16-quarterly-movement-review.md`
