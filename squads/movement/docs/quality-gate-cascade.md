@@ -1,209 +1,177 @@
 ---
 id: quality-gate-cascade
-name: "Cascata de Quality Gates"
+name: "Quality Gate Cascade"
 squad: movement
 type: doc
-category: docs
-version: 1.0.0
-tags: [quality-gate, cascata, qualidade, processo, operacional]
+category: quality
+tags:
+  - quality-gate
+  - cascata
+  - revisao
+  - governanca
+  - operacional
 ---
 
-# Cascata de Quality Gates
+# Quality Gate Cascade — Cascata de Portões de Qualidade
 
-## Visão Geral
+## Objetivo
 
-Quality gates são checkpoints de qualidade que todo artefato, decisão ou entrega
-deve passar antes de avançar. No Movement Squad, os gates formam uma cascata —
-cada nível valida um escopo diferente, do micro (tarefa individual) ao macro
-(cross-squad). Este documento mapeia toda a cascata e explica como ela funciona.
+Todo output produzido pelo Movement Squad passa por uma cascata de verificação
+antes de ser considerado pronto. Este documento detalha os 6 níveis da cascata,
+quem aplica cada um, quando e o que acontece se o output reprovar.
 
-## Diagrama da Cascata
+A cascata existe para garantir que nenhum artefato saia do squad sem a qualidade
+mínima necessária. Quanto mais cedo um problema é detectado, menor o custo de
+correção. Um erro pego no Nível 1 custa minutos; no Nível 6 pode custar semanas.
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                    CAMADA 6: HRM                        │
-│         Compliance geral do operating system            │
-│  ┌───────────────────────────────────────────────────┐  │
-│  │              CAMADA 5: CROSS-SQUAD                │  │
-│  │         Handoff entre squads avaliado             │  │
-│  │  ┌─────────────────────────────────────────────┐  │  │
-│  │  │            CAMADA 4: SQUAD                  │  │  │
-│  │  │      Sprint review e health check           │  │  │
-│  │  │  ┌───────────────────────────────────────┐  │  │  │
-│  │  │  │         CAMADA 3: DOMAIN              │  │  │  │
-│  │  │  │   Revisão por lead do domínio         │  │  │  │
-│  │  │  │  ┌─────────────────────────────────┐  │  │  │  │
-│  │  │  │  │       CAMADA 2: TASK            │  │  │  │  │
-│  │  │  │  │   Checklist de entrega          │  │  │  │  │
-│  │  │  │  │  ┌───────────────────────────┐  │  │  │  │  │
-│  │  │  │  │  │    CAMADA 1: AGENT       │  │  │  │  │  │
-│  │  │  │  │  │  Autoavaliação pessoal   │  │  │  │  │  │
-│  │  │  │  │  └───────────────────────────┘  │  │  │  │  │
-│  │  │  │  └─────────────────────────────────┘  │  │  │  │
-│  │  │  └───────────────────────────────────────┘  │  │  │
-│  │  └─────────────────────────────────────────────┘  │  │
-│  └───────────────────────────────────────────────────┘  │
-└─────────────────────────────────────────────────────────┘
-```
+---
 
-## Gate por Camada
-
-### Camada 1: Agent (Autoavaliação)
-
-**Quem aplica:** O próprio agent antes de entregar qualquer artefato
-**Quando:** Antes de submeter para revisão
-
-| Critério | Pergunta | Pass/Fail |
-|----------|----------|-----------|
-| Completude | O artefato está completo conforme o escopo definido? | |
-| Alinhamento | Está alinhado com a tese e identidade do movimento? | |
-| Qualidade mínima | Está revisado quanto a erros, tom e formatação? | |
-| Evidências | Afirmações estão sustentadas por dados ou sinais reais? | |
-| Formato | Segue o template ou padrão aplicável? | |
-
-**Se falhar:** Agent corrige antes de submeter. Não ocupa tempo de revisores.
-
-### Camada 2: Task (Checklist de Entrega)
-
-**Quem aplica:** Agent executor + 1 revisor (peer review)
-**Quando:** Ao concluir uma task/entrega específica
-
-| Critério | Pergunta | Pass/Fail |
-|----------|----------|-----------|
-| Escopo atendido | Todos os requisitos da task foram atendidos? | |
-| Quality standard | Atende ao padrão de qualidade do squad? | |
-| Documentação | Decisões e racional estão documentados? | |
-| Testado | Foi testado/validado antes de entregar (se aplicável)? | |
-| Dependências | Dependências downstream estão notificadas? | |
-
-**Se falhar:** Volta para o agent com feedback específico do revisor.
-
-### Camada 3: Domain (Revisão de Lead)
-
-**Quem aplica:** Lead do domínio (narrativa, comunidade, estratégia, etc.)
-**Quando:** Antes de publicar/distribuir ou entregar para outro domínio
-
-| Critério | Pergunta | Pass/Fail |
-|----------|----------|-----------|
-| Consistência | Está consistente com outros artefatos do domínio? | |
-| Estratégia | Está alinhado com a estratégia do ciclo atual? | |
-| Qualidade narrativa | Tom, linguagem e posicionamento estão corretos? | |
-| Risco | Há algum risco reputacional, legal ou cultural? | |
-| Métricas | Tem métricas de sucesso definidas (se aplicável)? | |
-
-**Se falhar:** Volta para a task com feedback do lead. Máximo 2 ciclos de rework.
-
-### Camada 4: Squad (Sprint Review)
-
-**Quem aplica:** Time completo na review semanal (ciclo Kaizen)
-**Quando:** Semanalmente, ao final do ciclo
-
-| Critério | Pergunta | Pass/Fail |
-|----------|----------|-----------|
-| Cadência | O loop semanal rodou completo? | |
-| Health Score | O Movement Health Score está acima do threshold? | |
-| Aprendizado | Aprendizados da semana foram documentados? | |
-| Backlog | Backlog foi atualizado com base nos aprendizados? | |
-| Riscos | Risk log foi revisado e atualizado? | |
-
-**Se falhar:** Itens específicos entram no backlog da semana seguinte com prioridade.
-
-### Camada 5: Cross-Squad (Handoff)
-
-**Quem aplica:** Squad receptor usando a `cross-squad-handoff-rubric`
-**Quando:** Em toda transição de trabalho entre squads
-
-| Critério | Pergunta | Pass/Fail |
-|----------|----------|-----------|
-| Completude | Todos os artefatos prometidos foram entregues? | |
-| Clareza | Documentação é autoexplicativa? | |
-| Evidências | Dados e provas estão presentes e verificáveis? | |
-| Rastreabilidade | Cadeia de decisões está documentada? | |
-| Timing | Entrega dentro do prazo acordado? | |
-
-**Classificação:** GOLD (100-125) / GOOD (75-99) / REVIEW (50-74) / REJECT (0-49)
-**Se REJECT:** Devolve ao squad de origem. Se REVIEW: reunião de alinhamento em 48h.
-
-### Camada 6: HRM (Compliance Geral)
-
-**Quem aplica:** Chief of Movement + auditoria periódica
-**Quando:** Mensalmente (auditoria de decisões) e trimestralmente (compliance)
-
-| Critério | Pergunta | Pass/Fail |
-|----------|----------|-----------|
-| Governança | Decisões seguem o framework de governança? | |
-| Ética | Operações respeitam boundaries éticos? | |
-| Documentação | Decision logs e registros estão atualizados? | |
-| Qualidade sistêmica | Quality gates estão sendo aplicados consistentemente? | |
-| Melhoria contínua | Kaizen está rodando e gerando aprendizados? | |
-
-**Se falhar:** Plano de correção com prazo, reportado a stakeholders se necessário.
-
-## Fluxo de Rejeição/Rework
+## Diagrama Visual
 
 ```
-Artefato submetido ao gate
-  ↓
-Gate avalia critérios
-  ↓
-┌──── PASS → avança para próximo gate ou entrega final
-│
-└──── FAIL → feedback específico gerado
-        ↓
-      Owner recebe feedback
-        ↓
-      Rework executado (prazo: igual ou menor que original)
-        ↓
-      Resubmetido ao mesmo gate
-        ↓
-      ┌──── PASS → avança
-      │
-      └──── FAIL (2ª vez) → escalar para camada acima
-              ↓
-            Lead/Chief avalia: rework viável ou escopo errado?
-              ↓
-            ┌──── Rework viável → última tentativa com suporte
-            │
-            └──── Escopo errado → redesign com nova definição
+┌─────────────────────────────────────────────┐
+│  Nível 1 — Agent Self-Eval                  │  Quem produz, avalia primeiro
+├─────────────────────────────────────────────┤
+│  Nível 2 — Task Gate                        │  Checklist obrigatório da task
+├─────────────────────────────────────────────┤
+│  Nível 3 — Domain Gate                      │  Gate do domínio (research, identity...)
+├─────────────────────────────────────────────┤
+│  Nível 4 — Chief Review                     │  Movement Chief valida estratégia
+├─────────────────────────────────────────────┤
+│  Nível 5 — Cross-Squad Gate                 │  Squad receptor valida handoff
+├─────────────────────────────────────────────┤
+│  Nível 6 — HRM Gate                         │  Human Review Manager (quando aplicável)
+└─────────────────────────────────────────────┘
 ```
 
-## Exemplos de Cascata
+Cada nível é sequencial. O output só avança para o próximo nível se aprovado no anterior.
 
-### Exemplo 1: Post de conteúdo para redes sociais
+---
 
-1. **Agent:** Narrative architect cria o post, faz autoavaliação (Camada 1) ✓
-2. **Task:** Peer review com outro criador — feedback sobre CTA (Camada 2) → rework → ✓
-3. **Domain:** Lead de narrativa revisa tom e alinhamento com tese (Camada 3) ✓
-4. **Squad:** Post entra na sprint review semanal com métricas (Camada 4) ✓
+## Detalhamento por Nível
 
-### Exemplo 2: Pesquisa cultural entregue para outro squad
+### Nível 1 — Agent Self-Eval
 
-1. **Agent → Task → Domain:** Pesquisa passa pelas 3 primeiras camadas ✓
-2. **Squad:** Review semanal confirma qualidade (Camada 4) ✓
-3. **Cross-Squad:** Squad receptor avalia com handoff rubric → REVIEW (68 pts)
-   → Reunião de alinhamento → Complementação → GOOD (82 pts) ✓
+- **Quem aplica:** O agente que produziu o output
+- **Quando:** Imediatamente após concluir a tarefa
+- **Critérios:**
+  - Output atende ao objetivo descrito na task
+  - Formato segue o template esperado
+  - Sem erros óbvios de conteúdo ou estrutura
+  - Referências e dados estão corretos
+- **Se reprovar:** Agente corrige antes de submeter. Não gera registro.
 
-### Exemplo 3: Decisão de sunset de movimento
+### Nível 2 — Task Gate
 
-1. Todas as camadas anteriores alimentam a decisão
-2. **HRM (Camada 6):** Chief verifica que processo seguiu governança ✓
-3. Relatório final de sunset passa por Camada 4 (squad review) e Camada 6 (compliance) ✓
+- **Quem aplica:** Checklist específico da task (automático ou manual)
+- **Quando:** Ao marcar task como concluída
+- **Critérios:**
+  - Checklist da task 100% preenchido
+  - Todos os outputs obrigatórios presentes
+  - Nomenclatura segue `naming-conventions.md`
+  - Metadados YAML corretos (quando aplicável)
+- **Se reprovar:** Task retorna ao agente com itens faltantes listados.
 
-## Onde Encontrar Cada Gate
+### Nível 3 — Domain Gate
 
-| Camada | Documento de Referência |
-|--------|------------------------|
-| 1 - Agent | Checklists por tipo de artefato em `checklists/` |
-| 2 - Task | Templates de entrega em `templates/` |
-| 3 - Domain | Rubricas em `lib/utilities/` |
-| 4 - Squad | Ciclo Kaizen em `frameworks/ralphloop-kaizen` |
-| 5 - Cross-Squad | `cross-squad-handoff-rubric` + `cross-squad-handoff-protocol` |
-| 6 - HRM | `movement-governance-framework` |
+- **Quem aplica:** Gate do domínio correspondente (conforme `config.yaml > quality_gates > per_domain`)
+- **Quando:** Ao concluir conjunto de tasks de um domínio
+- **Critérios:**
+  - research: `cultural-insight-quality`, `phenomenology-signal-capture`
+  - identity: `we-us-now-identity`, `boundary-and-belonging`
+  - creation: `manifesto-quality`, `memetic-asset-quality`, `ritual-design-quality`
+  - activation: `distribution-plan-quality`, `community-activation-quality`
+  - measurement: `experimentation-quality`, `vanity-metric-filter`
+  - governance: `ethics-and-boundaries`, `claim-proof-standard`
+- **Se reprovar:** Output retorna ao agente do domínio com feedback específico do gate.
 
-## Integração
+### Nível 4 — Chief Review
 
-- Camada 1-3 rodam dentro do `movement-engine-5-loop`
-- Camada 4 roda no `ralphloop-kaizen` (sexta-feira)
-- Camada 5 usa o `cross-squad-handoff-rubric` e `handoff-component`
-- Camada 6 segue o `movement-governance-framework`
-- Rejeições geram rework via protocolo do governance framework
+- **Quem aplica:** Movement Chief (chief-of-movement)
+- **Quando:** Antes de publicação, lançamento ou handoff externo
+- **Critérios:**
+  - Alinhamento estratégico com a tese do movimento
+  - Coerência com identidade coletiva
+  - Risco reputacional avaliado
+  - Gates obrigatórios (`movement-thesis-quality`, `identity-system-quality`, `impact-dashboard-quality`) aprovados
+- **Se reprovar:** Chief documenta motivo no decision-log e define ação: rework ou pivot.
+
+### Nível 5 — Cross-Squad Gate
+
+- **Quem aplica:** Squad receptor do handoff
+- **Quando:** Ao receber output de handoff cross-squad
+- **Critérios:**
+  - Output no formato esperado pelo squad receptor
+  - Briefing completo com contexto e objetivo
+  - Qualidade suficiente para o squad receptor trabalhar sem retrabalho
+  - Conforme protocolo em `docs/cross-squad-handoff-protocol.md`
+- **Se reprovar:** Handoff retorna ao Movement Squad com feedback. Se rejeitado 2x, Chiefs alinham formato e critérios.
+
+### Nível 6 — HRM Gate
+
+- **Quem aplica:** Human Review Manager (stakeholder humano)
+- **Quando:** Conforme definido em `config.yaml > review_triggers`
+- **Critérios:**
+  - Sensibilidade cultural ou ética requer olhar humano
+  - Decisões de alto impacto (lançamento, sunset, pivot)
+  - Output público que representa a marca
+- **Se reprovar:** HRM define se é rework, pivot ou kill. Registro obrigatório no decision-log.
+
+---
+
+## Fluxo de Rejeição / Rework
+
+Quando um output reprova em qualquer nível:
+
+1. **Registro** — O motivo da rejeição é documentado (nível 3+ vai para decision-log)
+2. **Feedback** — Feedback específico e acionável é entregue ao agente
+3. **Rework** — Agente corrige e resubmete ao mesmo nível
+4. **Limite** — Máximo 3 ciclos de rework no mesmo nível. Se reprovar 3x, escala para o nível acima
+5. **Root Cause** — Na 2a rejeição, análise de causa raiz é obrigatória
+
+```
+Output reprovado → Feedback → Rework → Resubmissão ao mesmo nível
+                                          ↓ (se reprovado 3x)
+                                    Escalação ao nível superior
+```
+
+---
+
+## Exemplo de Cascata Completa
+
+**Cenário:** Narrative Architect cria um manifesto para o movimento.
+
+| Nível | Ação | Resultado |
+|-------|------|-----------|
+| 1 — Self-Eval | Architect revisa estrutura, tom, coerência com tese | Aprovado |
+| 2 — Task Gate | Checklist `manifesto-quality` preenchido: 8/8 itens | Aprovado |
+| 3 — Domain Gate | Gate `creation` valida identidade coletiva e enemy-dream | Reprovado — enemy mal calibrado |
+| 3 — Rework | Architect ajusta posicionamento do enemy | Aprovado |
+| 4 — Chief Review | Chief valida alinhamento estratégico e risco | Aprovado |
+| 5 — Cross-Squad | Copy Squad recebe para refinamento de linguagem | Aprovado |
+| 6 — HRM | Stakeholder humano valida antes de publicação | Aprovado |
+
+**Tempo total:** 3 dias (incluindo 1 ciclo de rework no Nível 3)
+
+---
+
+## Gates Obrigatórios (Toda Ação)
+
+Conforme `config.yaml`, três gates são obrigatórios para toda ação do squad:
+
+1. `movement-thesis-quality` — Toda ação começa com tese validada
+2. `identity-system-quality` — Identidade coletiva definida e coerente
+3. `impact-dashboard-quality` — Métricas definidas e acionáveis
+
+Esses gates se aplicam transversalmente, independente do domínio.
+
+---
+
+## Referências
+
+- `config.yaml` seção `quality_gates` — Gates por domínio
+- `checklists/` — Checklists operacionais de cada gate
+- `ARCHITECTURE.md` seção 9 — Quality Gates na arquitetura
+- `docs/readiness-review-protocol.md` — Protocolo de readiness review
+- `docs/cross-squad-handoff-protocol.md` — Protocolo de handoff
+- `data/registries/decision-log.yaml` — Registro de decisões (rejeições nível 3+)

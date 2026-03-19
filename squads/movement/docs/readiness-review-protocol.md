@@ -1,216 +1,177 @@
 ---
 id: readiness-review-protocol
-name: "Protocolo de Readiness Review (Go/No-Go)"
+name: "Readiness Review Protocol"
 squad: movement
 type: doc
-category: docs
-version: 1.0.0
-tags: [readiness, go-no-go, protocolo, lançamento, revisão]
+category: governance
+tags:
+  - readiness
+  - review
+  - governanca
+  - lancamento
+  - quality-gate
 ---
 
-# Protocolo de Readiness Review (Go/No-Go)
+# Readiness Review Protocol — Protocolo de Revisão de Prontidão
 
-## Visão Geral
+## Objetivo
 
-O protocolo de Readiness Review é o processo formal de go/no-go antes de lançamentos
-e transições de fase. Ele garante que ninguém avance para uma fase de alto investimento
-sem que as condições mínimas estejam atendidas. Uma review bem conduzida evita
-lançamentos prematuros e retrabalho caro.
+O Readiness Review é uma revisão estruturada que acontece antes de marcos
+críticos do movimento: lançamento, escala e encerramento. Garante que o squad
+tem tudo pronto antes de avançar, evitando lançamentos prematuros, escalas
+sem sustentação e encerramentos sem captura de legado.
+
+---
 
 ## Quando Aplicar
 
-| Momento | Tipo de Review | Criticidade |
-|---------|---------------|-------------|
-| Antes de lançar movimento novo | Full review | Alta — sem review, sem lançamento |
-| Transição seed → growth | Review focada | Alta — escalar sem base é perigoso |
-| Antes de escala significativa | Full review + capacidade | Alta — escala amplifica problemas |
-| Pós-pivot, antes de reativar | Review de revalidação | Média — pivot muda premissas |
-| Antes de parceria estratégica | Review focada (reputação) | Média — parceiro herda riscos |
+| Tipo | Momento | Exemplo |
+|------|---------|---------|
+| **Pre-Launch** | Antes de lançar o movimento publicamente | Tese validada, identidade definida, canais prontos |
+| **Pre-Scaling** | Antes de escalar distribuição ou comunidade | Métricas saudáveis, processos estáveis, time preparado |
+| **Pre-Sunset** | Antes de iniciar processo de encerramento | Critérios de sunset atingidos, legado mapeado |
 
-## Checklist de Readiness (10 Itens)
-
-Antes da review, o time deve preparar evidências para cada item.
-
-### Bloco 1: Fundação
-
-- [ ] **1. Tese articulada e validada** — Existe documento de tese com inimigo, sonho
-  e mecanismo? Foi validada com público real (mínimo 10 pessoas)?
-
-- [ ] **2. Identidade pronta para uso** — Nome, linguagem, símbolos e manifesto estão
-  finalizados e testados? Early adopters já usam a linguagem?
-
-- [ ] **3. Win conditions definidas** — Existem 3-7 win conditions mensuráveis com
-  baseline, target e prazo?
-
-### Bloco 2: Execução
-
-- [ ] **4. Artefatos prontos para 2 semanas** — Existe conteúdo suficiente para manter
-  cadência por 14 dias pós-lançamento sem produção emergencial?
-
-- [ ] **5. Calendário de distribuição definido** — Canais, formatos, frequência e
-  responsáveis estão definidos para as primeiras 4 semanas?
-
-- [ ] **6. Comunidade seed ativada** — Mínimo 10 membros engajados, com champions
-  identificados e pelo menos 1 ritual testado?
-
-### Bloco 3: Infraestrutura
-
-- [ ] **7. Métricas instrumentadas** — Dashboard configurado, tracking ativo, baseline
-  medido para todos os KPIs?
-
-- [ ] **8. Processos operacionais definidos** — Cadência do loop, responsabilidades,
-  quality gates e handoffs documentados?
-
-### Bloco 4: Proteção
-
-- [ ] **9. Riscos mapeados** — Risk log atualizado com mitigações para riscos de
-  severidade alta e crítica?
-
-- [ ] **10. Compliance verificado** — Revisão jurídica (se aplicável), permissões de
-  UGC, direitos de imagem, regulações setoriais verificados?
+---
 
 ## Quem Participa
 
 | Papel | Responsabilidade na Review |
-|-------|--------------------------|
-| Chief of Movement | Lidera a sessão, toma decisão final, documenta |
-| Strategist / Lead | Apresenta evidências de tese e estratégia |
-| Creator Lead | Apresenta status de artefatos e calendário |
-| Community Lead | Apresenta status da comunidade seed |
-| Analyst | Apresenta métricas, baseline e instrumentação |
-| Stakeholder (opcional) | Fornece perspectiva externa, valida alinhamento |
+|-------|---------------------------|
+| **Movement Chief** | Conduz a review, decide Go/No-Go |
+| **Movement Architect** | Apresenta estado da arquitetura e sistemas |
+| **Analista de Impacto** | Apresenta métricas e health score |
+| **Stakeholders** | Validam alinhamento com objetivos de negócio |
+| **Agentes do domínio** | Respondem perguntas sobre seus entregáveis |
 
-**Tamanho ideal:** 4-6 pessoas. Menos que 4 falta perspectiva. Mais que 6 vira plenário.
+---
 
 ## Formato da Review
 
-### Preparação (48h antes)
+### Agenda (60 minutos)
 
-1. Organizador distribui checklist com 10 itens para autoavaliação
-2. Cada lead preenche os itens de seu domínio com evidências
-3. Organizador consolida em documento único e distribui para todos
+1. **Contexto e objetivo** (5 min) — Chief apresenta o marco e por que a review é necessária
+2. **Estado atual** (15 min) — Architect apresenta visão geral, dependências, riscos
+3. **Métricas** (10 min) — Analista apresenta dados quantitativos e health score
+4. **Checklist de Readiness** (15 min) — Revisão item por item do checklist
+5. **Riscos e mitigações** (10 min) — Discussão de riscos abertos
+6. **Decisão** (5 min) — Chief declara Go / Go com condições / No-Go
 
-### Sessão (90 minutos)
+### Regras
 
-```
-00-10 min  → Contexto e objetivo da review (Chief)
-10-25 min  → Bloco 1: Fundação (Strategist apresenta, todos avaliam)
-25-40 min  → Bloco 2: Execução (Creator + Community apresentam)
-40-55 min  → Bloco 3: Infraestrutura (Analyst apresenta)
-55-65 min  → Bloco 4: Proteção (Chief + Legal apresentam)
-65-80 min  → Discussão aberta: gaps, riscos, condições
-80-90 min  → Decisão formal: GO / GO condicional / NO-GO
-```
+- Decisão é do Chief, mas deve considerar input de todos
+- Se qualquer item crítico do checklist estiver vermelho, é No-Go automático
+- Review deve ser registrada em `data/readiness-reviews/`
 
-### Regras da Sessão
+---
 
-- Cada bloco: apresentação de 5 min + discussão de 10 min
-- Avaliadores pontuam independentemente usando a `readiness-review-rubric`
-- Divergências > 5 pontos em uma dimensão devem ser discutidas
-- Decisão final é do Chief, mas dissidências são registradas
-- Nenhum item pode ser "não sei" — se não há evidência, a resposta é "não"
+## Checklist de Readiness
+
+### Pre-Launch
+
+- [ ] Tese do movimento validada e documentada
+- [ ] Identidade coletiva definida (enemy, dream, códigos)
+- [ ] Manifesto ou artefato fundacional criado e aprovado
+- [ ] Canais de distribuição definidos e configurados (mínimo 3)
+- [ ] Rituais inaugurais desenhados e testados
+- [ ] Métricas e dashboard configurados
+- [ ] Plano de lançamento sequenciado (framework `launch-sequencing`)
+- [ ] Ethics check aprovado (`governance/ethics-and-boundaries`)
+- [ ] Risk log atualizado com mitigações definidas
+- [ ] Stakeholders alinhados e informados
+
+### Pre-Scaling
+
+- [ ] Health Score acima do threshold mínimo por 4+ semanas
+- [ ] Processos operacionais documentados e estáveis
+- [ ] Champion program ativo com champions engajados
+- [ ] Canais diversificados (nenhum com >60% de concentração)
+- [ ] Earned media positivo e crescente
+- [ ] Capacidade do time suficiente para volume maior
+- [ ] Playbook de crise documentado e testado
+- [ ] Experimentos de escala validados (ver experiment-log)
+- [ ] Budget e recursos aprovados para escala
+- [ ] Cross-squad handoffs funcionando sem atrito
+
+### Pre-Sunset
+
+- [ ] Critérios de sunset atingidos (conforme `movement-sunset-framework`)
+- [ ] Comunicação planejada para comunidade e stakeholders
+- [ ] Plano de captura de legado definido
+- [ ] Destino de ativos reutilizáveis mapeado
+- [ ] Champions e parceiros notificados
+- [ ] Timeline de encerramento definida
+- [ ] Debriefings agendados com time core
+- [ ] Arquivo estruturado preparado
+- [ ] Lessons learned em andamento
+- [ ] Stakeholders aprovaram decisão de sunset
+
+---
 
 ## Critérios de Decisão
 
-### GO (Pontuação 100-125)
+| Decisão | Critério | Ação |
+|---------|----------|------|
+| **Go** | Todos os itens do checklist verdes ou amarelos com mitigação | Avançar para o próximo marco |
+| **Go com condições** | Maioria verde, até 2 itens amarelos sem mitigação definida | Avançar, mas resolver condições em até 7 dias |
+| **No-Go** | Qualquer item crítico vermelho, ou 3+ itens amarelos | Não avançar. Definir plano de ação e reagendar review |
 
-- Todas as dimensões da rubric acima de 15 pontos
-- Nenhum item do checklist como "não"
-- Riscos mapeados com mitigação definida
-- **Ação:** Lançar conforme planejado
-
-### GO Condicional (Pontuação 75-99)
-
-- Nenhuma dimensão abaixo de 11 pontos
-- Máximo 2 itens do checklist como "não" (não críticos)
-- **Ação:** Lançar com plano de mitigação para dimensões fracas
-- **Condição:** Items pendentes resolvidos em até 7 dias pós-lançamento
-- **Monitoramento:** Daily check nas primeiras 2 semanas
-
-### NO-GO (Pontuação 0-74)
-
-- Qualquer dimensão abaixo de 11 pontos
-- 3+ itens do checklist como "não"
-- **Ação:** Não lançar. Definir plano de ação para resolver gaps
-- **Reavaliação:** Agendar nova review em 7-14 dias
-- **Comunicação:** Informar stakeholders sobre novo prazo
-
-### Critérios de Veto Automático (NO-GO independente da pontuação)
-
-1. Tese não foi testada com nenhuma pessoa real
-2. Nenhuma métrica está instrumentada
-3. Não existe comunidade seed (zero membros engajados)
-4. Risco de severidade crítica sem mitigação
-5. Stakeholder principal não deu sign-off
+---
 
 ## Registro
 
-### Documento de Registro
+Cada review deve ser registrada em `data/readiness-reviews/` com o formato:
 
 ```yaml
-readiness_review:
-  id: "RR-XXX"
-  data: YYYY-MM-DD
+# data/readiness-reviews/YYYY-MM-DD-[tipo]-review.yaml
+review:
+  data: "YYYY-MM-DD"
+  tipo: "" # pre-launch | pre-scaling | pre-sunset
   movimento: ""
-  fase: ""
   participantes: []
-  checklist:
-    tese_validada: true/false
-    identidade_pronta: true/false
-    win_conditions: true/false
-    artefatos_prontos: true/false
-    calendário_distribuição: true/false
-    comunidade_seed: true/false
-    métricas_instrumentadas: true/false
-    processos_definidos: true/false
-    riscos_mapeados: true/false
-    compliance_verificado: true/false
-  rubric_scores:
-    tese_validada: 0
-    identidade_pronta: 0
-    artefatos_prontos: 0
-    comunidade_seed: 0
-    métricas_baseline: 0
-    total: 0
-  decisão: "" # GO | GO-CONDICIONAL | NO-GO
-  condições: []
-  gaps: []
-  plano_de_ação: []
-  próxima_review: "" # data, se NO-GO
-  dissidências: []
+  decisao: "" # go | go-com-condicoes | no-go
+  condicoes: [] # se go-com-condições
+  itens_vermelhos: [] # se no-go
+  plano_de_acao: []
+  proxima_review: "" # data, se aplicável
+  registrado_por: ""
 ```
 
-### Onde Armazenar
+---
 
-- Registro em `data/readiness-reviews/RR-XXX-[nome]-[data].yaml`
-- Referência no decision log do squad
+## Exemplo Preenchido
 
-## Exemplos
+```yaml
+review:
+  data: "2026-03-15"
+  tipo: "pre-scaling"
+  movimento: "Sexta do Fracasso"
+  participantes:
+    - chief-of-movement
+    - movement-architect
+    - analista-de-impacto
+    - stakeholder-marketing
+  decisao: "go-com-condicoes"
+  condicoes:
+    - "Diversificar canais: Twitter está com 65% de concentração. Reduzir para <60% em 7 dias."
+    - "Documentar playbook de crise até 2026-03-22."
+  itens_vermelhos: []
+  plano_de_acao:
+    - acao: "Estrategista-de-ciclo cria plano de diversificação para LinkedIn e newsletter"
+      responsavel: "estrategista-de-ciclo"
+      prazo: "2026-03-22"
+    - acao: "Chief documenta playbook de crise"
+      responsavel: "chief-of-movement"
+      prazo: "2026-03-22"
+  proxima_review: "2026-03-29"
+  registrado_por: "movement-architect"
+```
 
-### Exemplo: GO Condicional
+---
 
-**Contexto:** Movimento de design acessível, review pré-lançamento.
+## Referências
 
-**Scores:** Tese: 22, Identidade: 18, Artefatos: 14, Comunidade: 16, Métricas: 12. Total: 82.
-
-**Checklist:** 8/10 ✓. Pendentes: artefatos para YouTube (em produção) e compliance de acessibilidade do site (em revisão).
-
-**Decisão:** GO Condicional. Lançar em redes sociais conforme planejado. YouTube ativado em 5 dias quando artefatos estiverem prontos. Site revisado em 7 dias.
-
-### Exemplo: NO-GO
-
-**Contexto:** Movimento de produtividade consciente, review pré-escala.
-
-**Scores:** Tese: 20, Identidade: 8, Artefatos: 11, Comunidade: 19, Métricas: 15. Total: 73.
-
-**Diagnóstico:** Identidade fraca — membros não usam a linguagem do movimento. Artefatos no mínimo.
-
-**Decisão:** NO-GO. Investir 2 semanas em fortalecimento de identidade (workshop com comunidade, teste de linguagem, iteração de símbolos). Nova review em 14 dias.
-
-## Integração
-
-- Rubrica detalhada em `lib/utilities/readiness-review-rubric`
-- Registros armazenados em `data/readiness-reviews/`
-- Decisão segue `movement-governance-framework` (Camada 3)
-- Métricas conectadas ao `movement-health-score-framework`
-- Riscos classificados pela `risk-taxonomy`
+- `config.yaml` seção `quality_gates` — Gates obrigatórios
+- `docs/quality-gate-cascade.md` — Cascata completa de quality gates
+- `data/risk-log.yaml` — Registro de riscos
+- `frameworks/movement-lifecycle-framework.md` — Ciclo de vida do movimento
+- `frameworks/movement-sunset-framework.md` — Framework de encerramento
