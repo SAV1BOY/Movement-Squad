@@ -80,8 +80,15 @@ Informação desatualizada é pior que informação inexistente — porque leva 
 
 ## Integração
 
-- **Alimenta:** Todos os tasks e workflows que consultam documentos-base
-- **Recebe de:** `impact-review`, `weekly-kaizen-loop`, `monthly-movement-review`, todas as tasks de review
-- **Workflow relacionado:** `05-ralphloop-kaizen-weekly`
-- **Cadência:** Semanal (quick check), mensal (revisão completa)
-- **Handoff:** Documentos atualizados acessíveis a todo o squad
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/architect-system-map.md` |
+| **Checklists** | `checklists/governance/decision-log-standard.md` |
+| **Templates** | `templates/operational/decision-log-entry.md` |
+| **Registries** | `data/registries/decision-log.yaml` |
+| **Workflows** | `workflows/05-ralphloop-kaizen-weekly.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → identificar bloqueio, resolver dependência e reexecutar no próximo ciclo
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → todas as tasks que dependem dos registros atualizados

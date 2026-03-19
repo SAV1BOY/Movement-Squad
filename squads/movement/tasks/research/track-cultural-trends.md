@@ -80,8 +80,15 @@ Sinais viram tendências que viram mainstream que viram clichê. O timing de qua
 
 ## Integração
 
-- **Alimenta:** `craft-movement-thesis`, `create-movement-content`, `plan-launch-sequence`
-- **Recebe de:** `detect-cultural-signals`, `research-platform-dynamics`
-- **Workflow relacionado:** `00-signal-radar-daily`, `12-identity-evolution-flow`
-- **Cadência:** Semanal (monitoramento), mensal (atualização de radar), trimestral (revisão completa)
-- **Handoff:** Trend Radar e briefs vão para Arquiteto de Movimento e Estrategista
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/phenomenology-signal-clustering.md`, `frameworks/cycle-cultural-wave-surfing.md` |
+| **Checklists** | `checklists/ciclo/trend-vs-fad-filter.md`, `checklists/fenomenologia/signal-source-diversity.md` |
+| **Templates** | `templates/outputs/cultural-insight-report.md` |
+| **Registries** | `data/research/trend-briefs/` |
+| **Workflows** | `workflows/00-signal-radar-daily.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → retornar à Fase 1 (varredura) com fontes ampliadas e reexecutar captura
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Strategy (craft-movement-thesis, design-identity-system)

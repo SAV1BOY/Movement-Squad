@@ -82,8 +82,15 @@ Artefatos de identidade são a materialização do pertencimento. Uma camiseta c
 
 ## Integração
 
-- **Alimenta:** `create-onboarding-experience`, `activate-community`, `create-champion-program`
-- **Recebe de:** `design-identity-system`, `write-manifesto`
-- **Workflow relacionado:** `02-artifact-foundry`, `13-artifact-refresh-cycle`
-- **Cadência:** Mensal (novos artefatos), trimestral (refresh de linha)
-- **Handoff:** Artefatos e biblioteca vão para community managers e ativadores
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/identity-symbol-design.md`, `frameworks/manifestor-kit-design.md` |
+| **Checklists** | `checklists/symbol-system-quality.md`, `checklists/identity-system-quality.md` |
+| **Templates** | `templates/outputs/artifact-kit.md` |
+| **Registries** | `data/registries/identity-codes.yaml`, `data/registries/memetic-assets/` |
+| **Workflows** | `workflows/02-artifact-foundry.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → revisar com feedback específico do quality gate, iterar o artefato e resubmeter
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Activation (launch-activation, activate-community)

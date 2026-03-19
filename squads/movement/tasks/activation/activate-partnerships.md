@@ -82,8 +82,15 @@ Parcerias de movimento são diferentes de parcerias comerciais. Não são sobre 
 
 ## Integração
 
-- **Alimenta:** `measure-movement-health`, `activate-community`
-- **Recebe de:** `craft-movement-thesis`, `plan-launch-sequence`
-- **Workflow relacionado:** `03-activation-sprint`, `11-movement-scaling-flow`
-- **Cadência:** Trimestral (mapeamento), mensal (ativação), contínuo (gestão)
-- **Handoff:** Resultados vão para Arquiteto de Movimento e stakeholders
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/distribution-trident.md`, `frameworks/creator-movement-framework.md` |
+| **Checklists** | `checklists/partner-alignment-quality.md`, `checklists/distribuicao/channel-mix-quality.md` |
+| **Templates** | `templates/outputs/creator-brief-package.md` |
+| **Registries** | `data/registries/creator-partners.yaml` |
+| **Workflows** | `workflows/03-activation-sprint.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → pausar canal/fase afetada, diagnosticar causa raiz e reexecutar com ajustes
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Architect
+- **Handoff:** Output vai para → tasks de Measurement (measure-movement-health, run-experiments)

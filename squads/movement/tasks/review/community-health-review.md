@@ -81,8 +81,15 @@ Comunidades são organismos vivos que podem adoecer silenciosamente. O review de
 
 ## Integração
 
-- **Alimenta:** `activate-community`, `create-community-rituals`, `create-champion-program`
-- **Recebe de:** `measure-community-health`, `analyze-cohort-retention`
-- **Workflow relacionado:** `08-community-build-and-nurture`, `05-ralphloop-kaizen-weekly`
-- **Cadência:** Mensal (review completo), semanal (check rápido de métricas)
-- **Handoff:** Plano de intervenção vai para community builder e champions
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/community-flywheel.md`, `frameworks/impact-cohort-analysis.md` |
+| **Checklists** | `checklists/comunidade/community-health-indicators.md`, `checklists/comunidade/community-to-movement-bridge.md` |
+| **Templates** | `templates/reports/community-health-report.md` |
+| **Registries** | `data/metrics/community-growth-quality.md` |
+| **Workflows** | `workflows/05-ralphloop-kaizen-weekly.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → documentar gaps encontrados, definir ações corretivas e reagendar review em 1 semana
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Strategy e Operations do próximo ciclo

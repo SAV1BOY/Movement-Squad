@@ -82,8 +82,15 @@ Cultura se move rápido. O meme que arrepiava há 3 meses pode parecer datado ho
 
 ## Integração
 
-- **Alimenta:** `create-memetic-assets`, `create-identity-artifacts`, `create-movement-content`
-- **Recebe de:** `measure-movement-health`, `track-cultural-trends`
-- **Workflow relacionado:** `13-artifact-refresh-cycle`, `12-identity-evolution-flow`
-- **Cadência:** Mensal (review rápido), trimestral (auditoria completa)
-- **Handoff:** Refresh briefs vão para agentes de criação
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/memetic-variation-selection.md`, `frameworks/manifestor-artifact-stack.md` |
+| **Checklists** | `checklists/manifesto/artifact-shelf-life-check.md`, `checklists/memetics/meme-lifecycle-audit.md` |
+| **Templates** | `templates/reports/narrative-audit-report.md` |
+| **Registries** | `data/registries/memetic-assets/` |
+| **Workflows** | `workflows/05-ralphloop-kaizen-weekly.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → documentar gaps encontrados, definir ações corretivas e reagendar review em 1 semana
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Strategy e Operations do próximo ciclo

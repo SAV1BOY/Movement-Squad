@@ -79,8 +79,15 @@ Toda cultura vive em tensão. Movimentos poderosos não inventam tensões — el
 
 ## Integração
 
-- **Alimenta:** `craft-movement-thesis`, `write-manifesto`, `design-identity-system`
-- **Recebe de:** `detect-cultural-signals`, `map-audience-language`, `audit-competitor-movements`
-- **Workflow relacionado:** `01-thesis-forge`, `12-identity-evolution-flow`
-- **Cadência:** Mensal (mapeamento completo), trimestral (revisão estratégica)
-- **Handoff:** Tension Map e polaridades vão para o Arquiteto de Movimento
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/tension-to-movement-framework.md`, `frameworks/phenomenology-counter-narrative.md` |
+| **Checklists** | `checklists/fenomenologia/tension-mapping.md`, `checklists/fenomenologia/counter-signal-capture.md` |
+| **Templates** | `templates/outputs/cultural-insight-report.md` |
+| **Registries** | `data/research/signals/`, `data/registries/movement-theses.yaml` |
+| **Workflows** | `workflows/00-signal-radar-daily.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → retornar à Fase 1 (varredura) com fontes ampliadas e reexecutar captura
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Strategy (craft-movement-thesis, design-identity-system)

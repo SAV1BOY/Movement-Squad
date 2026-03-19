@@ -84,8 +84,15 @@ Os primeiros 7 dias de um novo membro determinam se ele fica ou vai embora. Se n
 
 ## Integração
 
-- **Alimenta:** `activate-community`, `create-champion-program`
-- **Recebe de:** `design-community-structure`, `design-identity-system`, `design-rituals`, `create-identity-artifacts`
-- **Workflow relacionado:** `08-community-build-and-nurture`
-- **Cadência:** Mensal (revisão de métricas e ajustes), trimestral (redesign se necessário)
-- **Handoff:** Fluxo e kit vão para community managers e buddies
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/identity-belonging-gradient.md`, `frameworks/community-flywheel.md` |
+| **Checklists** | `checklists/comunidade/onboarding-and-roles.md`, `checklists/community-activation-quality.md` |
+| **Templates** | `templates/outputs/movement-onboarding-kit.md` |
+| **Registries** | `data/registries/community-roles.yaml` |
+| **Workflows** | `workflows/02-artifact-foundry.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → revisar com feedback específico do quality gate, iterar o artefato e resubmeter
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Activation (launch-activation, activate-community)

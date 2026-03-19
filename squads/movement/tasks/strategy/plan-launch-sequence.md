@@ -83,8 +83,15 @@ Movimentos não nascem com um bang — nascem com um sussurro que se amplifica. 
 
 ## Integração
 
-- **Alimenta:** `launch-activation`, `activate-community`, `activate-creators`, `activate-pr`
-- **Recebe de:** `craft-movement-thesis`, `define-win-conditions`, `design-channel-architecture`
-- **Workflow relacionado:** `07-30-60-90-launch-plan`, `03-activation-sprint`
-- **Cadência:** Uma vez por ciclo de lançamento + revisões semanais durante execução
-- **Handoff:** Launch Plan vai para todos os agentes de ativação e squads parceiros
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/cycle-launch-sequencing.md`, `frameworks/cycle-attention-calendar.md`, `frameworks/distribution-trident.md` |
+| **Checklists** | `checklists/launch-sequencing-quality.md`, `checklists/ciclo/cycle-timing-window.md`, `checklists/distribuicao/channel-mix-quality.md` |
+| **Templates** | `templates/outputs/distribution-plan.md`, `templates/plans/30-60-90-launch-plan.md` |
+| **Registries** | `data/registries/distribution-plans/` |
+| **Workflows** | `workflows/01-thesis-forge.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → retornar ao passo que falhou, incorporar feedback e resubmeter para aprovação do Movement Chief
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Creation (write-manifesto, create-memetic-assets)

@@ -82,8 +82,15 @@ PR de movimento não é press release sobre lançamento de produto. É oferecer 
 
 ## Integração
 
-- **Alimenta:** `activate-pr`
-- **Recebe de:** `craft-movement-thesis`, `map-cultural-tensions`, `map-counter-narratives`
-- **Workflow relacionado:** `10-pr-earned-media-flow`
-- **Cadência:** Mensal (novos ângulos), por ativação (pitches específicos)
-- **Handoff:** Ângulos e press kit vão para agente de ativação de PR e assessoria
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/narrative-graph-framework.md` |
+| **Checklists** | `checklists/pr/narrative-pitch-quality.md`, `checklists/pr/spokesperson-readiness.md` |
+| **Templates** | `templates/outputs/pr-pitch.md` |
+| **Registries** | — |
+| **Workflows** | `workflows/02-artifact-foundry.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → revisar com feedback específico do quality gate, iterar o artefato e resubmeter
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Activation (launch-activation, activate-community)

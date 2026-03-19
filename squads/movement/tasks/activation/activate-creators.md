@@ -82,8 +82,15 @@ Creators não são canais de distribuição — são co-contadores da história.
 
 ## Integração
 
-- **Alimenta:** `measure-movement-health`, `analyze-content-to-conversation`
-- **Recebe de:** `create-creator-briefs`, `plan-launch-sequence`
-- **Workflow relacionado:** `09-creator-collab-pipeline`, `03-activation-sprint`
-- **Cadência:** Por campanha/ativação + relações contínuas com embaixadores
-- **Handoff:** Creator Reports vão para estrategista e analista de métricas
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/creator-movement-framework.md`, `frameworks/cycle-momentum-mapping.md` |
+| **Checklists** | `checklists/creator-influencer-brief-quality.md`, `checklists/distribuicao/paid-amplification-guardrails.md` |
+| **Templates** | `templates/outputs/creator-brief-package.md` |
+| **Registries** | `data/registries/creator-partners.yaml` |
+| **Workflows** | `workflows/03-activation-sprint.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → pausar canal/fase afetada, diagnosticar causa raiz e reexecutar com ajustes
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Measurement (measure-movement-health, run-experiments)

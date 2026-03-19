@@ -81,8 +81,15 @@ O movimento não existe isolado. Outros squads produzem conteúdo, gerenciam can
 
 ## Integração
 
-- **Alimenta:** `narrative-consistency-review`, outputs de squads parceiros
-- **Recebe de:** Todos os outputs de criação e ativação do Movement Squad
-- **Workflow relacionado:** `14-cross-squad-narrative-handoff`, `20-monthly-narrative-sync`
-- **Cadência:** Semanal/quinzenal/mensal (conforme squad)
-- **Handoff:** Guidelines e briefings para squads parceiros
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/architect-channel-architecture.md` |
+| **Checklists** | `checklists/architect/architect-cross-squad-integration.md` |
+| **Templates** | `templates/operational/handoff-template.md` |
+| **Registries** | `data/registries/decision-log.yaml` |
+| **Workflows** | `workflows/05-ralphloop-kaizen-weekly.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → identificar bloqueio, resolver dependência e reexecutar no próximo ciclo
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Architect
+- **Handoff:** Output vai para → todas as tasks que dependem dos registros atualizados

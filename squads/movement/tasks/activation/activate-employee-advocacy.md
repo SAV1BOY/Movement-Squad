@@ -82,8 +82,15 @@ Se quem trabalha na empresa não compra a causa do movimento, o público vai per
 
 ## Integração
 
-- **Alimenta:** `measure-movement-health`, `activate-community`
-- **Recebe de:** `write-manifesto`, `create-identity-artifacts`
-- **Workflow relacionado:** `03-activation-sprint`, `14-cross-squad-narrative-handoff`
-- **Cadência:** Mensal (ativação), trimestral (diagnóstico e revisão)
-- **Handoff:** Results vão para People/HR e Arquiteto de Movimento
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/employee-movement-framework.md`, `frameworks/identity-collective-narrative.md` |
+| **Checklists** | `checklists/community-activation-quality.md` |
+| **Templates** | `templates/outputs/community-playbook.md` |
+| **Registries** | — |
+| **Workflows** | `workflows/03-activation-sprint.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → pausar canal/fase afetada, diagnosticar causa raiz e reexecutar com ajustes
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Architect
+- **Handoff:** Output vai para → tasks de Measurement (measure-movement-health, run-experiments)

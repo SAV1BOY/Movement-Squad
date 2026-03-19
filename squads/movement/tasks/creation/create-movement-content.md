@@ -83,8 +83,15 @@ Conteúdo de movimento não é conteúdo de marca com filtro "rebelde". É conte
 
 ## Integração
 
-- **Alimenta:** `activate-community`, `activate-paid-amplification`, `measure-movement-health`
-- **Recebe de:** `write-manifesto`, `create-memetic-assets`, `research-platform-dynamics`, `track-cultural-trends`
-- **Workflow relacionado:** `02-artifact-foundry`, `03-activation-sprint`
-- **Cadência:** Semanal (produção), mensal (planejamento), trimestral (revisão de pilares)
-- **Handoff:** Conteúdo vai para ativadores e community managers para distribuição
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/manifestor-artifact-stack.md`, `frameworks/memetic-variation-selection.md`, `frameworks/cycle-momentum-mapping.md` |
+| **Checklists** | `checklists/memetic-asset-quality.md`, `checklists/narrative-coherence-quality.md` |
+| **Templates** | `templates/outputs/meme-variation-set.md`, `templates/outputs/artifact-kit.md` |
+| **Registries** | `data/registries/memetic-assets/` |
+| **Workflows** | `workflows/02-artifact-foundry.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → revisar com feedback específico do quality gate, iterar o artefato e resubmeter
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Activation (launch-activation, activate-community)

@@ -82,8 +82,15 @@ Movimentos culturais geram valor intangível (brand equity, cultural relevance) 
 
 ## Integração
 
-- **Alimenta:** `impact-review`, `quarterly-movement-review`
-- **Recebe de:** `plan-movement-to-product-coupling`, `define-win-conditions`, todas as tasks de ativação
-- **Workflow relacionado:** `04-measure-and-learn`, `15-movement-to-product-pipeline`
-- **Cadência:** Semanal (métricas rápidas), mensal (report completo), trimestral (apresentação stakeholders)
-- **Handoff:** Reports vão para Arquiteto, stakeholders e Finance
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/impact-movement-attribution.md`, `frameworks/impact-metrics-model.md` |
+| **Checklists** | `checklists/impacto/causal-attribution-sanity.md`, `checklists/chief/chief-alignment-with-business.md` |
+| **Templates** | `templates/reports/movement-impact-report.md` |
+| **Registries** | `data/metrics/business-impact.md` |
+| **Workflows** | `workflows/04-measure-and-learn.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → revisar metodologia, corrigir viés identificado e reexecutar análise
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Review (impact-review) e próximo ciclo de Strategy

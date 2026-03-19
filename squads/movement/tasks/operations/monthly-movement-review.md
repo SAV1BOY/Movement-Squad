@@ -82,8 +82,15 @@ O review mensal é o checkpoint operacional principal. Enquanto o kaizen semanal
 
 ## Integração
 
-- **Alimenta:** Prioridades do próximo mês para todo o squad
-- **Recebe de:** Todos os reports de measurement e kaizen semanal
-- **Workflow relacionado:** `04-measure-and-learn`, `05-ralphloop-kaizen-weekly`
-- **Cadência:** Mensal (última semana do mês)
-- **Handoff:** Relatório para stakeholders, prioridades para squad
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/movement-health-score-framework.md`, `frameworks/impact-metrics-model.md` |
+| **Checklists** | `checklists/impact-dashboard-quality.md` |
+| **Templates** | `templates/reports/monthly-movement-report.md` |
+| **Registries** | `data/metrics/movement-health-score.md` |
+| **Workflows** | `workflows/05-ralphloop-kaizen-weekly.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → identificar bloqueio, resolver dependência e reexecutar no próximo ciclo
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Architect
+- **Handoff:** Output vai para → todas as tasks que dependem dos registros atualizados

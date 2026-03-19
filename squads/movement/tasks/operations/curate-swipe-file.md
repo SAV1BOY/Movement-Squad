@@ -80,8 +80,15 @@ Criatividade não nasce do vácuo. Os melhores criativos são também os melhore
 
 ## Integração
 
-- **Alimenta:** Todas as tasks de criação, `create-creator-briefs`
-- **Recebe de:** `detect-cultural-signals`, `audit-competitor-movements`, `track-cultural-trends`
-- **Workflow relacionado:** `02-artifact-foundry`
-- **Cadência:** Contínua (coleta), semanal (destaque), mensal (limpeza)
-- **Handoff:** Acessível a todo o squad como recurso de criação
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/memetic-variation-selection.md` |
+| **Checklists** | `checklists/memetic-asset-quality.md` |
+| **Templates** | — |
+| **Registries** | `data/registries/memetic-assets/` |
+| **Workflows** | `workflows/05-ralphloop-kaizen-weekly.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → identificar bloqueio, resolver dependência e reexecutar no próximo ciclo
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → todas as tasks que dependem dos registros atualizados

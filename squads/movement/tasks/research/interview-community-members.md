@@ -81,8 +81,15 @@ Social listening captura o que as pessoas dizem em público. Entrevistas revelam
 
 ## Integração
 
-- **Alimenta:** `map-audience-language`, `craft-movement-thesis`, `design-rituals`, `create-onboarding-experience`
-- **Recebe de:** `detect-cultural-signals`, `map-cultural-tensions`
-- **Workflow relacionado:** `01-thesis-forge`, `08-community-build-and-nurture`
-- **Cadência:** Trimestral (rodada completa), ad-hoc (quando surge hipótese a validar)
-- **Handoff:** Relatório e empathy maps vão para todo o squad
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/phenomenology-rapid-ethnography.md`, `frameworks/phenomenology-language-mapping.md` |
+| **Checklists** | `checklists/fenomenologia/phenomenology-signal-capture.md`, `checklists/fenomenologia/language-and-phrasing-truth.md` |
+| **Templates** | `templates/outputs/cultural-insight-report.md` |
+| **Registries** | `data/research/interviews/` |
+| **Workflows** | `workflows/00-signal-radar-daily.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → retornar à Fase 1 (varredura) com fontes ampliadas e reexecutar captura
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Strategy (craft-movement-thesis, design-identity-system)

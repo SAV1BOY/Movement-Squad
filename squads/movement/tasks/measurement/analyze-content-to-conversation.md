@@ -82,8 +82,15 @@ O indicador mais poderoso de um movimento não é quantas pessoas viram o conte�
 
 ## Integração
 
-- **Alimenta:** `create-movement-content`, `create-memetic-assets`, `measure-movement-health`
-- **Recebe de:** `activate-community`, `activate-creators`, `activate-paid-amplification`
-- **Workflow relacionado:** `04-measure-and-learn`, `05-ralphloop-kaizen-weekly`
-- **Cadência:** Semanal (métricas rápidas), mensal (report completo)
-- **Handoff:** Playbook e report vão para criadores de conteúdo e estrategista
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/impact-metrics-model.md`, `frameworks/community-flywheel.md` |
+| **Checklists** | `checklists/impacto/vanity-metric-filter.md` |
+| **Templates** | `templates/reports/weekly-readout.md` |
+| **Registries** | `data/metrics/content-to-conversation.md` |
+| **Workflows** | `workflows/04-measure-and-learn.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → revisar metodologia, corrigir viés identificado e reexecutar análise
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Review (impact-review) e próximo ciclo de Strategy

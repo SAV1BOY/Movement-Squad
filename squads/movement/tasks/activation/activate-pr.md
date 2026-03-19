@@ -82,8 +82,15 @@ PR de movimento é diferente de PR de produto. Não estamos pedindo para a mídi
 
 ## Integração
 
-- **Alimenta:** `measure-movement-health`, `analyze-content-to-conversation`
-- **Recebe de:** `create-pr-angles`, `plan-launch-sequence`
-- **Workflow relacionado:** `10-pr-earned-media-flow`, `03-activation-sprint`
-- **Cadência:** Por ciclo de ativação + relações contínuas com mídia
-- **Handoff:** PR Report vai para estrategista e stakeholders
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/narrative-graph-framework.md` |
+| **Checklists** | `checklists/pr/narrative-pitch-quality.md`, `checklists/pr/spokesperson-readiness.md`, `checklists/pr/backlash-mitigation.md` |
+| **Templates** | `templates/outputs/pr-pitch.md` |
+| **Registries** | `data/metrics/earned-media-metrics.md` |
+| **Workflows** | `workflows/03-activation-sprint.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → pausar canal/fase afetada, diagnosticar causa raiz e reexecutar com ajustes
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Measurement (measure-movement-health, run-experiments)

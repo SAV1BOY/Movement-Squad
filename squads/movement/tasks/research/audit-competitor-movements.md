@@ -79,8 +79,15 @@ Não operamos no vácuo. Concorrentes também tentam se posicionar culturalmente
 
 ## Integração
 
-- **Alimenta:** `craft-movement-thesis`, `map-cultural-tensions`, `design-identity-system`
-- **Recebe de:** `detect-cultural-signals`, `research-platform-dynamics`
-- **Workflow relacionado:** `01-thesis-forge`, `16-quarterly-movement-review`
-- **Cadência:** Mensal (atualização), trimestral (auditoria completa)
-- **Handoff:** Audit Report e Position Map vão para Arquiteto de Movimento e Estrategista
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/holt-cultural-strategy.md`, `frameworks/sharp-how-brands-grow.md` |
+| **Checklists** | `checklists/cultural-insight-quality.md` |
+| **Templates** | `templates/reports/narrative-audit-report.md` |
+| **Registries** | `data/research/competitor-movements/` |
+| **Workflows** | `workflows/00-signal-radar-daily.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → retornar à Fase 1 (varredura) com fontes ampliadas e reexecutar captura
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Strategy (craft-movement-thesis, design-identity-system)

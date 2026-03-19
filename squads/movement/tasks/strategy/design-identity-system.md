@@ -82,8 +82,15 @@ Pessoas não aderem a movimentos por argumentos lógicos. Aderem porque querem p
 
 ## Integração
 
-- **Alimenta:** `create-identity-artifacts`, `create-onboarding-experience`, `design-rituals`, `write-manifesto`
-- **Recebe de:** `craft-movement-thesis`, `map-audience-language`, `map-cultural-tensions`
-- **Workflow relacionado:** `01-thesis-forge`, `12-identity-evolution-flow`
-- **Cadência:** Trimestral (revisão), ad-hoc (quando thesis muda)
-- **Handoff:** Identity System e Kit vão para todos os agentes de criação e ativação
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/identity-collective-narrative.md`, `frameworks/identity-symbol-design.md`, `frameworks/identity-belonging-gradient.md` |
+| **Checklists** | `checklists/identity-system-quality.md`, `checklists/identidade/symbol-system.md`, `checklists/identidade/boundary-and-belonging.md`, `checklists/identidade/identity-toxic-exclusion-check.md` |
+| **Templates** | `templates/outputs/identity-charter.md` |
+| **Registries** | `data/registries/identity-codes.yaml` |
+| **Workflows** | `workflows/01-thesis-forge.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → retornar ao passo que falhou, incorporar feedback e resubmeter para aprovação do Movement Chief
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Creation (write-manifesto, create-memetic-assets)

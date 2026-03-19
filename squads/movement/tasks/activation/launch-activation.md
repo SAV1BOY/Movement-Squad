@@ -83,8 +83,15 @@ O plano existe no papel. A ativação existe no mundo. Esta task é sobre transf
 
 ## Integração
 
-- **Alimenta:** `measure-movement-health`, `measure-business-impact`, `run-experiments`
-- **Recebe de:** `plan-launch-sequence`, `create-memetic-assets`, `create-movement-content`
-- **Workflow relacionado:** `03-activation-sprint`, `07-30-60-90-launch-plan`
-- **Cadência:** Por ciclo de lançamento (única execução com fases internas)
-- **Handoff:** Activation Report vai para todo o squad e stakeholders
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/distribution-trident.md`, `frameworks/community-flywheel.md`, `frameworks/cycle-launch-sequencing.md`, `frameworks/ralphloop-kaizen.md` |
+| **Checklists** | `checklists/distribution-plan-quality.md`, `checklists/launch-sequencing-quality.md`, `checklists/community-activation-quality.md`, `checklists/impact-dashboard-quality.md` |
+| **Templates** | `templates/outputs/distribution-plan.md`, `templates/outputs/community-playbook.md`, `templates/reports/weekly-readout.md` |
+| **Registries** | `data/registries/distribution-plans/`, `data/registries/experiment-log.yaml`, `data/metrics/movement-health-score.md`, `data/metrics/business-impact.md` |
+| **Workflows** | `workflows/03-activation-sprint.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → pausar canal/fase afetada, diagnosticar causa raiz e reexecutar com ajustes
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Architect
+- **Handoff:** Output vai para → tasks de Measurement (measure-movement-health, run-experiments)

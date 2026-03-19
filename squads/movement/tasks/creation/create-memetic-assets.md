@@ -81,8 +81,15 @@ Memes não são piadas com fotos. São unidades de cultura que se replicam. Um m
 
 ## Integração
 
-- **Alimenta:** `activate-community`, `activate-creators`, `activate-paid-amplification`
-- **Recebe de:** `write-manifesto`, `design-identity-system`, `research-platform-dynamics`
-- **Workflow relacionado:** `02-artifact-foundry`, `13-artifact-refresh-cycle`
-- **Cadência:** Semanal (produção contínua), mensal (refresh de biblioteca)
-- **Handoff:** Assets vão para agentes de ativação e distribuição
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/manifestor-meme-factory.md`, `frameworks/memetic-variation-selection.md`, `frameworks/cycle-cultural-wave-surfing.md` |
+| **Checklists** | `checklists/memetic-asset-quality.md`, `checklists/memetics/memetic-fidelity.md`, `checklists/memetics/meme-variation-and-selection.md`, `checklists/memetics/format-platform-fit.md` |
+| **Templates** | `templates/outputs/meme-variation-set.md` |
+| **Registries** | `data/registries/memetic-assets/` |
+| **Workflows** | `workflows/02-artifact-foundry.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → revisar com feedback específico do quality gate, iterar o artefato e resubmeter
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Activation (launch-activation, activate-community)

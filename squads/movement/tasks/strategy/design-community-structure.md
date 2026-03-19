@@ -81,8 +81,15 @@ Comunidades sem estrutura viram bagunça. Comunidades com estrutura rígida dema
 
 ## Integração
 
-- **Alimenta:** `create-onboarding-experience`, `create-champion-program`, `activate-community`
-- **Recebe de:** `design-identity-system`, `plan-movement-scaling`, `interview-community-members`
-- **Workflow relacionado:** `08-community-build-and-nurture`, `19-champion-development-flow`
-- **Cadência:** Trimestral (revisão estrutural), mensal (ajustes operacionais)
-- **Handoff:** Blueprint vai para community managers e agentes de ativação
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/community-flywheel.md`, `frameworks/identity-belonging-gradient.md` |
+| **Checklists** | `checklists/community-activation-quality.md`, `checklists/comunidade/onboarding-and-roles.md`, `checklists/comunidade/champion-program-quality.md` |
+| **Templates** | `templates/outputs/community-playbook.md`, `templates/outputs/champion-program-blueprint.md` |
+| **Registries** | `data/registries/community-roles.yaml` |
+| **Workflows** | `workflows/01-thesis-forge.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → retornar ao passo que falhou, incorporar feedback e resubmeter para aprovação do Movement Chief
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Creation (write-manifesto, create-memetic-assets)

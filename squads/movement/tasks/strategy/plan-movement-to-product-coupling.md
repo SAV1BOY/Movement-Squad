@@ -82,8 +82,15 @@ O maior risco de um movimento de marca é a desconexão: o movimento é incríve
 
 ## Integração
 
-- **Alimenta:** `measure-business-impact`, `create-movement-content`, `activate-community`
-- **Recebe de:** `craft-movement-thesis`, `define-win-conditions`, `design-community-structure`
-- **Workflow relacionado:** `15-movement-to-product-pipeline`
-- **Cadência:** Mensal (revisão de métricas), trimestral (revisão estratégica)
-- **Handoff:** Coupling Map e regras vão para todo o squad e Product Team
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/movement-to-product-coupling.md`, `frameworks/product-led-movement-framework.md` |
+| **Checklists** | `checklists/movement-to-product-fit-quality.md`, `checklists/chief/chief-alignment-with-business.md` |
+| **Templates** | — |
+| **Registries** | `data/registries/decision-log.yaml` |
+| **Workflows** | `workflows/01-thesis-forge.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → retornar ao passo que falhou, incorporar feedback e resubmeter para aprovação do Movement Chief
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Architect
+- **Handoff:** Output vai para → tasks de Creation (write-manifesto, create-memetic-assets)

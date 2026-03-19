@@ -84,8 +84,15 @@ A thesis é a alma do movimento. Não é um slogan nem um posicionamento de marc
 
 ## Integração
 
-- **Alimenta:** `write-manifesto`, `design-identity-system`, `define-win-conditions`, `plan-launch-sequence`
-- **Recebe de:** `detect-cultural-signals`, `map-cultural-tensions`, `map-audience-language`, `audit-competitor-movements`, `interview-community-members`
-- **Workflow relacionado:** `01-thesis-forge`
-- **Cadência:** Trimestral (revisão), ad-hoc (quando sinais exigem pivot)
-- **Handoff:** Thesis Document vai para todo o squad como norte criativo
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/enemy-dream-mechanism.md`, `frameworks/identity-collective-narrative.md`, `frameworks/identity-enemy-construction.md`, `frameworks/movement-engine-5-loop.md` |
+| **Checklists** | `checklists/movement-thesis-quality.md`, `checklists/identidade/we-us-now-identity.md`, `checklists/architect/architect-movement-engine-audit.md` |
+| **Templates** | `templates/outputs/movement-thesis.md`, `templates/outputs/identity-charter.md` |
+| **Registries** | `data/registries/movement-theses.yaml`, `data/registries/identity-codes.yaml` |
+| **Workflows** | `workflows/01-thesis-forge.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → retornar ao passo que falhou, incorporar feedback e resubmeter para aprovação do Movement Chief
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Creation (write-manifesto, create-memetic-assets)

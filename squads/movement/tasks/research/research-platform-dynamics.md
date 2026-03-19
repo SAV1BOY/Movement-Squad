@@ -80,8 +80,15 @@ Cada plataforma é uma cultura com regras próprias. O que viraliza no TikTok mo
 
 ## Integração
 
-- **Alimenta:** `design-channel-architecture`, `create-movement-content`, `activate-community`, `activate-creators`
-- **Recebe de:** `detect-cultural-signals`, `map-audience-language`
-- **Workflow relacionado:** `03-activation-sprint`, `09-creator-collab-pipeline`
-- **Cadência:** Mensal (atualização de briefs), trimestral (revisão completa)
-- **Handoff:** Platform briefs e matriz vão para agentes de criação e ativação
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/cycle-cultural-wave-surfing.md`, `frameworks/distribution-trident.md` |
+| **Checklists** | `checklists/fenomenologia/signal-source-diversity.md` |
+| **Templates** | `templates/outputs/cultural-insight-report.md` |
+| **Registries** | `data/research/platform-dynamics/` |
+| **Workflows** | `workflows/00-signal-radar-daily.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → retornar à Fase 1 (varredura) com fontes ampliadas e reexecutar captura
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Strategy (craft-movement-thesis, design-identity-system)

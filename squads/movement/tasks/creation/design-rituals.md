@@ -82,8 +82,15 @@ Rituais são o que transforma grupo em tribo. Não são eventos — são prátic
 
 ## Integração
 
-- **Alimenta:** `create-community-rituals`, `activate-community`, `create-onboarding-experience`
-- **Recebe de:** `design-identity-system`, `design-community-structure`, `interview-community-members`
-- **Workflow relacionado:** `08-community-build-and-nurture`, `02-artifact-foundry`
-- **Cadência:** Trimestral (criação/revisão), semanal/mensal (execução conforme calendário)
-- **Handoff:** Scripts e guides vão para community managers e champions
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/ritual-reward-loop.md`, `frameworks/manifestor-ritual-design.md` |
+| **Checklists** | `checklists/ritual-design-quality.md`, `checklists/manifesto/artifact-kit-completeness.md` |
+| **Templates** | `templates/outputs/ritual-playbook.md` |
+| **Registries** | `data/registries/rituals/` |
+| **Workflows** | `workflows/02-artifact-foundry.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → revisar com feedback específico do quality gate, iterar o artefato e resubmeter
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Activation (launch-activation, activate-community)

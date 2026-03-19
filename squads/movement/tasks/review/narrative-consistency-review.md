@@ -83,8 +83,15 @@ Movimentos morrem de inconsistência. Quando o manifesto diz uma coisa, o conten
 
 ## Integração
 
-- **Alimenta:** `create-movement-content`, `create-creator-briefs`, cross-squad guidelines
-- **Recebe de:** Todos os outputs de criação e ativação
-- **Workflow relacionado:** `20-monthly-narrative-sync`, `14-cross-squad-narrative-handoff`
-- **Cadência:** Mensal (auditoria), trimestral (revisão profunda)
-- **Handoff:** Scorecard e correções vão para todos os criadores e squads parceiros
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/narrative-graph-framework.md`, `frameworks/architect-system-map.md` |
+| **Checklists** | `checklists/narrative-coherence-quality.md`, `checklists/architect/architect-system-coherence.md` |
+| **Templates** | `templates/reports/narrative-audit-report.md` |
+| **Registries** | `data/registries/decision-log.yaml` |
+| **Workflows** | `workflows/05-ralphloop-kaizen-weekly.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → documentar gaps encontrados, definir ações corretivas e reagendar review em 1 semana
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Strategy e Operations do próximo ciclo

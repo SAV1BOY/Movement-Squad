@@ -81,8 +81,15 @@ Todo movimento gera oposição. Se ninguém discorda, o movimento não está diz
 
 ## Integração
 
-- **Alimenta:** `craft-movement-thesis` (refinamento), `create-pr-angles` (defesa), workflow `06-crisis-and-backlash`
-- **Recebe de:** `detect-cultural-signals`, `audit-competitor-movements`, `measure-community-health`
-- **Workflow relacionado:** `06-crisis-and-backlash`, `20-monthly-narrative-sync`
-- **Cadência:** Mensal (mapeamento), semanal (monitoramento de evolução)
-- **Handoff:** Playbook vai para todos os agentes de ativação e community managers
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/phenomenology-counter-narrative.md`, `frameworks/narrative-graph-framework.md` |
+| **Checklists** | `checklists/fenomenologia/counter-signal-capture.md` |
+| **Templates** | `templates/outputs/cultural-insight-report.md` |
+| **Registries** | `data/research/counter-narratives/` |
+| **Workflows** | `workflows/00-signal-radar-daily.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → retornar à Fase 1 (varredura) com fontes ampliadas e reexecutar captura
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Strategy (craft-movement-thesis, design-identity-system)

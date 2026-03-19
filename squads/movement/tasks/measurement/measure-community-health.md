@@ -82,8 +82,15 @@ Uma comunidade com 10.000 membros e 50 ativos é menos saudável que uma com 500
 
 ## Integração
 
-- **Alimenta:** `community-health-review`, `measure-movement-health`, `plan-movement-scaling`
-- **Recebe de:** `activate-community`, `create-community-rituals`, `create-champion-program`
-- **Workflow relacionado:** `04-measure-and-learn`, `08-community-build-and-nurture`
-- **Cadência:** Semanal (métricas rápidas), mensal (report completo)
-- **Handoff:** Health Report vai para community builder, Arquiteto e stakeholders
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/community-flywheel.md`, `frameworks/impact-cohort-analysis.md` |
+| **Checklists** | `checklists/comunidade/community-health-indicators.md`, `checklists/impacto/vanity-metric-filter.md` |
+| **Templates** | `templates/reports/community-health-report.md` |
+| **Registries** | `data/metrics/community-growth-quality.md` |
+| **Workflows** | `workflows/04-measure-and-learn.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → revisar metodologia, corrigir viés identificado e reexecutar análise
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Review (impact-review) e próximo ciclo de Strategy

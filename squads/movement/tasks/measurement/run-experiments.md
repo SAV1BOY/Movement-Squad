@@ -81,8 +81,15 @@ Movimentos culturais são complexos demais para planejar tudo a priori. Experime
 
 ## Integração
 
-- **Alimenta:** `measure-movement-health`, `measure-business-impact`, todas as tasks de criação e ativação
-- **Recebe de:** `detect-cultural-signals`, `measure-community-health`, `weekly-kaizen-loop`
-- **Workflow relacionado:** `18-experiment-sprint`, `04-measure-and-learn`
-- **Cadência:** Quinzenal (ciclo de experimento) ou conforme sprint definido
-- **Handoff:** Readouts vão para todo o squad e alimentam decisões estratégicas
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/impact-experiment-design.md`, `frameworks/impact-learning-loop.md` |
+| **Checklists** | `checklists/experimentation-quality.md`, `checklists/impacto/experiment-readout.md` |
+| **Templates** | `templates/outputs/experiment-plan.md`, `templates/reports/experiment-results-report.md` |
+| **Registries** | `data/registries/experiment-log.yaml` |
+| **Workflows** | `workflows/04-measure-and-learn.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → revisar metodologia, corrigir viés identificado e reexecutar análise
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Review (impact-review) e próximo ciclo de Strategy

@@ -80,8 +80,15 @@ Movimentos culturais autênticos falam a língua do povo, não a língua do mark
 
 ## Integração
 
-- **Alimenta:** `write-manifesto`, `create-memetic-assets`, `create-movement-content`, `craft-movement-thesis`
-- **Recebe de:** `detect-cultural-signals`, `interview-community-members`
-- **Workflow relacionado:** `00-signal-radar-daily`, `01-thesis-forge`
-- **Cadência:** Mensal (coleta completa), semanal (atualizações pontuais)
-- **Handoff:** Glossário e frases-semente vão para todos os agentes de criação
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/phenomenology-language-mapping.md`, `frameworks/phenomenology-rapid-ethnography.md` |
+| **Checklists** | `checklists/fenomenologia/language-and-phrasing-truth.md`, `checklists/cultural-insight-quality.md` |
+| **Templates** | `templates/outputs/cultural-insight-report.md` |
+| **Registries** | `data/registries/identity-codes.yaml`, `data/research/ethnography-notes/` |
+| **Workflows** | `workflows/00-signal-radar-daily.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → retornar à Fase 1 (varredura) com fontes ampliadas e reexecutar captura
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Strategy (craft-movement-thesis, design-identity-system)

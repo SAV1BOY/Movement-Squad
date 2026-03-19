@@ -82,8 +82,15 @@ Abrir uma comunidade não é ativá-la. Ativação comunitária é o trabalho di
 
 ## Integração
 
-- **Alimenta:** `measure-community-health`, `create-champion-program`
-- **Recebe de:** `design-community-structure`, `create-onboarding-experience`, `create-community-rituals`, `launch-activation`
-- **Workflow relacionado:** `08-community-build-and-nurture`, `03-activation-sprint`
-- **Cadência:** Diária (dinamização), semanal (report e ajustes), mensal (revisão)
-- **Handoff:** Reports vão para Arquiteto de Movimento e analista de métricas
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/community-flywheel.md`, `frameworks/identity-belonging-gradient.md` |
+| **Checklists** | `checklists/community-activation-quality.md`, `checklists/comunidade/onboarding-and-roles.md`, `checklists/comunidade/moderation-and-safety.md` |
+| **Templates** | `templates/outputs/community-playbook.md` |
+| **Registries** | `data/registries/community-roles.yaml` |
+| **Workflows** | `workflows/03-activation-sprint.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → pausar canal/fase afetada, diagnosticar causa raiz e reexecutar com ajustes
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Measurement (measure-movement-health, run-experiments)

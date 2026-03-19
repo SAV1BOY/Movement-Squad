@@ -85,8 +85,15 @@ O trimestre é o horizonte estratégico do movimento. Nele, avaliamos não apena
 
 ## Integração
 
-- **Alimenta:** Todo o planejamento do próximo trimestre
-- **Recebe de:** Todos os monthly reviews e measurement tasks
-- **Workflow relacionado:** `16-quarterly-movement-review`
-- **Cadência:** Trimestral
-- **Handoff:** Strategy Update para squad, Executive Summary para C-level
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/movement-lifecycle-framework.md`, `frameworks/governance-layer.md` |
+| **Checklists** | `checklists/chief/chief-kill-criteria.md` |
+| **Templates** | `templates/reports/quarterly-movement-review.md` |
+| **Registries** | `data/metrics/maturity-score-history.md` |
+| **Workflows** | `workflows/05-ralphloop-kaizen-weekly.md`, `workflows/16-quarterly-movement-review.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → identificar bloqueio, resolver dependência e reexecutar no próximo ciclo
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Architect
+- **Handoff:** Output vai para → todas as tasks que dependem dos registros atualizados

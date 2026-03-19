@@ -83,8 +83,15 @@ Champions são o ativo mais valioso de um movimento. São membros que não foram
 
 ## Integração
 
-- **Alimenta:** `activate-community`, `activate-creators`, `measure-community-health`
-- **Recebe de:** `design-community-structure`, `design-identity-system`, `create-identity-artifacts`
-- **Workflow relacionado:** `19-champion-development-flow`, `08-community-build-and-nurture`
-- **Cadência:** Trimestral (seleção de novos champions), mensal (capacitação e check-in)
-- **Handoff:** Programa e toolkit vão para community managers e champions selecionados
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/identity-belonging-gradient.md`, `frameworks/community-flywheel.md` |
+| **Checklists** | `checklists/comunidade/champion-program-quality.md`, `checklists/community-activation-quality.md` |
+| **Templates** | `templates/outputs/champion-program-blueprint.md` |
+| **Registries** | `data/registries/champion-registry.yaml` |
+| **Workflows** | `workflows/02-artifact-foundry.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → revisar com feedback específico do quality gate, iterar o artefato e resubmeter
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Activation (launch-activation, activate-community)

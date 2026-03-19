@@ -81,8 +81,15 @@ Kaizen é melhoria contínua incremental. Não esperar o review mensal para ajus
 
 ## Integração
 
-- **Alimenta:** `impact-review`, `monthly-movement-review`, todas as tasks de melhoria
-- **Recebe de:** `weekly-signal-radar`, métricas diárias, feedback da comunidade
-- **Workflow relacionado:** `05-ralphloop-kaizen-weekly`
-- **Cadência:** Semanal (sessão fixa, mesmo dia/horário)
-- **Handoff:** Learning Log acessível a todo o squad e usado em reviews mensais
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/ralphloop-kaizen.md`, `frameworks/impact-learning-loop.md` |
+| **Checklists** | `checklists/impacto/learning-to-playbook.md` |
+| **Templates** | `templates/reports/weekly-readout.md`, `templates/operational/learning-entry.md` |
+| **Registries** | `data/registries/lessons-learned-registry.yaml` |
+| **Workflows** | `workflows/05-ralphloop-kaizen-weekly.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → identificar bloqueio, resolver dependência e reexecutar no próximo ciclo
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → todas as tasks que dependem dos registros atualizados

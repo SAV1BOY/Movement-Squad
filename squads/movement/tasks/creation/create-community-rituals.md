@@ -84,8 +84,15 @@ Comunidades morrem de silêncio, não de conflito. Rituais recorrentes são o ba
 
 ## Integração
 
-- **Alimenta:** `activate-community`, `measure-community-health`
-- **Recebe de:** `design-rituals`, `design-community-structure`, `create-champion-program`
-- **Workflow relacionado:** `08-community-build-and-nurture`, `05-ralphloop-kaizen-weekly`
-- **Cadência:** Semanal (execução) + mensal (execução) + trimestral (revisão de formato)
-- **Handoff:** Templates e calendário vão para community managers e champions facilitadores
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/ritual-reward-loop.md`, `frameworks/manifestor-ritual-design.md`, `frameworks/community-flywheel.md` |
+| **Checklists** | `checklists/ritual-design-quality.md`, `checklists/comunidade/engagement-rituals.md` |
+| **Templates** | `templates/outputs/ritual-playbook.md` |
+| **Registries** | `data/registries/rituals/` |
+| **Workflows** | `workflows/02-artifact-foundry.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → revisar com feedback específico do quality gate, iterar o artefato e resubmeter
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Activation (launch-activation, activate-community)

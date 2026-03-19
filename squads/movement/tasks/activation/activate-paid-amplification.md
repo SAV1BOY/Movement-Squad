@@ -82,8 +82,15 @@ Mídia paga em movimento não é campanha de performance. É acelerador de orgâ
 
 ## Integração
 
-- **Alimenta:** `measure-movement-health`, `measure-business-impact`
-- **Recebe de:** `create-movement-content`, `create-memetic-assets`, `design-channel-architecture`
-- **Workflow relacionado:** `03-activation-sprint`, `07-30-60-90-launch-plan`
-- **Cadência:** Contínua com otimização semanal e revisão mensal
-- **Handoff:** Reports vão para Traffic Squad e analista de impacto
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/distribution-trident.md`, `frameworks/cycle-momentum-mapping.md` |
+| **Checklists** | `checklists/distribuicao/paid-amplification-guardrails.md`, `checklists/distribuicao/attribution-sanity-check.md` |
+| **Templates** | `templates/outputs/distribution-plan.md` |
+| **Registries** | `data/registries/distribution-plans/` |
+| **Workflows** | `workflows/03-activation-sprint.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → pausar canal/fase afetada, diagnosticar causa raiz e reexecutar com ajustes
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Measurement (measure-movement-health, run-experiments)

@@ -81,8 +81,15 @@ O manifesto é o documento sagrado do movimento. Não é copy de marketing — �
 
 ## Integração
 
-- **Alimenta:** `create-memetic-assets`, `create-identity-artifacts`, `create-movement-content`, `activate-community`
-- **Recebe de:** `craft-movement-thesis`, `map-audience-language`, `design-identity-system`
-- **Workflow relacionado:** `02-artifact-foundry`, `07-30-60-90-launch-plan`
-- **Cadência:** Uma vez (criação) + revisão trimestral + refresh anual
-- **Handoff:** Manifesto e kit vão para todo o squad e squads parceiros
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/manifestor-manifesto-architecture.md`, `frameworks/manifestor-artifact-stack.md`, `frameworks/memetic-variation-selection.md` |
+| **Checklists** | `checklists/manifesto-quality.md`, `checklists/manifesto/manifesto-structure.md`, `checklists/memetic-asset-quality.md` |
+| **Templates** | `templates/outputs/manifesto.md`, `templates/outputs/slogan-bank.md`, `templates/outputs/artifact-kit.md` |
+| **Registries** | `data/registries/manifesto-library/`, `data/registries/memetic-assets/`, `data/registries/slogan-bank.yaml` |
+| **Workflows** | `workflows/02-artifact-foundry.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → revisar com feedback específico do quality gate, iterar o artefato e resubmeter
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Activation (launch-activation, activate-community)

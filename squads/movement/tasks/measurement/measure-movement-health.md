@@ -82,8 +82,15 @@ Métricas isoladas (followers, likes, impressões) não contam a história compl
 
 ## Integração
 
-- **Alimenta:** `impact-review`, `quarterly-movement-review`, `monthly-movement-review`
-- **Recebe de:** Todas as tasks de ativação e medição
-- **Workflow relacionado:** `04-measure-and-learn`, `16-quarterly-movement-review`
-- **Cadência:** Semanal (cálculo e report), mensal (análise profunda)
-- **Handoff:** Dashboard acessível a todo o squad; report mensal para stakeholders
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/movement-health-score-framework.md`, `frameworks/impact-cohort-analysis.md` |
+| **Checklists** | `checklists/impact-dashboard-quality.md`, `checklists/impacto/vanity-metric-filter.md` |
+| **Templates** | `templates/reports/movement-health-dashboard.md` |
+| **Registries** | `data/metrics/movement-health-score.md` |
+| **Workflows** | `workflows/04-measure-and-learn.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → revisar metodologia, corrigir viés identificado e reexecutar análise
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Review (impact-review) e próximo ciclo de Strategy

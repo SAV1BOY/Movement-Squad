@@ -79,8 +79,15 @@ Sinais culturais são fragmentos de mudança que ainda não viraram tendência m
 
 ## Integração
 
-- **Alimenta:** `craft-movement-thesis`, `map-cultural-tensions`, `track-cultural-trends`
-- **Recebe de:** `map-audience-language`, `research-platform-dynamics`
-- **Workflow relacionado:** `00-signal-radar-daily`
-- **Cadência:** Diária (varredura), semanal (consolidação), mensal (report completo)
-- **Handoff:** Signal Report vai para o Arquiteto de Movimento para alimentar ciclo de thesis
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/phenomenology-rapid-ethnography.md`, `frameworks/phenomenology-signal-clustering.md`, `frameworks/radar-layer.md` |
+| **Checklists** | `checklists/cultural-insight-quality.md`, `checklists/fenomenologia/phenomenology-signal-capture.md`, `checklists/fenomenologia/signal-source-diversity.md`, `checklists/ciclo/trend-vs-fad-filter.md` |
+| **Templates** | `templates/outputs/cultural-insight-report.md` |
+| **Registries** | `data/registries/signal-archive.yaml`, `data/registries/decision-log.yaml`, `data/metrics/content-to-conversation.md` |
+| **Workflows** | `workflows/00-signal-radar-daily.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → retornar à Fase 1 (varredura) com fontes ampliadas e reexecutar captura
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Strategy (craft-movement-thesis, design-identity-system)

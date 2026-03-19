@@ -82,8 +82,15 @@ Movimentos culturais não podem ser medidos apenas por métricas de vaidade (lik
 
 ## Integração
 
-- **Alimenta:** `plan-launch-sequence`, `run-experiments`, `measure-movement-health`, `measure-business-impact`
-- **Recebe de:** `craft-movement-thesis`, `design-identity-system`
-- **Workflow relacionado:** `07-30-60-90-launch-plan`, `04-measure-and-learn`
-- **Cadência:** Definição inicial + revisão mensal + reset a cada 90 dias
-- **Handoff:** Win Conditions vão para todo o squad e stakeholders
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/chief-win-conditions-30-60-90.md`, `frameworks/chief-movement-business-canvas.md`, `frameworks/impact-metrics-model.md` |
+| **Checklists** | `checklists/chief/chief-win-condition.md`, `checklists/chief/chief-alignment-with-business.md`, `checklists/impact-dashboard-quality.md` |
+| **Templates** | `templates/plans/30-60-90-launch-plan.md`, `templates/reports/movement-health-dashboard.md` |
+| **Registries** | `data/registries/decision-log.yaml` |
+| **Workflows** | `workflows/01-thesis-forge.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → retornar ao passo que falhou, incorporar feedback e resubmeter para aprovação do Movement Chief
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Architect
+- **Handoff:** Output vai para → tasks de Creation (write-manifesto, create-memetic-assets)

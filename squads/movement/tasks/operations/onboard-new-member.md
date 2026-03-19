@@ -82,8 +82,15 @@ Novo membro sem onboarding adequado leva meses para se alinhar e produz trabalho
 
 ## Integração
 
-- **Alimenta:** Produtividade de todo o squad
-- **Recebe de:** Decisão de contratação/designação de novo membro
-- **Workflow relacionado:** Todas as rotinas operacionais do squad
-- **Cadência:** Ad-hoc (quando novo membro entra)
-- **Handoff:** Após 2 semanas, novo membro entra na rotina normal do squad
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/identity-belonging-gradient.md` |
+| **Checklists** | `checklists/comunidade/onboarding-and-roles.md` |
+| **Templates** | `templates/outputs/movement-onboarding-kit.md` |
+| **Registries** | `data/registries/community-roles.yaml` |
+| **Workflows** | `workflows/05-ralphloop-kaizen-weekly.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → identificar bloqueio, resolver dependência e reexecutar no próximo ciclo
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Architect
+- **Handoff:** Output vai para → todas as tasks que dependem dos registros atualizados

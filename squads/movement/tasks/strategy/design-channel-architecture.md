@@ -82,8 +82,15 @@ Canal não é só "onde postar". A arquitetura de canais define a jornada do mem
 
 ## Integração
 
-- **Alimenta:** `plan-launch-sequence`, `create-movement-content`, `activate-community`
-- **Recebe de:** `research-platform-dynamics`, `define-win-conditions`
-- **Workflow relacionado:** `03-activation-sprint`, `07-30-60-90-launch-plan`
-- **Cadência:** Trimestral (revisão de arquitetura), mensal (ajustes pontuais)
-- **Handoff:** Channel Architecture e briefs vão para agentes de criação e ativação
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/architect-channel-architecture.md`, `frameworks/distribution-trident.md` |
+| **Checklists** | `checklists/architect/architect-channel-role-clarity.md`, `checklists/distribuicao/channel-mix-quality.md` |
+| **Templates** | `templates/outputs/distribution-plan.md` |
+| **Registries** | `data/registries/distribution-plans/` |
+| **Workflows** | `workflows/01-thesis-forge.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → retornar ao passo que falhou, incorporar feedback e resubmeter para aprovação do Movement Chief
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Creation (write-manifesto, create-memetic-assets)

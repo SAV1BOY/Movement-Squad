@@ -80,8 +80,15 @@ O radar semanal é a versão operacional da detecção de sinais. Enquanto a tas
 
 ## Integração
 
-- **Alimenta:** `detect-cultural-signals`, `create-movement-content`, `weekly-kaizen-loop`
-- **Recebe de:** Monitoramento diário de plataformas
-- **Workflow relacionado:** `00-signal-radar-daily`, `05-ralphloop-kaizen-weekly`
-- **Cadência:** Semanal (toda segunda)
-- **Handoff:** Digest vai para todo o squad; sinais urgentes para Arquiteto
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/phenomenology-signal-clustering.md`, `frameworks/radar-layer.md` |
+| **Checklists** | `checklists/fenomenologia/phenomenology-signal-capture.md` |
+| **Templates** | `templates/operational/signal-capture-entry.md` |
+| **Registries** | `data/registries/signal-archive.yaml` |
+| **Workflows** | `workflows/05-ralphloop-kaizen-weekly.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → identificar bloqueio, resolver dependência e reexecutar no próximo ciclo
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → todas as tasks que dependem dos registros atualizados

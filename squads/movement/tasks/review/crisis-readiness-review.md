@@ -82,8 +82,15 @@ Não é "se" uma crise vai acontecer — é "quando". Movimentos polarizados sã
 
 ## Integração
 
-- **Alimenta:** `map-counter-narratives`, workflow `06-crisis-and-backlash`
-- **Recebe de:** `detect-cultural-signals`, `map-counter-narratives`, `measure-community-health`
-- **Workflow relacionado:** `06-crisis-and-backlash`
-- **Cadência:** Mensal (review rápido), trimestral (review completo com simulação)
-- **Handoff:** Scorecard e ações vão para todo o squad e liderança
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/crisis-to-movement-framework.md`, `frameworks/governance-layer.md` |
+| **Checklists** | `checklists/crisis-and-backlash-quality.md`, `checklists/pr/backlash-mitigation.md` |
+| **Templates** | `templates/plans/crisis-response-plan.md` |
+| **Registries** | `data/registries/decision-log.yaml` |
+| **Workflows** | `workflows/05-ralphloop-kaizen-weekly.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → documentar gaps encontrados, definir ações corretivas e reagendar review em 1 semana
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Architect
+- **Handoff:** Output vai para → tasks de Strategy e Operations do próximo ciclo

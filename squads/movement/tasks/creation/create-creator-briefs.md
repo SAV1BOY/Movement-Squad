@@ -82,8 +82,15 @@ O pior erro com creators é transformá-los em atores lendo script. O segundo pi
 
 ## Integração
 
-- **Alimenta:** `activate-creators`
-- **Recebe de:** `write-manifesto`, `research-platform-dynamics`, `plan-launch-sequence`
-- **Workflow relacionado:** `09-creator-collab-pipeline`, `03-activation-sprint`
-- **Cadência:** Por campanha/ativação + refresh mensal de templates
-- **Handoff:** Briefs vão para agente de ativação de creators e para os creators diretamente
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/creator-movement-framework.md`, `frameworks/distribution-trident.md` |
+| **Checklists** | `checklists/creator-influencer-brief-quality.md`, `checklists/partner-alignment-quality.md` |
+| **Templates** | `templates/outputs/creator-brief-package.md` |
+| **Registries** | `data/registries/creator-partners.yaml` |
+| **Workflows** | `workflows/02-artifact-foundry.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → revisar com feedback específico do quality gate, iterar o artefato e resubmeter
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Activation (launch-activation, activate-community)

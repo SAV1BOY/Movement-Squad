@@ -82,8 +82,15 @@ Média de retenção esconde a verdade. Uma comunidade pode ter 50% de retençã
 
 ## Integração
 
-- **Alimenta:** `measure-community-health`, `create-onboarding-experience`, `run-experiments`
-- **Recebe de:** `activate-community`, `create-community-rituals`
-- **Workflow relacionado:** `04-measure-and-learn`, `08-community-build-and-nurture`
-- **Cadência:** Mensal (report completo), semanal (monitoramento de coorte ativa)
-- **Handoff:** Report vai para community builder, analista e Arquiteto de Movimento
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/impact-cohort-analysis.md` |
+| **Checklists** | `checklists/impacto/cohort-and-retention.md`, `checklists/impacto/vanity-metric-filter.md` |
+| **Templates** | `templates/reports/movement-health-dashboard.md` |
+| **Registries** | `data/metrics/cohort-retention.md` |
+| **Workflows** | `workflows/04-measure-and-learn.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → revisar metodologia, corrigir viés identificado e reexecutar análise
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Review (impact-review) e próximo ciclo de Strategy

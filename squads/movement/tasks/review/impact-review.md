@@ -83,8 +83,15 @@ Impact review não é reunião de status. É sessão de julgamento honesto: o mo
 
 ## Integração
 
-- **Alimenta:** Todas as tasks de estratégia e criação do próximo ciclo
-- **Recebe de:** Todas as tasks de measurement
-- **Workflow relacionado:** `04-measure-and-learn`, `16-quarterly-movement-review`
-- **Cadência:** Mensal (review operacional), trimestral (review estratégico)
-- **Handoff:** Decisões e ações vão para todo o squad e stakeholders
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/impact-learning-loop.md`, `frameworks/ralphloop-kaizen.md` |
+| **Checklists** | `checklists/impacto/learning-to-playbook.md` |
+| **Templates** | `templates/reports/weekly-readout.md` |
+| **Registries** | `data/registries/lessons-learned-registry.yaml`, `data/registries/decision-log.yaml` |
+| **Workflows** | `workflows/05-ralphloop-kaizen-weekly.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → documentar gaps encontrados, definir ações corretivas e reagendar review em 1 semana
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Chief
+- **Handoff:** Output vai para → tasks de Strategy e Operations do próximo ciclo

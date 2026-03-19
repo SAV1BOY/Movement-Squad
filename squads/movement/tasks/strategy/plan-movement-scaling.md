@@ -80,8 +80,15 @@ O maior assassino de movimentos culturais é o sucesso mal gerenciado. Crescer r
 
 ## Integração
 
-- **Alimenta:** `activate-community`, `create-champion-program`, `design-community-structure`
-- **Recebe de:** `define-win-conditions`, `measure-community-health`
-- **Workflow relacionado:** `11-movement-scaling-flow`, `08-community-build-and-nurture`
-- **Cadência:** Trimestral (revisão), ad-hoc (quando gatilho de escala é atingido)
-- **Handoff:** Scaling Plan vai para Arquiteto e todos os agentes de ativação
+| Tipo | Referência |
+|------|-----------|
+| **Frameworks** | `frameworks/movement-lifecycle-framework.md`, `frameworks/scaling-layer.md` |
+| **Checklists** | `checklists/movement-scaling-quality.md`, `checklists/architect/architect-scalability-audit.md` |
+| **Templates** | `templates/plans/movement-scaling-plan.md` |
+| **Registries** | `data/registries/decision-log.yaml` |
+| **Workflows** | `workflows/01-thesis-forge.md` |
+
+### Regras de Fluxo
+- **Rework:** Se quality gate reprovar → retornar ao passo que falhou, incorporar feedback e resubmeter para aprovação do Movement Chief
+- **Escalation:** Se bloqueio ou decisão fora de escopo → escalar para Movement Architect
+- **Handoff:** Output vai para → tasks de Creation (write-manifesto, create-memetic-assets)
