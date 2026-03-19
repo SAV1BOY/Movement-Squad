@@ -4,10 +4,11 @@ name: "Estruturar Comunidade"
 squad: movement
 type: task
 category: strategy
-agents: [arquiteto-movimento, community-builder, estrategista-movimento]
-frameworks: [community-layers-framework, member-journey-model]
-checklists: [community-structure-checklist]
-templates: [community-blueprint-template, role-definition-template]
+agents: [movement-architect, estrategista-de-ciclo]
+frameworks: [community-flywheel, identity-belonging-gradient]
+checklists: [community-activation-quality, comunidade/onboarding-and-roles, comunidade/champion-program-quality]
+templates: [outputs/community-playbook, outputs/champion-program-blueprint]
+registry: [data/registries/community-roles]
 version: "1.0"
 tags: [strategy, comunidade, estrutura, papeis, jornada]
 ---

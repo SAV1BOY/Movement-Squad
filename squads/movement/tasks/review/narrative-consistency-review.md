@@ -4,10 +4,11 @@ name: "Review de Consistência Narrativa"
 squad: movement
 type: task
 category: review
-agents: [analista-semiotico, arquiteto-movimento]
-frameworks: [narrative-consistency-framework, brand-voice-audit-model]
-checklists: [narrative-audit-checklist]
-templates: [narrative-review-template, consistency-scorecard-template]
+agents: [fenomenologo, movement-architect]
+frameworks: [narrative-graph-framework, architect-system-map]
+checklists: [narrative-coherence-quality, architect/architect-system-coherence]
+templates: [reports/narrative-audit-report]
+registry: [data/registries/decision-log]
 version: "1.0"
 tags: [review, narrativa, consistencia, tom, voz, alinhamento]
 ---

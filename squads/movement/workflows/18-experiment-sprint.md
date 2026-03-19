@@ -3,7 +3,7 @@ id: experiment-sprint
 name: "Sprint de Experimento: Hipótese → Teste → Readout → Decisão"
 squad: movement
 type: workflow
-agents: [analista-impacto, estrategista-movimento, manifestador-criativo]
+agents: [analista-de-impacto, estrategista-de-ciclo, manifestador]
 cadence: weekly
 version: "1.0"
 tags: [workflow, experimento, sprint, hipotese, teste, aprendizado]
@@ -32,7 +32,7 @@ porque Z"        amostra,          dados coletados  1 página,         pivotar o
 
 ### Fase 1: Formulação de Hipótese (Dia 1)
 
-**Agentes:** estrategista-movimento, analista-impacto
+**Agentes:** estrategista-de-ciclo, analista-de-impacto
 
 **Inputs:**
 - Backlog de hipóteses (de reviews, sinais, feedbacks)
@@ -56,7 +56,7 @@ porque Z"        amostra,          dados coletados  1 página,         pivotar o
 
 ### Fase 2: Design do Experimento (Dia 2)
 
-**Agentes:** analista-impacto
+**Agentes:** analista-de-impacto
 
 **Inputs:**
 - Hipótese selecionada
@@ -83,7 +83,7 @@ porque Z"        amostra,          dados coletados  1 página,         pivotar o
 
 ### Fase 3: Execução do Teste (Dia 3-10)
 
-**Agentes:** manifestador-criativo, ativador-chefe
+**Agentes:** manifestador, movement-chief
 
 **Inputs:**
 - Experiment Card
@@ -108,7 +108,7 @@ porque Z"        amostra,          dados coletados  1 página,         pivotar o
 
 ### Fase 4: Readout e Análise (Dia 11-12)
 
-**Agentes:** analista-impacto
+**Agentes:** analista-de-impacto
 
 **Inputs:**
 - Dados brutos do teste
@@ -133,7 +133,7 @@ porque Z"        amostra,          dados coletados  1 página,         pivotar o
 
 ### Fase 5: Decisão e Ação (Dia 12-14)
 
-**Agentes:** estrategista-movimento, arquiteto-movimento
+**Agentes:** estrategista-de-ciclo, movement-architect
 
 **Inputs:**
 - Readout do experimento

@@ -4,10 +4,11 @@ name: "Gerar Thesis do Movimento"
 squad: movement
 type: task
 category: strategy
-agents: [arquiteto-movimento, estrategista-movimento]
-frameworks: [enemy-dream-mechanism, thesis-forge-framework]
-checklists: [thesis-quality-checklist, thesis-validation-checklist]
-templates: [thesis-canvas-template, thesis-document-template]
+agents: [movement-architect, estrategista-de-ciclo]
+frameworks: [enemy-dream-mechanism, identity-collective-narrative, identity-enemy-construction, movement-engine-5-loop]
+checklists: [movement-thesis-quality, identidade/we-us-now-identity, architect/architect-movement-engine-audit]
+templates: [outputs/movement-thesis, outputs/identity-charter]
+registry: [data/registries/movement-theses, data/registries/identity-codes]
 version: "1.0"
 tags: [strategy, thesis, inimigo, sonho, mecanismo, narrativa]
 ---

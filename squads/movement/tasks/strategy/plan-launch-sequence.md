@@ -4,10 +4,11 @@ name: "Planejar Sequência de Lançamento"
 squad: movement
 type: task
 category: strategy
-agents: [arquiteto-movimento, estrategista-movimento, ativador-chefe]
-frameworks: [launch-sequence-framework, phased-activation-model]
-checklists: [launch-readiness-checklist, go-no-go-checklist]
-templates: [launch-plan-template, timeline-template]
+agents: [movement-architect, estrategista-de-ciclo, movement-chief]
+frameworks: [cycle-launch-sequencing, cycle-attention-calendar, distribution-trident]
+checklists: [launch-sequencing-quality, ciclo/cycle-timing-window, distribuicao/channel-mix-quality]
+templates: [outputs/distribution-plan, plans/30-60-90-launch-plan]
+registry: [data/registries/distribution-plans]
 version: "1.0"
 tags: [strategy, lancamento, sequencia, fases, timing]
 ---

@@ -3,7 +3,7 @@ id: champion-development-flow
 name: "Desenvolvimento de Champions: Identificar → Treinar → Empoderar → Reconhecer"
 squad: movement
 type: workflow
-agents: [community-builder, arquiteto-movimento]
+agents: [movement-architect]
 cadence: quarterly
 version: "1.0"
 tags: [workflow, champions, desenvolvimento, lideranca, reconhecimento, comunidade]
@@ -32,7 +32,7 @@ e fit cultural   expectativas     facilitação        mentoria          eventos
 
 ### Fase 1: Identificar Potenciais (Contínuo + Revisão Mensal)
 
-**Agentes:** community-builder
+**Agentes:** movement-architect
 
 **Inputs:**
 - Dados de engajamento e contribuição de membros
@@ -56,7 +56,7 @@ e fit cultural   expectativas     facilitação        mentoria          eventos
 
 ### Fase 2: Convidar e Alinhar (Por candidato)
 
-**Agentes:** community-builder, arquiteto-movimento
+**Agentes:** movement-architect
 
 **Inputs:**
 - Shortlist de candidatos
@@ -82,7 +82,7 @@ e fit cultural   expectativas     facilitação        mentoria          eventos
 
 ### Fase 3: Treinar e Equipar (1-2 semanas)
 
-**Agentes:** community-builder, arquiteto-movimento
+**Agentes:** movement-architect
 
 **Inputs:**
 - Novos champions aceitos
@@ -108,7 +108,7 @@ e fit cultural   expectativas     facilitação        mentoria          eventos
 
 ### Fase 4: Empoderar e Suportar (Contínuo)
 
-**Agentes:** community-builder
+**Agentes:** movement-architect
 
 **Inputs:**
 - Champions treinados e prontos
@@ -136,7 +136,7 @@ e fit cultural   expectativas     facilitação        mentoria          eventos
 
 ### Fase 5: Reconhecer e Reter (Contínuo + Eventos Trimestrais)
 
-**Agentes:** community-builder, arquiteto-movimento
+**Agentes:** movement-architect
 
 **Inputs:**
 - Contribuições dos champions

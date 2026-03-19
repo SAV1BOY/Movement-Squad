@@ -4,10 +4,11 @@ name: "Planejar Escala do Movimento"
 squad: movement
 type: task
 category: strategy
-agents: [arquiteto-movimento, estrategista-movimento]
-frameworks: [scaling-framework, network-effect-model]
-checklists: [scaling-readiness-checklist]
-templates: [scaling-plan-template, expansion-map-template]
+agents: [movement-architect, estrategista-de-ciclo]
+frameworks: [movement-lifecycle-framework, scaling-layer]
+checklists: [movement-scaling-quality, architect/architect-scalability-audit]
+templates: [plans/movement-scaling-plan]
+registry: [data/registries/decision-log]
 version: "1.0"
 tags: [strategy, escala, crescimento, expansao, rede]
 ---

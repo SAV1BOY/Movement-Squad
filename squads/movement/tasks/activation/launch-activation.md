@@ -4,10 +4,11 @@ name: "Ativar Lançamento por Fase e Canal"
 squad: movement
 type: task
 category: activation
-agents: [ativador-chefe, estrategista-movimento, community-builder]
-frameworks: [phased-activation-framework, channel-orchestration-model]
-checklists: [activation-readiness-checklist, channel-launch-checklist]
-templates: [activation-plan-template, war-room-template]
+agents: [movement-chief, estrategista-de-ciclo, movement-architect]
+frameworks: [distribution-trident, community-flywheel, cycle-launch-sequencing, ralphloop-kaizen]
+checklists: [distribution-plan-quality, launch-sequencing-quality, community-activation-quality, impact-dashboard-quality]
+templates: [outputs/distribution-plan, outputs/community-playbook, reports/weekly-readout]
+registry: [data/registries/distribution-plans, data/registries/experiment-log]
 version: "1.0"
 tags: [activation, lancamento, fases, canais, execucao, orquestracao]
 ---

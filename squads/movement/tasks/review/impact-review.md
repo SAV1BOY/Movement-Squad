@@ -4,10 +4,11 @@ name: "Review de Impacto e Decisões"
 squad: movement
 type: task
 category: review
-agents: [arquiteto-movimento, estrategista-movimento, analista-impacto]
-frameworks: [impact-review-framework, decision-matrix-model]
-checklists: [impact-review-checklist]
-templates: [impact-review-template, decision-log-template]
+agents: [movement-architect, estrategista-de-ciclo, analista-de-impacto]
+frameworks: [impact-learning-loop, ralphloop-kaizen]
+checklists: [impacto/learning-to-playbook]
+templates: [reports/weekly-readout]
+registry: [data/registries/lessons-learned-registry, data/registries/decision-log]
 version: "1.0"
 tags: [review, impacto, decisoes, estrategia, avaliacao]
 ---

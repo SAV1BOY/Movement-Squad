@@ -4,10 +4,11 @@ name: "Rastrear Tendências Culturais"
 squad: movement
 type: task
 category: research
-agents: [fenomenologo-cultural, analista-semiotico]
-frameworks: [trend-lifecycle-model, signal-to-trend-pipeline]
-checklists: [trend-tracking-checklist, trend-validation-checklist]
-templates: [trend-brief-template, trend-radar-template]
+agents: [fenomenologo]
+frameworks: [phenomenology-signal-clustering, cycle-cultural-wave-surfing]
+checklists: [ciclo/trend-vs-fad-filter, fenomenologia/signal-source-diversity]
+templates: [outputs/cultural-insight-report]
+registry: [data/research/trend-briefs]
 version: "1.0"
 tags: [research, tendencias, cultura, macro, ciclos]
 ---

@@ -3,7 +3,7 @@ id: movement-scaling-flow
 name: "Fluxo de Escala: Local → Regional → Global"
 squad: movement
 type: workflow
-agents: [arquiteto-movimento, estrategista-movimento, community-builder, analista-impacto]
+agents: [movement-architect, estrategista-de-ciclo, analista-de-impacto]
 cadence: quarterly
 version: "1.0"
 tags: [workflow, escala, expansao, local, regional, global, crescimento]
@@ -32,7 +32,7 @@ gatilhos ok      líderes locais    segmentos/regiões segmentos          próxi
 
 ### Fase 1: Diagnóstico de Prontidão (Semana 1)
 
-**Agentes:** analista-impacto, arquiteto-movimento
+**Agentes:** analista-de-impacto, movement-architect
 
 **Inputs:**
 - Community Health Score e métricas de profundidade
@@ -59,7 +59,7 @@ gatilhos ok      líderes locais    segmentos/regiões segmentos          próxi
 
 ### Fase 2: Preparação para Escala (Semanas 2-3)
 
-**Agentes:** estrategista-movimento, community-builder
+**Agentes:** estrategista-de-ciclo, movement-architect
 
 **Inputs:**
 - Recomendação de escala aprovada
@@ -86,7 +86,7 @@ gatilhos ok      líderes locais    segmentos/regiões segmentos          próxi
 
 ### Fase 3: Piloto de Expansão (Semanas 4-7)
 
-**Agentes:** ativador-chefe, community-builder
+**Agentes:** movement-chief, movement-architect
 
 **Inputs:**
 - Playbook de expansão
@@ -143,7 +143,7 @@ gatilhos ok      líderes locais    segmentos/regiões segmentos          próxi
 
 ### Fase 5: Consolidação e Review (Semana 12)
 
-**Agentes:** arquiteto-movimento, analista-impacto
+**Agentes:** movement-architect, analista-de-impacto
 
 **Inputs:**
 - Dados completos de todo o período de expansão

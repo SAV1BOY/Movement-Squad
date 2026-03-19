@@ -3,7 +3,7 @@ id: movement-to-product-pipeline
 name: "Pipeline: Engajamento → Trial → Conversão"
 squad: movement
 type: workflow
-agents: [estrategista-movimento, analista-impacto, community-builder]
+agents: [estrategista-de-ciclo, analista-de-impacto, movement-architect]
 cadence: monthly
 version: "1.0"
 tags: [workflow, produto, conversao, pipeline, engajamento, trial]
@@ -32,7 +32,7 @@ cria conteúdo    via movimento     de membro                          case stud
 
 ### Fase 1: Engajamento no Movimento (Contínuo)
 
-**Agentes:** community-builder
+**Agentes:** movement-architect
 
 **Inputs:**
 - Membros ativos na comunidade
@@ -55,7 +55,7 @@ cria conteúdo    via movimento     de membro                          case stud
 
 ### Fase 2: Consideração Natural (Contínuo)
 
-**Agentes:** estrategista-movimento, manifestador-criativo
+**Agentes:** estrategista-de-ciclo, manifestador
 
 **Inputs:**
 - Coupling Map com momentos de transição
@@ -80,7 +80,7 @@ cria conteúdo    via movimento     de membro                          case stud
 
 ### Fase 3: Trial e Experiência (Mensal)
 
-**Agentes:** estrategista-movimento, community-builder
+**Agentes:** estrategista-de-ciclo, movement-architect
 
 **Inputs:**
 - Membros que demonstraram interesse
@@ -105,7 +105,7 @@ cria conteúdo    via movimento     de membro                          case stud
 
 ### Fase 4: Conversão e Ativação (Contínuo)
 
-**Agentes:** analista-impacto
+**Agentes:** analista-de-impacto
 
 **Inputs:**
 - Dados de trial e ativação
@@ -131,7 +131,7 @@ cria conteúdo    via movimento     de membro                          case stud
 
 ### Fase 5: Advocacy e Referral (Contínuo)
 
-**Agentes:** community-builder, analista-impacto
+**Agentes:** movement-architect, analista-de-impacto
 
 **Inputs:**
 - Clientes vindos do movimento

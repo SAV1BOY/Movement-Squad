@@ -4,10 +4,11 @@ name: "Ativar PR e Earned Media"
 squad: movement
 type: task
 category: activation
-agents: [ativador-chefe, estrategista-movimento]
-frameworks: [earned-media-activation-framework, media-relations-model]
-checklists: [pr-activation-checklist, media-outreach-checklist]
-templates: [pitch-email-template, media-tracking-template]
+agents: [movement-chief, estrategista-de-ciclo]
+frameworks: [narrative-graph-framework]
+checklists: [pr/narrative-pitch-quality, pr/spokesperson-readiness, pr/backlash-mitigation]
+templates: [outputs/pr-pitch]
+registry: [data/metrics/earned-media-metrics]
 version: "1.0"
 tags: [activation, pr, earned-media, imprensa, midia, cobertura]
 ---

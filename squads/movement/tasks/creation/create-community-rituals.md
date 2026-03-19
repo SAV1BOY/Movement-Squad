@@ -4,10 +4,11 @@ name: "Criar Rituais Comunitários (Semanal e Mensal)"
 squad: movement
 type: task
 category: creation
-agents: [community-builder, manifestador-criativo]
-frameworks: [community-ritual-framework, engagement-cadence-model]
-checklists: [ritual-execution-checklist, community-event-checklist]
-templates: [weekly-ritual-template, monthly-ritual-template]
+agents: [movement-architect, manifestador]
+frameworks: [ritual-reward-loop, manifestor-ritual-design, community-flywheel]
+checklists: [ritual-design-quality, comunidade/engagement-rituals]
+templates: [outputs/ritual-playbook]
+registry: [data/registries/rituals]
 version: "1.0"
 tags: [creation, rituais, comunidade, semanal, mensal, engajamento]
 ---

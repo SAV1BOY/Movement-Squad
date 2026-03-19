@@ -4,10 +4,11 @@ name: "Mapear Linguagem Real do Público"
 squad: movement
 type: task
 category: research
-agents: [fenomenologo-cultural, analista-semiotico, etnografo-digital]
-frameworks: [language-mapping-framework, verbatim-collection]
-checklists: [language-audit-checklist, verbatim-quality-checklist]
-templates: [language-map-template, glossary-template]
+agents: [fenomenologo]
+frameworks: [phenomenology-language-mapping, phenomenology-rapid-ethnography]
+checklists: [fenomenologia/language-and-phrasing-truth, cultural-insight-quality]
+templates: [outputs/cultural-insight-report]
+registry: [data/registries/identity-codes, data/research/ethnography-notes]
 version: "1.0"
 tags: [research, linguagem, audiencia, verbatim, etnografia]
 ---

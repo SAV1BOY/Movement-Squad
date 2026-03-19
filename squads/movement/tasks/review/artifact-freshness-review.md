@@ -4,10 +4,11 @@ name: "Review de Frescor dos Artefatos"
 squad: movement
 type: task
 category: review
-agents: [manifestador-criativo, designer-identitario, analista-semiotico]
-frameworks: [artifact-lifecycle-framework, freshness-assessment-model]
-checklists: [artifact-freshness-checklist]
-templates: [freshness-audit-template, refresh-plan-template]
+agents: [manifestador, identitario, fenomenologo]
+frameworks: [memetic-variation-selection, manifestor-artifact-stack]
+checklists: [manifesto/artifact-shelf-life-check, memetics/meme-lifecycle-audit]
+templates: [reports/narrative-audit-report]
+registry: [data/registries/memetic-assets]
 version: "1.0"
 tags: [review, artefatos, frescor, renovacao, relevancia, fadiga]
 ---

@@ -3,7 +3,7 @@ id: artifact-foundry
 name: "Artifact Foundry: Da Thesis aos Artefatos"
 squad: movement
 type: workflow
-agents: [manifestador-criativo, designer-identitario, analista-semiotico, arquiteto-movimento]
+agents: [manifestador, identitario, fenomenologo, movement-architect]
 cadence: monthly
 version: "1.0"
 tags: [workflow, artefatos, criacao, manifesto, memes, qualidade]
@@ -32,7 +32,7 @@ priorizados      rituais, kits      verificada                           e organ
 
 ### Fase 1: Briefing e Priorização (Dia 1-2)
 
-**Agentes:** arquiteto-movimento, estrategista-movimento
+**Agentes:** movement-architect, estrategista-de-ciclo
 
 **Inputs:**
 - Thesis Document aprovado
@@ -59,7 +59,7 @@ priorizados      rituais, kits      verificada                           e organ
 
 ### Fase 2: Produção Criativa (Dia 3-10)
 
-**Agentes:** manifestador-criativo, designer-identitario
+**Agentes:** manifestador, identitario
 
 **Inputs:**
 - Briefs de produção aprovados
@@ -87,7 +87,7 @@ priorizados      rituais, kits      verificada                           e organ
 
 ### Fase 3: QA e Review Narrativo (Dia 11-13)
 
-**Agentes:** analista-semiotico, arquiteto-movimento
+**Agentes:** fenomenologo, movement-architect
 
 **Inputs:**
 - Artefatos em draft
@@ -112,7 +112,7 @@ priorizados      rituais, kits      verificada                           e organ
 
 ### Fase 4: Teste com Comunidade (Dia 14-16)
 
-**Agentes:** community-builder, manifestador-criativo
+**Agentes:** movement-architect, manifestador
 
 **Inputs:**
 - Artefatos aprovados pelo QA
@@ -138,7 +138,7 @@ priorizados      rituais, kits      verificada                           e organ
 
 ### Fase 5: Publicação e Biblioteca (Dia 17-20)
 
-**Agentes:** manifestador-criativo, designer-identitario
+**Agentes:** manifestador, identitario
 
 **Inputs:**
 - Artefatos finalizados e aprovados

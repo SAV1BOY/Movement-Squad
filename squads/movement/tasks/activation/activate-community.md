@@ -4,10 +4,11 @@ name: "Ativar Comunidade"
 squad: movement
 type: task
 category: activation
-agents: [community-builder, ativador-chefe]
-frameworks: [community-activation-framework, engagement-loop-model]
-checklists: [community-activation-checklist]
-templates: [community-activation-plan-template, engagement-calendar-template]
+agents: [movement-architect, movement-chief]
+frameworks: [community-flywheel, identity-belonging-gradient]
+checklists: [community-activation-quality, comunidade/onboarding-and-roles, comunidade/moderation-and-safety]
+templates: [outputs/community-playbook]
+registry: [data/registries/community-roles]
 version: "1.0"
 tags: [activation, comunidade, engajamento, membros, participacao]
 ---

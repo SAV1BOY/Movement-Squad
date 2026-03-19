@@ -4,10 +4,11 @@ name: "Projetar Arquitetura de Canais"
 squad: movement
 type: task
 category: strategy
-agents: [estrategista-movimento, ativador-chefe]
-frameworks: [channel-architecture-framework, distribution-matrix]
-checklists: [channel-readiness-checklist]
-templates: [channel-map-template, channel-brief-template]
+agents: [estrategista-de-ciclo, movement-chief]
+frameworks: [architect-channel-architecture, distribution-trident]
+checklists: [architect/architect-channel-role-clarity, distribuicao/channel-mix-quality]
+templates: [outputs/distribution-plan]
+registry: [data/registries/distribution-plans]
 version: "1.0"
 tags: [strategy, canais, distribuicao, arquitetura, plataformas]
 ---

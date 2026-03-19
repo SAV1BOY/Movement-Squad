@@ -4,10 +4,11 @@ name: "Criar Conteúdo de Movimento"
 squad: movement
 type: task
 category: creation
-agents: [manifestador-criativo, designer-identitario, estrategista-movimento]
-frameworks: [movement-content-framework, content-pillar-model]
-checklists: [content-quality-checklist, movement-vs-marketing-checklist]
-templates: [content-brief-template, content-calendar-template]
+agents: [manifestador, identitario, estrategista-de-ciclo]
+frameworks: [manifestor-artifact-stack, memetic-variation-selection, cycle-momentum-mapping]
+checklists: [memetic-asset-quality, narrative-coherence-quality]
+templates: [outputs/meme-variation-set, outputs/artifact-kit]
+registry: [data/registries/memetic-assets]
 version: "1.0"
 tags: [creation, conteudo, movimento, narrativa, pilares, autenticidade]
 ---

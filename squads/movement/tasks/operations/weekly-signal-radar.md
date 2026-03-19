@@ -4,10 +4,11 @@ name: "Radar Semanal de Sinais"
 squad: movement
 type: task
 category: operations
-agents: [fenomenologo-cultural, analista-semiotico]
-frameworks: [weekly-radar-framework, signal-triage-model]
-checklists: [weekly-radar-checklist]
-templates: [weekly-radar-template, signal-digest-template]
+agents: [fenomenologo]
+frameworks: [phenomenology-signal-clustering, radar-layer]
+checklists: [fenomenologia/phenomenology-signal-capture]
+templates: [operational/signal-capture-entry]
+registry: [data/registries/signal-archive]
 version: "1.0"
 tags: [operations, semanal, sinais, radar, monitoramento, rotina]
 ---

@@ -3,7 +3,7 @@ id: artifact-refresh-cycle
 name: "Ciclo de Renovação de Artefatos"
 squad: movement
 type: workflow
-agents: [manifestador-criativo, designer-identitario, analista-semiotico]
+agents: [manifestador, identitario, fenomenologo]
 cadence: monthly
 version: "1.0"
 tags: [workflow, artefatos, renovacao, frescor, ciclo, producao]
@@ -33,7 +33,7 @@ list                                testada           arquivados
 
 ### Fase 1: Auditoria de Frescor (Dia 1-3)
 
-**Agentes:** analista-semiotico, manifestador-criativo
+**Agentes:** fenomenologo, manifestador
 
 **Inputs:**
 - Inventário de artefatos com datas e performance
@@ -59,7 +59,7 @@ list                                testada           arquivados
 
 ### Fase 2: Produção de Novos e Refreshes (Dia 4-14)
 
-**Agentes:** manifestador-criativo, designer-identitario
+**Agentes:** manifestador, identitario
 
 **Inputs:**
 - Refresh list e gap list
@@ -86,7 +86,7 @@ list                                testada           arquivados
 
 ### Fase 3: QA de Qualidade (Dia 15-17)
 
-**Agentes:** analista-semiotico, arquiteto-movimento
+**Agentes:** fenomenologo, movement-architect
 
 **Inputs:**
 - Artefatos produzidos
@@ -109,7 +109,7 @@ list                                testada           arquivados
 
 ### Fase 4: Rotação e Publicação (Dia 18-20)
 
-**Agentes:** manifestador-criativo
+**Agentes:** manifestador
 
 **Inputs:**
 - Artefatos aprovados

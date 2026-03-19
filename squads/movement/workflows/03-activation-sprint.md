@@ -3,7 +3,7 @@ id: activation-sprint
 name: "Sprint de Ativação: Comunidade + Creators + Distribuição"
 squad: movement
 type: workflow
-agents: [ativador-chefe, community-builder, estrategista-movimento, analista-impacto]
+agents: [movement-chief, movement-architect, estrategista-de-ciclo, analista-de-impacto]
 cadence: monthly
 version: "1.0"
 tags: [workflow, ativacao, sprint, comunidade, creators, distribuicao]
@@ -32,7 +32,7 @@ budget           assets prontos    PR ativados         UGC amplificado  learning
 
 ### Fase 1: Planejamento do Sprint (Dia 1-3)
 
-**Agentes:** ativador-chefe, estrategista-movimento
+**Agentes:** movement-chief, estrategista-de-ciclo
 
 **Inputs:**
 - Prioridades do mês (do monthly review)
@@ -59,7 +59,7 @@ budget           assets prontos    PR ativados         UGC amplificado  learning
 
 ### Fase 2: Preparação de Assets (Dia 4-8)
 
-**Agentes:** ativador-chefe, manifestador-criativo, community-builder
+**Agentes:** movement-chief, manifestador, movement-architect
 
 **Inputs:**
 - Sprint Plan aprovado
@@ -88,7 +88,7 @@ budget           assets prontos    PR ativados         UGC amplificado  learning
 
 ### Fase 3: Execução Coordenada (Dia 9-15)
 
-**Agentes:** ativador-chefe, community-builder
+**Agentes:** movement-chief, movement-architect
 
 **Inputs:**
 - Sprint Plan com timeline dia a dia
@@ -117,7 +117,7 @@ budget           assets prontos    PR ativados         UGC amplificado  learning
 
 ### Fase 4: Amplificação e Otimização (Dia 16-22)
 
-**Agentes:** ativador-chefe, analista-impacto
+**Agentes:** movement-chief, analista-de-impacto
 
 **Inputs:**
 - Dados de performance da Fase 3
@@ -144,7 +144,7 @@ budget           assets prontos    PR ativados         UGC amplificado  learning
 
 ### Fase 5: Debrief e Report (Dia 23-25)
 
-**Agentes:** analista-impacto, ativador-chefe
+**Agentes:** analista-de-impacto, movement-chief
 
 **Inputs:**
 - Dados completos do sprint

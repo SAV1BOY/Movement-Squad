@@ -4,10 +4,11 @@ name: "Criar Briefs para Creators e Influenciadores"
 squad: movement
 type: task
 category: creation
-agents: [estrategista-movimento, manifestador-criativo, ativador-chefe]
-frameworks: [creator-brief-framework, authenticity-alignment-model]
-checklists: [brief-completeness-checklist, creator-fit-checklist]
-templates: [creator-brief-template, creator-kit-template]
+agents: [estrategista-de-ciclo, manifestador, movement-chief]
+frameworks: [creator-movement-framework, distribution-trident]
+checklists: [creator-influencer-brief-quality, partner-alignment-quality]
+templates: [outputs/creator-brief-package]
+registry: [data/registries/creator-partners]
 version: "1.0"
 tags: [creation, briefs, creators, influenciadores, co-criacao]
 ---

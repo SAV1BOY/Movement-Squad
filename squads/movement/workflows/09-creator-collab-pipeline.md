@@ -3,7 +3,7 @@ id: creator-collab-pipeline
 name: "Pipeline de Creators: Scout → Brief → Approve → Amplify → Measure"
 squad: movement
 type: workflow
-agents: [ativador-chefe, estrategista-movimento, manifestador-criativo, analista-impacto]
+agents: [movement-chief, estrategista-de-ciclo, manifestador, analista-de-impacto]
 cadence: monthly
 version: "1.0"
 tags: [workflow, creators, pipeline, colaboracao, influenciadores]
@@ -33,7 +33,7 @@ feito
 
 ### Fase 1: Scout (Semana 1)
 
-**Agentes:** ativador-chefe, fenomenologo-cultural
+**Agentes:** movement-chief, fenomenologo
 
 **Inputs:**
 - Thesis e valores do movimento
@@ -60,7 +60,7 @@ feito
 
 ### Fase 2: Brief e Alinhamento (Semana 2)
 
-**Agentes:** ativador-chefe, manifestador-criativo
+**Agentes:** movement-chief, manifestador
 
 **Inputs:**
 - Creators que aceitaram conversar
@@ -88,7 +88,7 @@ feito
 
 ### Fase 3: Approve (Semana 3)
 
-**Agentes:** ativador-chefe, arquiteto-movimento
+**Agentes:** movement-chief, movement-architect
 
 **Inputs:**
 - Conteúdo produzido pelo creator (preview)
@@ -112,7 +112,7 @@ feito
 
 ### Fase 4: Amplify (Semana 3-4)
 
-**Agentes:** ativador-chefe, community-builder
+**Agentes:** movement-chief, movement-architect
 
 **Inputs:**
 - Conteúdo publicado pelo creator
@@ -140,7 +140,7 @@ feito
 
 ### Fase 5: Measure (Semana 4-5)
 
-**Agentes:** analista-impacto, ativador-chefe
+**Agentes:** analista-de-impacto, movement-chief
 
 **Inputs:**
 - Dados de performance por creator

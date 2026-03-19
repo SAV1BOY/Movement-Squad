@@ -3,7 +3,7 @@ id: measure-and-learn
 name: "Medir e Aprender: Métricas, Coortes e Experimentos"
 squad: movement
 type: workflow
-agents: [analista-impacto, estrategista-movimento, community-builder]
+agents: [analista-de-impacto, estrategista-de-ciclo, movement-architect]
 cadence: weekly
 version: "1.0"
 tags: [workflow, medicao, aprendizado, metricas, coortes, experimentos]
@@ -33,7 +33,7 @@ atualizados      coortes,           testadas,          implementados,
 
 ### Fase 1: Coleta de Dados (Contínua + Consolidação Semanal)
 
-**Agentes:** analista-impacto
+**Agentes:** analista-de-impacto
 
 **Inputs:**
 - APIs e integrações com plataformas
@@ -60,7 +60,7 @@ atualizados      coortes,           testadas,          implementados,
 
 ### Fase 2: Análise e Diagnóstico (Semanal)
 
-**Agentes:** analista-impacto, estrategista-movimento
+**Agentes:** analista-de-impacto, estrategista-de-ciclo
 
 **Inputs:**
 - Dashboards atualizados
@@ -90,7 +90,7 @@ atualizados      coortes,           testadas,          implementados,
 
 ### Fase 3: Insights e Experimentos (Semanal/Quinzenal)
 
-**Agentes:** analista-impacto, estrategista-movimento
+**Agentes:** analista-de-impacto, estrategista-de-ciclo
 
 **Inputs:**
 - Diagnósticos da Fase 2
@@ -118,7 +118,7 @@ atualizados      coortes,           testadas,          implementados,
 
 ### Fase 4: Ações e Comunicação (Semanal)
 
-**Agentes:** analista-impacto, arquiteto-movimento
+**Agentes:** analista-de-impacto, movement-architect
 
 **Inputs:**
 - Health Score e diagnósticos da semana

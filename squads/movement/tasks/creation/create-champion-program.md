@@ -4,10 +4,11 @@ name: "Criar Programa de Champions"
 squad: movement
 type: task
 category: creation
-agents: [community-builder, arquiteto-movimento, estrategista-movimento]
-frameworks: [champion-program-framework, ambassador-model]
-checklists: [champion-program-checklist, champion-selection-checklist]
-templates: [champion-program-template, champion-toolkit-template]
+agents: [movement-architect, estrategista-de-ciclo]
+frameworks: [identity-belonging-gradient, community-flywheel]
+checklists: [comunidade/champion-program-quality, community-activation-quality]
+templates: [outputs/champion-program-blueprint]
+registry: [data/registries/champion-registry]
 version: "1.0"
 tags: [creation, champions, embaixadores, lideranca, comunidade]
 ---

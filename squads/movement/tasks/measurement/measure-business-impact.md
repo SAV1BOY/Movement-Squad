@@ -4,10 +4,11 @@ name: "Medir Impacto em Negócio"
 squad: movement
 type: task
 category: measurement
-agents: [analista-impacto, estrategista-movimento]
-frameworks: [business-impact-framework, attribution-model]
-checklists: [business-metrics-checklist, attribution-checklist]
-templates: [business-impact-report-template, roi-calculation-template]
+agents: [analista-de-impacto, estrategista-de-ciclo]
+frameworks: [impact-movement-attribution, impact-metrics-model]
+checklists: [impacto/causal-attribution-sanity, chief/chief-alignment-with-business]
+templates: [reports/movement-impact-report]
+registry: [data/metrics/business-impact]
 version: "1.0"
 tags: [measurement, negocio, impacto, roi, conversao, atribuicao]
 ---

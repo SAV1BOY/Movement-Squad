@@ -4,10 +4,11 @@ name: "Medir Health Score do Movimento"
 squad: movement
 type: task
 category: measurement
-agents: [analista-impacto, estrategista-movimento]
-frameworks: [movement-health-scorecard, vitality-index-model]
-checklists: [health-measurement-checklist]
-templates: [health-scorecard-template, dashboard-template]
+agents: [analista-de-impacto, estrategista-de-ciclo]
+frameworks: [movement-health-score-framework, impact-cohort-analysis]
+checklists: [impact-dashboard-quality, impacto/vanity-metric-filter]
+templates: [reports/movement-health-dashboard]
+registry: [data/metrics/movement-health-score]
 version: "1.0"
 tags: [measurement, saude, health-score, metricas, dashboard, vitalidade]
 ---

@@ -4,10 +4,11 @@ name: "Ativar Parcerias"
 squad: movement
 type: task
 category: activation
-agents: [ativador-chefe, arquiteto-movimento]
-frameworks: [partnership-activation-framework, co-creation-model]
-checklists: [partnership-checklist, alignment-checklist]
-templates: [partnership-proposal-template, co-creation-brief-template]
+agents: [movement-chief, movement-architect]
+frameworks: [distribution-trident, creator-movement-framework]
+checklists: [partner-alignment-quality, distribuicao/channel-mix-quality]
+templates: [outputs/creator-brief-package]
+registry: [data/registries/creator-partners]
 version: "1.0"
 tags: [activation, parcerias, co-criacao, aliancas, amplificacao]
 ---

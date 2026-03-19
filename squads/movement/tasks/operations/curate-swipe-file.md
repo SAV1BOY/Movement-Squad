@@ -4,10 +4,11 @@ name: "Curadoria do Swipe File"
 squad: movement
 type: task
 category: operations
-agents: [manifestador-criativo, fenomenologo-cultural, designer-identitario]
-frameworks: [swipe-file-framework, reference-curation-model]
-checklists: [swipe-file-checklist]
-templates: [swipe-entry-template, reference-board-template]
+agents: [manifestador, fenomenologo, identitario]
+frameworks: [memetic-variation-selection]
+checklists: [memetic-asset-quality]
+templates: []
+registry: [data/registries/memetic-assets]
 version: "1.0"
 tags: [operations, swipe-file, referencias, inspiracao, curadoria]
 ---

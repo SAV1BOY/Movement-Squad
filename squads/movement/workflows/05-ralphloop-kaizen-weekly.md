@@ -3,7 +3,7 @@ id: ralphloop-kaizen-weekly
 name: "RalphLoop: Kaizen Semanal do Squad"
 squad: movement
 type: workflow
-agents: [arquiteto-movimento, estrategista-movimento, analista-impacto, community-builder, manifestador-criativo]
+agents: [movement-architect, estrategista-de-ciclo, analista-de-impacto, manifestador]
 cadence: weekly
 version: "1.0"
 tags: [workflow, semanal, kaizen, melhoria-continua, retrospectiva, aprendizado]
@@ -32,7 +32,7 @@ prontos           top sinais       + causa raiz       implementáveis
 
 ### Pré-Sessão: Preparação de Insumos (30min antes)
 
-**Agentes:** analista-impacto, fenomenologo-cultural
+**Agentes:** analista-de-impacto, fenomenologo
 
 **Inputs:**
 - Weekly Signal Digest
@@ -106,7 +106,7 @@ prontos           top sinais       + causa raiz       implementáveis
 
 ### Fase 3: Ajustes Definidos (10min)
 
-**Agentes:** arquiteto-movimento + squad
+**Agentes:** movement-architect + squad
 
 **Inputs:**
 - Learnings e causas raiz identificados
@@ -130,7 +130,7 @@ prontos           top sinais       + causa raiz       implementáveis
 
 ### Fase 4: Fechamento e Próxima Semana (10min)
 
-**Agentes:** arquiteto-movimento + squad
+**Agentes:** movement-architect + squad
 
 **Inputs:**
 - Calendar da próxima semana

@@ -4,10 +4,11 @@ name: "Projetar Sistema de Identidade Coletiva"
 squad: movement
 type: task
 category: strategy
-agents: [arquiteto-movimento, designer-identitario, estrategista-movimento]
-frameworks: [collective-identity-framework, cultural-codes-system]
-checklists: [identity-system-checklist, code-consistency-checklist]
-templates: [identity-system-template, cultural-code-card-template]
+agents: [movement-architect, identitario, estrategista-de-ciclo]
+frameworks: [identity-collective-narrative, identity-symbol-design, identity-belonging-gradient]
+checklists: [identity-system-quality, identidade/symbol-system, identidade/boundary-and-belonging, identidade/identity-toxic-exclusion-check]
+templates: [outputs/identity-charter]
+registry: [data/registries/identity-codes]
 version: "1.0"
 tags: [strategy, identidade, codigos, pertencimento, tribo]
 ---

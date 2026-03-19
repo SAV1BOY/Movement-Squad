@@ -4,10 +4,11 @@ name: "Auditar Movimentos dos Concorrentes"
 squad: movement
 type: task
 category: research
-agents: [fenomenologo-cultural, estrategista-movimento]
-frameworks: [competitor-movement-audit, narrative-position-map]
-checklists: [competitor-audit-checklist]
-templates: [competitor-card-template, audit-report-template]
+agents: [fenomenologo, estrategista-de-ciclo]
+frameworks: [holt-cultural-strategy, sharp-how-brands-grow]
+checklists: [cultural-insight-quality]
+templates: [reports/narrative-audit-report]
+registry: [data/research/competitor-movements]
 version: "1.0"
 tags: [research, concorrentes, auditoria, posicionamento, narrativa]
 ---

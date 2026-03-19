@@ -4,10 +4,11 @@ name: "Planejar Acoplamento Movimento-Produto"
 squad: movement
 type: task
 category: strategy
-agents: [arquiteto-movimento, estrategista-movimento, analista-impacto]
-frameworks: [movement-product-coupling-framework, conversion-funnel-model]
-checklists: [coupling-integrity-checklist]
-templates: [coupling-map-template, conversion-pathway-template]
+agents: [movement-architect, estrategista-de-ciclo, analista-de-impacto]
+frameworks: [movement-to-product-coupling, product-led-movement-framework]
+checklists: [movement-to-product-fit-quality, chief/chief-alignment-with-business]
+templates: []
+registry: [data/registries/decision-log]
 version: "1.0"
 tags: [strategy, produto, conversao, acoplamento, negocio]
 ---

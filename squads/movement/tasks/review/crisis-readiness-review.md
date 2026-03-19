@@ -4,10 +4,11 @@ name: "Review de Prontidão para Crise"
 squad: movement
 type: task
 category: review
-agents: [estrategista-movimento, arquiteto-movimento]
-frameworks: [crisis-readiness-framework, backlash-preparedness-model]
-checklists: [crisis-readiness-checklist, response-protocol-checklist]
-templates: [crisis-readiness-scorecard-template, scenario-update-template]
+agents: [estrategista-de-ciclo, movement-architect]
+frameworks: [crisis-to-movement-framework, governance-layer]
+checklists: [crisis-and-backlash-quality, pr/backlash-mitigation]
+templates: [plans/crisis-response-plan]
+registry: [data/registries/decision-log]
 version: "1.0"
 tags: [review, crise, prontidao, backlash, protocolo, risco]
 ---

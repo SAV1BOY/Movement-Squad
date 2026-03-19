@@ -4,10 +4,11 @@ name: "Review Trimestral do Movimento"
 squad: movement
 type: task
 category: operations
-agents: [arquiteto-movimento, estrategista-movimento, analista-impacto, community-builder, manifestador-criativo]
-frameworks: [quarterly-review-framework, strategic-pivot-model]
-checklists: [quarterly-review-checklist]
-templates: [quarterly-review-template, strategy-update-template]
+agents: [movement-architect, estrategista-de-ciclo, analista-de-impacto, manifestador]
+frameworks: [movement-lifecycle-framework, governance-layer]
+checklists: [chief/chief-kill-criteria]
+templates: [reports/quarterly-movement-review]
+registry: [data/metrics/maturity-score-history]
 version: "1.0"
 tags: [operations, trimestral, review, estrategia, direcao]
 ---

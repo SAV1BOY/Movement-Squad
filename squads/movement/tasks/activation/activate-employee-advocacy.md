@@ -4,10 +4,11 @@ name: "Ativar Employee Advocacy"
 squad: movement
 type: task
 category: activation
-agents: [ativador-chefe, community-builder]
-frameworks: [employee-advocacy-framework, internal-movement-model]
-checklists: [employee-activation-checklist, internal-comms-checklist]
-templates: [employee-kit-template, advocacy-guide-template]
+agents: [movement-chief, movement-architect]
+frameworks: [employee-movement-framework, identity-collective-narrative]
+checklists: [community-activation-quality]
+templates: [outputs/community-playbook]
+registry: []
 version: "1.0"
 tags: [activation, employee-advocacy, interno, colaboradores, amplificacao]
 ---

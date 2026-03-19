@@ -4,10 +4,11 @@ name: "Atualizar Registros"
 squad: movement
 type: task
 category: operations
-agents: [analista-impacto, estrategista-movimento]
-frameworks: [registry-management-framework, knowledge-base-model]
-checklists: [registry-update-checklist]
-templates: [registry-template, changelog-template]
+agents: [analista-de-impacto, estrategista-de-ciclo]
+frameworks: [architect-system-map]
+checklists: [governance/decision-log-standard]
+templates: [operational/decision-log-entry]
+registry: [data/registries/decision-log]
 version: "1.0"
 tags: [operations, registros, atualizacao, base-conhecimento, documentacao]
 ---

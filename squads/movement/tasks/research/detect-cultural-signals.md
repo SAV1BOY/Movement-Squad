@@ -4,10 +4,11 @@ name: "Detectar Sinais Culturais"
 squad: movement
 type: task
 category: research
-agents: [fenomenologo-cultural, analista-semiotico]
-frameworks: [cultural-signal-mapping, tension-radar]
-checklists: [signal-quality-checklist, source-diversity-checklist]
-templates: [signal-card-template, signal-report-template]
+agents: [fenomenologo]
+frameworks: [phenomenology-rapid-ethnography, phenomenology-signal-clustering, radar-layer]
+checklists: [cultural-insight-quality, fenomenologia/phenomenology-signal-capture, fenomenologia/signal-source-diversity, ciclo/trend-vs-fad-filter]
+templates: [outputs/cultural-insight-report]
+registry: [data/registries/signal-archive, data/registries/decision-log]
 version: "1.0"
 tags: [research, sinais, cultura, tendencias, escuta]
 ---

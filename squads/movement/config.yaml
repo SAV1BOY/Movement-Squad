@@ -500,6 +500,67 @@ cross_squad:
       - symbol-systems
       - visual-identity
 
+  data_squad:
+    handoff_to_movement:
+      - "analytics dashboards → movement/data/metrics/ (visualização e infraestrutura de métricas)"
+      - "experiment infrastructure → movement/tasks/measurement/ (ferramentas de A/B testing)"
+      - "cohort models → movement/frameworks/ (modelos de retenção e segmentação)"
+      - "data pipelines → movement/data/registries/ (feeds automatizados de dados)"
+    handoff_from_movement:
+      - "experiment results → data/registries/ (resultados de experimentos do movimento)"
+      - "movement health metrics → data/dashboards/ (KPIs de saúde do movimento)"
+      - "signal data quantificados → data/research/ (sinais culturais com métricas)"
+      - "community metrics → data/registries/ (métricas de comunidade para modelagem)"
+    shared_assets:
+      - experiment-log
+      - health-score-dashboard
+      - cohort-retention-data
+
+  deepresearch_squad:
+    handoff_to_movement:
+      - "cultural deep-dives → movement/reference/ (pesquisas culturais aprofundadas)"
+      - "competitive movement analysis → movement/data/research/ (análise de movimentos concorrentes)"
+      - "academic foundations → movement/frameworks/ (teoria social, psicológica e cultural)"
+      - "trend reports → movement/data/research/ (relatórios de tendências macro)"
+    handoff_from_movement:
+      - "research briefs → deepresearch/tasks/ (pedidos de pesquisa cultural)"
+      - "signal clusters → deepresearch/data/ (clusters de sinais para aprofundamento)"
+      - "thesis hypotheses → deepresearch/tasks/ (hipóteses para validação acadêmica)"
+    shared_assets:
+      - research-briefs
+      - cultural-context
+      - academic-references
+
+  advisory_board_squad:
+    handoff_to_movement:
+      - "strategic direction → movement/tasks/strategy/ (direcionamento estratégico)"
+      - "capital allocation → movement/data/registries/ (budget e recursos aprovados)"
+      - "governance decisions → movement/data/registries/decision-log (decisões de alto nível)"
+      - "culture guidelines → movement/frameworks/ (princípios culturais da organização)"
+    handoff_from_movement:
+      - "movement health reports → advisory-board/data/ (relatórios de impacto)"
+      - "kill/pivot recommendations → advisory-board/tasks/ (recomendações estratégicas)"
+      - "quarterly movement review → advisory-board/reference/ (status e evolução)"
+    shared_assets:
+      - decision-log
+      - quarterly-reviews
+      - strategic-alignment
+
+  c_level_squad:
+    handoff_to_movement:
+      - "brand vision → movement/frameworks/ (visão de marca → tese de movimento)"
+      - "business objectives → movement/tasks/strategy/ (OKRs e metas como input)"
+      - "CMO priorities → movement/data/registries/ (prioridades executivas de marketing)"
+      - "resource approval → movement/data/registries/ (aprovação de recursos e budget)"
+    handoff_from_movement:
+      - "movement impact reports → c-level/data/ (ROI e business impact comprovado)"
+      - "quarterly movement review → c-level/tasks/ (status estratégico do movimento)"
+      - "crisis alerts → c-level/tasks/ (alertas de crise de reputação)"
+    shared_assets:
+      - business-impact-metrics
+      - quarterly-movement-review
+      - brand-reputation-score
+
 # ============================================================
 # QUALITY GATES
 # ============================================================

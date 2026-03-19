@@ -4,10 +4,11 @@ name: "Escrever Manifesto + Slogans + Kit"
 squad: movement
 type: task
 category: creation
-agents: [manifestador-criativo, arquiteto-movimento, designer-identitario]
-frameworks: [manifesto-craft-framework, slogan-generation-model]
-checklists: [manifesto-quality-checklist, slogan-test-checklist]
-templates: [manifesto-template, slogan-matrix-template, kit-template]
+agents: [manifestador, movement-architect, identitario]
+frameworks: [manifestor-manifesto-architecture, manifestor-artifact-stack, memetic-variation-selection]
+checklists: [manifesto-quality, manifesto/manifesto-structure, memetic-asset-quality]
+templates: [outputs/manifesto, outputs/slogan-bank, outputs/artifact-kit]
+registry: [data/registries/manifesto-library, data/registries/memetic-assets, data/registries/slogan-bank]
 version: "1.0"
 tags: [creation, manifesto, slogans, kit, narrativa, escrita]
 ---

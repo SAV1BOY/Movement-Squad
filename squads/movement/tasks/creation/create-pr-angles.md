@@ -4,10 +4,11 @@ name: "Criar Ângulos de PR e Narrativas"
 squad: movement
 type: task
 category: creation
-agents: [estrategista-movimento, manifestador-criativo]
-frameworks: [pr-angle-framework, earned-media-model]
-checklists: [pr-angle-quality-checklist, media-fit-checklist]
-templates: [pr-angle-template, pitch-template, press-release-template]
+agents: [estrategista-de-ciclo, manifestador]
+frameworks: [narrative-graph-framework]
+checklists: [pr/narrative-pitch-quality, pr/spokesperson-readiness]
+templates: [outputs/pr-pitch]
+registry: []
 version: "1.0"
 tags: [creation, pr, imprensa, narrativa, angulos, earned-media]
 ---

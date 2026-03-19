@@ -36,6 +36,10 @@ O Movement Squad envia outputs para outros squads consumirem ou refinarem.
 | Storytelling Squad | Movement thesis, cultural tensions, identity narrative |
 | Traffic Squad | Memetic assets, manifesto clips, community UGC |
 | Design Squad | Identity symbols, movement visual language |
+| Data Squad | Experiment results, movement health metrics, signal data, community metrics |
+| Deep Research Squad | Research briefs, signal clusters, thesis hypotheses |
+| Advisory Board Squad | Movement health reports, kill/pivot recommendations, quarterly reviews |
+| C-Level Squad | Movement impact reports, quarterly reviews, crisis alerts |
 
 ### Inbound (Outro Squad → Movement)
 
@@ -48,6 +52,10 @@ O Movement Squad recebe inputs de outros squads como base para seu trabalho.
 | Storytelling Squad | Public narrative (Ganz), founder story |
 | Traffic Squad | Ad performance data, winning hooks |
 | Design Squad | Visual identity, design system |
+| Data Squad | Analytics dashboards, experiment infrastructure, cohort models, data pipelines |
+| Deep Research Squad | Cultural deep-dives, competitive analysis, academic foundations, trend reports |
+| Advisory Board Squad | Strategic direction, capital allocation, governance decisions, culture guidelines |
+| C-Level Squad | Brand vision, business objectives, CMO priorities, resource approval |
 
 ---
 
@@ -185,7 +193,7 @@ Protocolo de escalação detalhado em `config.yaml` seção `escalation > cross_
 
 ## Squads Integrados
 
-O Movement Squad mantém handoffs ativos com 5 squads, conforme `config.yaml`
+O Movement Squad mantém handoffs ativos com 9 squads, conforme `config.yaml`
 seção `cross_squad`:
 
 | Squad | Ativos Compartilhados | Frequência Típica |
@@ -195,6 +203,10 @@ seção `cross_squad`:
 | **Storytelling Squad** | movement-theses, cultural-tensions | Quinzenal |
 | **Traffic Squad** | memetic-assets, hook-bank | Semanal |
 | **Design Squad** | symbol-systems, visual-identity | Quinzenal |
+| **Data Squad** | experiment-log, health-score-dashboard, cohort-retention-data | Semanal |
+| **Deep Research Squad** | research-briefs, cultural-context, academic-references | Quinzenal |
+| **Advisory Board Squad** | decision-log, quarterly-reviews, strategic-alignment | Mensal |
+| **C-Level Squad** | business-impact-metrics, quarterly-movement-review, brand-reputation-score | Mensal |
 
 ---
 

@@ -3,7 +3,7 @@ id: signal-radar-daily
 name: "Signal Radar Diário"
 squad: movement
 type: workflow
-agents: [fenomenologo-cultural, analista-semiotico, etnografo-digital]
+agents: [fenomenologo]
 cadence: daily
 version: "1.0"
 tags: [workflow, diario, sinais, radar, captura, cultura]
@@ -32,7 +32,7 @@ mínimo          Importante/          preenchidos       para squad
 
 ### Fase 1: Varredura de Fontes (Manhã — 30-45min)
 
-**Agentes:** fenomenologo-cultural, etnografo-digital
+**Agentes:** fenomenologo
 
 **Inputs:**
 - Lista de fontes monitoradas (mínimo 15)
@@ -58,7 +58,7 @@ mínimo          Importante/          preenchidos       para squad
 
 ### Fase 2: Triagem e Classificação (Meio-dia — 15-20min)
 
-**Agentes:** fenomenologo-cultural
+**Agentes:** fenomenologo
 
 **Inputs:**
 - Sinais brutos capturados na manhã
@@ -84,7 +84,7 @@ mínimo          Importante/          preenchidos       para squad
 
 ### Fase 3: Registro no Sistema (Tarde — 15-20min)
 
-**Agentes:** fenomenologo-cultural, analista-semiotico
+**Agentes:** fenomenologo
 
 **Inputs:**
 - Sinais triados e classificados
@@ -108,7 +108,7 @@ mínimo          Importante/          preenchidos       para squad
 
 ### Fase 4: Alerta e Digest (Fim do dia — 5-10min)
 
-**Agentes:** fenomenologo-cultural
+**Agentes:** fenomenologo
 
 **Inputs:**
 - Sinais urgentes identificados

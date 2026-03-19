@@ -3,7 +3,7 @@ id: 30-60-90-launch-plan
 name: "Plano de 90 Dias: Ignição → Sustentação → Expansão"
 squad: movement
 type: workflow
-agents: [arquiteto-movimento, estrategista-movimento, ativador-chefe, community-builder, manifestador-criativo, analista-impacto]
+agents: [movement-architect, estrategista-de-ciclo, movement-chief, manifestador, analista-de-impacto]
 cadence: quarterly
 version: "1.0"
 tags: [workflow, lancamento, 90-dias, fases, ignition, sustain, expand]
@@ -66,7 +66,7 @@ thesis validada          champions emergindo      impacto mensurável
 
 ### Fase 2: Sustentação (Dias 31-60)
 
-**Agentes:** community-builder, ativador-chefe, manifestador-criativo, analista-impacto
+**Agentes:** movement-architect, movement-chief, manifestador, analista-de-impacto
 
 **Inputs:**
 - Dados e learnings dos primeiros 30 dias

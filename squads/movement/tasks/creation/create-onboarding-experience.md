@@ -4,10 +4,11 @@ name: "Criar Experiência de Onboarding"
 squad: movement
 type: task
 category: creation
-agents: [community-builder, manifestador-criativo, designer-identitario]
-frameworks: [onboarding-journey-framework, first-impression-model]
-checklists: [onboarding-experience-checklist, welcome-flow-checklist]
-templates: [onboarding-flow-template, welcome-kit-template]
+agents: [movement-architect, manifestador, identitario]
+frameworks: [identity-belonging-gradient, community-flywheel]
+checklists: [comunidade/onboarding-and-roles, community-activation-quality]
+templates: [outputs/movement-onboarding-kit]
+registry: [data/registries/community-roles]
 version: "1.0"
 tags: [creation, onboarding, comunidade, experiencia, boas-vindas]
 ---

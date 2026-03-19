@@ -3,7 +3,7 @@ id: pr-earned-media-flow
 name: "Fluxo de PR: Ângulo → Pitch → Placement → Amplify → Measure"
 squad: movement
 type: workflow
-agents: [estrategista-movimento, ativador-chefe, analista-impacto]
+agents: [estrategista-de-ciclo, movement-chief, analista-de-impacto]
 cadence: monthly
 version: "1.0"
 tags: [workflow, pr, earned-media, imprensa, angulos, cobertura]
@@ -32,7 +32,7 @@ desenvolvidos    customizados     publicada        share,           sentiment,
 
 ### Fase 1: Criação de Ângulos (Dia 1-5)
 
-**Agentes:** estrategista-movimento
+**Agentes:** estrategista-de-ciclo
 
 **Inputs:**
 - Thesis e tensões culturais
@@ -59,7 +59,7 @@ desenvolvidos    customizados     publicada        share,           sentiment,
 
 ### Fase 2: Pitch e Negociação (Dia 6-12)
 
-**Agentes:** ativador-chefe
+**Agentes:** movement-chief
 
 **Inputs:**
 - Ângulos desenvolvidos
@@ -85,7 +85,7 @@ desenvolvidos    customizados     publicada        share,           sentiment,
 
 ### Fase 3: Placement (Dia 13-20)
 
-**Agentes:** ativador-chefe, estrategista-movimento
+**Agentes:** movement-chief, estrategista-de-ciclo
 
 **Inputs:**
 - Entrevistas agendadas
@@ -110,7 +110,7 @@ desenvolvidos    customizados     publicada        share,           sentiment,
 
 ### Fase 4: Amplificação (Pós-publicação)
 
-**Agentes:** ativador-chefe, community-builder
+**Agentes:** movement-chief, movement-architect
 
 **Inputs:**
 - Matéria publicada
@@ -136,7 +136,7 @@ desenvolvidos    customizados     publicada        share,           sentiment,
 
 ### Fase 5: Medição de Impacto (Dia 25-30)
 
-**Agentes:** analista-impacto
+**Agentes:** analista-de-impacto
 
 **Inputs:**
 - Dados de cobertura (clippings, reach, sentiment)

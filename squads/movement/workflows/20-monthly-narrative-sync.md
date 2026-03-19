@@ -3,7 +3,7 @@ id: monthly-narrative-sync
 name: "Sync Narrativo Mensal com Todos os Squads"
 squad: movement
 type: workflow
-agents: [arquiteto-movimento, estrategista-movimento, analista-semiotico]
+agents: [movement-architect, estrategista-de-ciclo, fenomenologo]
 cadence: monthly
 version: "1.0"
 tags: [workflow, mensal, narrativa, sync, cross-squad, alinhamento, consistencia]
@@ -33,7 +33,7 @@ definida         oportunidades     definidas         publicar
 
 ### Fase 1: Preparação (Dia 1-3 antes da sessão)
 
-**Agentes:** analista-semiotico, estrategista-movimento
+**Agentes:** fenomenologo, estrategista-de-ciclo
 
 **Inputs:**
 - Narrative Consistency Review do mês
@@ -59,7 +59,7 @@ definida         oportunidades     definidas         publicar
 
 ### Fase 2: Sessão de Sync (45-60 minutos)
 
-**Agentes:** arquiteto-movimento + representantes de cada squad
+**Agentes:** movement-architect + representantes de cada squad
 
 **Inputs:**
 - Agenda e pre-brief
@@ -84,7 +84,7 @@ definida         oportunidades     definidas         publicar
 
 ### Fase 3: Follow-Up e Atualização (Dia 1-3 após sessão)
 
-**Agentes:** estrategista-movimento
+**Agentes:** estrategista-de-ciclo
 
 **Inputs:**
 - Notas da sessão
@@ -110,7 +110,7 @@ definida         oportunidades     definidas         publicar
 
 ### Fase 4: Monitoramento Contínuo (Entre sessões)
 
-**Agentes:** analista-semiotico
+**Agentes:** fenomenologo
 
 **Inputs:**
 - Outputs publicados pelos squads ao longo do mês

@@ -4,10 +4,11 @@ name: "Projetar Rituais e Scripts"
 squad: movement
 type: task
 category: creation
-agents: [arquiteto-movimento, community-builder, manifestador-criativo]
-frameworks: [ritual-design-framework, behavioral-loop-model]
-checklists: [ritual-quality-checklist, script-review-checklist]
-templates: [ritual-card-template, script-template]
+agents: [movement-architect, manifestador]
+frameworks: [ritual-reward-loop, manifestor-ritual-design]
+checklists: [ritual-design-quality, manifesto/artifact-kit-completeness]
+templates: [outputs/ritual-playbook]
+registry: [data/registries/rituals]
 version: "1.0"
 tags: [creation, rituais, scripts, comunidade, habitos, pertencimento]
 ---

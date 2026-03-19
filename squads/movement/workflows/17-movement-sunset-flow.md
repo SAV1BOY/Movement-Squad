@@ -3,7 +3,7 @@ id: movement-sunset-flow
 name: "Sunset/Pivot do Movimento com Dignidade"
 squad: movement
 type: workflow
-agents: [arquiteto-movimento, estrategista-movimento, community-builder]
+agents: [movement-architect, estrategista-de-ciclo]
 cadence: ad-hoc
 version: "1.0"
 tags: [workflow, sunset, pivot, encerramento, transicao, dignidade]
@@ -33,7 +33,7 @@ dados claros     plano aprovado    membros           obrigações        legado
 
 ### Fase 1: Diagnóstico de Kill Criteria (1 semana)
 
-**Agentes:** analista-impacto, arquiteto-movimento
+**Agentes:** analista-de-impacto, movement-architect
 
 **Inputs:**
 - Win Conditions e kill criteria definidos
@@ -59,7 +59,7 @@ dados claros     plano aprovado    membros           obrigações        legado
 
 ### Fase 2: Decisão Formal (1 sessão)
 
-**Agentes:** arquiteto-movimento, estrategista-movimento, stakeholders
+**Agentes:** movement-architect, estrategista-de-ciclo, stakeholders
 
 **Inputs:**
 - Diagnóstico e recomendação
@@ -85,7 +85,7 @@ dados claros     plano aprovado    membros           obrigações        legado
 
 ### Fase 3: Transição e Comunicação (2-4 semanas)
 
-**Agentes:** community-builder, arquiteto-movimento
+**Agentes:** movement-architect
 
 **Inputs:**
 - Decisão e plano de transição
@@ -111,7 +111,7 @@ dados claros     plano aprovado    membros           obrigações        legado
 
 ### Fase 4: Encerramento Operacional (1-2 semanas)
 
-**Agentes:** ativador-chefe, community-builder
+**Agentes:** movement-chief, movement-architect
 
 **Inputs:**
 - Plano de transição em execução
@@ -136,7 +136,7 @@ dados claros     plano aprovado    membros           obrigações        legado
 
 ### Fase 5: Legado e Retrospectiva (1 semana)
 
-**Agentes:** arquiteto-movimento, todo o squad
+**Agentes:** movement-architect, todo o squad
 
 **Inputs:**
 - História completa do movimento

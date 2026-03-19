@@ -4,10 +4,11 @@ name: "Ativar Amplificação Paga"
 squad: movement
 type: task
 category: activation
-agents: [ativador-chefe, analista-impacto]
-frameworks: [paid-amplification-framework, organic-paid-synergy-model]
-checklists: [paid-activation-checklist, budget-allocation-checklist]
-templates: [media-plan-template, ad-brief-template]
+agents: [movement-chief, analista-de-impacto]
+frameworks: [distribution-trident, cycle-momentum-mapping]
+checklists: [distribuicao/paid-amplification-guardrails, distribuicao/attribution-sanity-check]
+templates: [outputs/distribution-plan]
+registry: [data/registries/distribution-plans]
 version: "1.0"
 tags: [activation, paid, midia, amplificacao, ads, distribuicao]
 ---

@@ -4,10 +4,11 @@ name: "Mapear Tensões Culturais do Setor"
 squad: movement
 type: task
 category: research
-agents: [fenomenologo-cultural, analista-semiotico]
-frameworks: [tension-mapping-framework, cultural-polarity-model]
-checklists: [tension-validation-checklist]
-templates: [tension-map-template, tension-card-template]
+agents: [fenomenologo]
+frameworks: [tension-to-movement-framework, phenomenology-counter-narrative]
+checklists: [fenomenologia/tension-mapping, fenomenologia/counter-signal-capture]
+templates: [outputs/cultural-insight-report]
+registry: [data/research/signals, data/registries/movement-theses]
 version: "1.0"
 tags: [research, tensoes, cultura, setor, polaridades]
 ---

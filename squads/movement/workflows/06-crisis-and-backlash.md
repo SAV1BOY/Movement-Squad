@@ -3,7 +3,7 @@ id: crisis-and-backlash
 name: "Playbook de Crise e Backlash"
 squad: movement
 type: workflow
-agents: [arquiteto-movimento, estrategista-movimento, community-builder, ativador-chefe]
+agents: [movement-architect, estrategista-de-ciclo, movement-chief]
 cadence: ad-hoc
 version: "1.0"
 tags: [workflow, crise, backlash, resposta, protocolo, emergencia]
@@ -33,7 +33,7 @@ detectado        resposta          comunidade         ajustes           atualiza
 
 ### Fase 1: Detecção e Alerta (0-2 horas)
 
-**Agentes:** fenomenologo-cultural, community-builder
+**Agentes:** fenomenologo, movement-architect
 
 **Inputs:**
 - Alerta de social listening ou monitoramento
@@ -58,7 +58,7 @@ detectado        resposta          comunidade         ajustes           atualiza
 
 ### Fase 2: Avaliação e Decisão (2-6 horas)
 
-**Agentes:** arquiteto-movimento, estrategista-movimento
+**Agentes:** movement-architect, estrategista-de-ciclo
 
 **Inputs:**
 - Evidências coletadas
@@ -86,7 +86,7 @@ detectado        resposta          comunidade         ajustes           atualiza
 
 ### Fase 3: Resposta Executada (6-24 horas)
 
-**Agentes:** ativador-chefe, community-builder, porta-voz designado
+**Agentes:** movement-chief, movement-architect, porta-voz designado
 
 **Inputs:**
 - Resposta aprovada
@@ -114,7 +114,7 @@ detectado        resposta          comunidade         ajustes           atualiza
 
 ### Fase 4: Monitoramento e Ajuste (24-72 horas)
 
-**Agentes:** fenomenologo-cultural, analista-impacto
+**Agentes:** fenomenologo, analista-de-impacto
 
 **Inputs:**
 - Dados de evolução pós-resposta
@@ -140,7 +140,7 @@ detectado        resposta          comunidade         ajustes           atualiza
 
 ### Fase 5: Pós-Crise e Aprendizado (1 semana depois)
 
-**Agentes:** arquiteto-movimento, estrategista-movimento, todo o squad
+**Agentes:** movement-architect, estrategista-de-ciclo, todo o squad
 
 **Inputs:**
 - Timeline completa da crise

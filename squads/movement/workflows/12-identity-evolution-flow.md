@@ -3,7 +3,7 @@ id: identity-evolution-flow
 name: "Evolução de Identidade: Sinal → Proposta → Teste → Atualização"
 squad: movement
 type: workflow
-agents: [designer-identitario, arquiteto-movimento, analista-semiotico, community-builder]
+agents: [identitario, movement-architect, fenomenologo]
 cadence: quarterly
 version: "1.0"
 tags: [workflow, identidade, evolucao, codigos, atualizacao]
@@ -32,7 +32,7 @@ cultura mudou    mockups            feedback           comunicado
 
 ### Fase 1: Detectar Necessidade de Evolução (Contínuo + Revisão Trimestral)
 
-**Agentes:** analista-semiotico, designer-identitario
+**Agentes:** fenomenologo, identitario
 
 **Inputs:**
 - Artifact Freshness Review
@@ -59,7 +59,7 @@ cultura mudou    mockups            feedback           comunicado
 
 ### Fase 2: Projetar Evolução (2 semanas)
 
-**Agentes:** designer-identitario, manifestador-criativo
+**Agentes:** identitario, manifestador
 
 **Inputs:**
 - Elementos identificados para evolução
@@ -84,7 +84,7 @@ cultura mudou    mockups            feedback           comunicado
 
 ### Fase 3: Validar com Comunidade (1 semana)
 
-**Agentes:** community-builder, designer-identitario
+**Agentes:** movement-architect, identitario
 
 **Inputs:**
 - Variações propostas
@@ -109,7 +109,7 @@ cultura mudou    mockups            feedback           comunicado
 
 ### Fase 4: Implementar e Comunicar (2 semanas)
 
-**Agentes:** designer-identitario, community-builder, arquiteto-movimento
+**Agentes:** identitario, movement-architect
 
 **Inputs:**
 - Variação aprovada

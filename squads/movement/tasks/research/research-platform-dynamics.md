@@ -4,10 +4,11 @@ name: "Pesquisar Dinâmicas de Plataformas"
 squad: movement
 type: task
 category: research
-agents: [etnografo-digital, analista-semiotico]
-frameworks: [platform-dynamics-framework, algorithm-behavior-model]
-checklists: [platform-audit-checklist]
-templates: [platform-brief-template, platform-matrix-template]
+agents: [fenomenologo]
+frameworks: [cycle-cultural-wave-surfing, distribution-trident]
+checklists: [fenomenologia/signal-source-diversity]
+templates: [outputs/cultural-insight-report]
+registry: [data/research/platform-dynamics]
 version: "1.0"
 tags: [research, plataformas, algoritmo, distribuicao, formato]
 ---

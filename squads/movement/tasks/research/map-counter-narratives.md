@@ -4,10 +4,11 @@ name: "Mapear Contra-Narrativas"
 squad: movement
 type: task
 category: research
-agents: [fenomenologo-cultural, analista-semiotico, estrategista-movimento]
-frameworks: [narrative-opposition-map, counter-narrative-analysis]
-checklists: [counter-narrative-checklist]
-templates: [counter-narrative-card-template, risk-matrix-template]
+agents: [fenomenologo, estrategista-de-ciclo]
+frameworks: [phenomenology-counter-narrative, narrative-graph-framework]
+checklists: [fenomenologia/counter-signal-capture]
+templates: [outputs/cultural-insight-report]
+registry: [data/research/counter-narratives]
 version: "1.0"
 tags: [research, contra-narrativas, risco, narrativa, oposicao]
 ---

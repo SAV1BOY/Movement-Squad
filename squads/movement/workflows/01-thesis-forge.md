@@ -3,7 +3,7 @@ id: thesis-forge
 name: "Thesis Forge: De Sinais à Tese e Identidade"
 squad: movement
 type: workflow
-agents: [arquiteto-movimento, fenomenologo-cultural, designer-identitario, estrategista-movimento]
+agents: [movement-architect, fenomenologo, identitario, estrategista-de-ciclo]
 cadence: quarterly
 version: "1.0"
 tags: [workflow, thesis, identidade, estrategia, sinais, forja]
@@ -33,7 +33,7 @@ priorizados      Mecanismo         Inner circle        visuais/verbais/ Identity
 
 ### Fase 1: Síntese de Sinais (Semana 1)
 
-**Agentes:** fenomenologo-cultural, analista-semiotico
+**Agentes:** fenomenologo
 
 **Inputs:**
 - Todos os Signal Reports do trimestre
@@ -61,7 +61,7 @@ priorizados      Mecanismo         Inner circle        visuais/verbais/ Identity
 
 ### Fase 2: Forja da Thesis (Semana 2)
 
-**Agentes:** arquiteto-movimento, estrategista-movimento
+**Agentes:** movement-architect, estrategista-de-ciclo
 
 **Inputs:**
 - Documento "Estado Cultural Atual"
@@ -88,7 +88,7 @@ priorizados      Mecanismo         Inner circle        visuais/verbais/ Identity
 
 ### Fase 3: Validação e Stress Test (Semana 3)
 
-**Agentes:** arquiteto-movimento, estrategista-movimento, fenomenologo-cultural
+**Agentes:** movement-architect, estrategista-de-ciclo, fenomenologo
 
 **Inputs:**
 - Thesis candidatas finalistas
@@ -115,7 +115,7 @@ priorizados      Mecanismo         Inner circle        visuais/verbais/ Identity
 
 ### Fase 4: Identidade Coletiva (Semanas 3-4)
 
-**Agentes:** designer-identitario, manifestador-criativo, arquiteto-movimento
+**Agentes:** identitario, manifestador, movement-architect
 
 **Inputs:**
 - Thesis selecionada e validada
@@ -143,7 +143,7 @@ priorizados      Mecanismo         Inner circle        visuais/verbais/ Identity
 
 ### Fase 5: Aprovação e Lançamento Interno (Semana 4)
 
-**Agentes:** arquiteto-movimento, estrategista-movimento
+**Agentes:** movement-architect, estrategista-de-ciclo
 
 **Inputs:**
 - Thesis Document finalizado

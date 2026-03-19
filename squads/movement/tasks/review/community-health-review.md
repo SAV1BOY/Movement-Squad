@@ -4,10 +4,11 @@ name: "Review de Saúde da Comunidade"
 squad: movement
 type: task
 category: review
-agents: [community-builder, arquiteto-movimento, analista-impacto]
-frameworks: [community-review-framework, health-diagnostic-model]
-checklists: [community-review-checklist]
-templates: [community-review-template, action-plan-template]
+agents: [movement-architect, analista-de-impacto]
+frameworks: [community-flywheel, impact-cohort-analysis]
+checklists: [comunidade/community-health-indicators, comunidade/community-to-movement-bridge]
+templates: [reports/community-health-report]
+registry: [data/metrics/community-growth-quality]
 version: "1.0"
 tags: [review, comunidade, saude, diagnostico, intervencao]
 ---

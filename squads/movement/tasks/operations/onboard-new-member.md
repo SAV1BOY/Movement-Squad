@@ -4,10 +4,11 @@ name: "Onboarding de Novo Membro do Squad"
 squad: movement
 type: task
 category: operations
-agents: [arquiteto-movimento, estrategista-movimento]
-frameworks: [team-onboarding-framework, knowledge-transfer-model]
-checklists: [squad-onboarding-checklist]
-templates: [onboarding-plan-template, knowledge-map-template]
+agents: [movement-architect, estrategista-de-ciclo]
+frameworks: [identity-belonging-gradient]
+checklists: [comunidade/onboarding-and-roles]
+templates: [outputs/movement-onboarding-kit]
+registry: [data/registries/community-roles]
 version: "1.0"
 tags: [operations, onboarding, squad, novo-membro, integracao]
 ---

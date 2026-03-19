@@ -4,10 +4,11 @@ name: "Loop Semanal de Aprendizado (Kaizen)"
 squad: movement
 type: task
 category: operations
-agents: [arquiteto-movimento, estrategista-movimento, analista-impacto]
-frameworks: [kaizen-loop-framework, retrospective-model]
-checklists: [kaizen-checklist]
-templates: [kaizen-template, learning-log-template]
+agents: [movement-architect, estrategista-de-ciclo, analista-de-impacto]
+frameworks: [ralphloop-kaizen, impact-learning-loop]
+checklists: [impacto/learning-to-playbook]
+templates: [reports/weekly-readout, operational/learning-entry]
+registry: [data/registries/lessons-learned-registry]
 version: "1.0"
 tags: [operations, semanal, kaizen, aprendizado, melhoria-continua]
 ---

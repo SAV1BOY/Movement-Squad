@@ -4,10 +4,11 @@ name: "Executar Experimentos e Readout"
 squad: movement
 type: task
 category: measurement
-agents: [analista-impacto, estrategista-movimento]
-frameworks: [experiment-sprint-framework, hypothesis-test-learn-model]
-checklists: [experiment-design-checklist, readout-checklist]
-templates: [experiment-card-template, readout-template]
+agents: [analista-de-impacto, estrategista-de-ciclo]
+frameworks: [impact-experiment-design, impact-learning-loop]
+checklists: [experimentation-quality, impacto/experiment-readout]
+templates: [outputs/experiment-plan, reports/experiment-results-report]
+registry: [data/registries/experiment-log]
 version: "1.0"
 tags: [measurement, experimentos, testes, hipoteses, aprendizado]
 ---

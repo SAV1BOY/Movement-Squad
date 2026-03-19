@@ -4,10 +4,11 @@ name: "Ativar Creators e Influenciadores"
 squad: movement
 type: task
 category: activation
-agents: [ativador-chefe, estrategista-movimento]
-frameworks: [creator-activation-framework, influence-amplification-model]
-checklists: [creator-activation-checklist, content-approval-checklist]
-templates: [creator-outreach-template, creator-tracking-template]
+agents: [movement-chief, estrategista-de-ciclo]
+frameworks: [creator-movement-framework, cycle-momentum-mapping]
+checklists: [creator-influencer-brief-quality, distribuicao/paid-amplification-guardrails]
+templates: [outputs/creator-brief-package]
+registry: [data/registries/creator-partners]
 version: "1.0"
 tags: [activation, creators, influenciadores, parcerias, amplificacao]
 ---

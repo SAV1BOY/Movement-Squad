@@ -4,10 +4,11 @@ name: "Sincronização Cross-Squad"
 squad: movement
 type: task
 category: operations
-agents: [arquiteto-movimento, estrategista-movimento]
-frameworks: [cross-squad-sync-framework, narrative-alignment-model]
-checklists: [cross-squad-checklist]
-templates: [sync-agenda-template, handoff-template]
+agents: [movement-architect, estrategista-de-ciclo]
+frameworks: [architect-channel-architecture]
+checklists: [architect/architect-cross-squad-integration]
+templates: [operational/handoff-template]
+registry: [data/registries/decision-log]
 version: "1.0"
 tags: [operations, cross-squad, sincronizacao, alinhamento, handoff]
 ---

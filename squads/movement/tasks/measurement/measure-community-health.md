@@ -4,10 +4,11 @@ name: "Medir Saúde da Comunidade"
 squad: movement
 type: task
 category: measurement
-agents: [analista-impacto, community-builder]
-frameworks: [community-health-framework, engagement-depth-model]
-checklists: [community-metrics-checklist]
-templates: [community-health-report-template, cohort-analysis-template]
+agents: [analista-de-impacto, movement-architect]
+frameworks: [community-flywheel, impact-cohort-analysis]
+checklists: [comunidade/community-health-indicators, impacto/vanity-metric-filter]
+templates: [reports/community-health-report]
+registry: [data/metrics/community-growth-quality]
 version: "1.0"
 tags: [measurement, comunidade, saude, engajamento, retencao, membros]
 ---

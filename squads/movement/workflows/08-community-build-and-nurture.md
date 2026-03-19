@@ -3,7 +3,7 @@ id: community-build-and-nurture
 name: "Construir Comunidade: Onboarding → Engajamento → Champions"
 squad: movement
 type: workflow
-agents: [community-builder, arquiteto-movimento, manifestador-criativo]
+agents: [movement-architect, manifestador]
 cadence: weekly
 version: "1.0"
 tags: [workflow, comunidade, onboarding, engajamento, champions, nurture]
@@ -33,7 +33,7 @@ primeiro wow     participação      mentoria          reconhecimento
 
 ### Fase 1: Onboarding (Dia 0-7)
 
-**Agentes:** community-builder
+**Agentes:** movement-architect
 
 **Inputs:**
 - Novo membro entra (via invite, orgânico, creator, ad)
@@ -62,7 +62,7 @@ primeiro wow     participação      mentoria          reconhecimento
 
 ### Fase 2: Engajamento (Dia 8-30)
 
-**Agentes:** community-builder, manifestador-criativo
+**Agentes:** movement-architect, manifestador
 
 **Inputs:**
 - Membros que passaram pelo onboarding
@@ -90,7 +90,7 @@ primeiro wow     participação      mentoria          reconhecimento
 
 ### Fase 3: Contribuição (Dia 31-60)
 
-**Agentes:** community-builder
+**Agentes:** movement-architect
 
 **Inputs:**
 - Membros engajados ativamente
@@ -118,7 +118,7 @@ primeiro wow     participação      mentoria          reconhecimento
 
 ### Fase 4: Champion (Dia 60+)
 
-**Agentes:** community-builder, arquiteto-movimento
+**Agentes:** movement-architect
 
 **Inputs:**
 - Contribuidores identificados como potenciais champions

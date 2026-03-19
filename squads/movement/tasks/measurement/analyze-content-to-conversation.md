@@ -4,10 +4,11 @@ name: "Analisar Conteúdo para Conversação"
 squad: movement
 type: task
 category: measurement
-agents: [analista-impacto, analista-semiotico]
-frameworks: [content-conversation-pipeline, narrative-propagation-model]
-checklists: [content-analysis-checklist]
-templates: [content-performance-template, conversation-analysis-template]
+agents: [analista-de-impacto, fenomenologo]
+frameworks: [impact-metrics-model, community-flywheel]
+checklists: [impacto/vanity-metric-filter]
+templates: [reports/weekly-readout]
+registry: [data/metrics/content-to-conversation]
 version: "1.0"
 tags: [measurement, conteudo, conversacao, propagacao, narrativa, analise]
 ---

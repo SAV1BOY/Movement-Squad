@@ -4,10 +4,11 @@ name: "Entrevistar Membros da Comunidade"
 squad: movement
 type: task
 category: research
-agents: [etnografo-digital, fenomenologo-cultural]
-frameworks: [deep-interview-framework, empathy-mapping]
-checklists: [interview-prep-checklist, interview-ethics-checklist]
-templates: [interview-guide-template, interview-synthesis-template]
+agents: [fenomenologo]
+frameworks: [phenomenology-rapid-ethnography, phenomenology-language-mapping]
+checklists: [fenomenologia/phenomenology-signal-capture, fenomenologia/language-and-phrasing-truth]
+templates: [outputs/cultural-insight-report]
+registry: [data/research/interviews]
 version: "1.0"
 tags: [research, entrevistas, comunidade, qualitativo, etnografia]
 ---

@@ -3,7 +3,7 @@ id: cross-squad-narrative-handoff
 name: "Handoff Narrativo: Movement → Copy, Brand, Story, Traffic"
 squad: movement
 type: workflow
-agents: [arquiteto-movimento, estrategista-movimento]
+agents: [movement-architect, estrategista-de-ciclo]
 cadence: monthly
 version: "1.0"
 tags: [workflow, handoff, cross-squad, narrativa, alinhamento, sincronizacao]
@@ -33,7 +33,7 @@ do's/don'ts      squad             outputs            guidelines
 
 ### Fase 1: Preparação do Narrative Kit (Dia 1-5)
 
-**Agentes:** arquiteto-movimento, estrategista-movimento
+**Agentes:** movement-architect, estrategista-de-ciclo
 
 **Inputs:**
 - Thesis Document atualizado
@@ -59,7 +59,7 @@ do's/don'ts      squad             outputs            guidelines
 
 ### Fase 2: Handoff e Treinamento (Dia 6-10)
 
-**Agentes:** arquiteto-movimento
+**Agentes:** movement-architect
 
 **Inputs:**
 - Narrative Kits prontos
@@ -83,7 +83,7 @@ do's/don'ts      squad             outputs            guidelines
 
 ### Fase 3: Acompanhamento e Consultoria (Contínuo)
 
-**Agentes:** estrategista-movimento
+**Agentes:** estrategista-de-ciclo
 
 **Inputs:**
 - Dúvidas dos squads parceiros
@@ -107,7 +107,7 @@ do's/don'ts      squad             outputs            guidelines
 
 ### Fase 4: Auditoria e Ajuste (Mensal)
 
-**Agentes:** analista-semiotico, arquiteto-movimento
+**Agentes:** fenomenologo, movement-architect
 
 **Inputs:**
 - Outputs publicados por squads parceiros

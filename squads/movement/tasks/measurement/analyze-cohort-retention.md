@@ -4,10 +4,11 @@ name: "Analisar Retenção por Coorte"
 squad: movement
 type: task
 category: measurement
-agents: [analista-impacto]
-frameworks: [cohort-analysis-framework, retention-curve-model]
-checklists: [cohort-analysis-checklist]
-templates: [cohort-table-template, retention-report-template]
+agents: [analista-de-impacto]
+frameworks: [impact-cohort-analysis]
+checklists: [impacto/cohort-and-retention, impacto/vanity-metric-filter]
+templates: [reports/movement-health-dashboard]
+registry: [data/metrics/cohort-retention]
 version: "1.0"
 tags: [measurement, coortes, retencao, analise, membros, engajamento]
 ---

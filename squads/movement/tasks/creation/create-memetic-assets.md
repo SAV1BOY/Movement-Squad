@@ -4,10 +4,11 @@ name: "Criar Assets Meméticos e Variações"
 squad: movement
 type: task
 category: creation
-agents: [manifestador-criativo, designer-identitario, memeticista]
-frameworks: [memetic-design-framework, viral-coefficient-model]
-checklists: [meme-quality-checklist, format-adaptation-checklist]
-templates: [meme-brief-template, asset-matrix-template]
+agents: [manifestador, identitario]
+frameworks: [manifestor-meme-factory, memetic-variation-selection, cycle-cultural-wave-surfing]
+checklists: [memetic-asset-quality, memetics/memetic-fidelity, memetics/meme-variation-and-selection, memetics/format-platform-fit]
+templates: [outputs/meme-variation-set]
+registry: [data/registries/memetic-assets]
 version: "1.0"
 tags: [creation, memes, assets, viral, cultura, artefatos]
 ---

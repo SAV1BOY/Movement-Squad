@@ -4,10 +4,11 @@ name: "Review Mensal do Movimento"
 squad: movement
 type: task
 category: operations
-agents: [arquiteto-movimento, estrategista-movimento, analista-impacto, community-builder]
-frameworks: [monthly-review-framework, health-assessment-model]
-checklists: [monthly-review-checklist]
-templates: [monthly-review-template, stakeholder-report-template]
+agents: [movement-architect, estrategista-de-ciclo, analista-de-impacto]
+frameworks: [movement-health-score-framework, impact-metrics-model]
+checklists: [impact-dashboard-quality]
+templates: [reports/monthly-movement-report]
+registry: [data/metrics/movement-health-score]
 version: "1.0"
 tags: [operations, mensal, review, relatorio, stakeholders]
 ---

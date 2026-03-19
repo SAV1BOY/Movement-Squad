@@ -4,10 +4,11 @@ name: "Criar Artefatos de Identidade"
 squad: movement
 type: task
 category: creation
-agents: [designer-identitario, manifestador-criativo]
-frameworks: [identity-artifact-framework, brand-expression-system]
-checklists: [artifact-production-checklist, brand-consistency-checklist]
-templates: [artifact-brief-template, production-spec-template]
+agents: [identitario, manifestador]
+frameworks: [identity-symbol-design, manifestor-kit-design]
+checklists: [symbol-system-quality, identity-system-quality]
+templates: [outputs/artifact-kit]
+registry: [data/registries/identity-codes, data/registries/memetic-assets]
 version: "1.0"
 tags: [creation, identidade, artefatos, visual, tangivel, pertencimento]
 ---

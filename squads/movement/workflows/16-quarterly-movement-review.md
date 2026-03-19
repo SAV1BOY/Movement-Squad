@@ -3,7 +3,7 @@ id: quarterly-movement-review
 name: "Review Trimestral: Saúde, Impacto e Atualização Estratégica"
 squad: movement
 type: workflow
-agents: [arquiteto-movimento, estrategista-movimento, analista-impacto, community-builder, manifestador-criativo]
+agents: [movement-architect, estrategista-de-ciclo, analista-de-impacto, manifestador]
 cadence: quarterly
 version: "1.0"
 tags: [workflow, trimestral, review, estrategia, saude, impacto]
@@ -32,7 +32,7 @@ pre-read          o que impactamos  próximos passos   stakeholder deck
 
 ### Pré-Work: Consolidação de Dados (Semana -1)
 
-**Agentes:** analista-impacto
+**Agentes:** analista-de-impacto
 
 **Inputs:**
 - 3 Monthly Reviews do trimestre
@@ -112,7 +112,7 @@ pre-read          o que impactamos  próximos passos   stakeholder deck
 
 ### Pós-Sessão: Documentação e Comunicação (Semana +1)
 
-**Agentes:** arquiteto-movimento, estrategista-movimento
+**Agentes:** movement-architect, estrategista-de-ciclo
 
 **Inputs:**
 - Notas e decisões das sessões
