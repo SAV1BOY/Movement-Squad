@@ -195,3 +195,18 @@ gatilhos ok      líderes locais    segmentos/regiões segmentos          próxi
 | Champions locais ativos | >= 3 por segmento |
 | Engajamento novo segmento | >= 70% do core |
 | ROI da expansão | Positivo em 90 dias |
+
+## Integração
+
+| Tipo | Referência |
+|------|-----------|
+| **Tasks** | `tasks/strategy/plan-movement-scaling.md`, `tasks/strategy/design-community-structure.md`, `tasks/measurement/measure-movement-health.md`, `tasks/measurement/measure-business-impact.md`, `tasks/activation/activate-community.md` |
+| **Frameworks** | `frameworks/movement-lifecycle-framework.md`, `frameworks/scaling-layer.md`, `frameworks/community-flywheel.md`, `frameworks/identity-belonging-gradient.md` |
+| **Checklists** | `checklists/movement-scaling-quality.md`, `checklists/architect/architect-scalability-audit.md`, `checklists/community-activation-quality.md`, `checklists/impact-dashboard-quality.md` |
+| **Registries** | `data/registries/decision-log.yaml`, `data/metrics/movement-health-score.md`, `data/metrics/community-growth-quality.md` |
+
+### Regras de Fluxo
+- **Quality Gate entre fases:** Diagnóstico→Preparação: Scaling Readiness Score ≥ 75; Piloto→Scaling: retenção D30 ≥ 40% em novo segmento; Scaling→Consolidação: impacto no core < -5%
+- **Rework:** Se diluição detectada durante scaling → pausar expansão e reconsolidar core
+- **Escalation:** Se expansão fracassa → escalar para Movement Chief para decisão de retorno ao core
+- **Handoff:** Scaling Report alimenta → `workflows/16-quarterly-movement-review.md`
