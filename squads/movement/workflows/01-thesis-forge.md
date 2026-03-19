@@ -195,3 +195,18 @@ priorizados      Mecanismo         Inner circle        visuais/verbais/ Identity
 | Teste de reconhecibilidade | Aprovado |
 | Aprovação de stakeholders | Obtida em 1 rodada |
 | Tempo de ciclo completo | <= 4 semanas |
+
+## Integração
+
+| Tipo | Referência |
+|------|-----------|
+| **Tasks** | `tasks/strategy/craft-movement-thesis.md`, `tasks/strategy/design-identity-system.md`, `tasks/strategy/define-win-conditions.md`, `tasks/research/detect-cultural-signals.md`, `tasks/research/map-cultural-tensions.md`, `tasks/research/map-counter-narratives.md` |
+| **Frameworks** | `frameworks/enemy-dream-mechanism.md`, `frameworks/identity-collective-narrative.md`, `frameworks/identity-enemy-construction.md`, `frameworks/movement-engine-5-loop.md`, `frameworks/identity-symbol-design.md`, `frameworks/identity-belonging-gradient.md` |
+| **Checklists** | `checklists/movement-thesis-quality.md`, `checklists/identidade/we-us-now-identity.md`, `checklists/architect/architect-movement-engine-audit.md`, `checklists/identity-system-quality.md`, `checklists/identidade/symbol-system.md`, `checklists/identidade/boundary-and-belonging.md` |
+| **Registries** | `data/registries/movement-theses.yaml`, `data/registries/identity-codes.yaml`, `data/registries/decision-log.yaml` |
+
+### Regras de Fluxo
+- **Quality Gate entre fases:** Fase 1→2: tensões claras e documentadas; Fase 2→3: pelo menos 1 thesis forte; Fase 3→4: NPS ≥ 8 e stress test aprovado; Fase 4→5: teste de reconhecibilidade aprovado
+- **Rework:** Se thesis reprovada na validação → voltar para Fase 2 com feedback do inner circle
+- **Escalation:** Se conflito com posicionamento da marca → escalar para Movement Chief e stakeholders
+- **Handoff:** Thesis + Identity Kit aprovados alimentam → `workflows/02-artifact-foundry.md` e `workflows/03-activation-sprint.md`

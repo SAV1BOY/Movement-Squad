@@ -159,3 +159,18 @@ mínimo          Importante/          preenchidos       para squad
 | Cobertura de fontes/semana | 100% da lista |
 | Contribuição para Weekly Digest | Todos os dias de captura |
 | Sinais que se tornaram ações | >= 20% dos urgentes |
+
+## Integração
+
+| Tipo | Referência |
+|------|-----------|
+| **Tasks** | `tasks/research/detect-cultural-signals.md`, `tasks/research/track-cultural-trends.md`, `tasks/research/map-cultural-tensions.md`, `tasks/research/map-counter-narratives.md`, `tasks/research/research-platform-dynamics.md`, `tasks/operations/weekly-signal-radar.md` |
+| **Frameworks** | `frameworks/phenomenology-rapid-ethnography.md`, `frameworks/phenomenology-signal-clustering.md`, `frameworks/radar-layer.md`, `frameworks/phenomenology-language-mapping.md` |
+| **Checklists** | `checklists/cultural-insight-quality.md`, `checklists/fenomenologia/phenomenology-signal-capture.md`, `checklists/fenomenologia/signal-source-diversity.md`, `checklists/ciclo/trend-vs-fad-filter.md` |
+| **Registries** | `data/registries/signal-archive.yaml`, `data/registries/decision-log.yaml` |
+
+### Regras de Fluxo
+- **Quality Gate entre fases:** Cada fase tem Decision Gate próprio que bloqueia avanço se critérios não atingidos
+- **Rework:** Se sinal urgente perdido → revisar cobertura de fontes e ajustar lista de monitoramento
+- **Escalation:** Sinal urgente com potencial de crise → acionar `workflows/06-crisis-and-backlash.md`
+- **Handoff:** Signal Reports consolidados alimentam → `workflows/01-thesis-forge.md` e `workflows/05-ralphloop-kaizen-weekly.md`

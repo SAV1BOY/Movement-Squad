@@ -190,3 +190,18 @@ priorizados      rituais, kits      verificada                           e organ
 | Tempo de ciclo | <= 20 dias |
 | Artefatos publicados no prazo | >= 90% |
 | Taxa de uso pela comunidade | >= 30% dos artefatos |
+
+## Integração
+
+| Tipo | Referência |
+|------|-----------|
+| **Tasks** | `tasks/creation/write-manifesto.md`, `tasks/creation/create-memetic-assets.md`, `tasks/creation/design-rituals.md`, `tasks/creation/create-identity-artifacts.md`, `tasks/creation/create-movement-content.md`, `tasks/review/artifact-freshness-review.md` |
+| **Frameworks** | `frameworks/manifestor-manifesto-architecture.md`, `frameworks/manifestor-artifact-stack.md`, `frameworks/memetic-variation-selection.md`, `frameworks/manifestor-meme-factory.md`, `frameworks/manifestor-ritual-design.md`, `frameworks/manifestor-kit-design.md` |
+| **Checklists** | `checklists/manifesto-quality.md`, `checklists/manifesto/manifesto-structure.md`, `checklists/memetic-asset-quality.md`, `checklists/memetics/memetic-fidelity.md`, `checklists/memetics/meme-variation-and-selection.md`, `checklists/narrative-coherence-quality.md` |
+| **Registries** | `data/registries/manifesto-library/`, `data/registries/memetic-assets/`, `data/registries/slogan-bank.yaml`, `data/registries/rituals/` |
+
+### Regras de Fluxo
+- **Quality Gate entre fases:** Fase 1→2: briefs claros e alinhados com thesis; Fase 2→3: produção atende ao brief; Fase 3→4: score ≥ 4 em todos os critérios; Fase 4→5: reação média ≥ 8/10
+- **Rework:** Se QA reprova → feedback específico por critério, iterar e resubmeter
+- **Escalation:** Se reação do inner circle < 6 → escalar para Movement Chief para decisão de recriar do zero
+- **Handoff:** Artefatos finalizados alimentam → `workflows/03-activation-sprint.md` e `workflows/13-artifact-refresh-cycle.md`
