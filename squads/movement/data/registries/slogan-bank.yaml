@@ -1,0 +1,114 @@
+# ============================================================================
+# Slogan Bank — Banco de Slogans e Performance
+# ============================================================================
+# Repositório de todos os slogans, taglines, calls-to-action e frases-chave
+# utilizadas pelo movimento. Cada entrada inclui contexto de uso, performance
+# observada e status atual.
+#
+# Status: ativo | em-teste | aposentado | rejeitado
+# Tipo: slogan | tagline | cta | frase-chave | hashtag
+# ============================================================================
+
+schema_version: "1.0"
+ultima_atualizacao: "2026-03-10"
+
+slogans:
+
+  - id: "SLOGAN-001"
+    texto: "Meça o que importa. Ignore o resto."
+    tipo: "slogan"
+    status: "ativo"
+    data_criacao: "2026-01-15"
+    autor: "manifestador"
+
+    contexto_uso:
+      - "Abertura de manifestos"
+      - "Bio de redes sociais"
+      - "Assinatura de emails da comunidade"
+
+    performance:
+      recall_estimado: "alto"
+      feedback_comunidade: "positivo — direto e acionável"
+      vezes_citado_organicamente: 34
+      melhor_resultado:
+        contexto: "Post de lançamento da comunidade"
+        impressoes: 67000
+        engajamento: 2800
+
+    variações_testadas:
+      - texto: "Menos dashboard, mais decisão"
+        performance: "medio — funciona bem em contexto B2B"
+      - texto: "Dados sem ação são só barulho"
+        performance: "alto em posts de provocação"
+
+    notas: "Slogan principal. Não alterar sem decisão do Chief."
+
+  - id: "SLOGAN-002"
+    texto: "#SextaDoFracasso"
+    tipo: "hashtag"
+    status: "ativo"
+    data_criacao: "2026-02-01"
+    autor: "movement-architect"
+
+    contexto_uso:
+      - "Ritual semanal da comunidade"
+      - "Posts de membros compartilhando aprendizados"
+
+    performance:
+      recall_estimado: "alto entre membros ativos"
+      feedback_comunidade: "muito positivo — gera pertencimento"
+      vezes_citado_organicamente: 156
+      melhor_resultado:
+        contexto: "Compilação mensal de fracassos"
+        impressoes: 42000
+        engajamento: 1950
+
+    notas: "Hashtag do ritual mais popular. Orgânico e autêntico."
+
+  - id: "SLOGAN-003"
+    texto: "Marketing que mexe. Não marketing que mente."
+    tipo: "tagline"
+    status: "em-teste"
+    data_criacao: "2026-03-01"
+    autor: "memetic-engineer"
+
+    contexto_uso:
+      - "Em teste para bio de novas plataformas"
+
+    performance:
+      recall_estimado: "a avaliar"
+      feedback_comunidade: "misto — alguns acham forte demais"
+      vezes_citado_organicamente: 3
+
+    notas: "Precisa de mais tempo de teste. Ajustar tom se necessário."
+
+  - id: "SLOGAN-004"
+    texto: "Pare de reportar. Comece a decidir."
+    tipo: "cta"
+    status: "ativo"
+    data_criacao: "2026-02-10"
+    autor: "manifestador"
+
+    contexto_uso:
+      - "CTAs em conteúdos educativos"
+      - "Final de posts provocativos"
+
+    performance:
+      recall_estimado: "medio-alto"
+      feedback_comunidade: "positivo — gera ação"
+      vezes_citado_organicamente: 21
+
+    notas: "CTA eficaz em conteúdo educativo. Usar com moderação."
+
+banco_de_ideias:
+  - "O número que ninguém pergunta"
+  - "Vaidade não paga boleto"
+  - "Se o dashboard não muda nada, pra que ele existe?"
+  - "Movimento > Campanha"
+  - "Quem mede tudo não decide nada"
+
+regras:
+  - "Novos slogans precisam de 4 semanas de teste antes de virar 'ativo'"
+  - "Slogans ativos só são aposentados com decisão documentada"
+  - "Variações podem ser testadas sem aprovação formal"
+  - "O Manifestador é o guardião da coerência linguística"

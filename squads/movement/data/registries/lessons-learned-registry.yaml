@@ -1,0 +1,136 @@
+# ============================================================================
+# Lessons Learned Registry — Registro de Lições Aprendidas
+# ============================================================================
+# Repositório cumulativo de lições aprendidas ao longo da operação do
+# movimento. Cada lição documenta o contexto, o que aconteceu, o que
+# aprendemos e como aplicar no futuro.
+#
+# Categoria: estrategia | narrativa | comunidade | distribuicao | metricas | operacao
+# Impacto: alto | medio | baixo
+# ============================================================================
+
+schema_version: "1.0"
+ultima_atualizacao: "2026-03-10"
+
+licoes:
+
+  - id: "LESSON-001"
+    titulo: "Enemy específico funciona melhor que genérico"
+    categoria: "estrategia"
+    impacto: "alto"
+    data: "2026-02-01"
+    fonte: "Decisão DEC-001 + resultados dos primeiros 30 dias"
+
+    contexto: >
+      Ao definir o enemy do movimento, hesitamos entre 'falta de criatividade'
+      (genérico) e 'métricas de vaidade' (específico). Escolhemos o específico.
+
+    o_que_aconteceu: >
+      'Métricas de vaidade' como enemy gerou reações imediatas e fortes.
+      Pessoas se identificaram instantaneamente e começaram a compartilhar
+      suas próprias experiências sem que pedíssemos.
+
+    licao: >
+      Enemies específicos geram mais identificação porque as pessoas conseguem
+      se ver na situação concreta. Genérico demais e ninguém se sente
+      pessoalmente atingido.
+
+    aplicacao_futura:
+      - "Sempre testar variações específicas antes de ir com algo genérico"
+      - "Usar verbatims reais para calibrar nível de especificidade"
+      - "Se a descrição do enemy não gera reação emocional, é genérico demais"
+
+    tags: ["enemy", "posicionamento", "especificidade"]
+
+  - id: "LESSON-002"
+    titulo: "Rituais consistentes superam conteúdo viral"
+    categoria: "comunidade"
+    impacto: "alto"
+    data: "2026-03-01"
+    fonte: "Experimento EXP-001 + dados de retenção"
+
+    contexto: >
+      Tivemos posts virais (60k+ impressões) e rituais semanais modestos
+      (2-5k impressões). Comparamos o impacto de cada um na retenção.
+
+    o_que_aconteceu: >
+      Posts virais trouxeram muitos visitantes mas poucos ficaram. Os rituais
+      semanais (Sexta do Fracasso) retiveram 87% dos participantes por 30+ dias.
+
+    licao: >
+      Viralidade traz atenção. Rituais constroem pertencimento. Movimentos
+      precisam de pertencimento, não apenas de atenção. Rituais > Virais
+      para construção de comunidade.
+
+    aplicacao_futura:
+      - "Investir proporcionalmente mais em rituais que em conteúdo viral"
+      - "Usar virais como porta de entrada, rituais como mecanismo de retenção"
+      - "Medir sucesso de rituais por retenção, não por alcance"
+
+    tags: ["rituais", "retencao", "comunidade", "viral"]
+
+  - id: "LESSON-003"
+    titulo: "Co-criação precisa de estrutura, não só de convite"
+    categoria: "operacao"
+    impacto: "medio"
+    data: "2026-03-05"
+    fonte: "Experimento EXP-002 (em andamento)"
+
+    contexto: >
+      Convidamos champions para co-criar conteúdo. Esperávamos que o convite
+      fosse suficiente para gerar contribuições de qualidade.
+
+    o_que_aconteceu: >
+      Apenas 30% dos convidados entregaram algo. Os que entregaram relataram
+      dificuldade em saber 'o que exatamente vocês esperam'.
+
+    licao: >
+      Co-criação não é delegar. Precisa de template, exemplo, prazo claro
+      e feedback rápido. A estrutura não mata a criatividade — ela a viabiliza.
+
+    aplicacao_futura:
+      - "Sempre fornecer template + exemplo + prazo para co-criações"
+      - "Fazer call de briefing antes de co-criações importantes"
+      - "Dar feedback em 48h máximo para manter momentum"
+
+    tags: ["co-criacao", "champions", "processo", "templates"]
+
+  - id: "LESSON-004"
+    titulo: "Nuance na mensagem evita alienar aliados potenciais"
+    categoria: "narrativa"
+    impacto: "medio"
+    data: "2026-02-15"
+    fonte: "Feedback de membros da comunidade analytics"
+
+    contexto: >
+      Mensagem inicial do movimento parecia anti-dados para alguns
+      profissionais de analytics que poderiam ser aliados.
+
+    o_que_aconteceu: >
+      Recebemos 3 feedbacks negativos de analistas de dados que se sentiram
+      atacados. Ajustamos para 'métricas melhores' em vez de 'menos métricas'.
+
+    licao: >
+      Movimento precisa de enemy claro, mas nuance evita friendly fire.
+      A diferença entre 'contra métricas ruins' e 'contra métricas' é
+      sutil mas crucial.
+
+    aplicacao_futura:
+      - "Sempre testar mensagem com público adjacente ao enemy"
+      - "Incluir 'aliados improváveis' na validação de narrativa"
+      - "Ajustar tom antes que pushback se torne contra-narrativa"
+
+    tags: ["narrativa", "nuance", "enemy", "aliados"]
+
+template_nova_licao:
+  id: "LESSON-XXX"
+  titulo: "[Título descritivo da lição]"
+  categoria: "[estrategia | narrativa | comunidade | distribuicao | metricas | operacao]"
+  impacto: "[alto | medio | baixo]"
+  data: "[YYYY-MM-DD]"
+  fonte: "[De onde veio esse aprendizado]"
+  contexto: "[O que estava acontecendo]"
+  o_que_aconteceu: "[O que aconteceu de fato]"
+  licao: "[O que aprendemos]"
+  aplicacao_futura: ["[Como aplicar no futuro]"]
+  tags: []

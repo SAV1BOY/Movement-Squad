@@ -1,0 +1,106 @@
+# ============================================================================
+# Decision Log — Log de Decisões do Movement Chief
+# ============================================================================
+# Registro de todas as decisões estratégicas tomadas pelo Movement Chief.
+# Documentar decisões com contexto, alternativas e trade-offs garante
+# transparência e permite aprender com o passado.
+#
+# Tipo: estrategica | tatica | operacional | emergencial
+# Impacto: alto | medio | baixo
+# ============================================================================
+
+schema_version: "1.0"
+ultima_atualizacao: "2026-03-10"
+
+decisoes:
+
+  - id: "DEC-001"
+    titulo: "Adotar 'métricas de vaidade' como enemy principal do movimento"
+    tipo: "estrategica"
+    impacto: "alto"
+    data: "2026-01-15"
+    decidido_por: "movement-chief"
+
+    contexto:
+      situacao: "Precisávamos definir o enemy central do movimento"
+      pressao: "Time queria ir com 'falta de criatividade' como enemy"
+      dados_disponiveis:
+        - "15 entrevistas apontando frustração com métricas"
+        - "3 threads virais sobre dashboards inúteis"
+        - "Pesquisa interna: 78% consideram métricas atuais inúteis"
+
+    alternativas_consideradas:
+      - opcao: "Falta de criatividade no marketing"
+        pros: "Tema amplo, muita gente se identifica"
+        contras: "Vago demais, difícil construir mecanismo concreto"
+      - opcao: "Métricas de vaidade"
+        pros: "Específico, acionável, gera raiva produtiva"
+        contras: "Pode alienar quem trabalha com analytics"
+      - opcao: "Automação desumanizada"
+        pros: "Muito atual com IA, gera debate"
+        contras: "Já existem muitos movimentos nesse espaço"
+
+    decisao_final:
+      escolha: "Métricas de vaidade como enemy principal"
+      justificativa: "Combina especificidade, emoção e acionabilidade"
+      trade_offs_aceitos:
+        - "Pode alienar alguns profissionais de analytics"
+        - "Precisa de nuance para não parecer anti-dados"
+      mitigacoes:
+        - "Sempre posicionar como 'métricas melhores', não 'sem métricas'"
+        - "Incluir profissionais de analytics como aliados, não inimigos"
+
+    resultado_observado:
+      data_avaliacao: "2026-03-01"
+      avaliacao: "Decisão acertada — engajamento alto, poucos pushbacks"
+      aprendizados:
+        - "Enemy específico funciona melhor que genérico"
+        - "Nuance na mensagem evitou alienar analytics"
+
+  - id: "DEC-002"
+    titulo: "Priorizar LinkedIn como plataforma principal antes de expandir"
+    tipo: "estrategica"
+    impacto: "alto"
+    data: "2026-01-20"
+    decidido_por: "movement-chief"
+
+    contexto:
+      situacao: "Recursos limitados, precisávamos escolher uma plataforma"
+      pressao: "Distribution Hacker queria testar TikTok simultaneamente"
+      dados_disponiveis:
+        - "Público-alvo majoritariamente B2B no LinkedIn"
+        - "Benchmark: movimentos B2B de sucesso começaram focados"
+
+    alternativas_consideradas:
+      - opcao: "LinkedIn + TikTok simultaneamente"
+        pros: "Maior alcance potencial"
+        contras: "Recursos diluídos, mensagem pode se fragmentar"
+      - opcao: "Só LinkedIn"
+        pros: "Foco total, público alinhado"
+        contras: "Limita alcance inicial"
+
+    decisao_final:
+      escolha: "Só LinkedIn por 3 meses, depois avaliar expansão"
+      justificativa: "Melhor dominar uma plataforma antes de expandir"
+      trade_offs_aceitos:
+        - "Crescimento mais lento no início"
+        - "Perda de oportunidades em outras plataformas"
+
+    resultado_observado:
+      data_avaliacao: "2026-03-10"
+      avaliacao: "Em avaliação — indicadores positivos até agora"
+
+template_nova_decisao:
+  id: "DEC-XXX"
+  titulo: "[Descrição clara da decisão]"
+  tipo: "[estrategica | tatica | operacional | emergencial]"
+  impacto: "[alto | medio | baixo]"
+  data: "[YYYY-MM-DD]"
+  decidido_por: "movement-chief"
+  contexto:
+    situacao: "[Descreva o contexto]"
+  alternativas_consideradas: []
+  decisao_final:
+    escolha: "[O que foi decidido]"
+    justificativa: "[Por quê]"
+    trade_offs_aceitos: []

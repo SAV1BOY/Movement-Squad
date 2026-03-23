@@ -1,0 +1,91 @@
+# ============================================================================
+# Identity Codes — Códigos de Identidade do Movimento
+# ============================================================================
+# Códigos são os elementos simbólicos que permitem membros do movimento
+# se reconhecerem mutuamente. Incluem símbolos visuais, palavras-chave,
+# rituais compartilhados e comportamentos distintivos.
+#
+# Tipo: simbolo | palavra | ritual | comportamento | visual | sonoro
+# Status: ativo | em-teste | aposentado
+# ============================================================================
+
+schema_version: "1.0"
+ultima_atualizacao: "2026-03-10"
+
+codigos:
+
+  # --- Palavras e Expressões ---
+  - id: "CODE-001"
+    tipo: "palavra"
+    nome: "Métrica que importa"
+    status: "ativo"
+    descricao: "Expressão usada para distinguir métricas de impacto real vs vaidade"
+    uso_correto: "Quando alguém questiona se uma métrica realmente gera decisão"
+    uso_incorreto: "Para depreciar qualquer métrica quantitativa"
+    origem: "Thread orgânica na comunidade, fev/2026"
+    adocao_estimada: "alta"
+    exemplos:
+      - "Isso é métrica que importa ou métrica de vaidade?"
+      - "Vamos focar nas métricas que importam"
+
+  - id: "CODE-002"
+    tipo: "palavra"
+    nome: "Anti-dashboard"
+    status: "em-teste"
+    descricao: "Postura de questionar dashboards complexos sem ação clara"
+    uso_correto: "Crítica construtiva a excesso de dados sem insight"
+    uso_incorreto: "Rejeição a qualquer tipo de mensuração"
+    origem: "Criado pelo Narrative Architect"
+    adocao_estimada: "media"
+    exemplos:
+      - "Mentalidade anti-dashboard: menos dados, mais decisões"
+
+  # --- Rituais ---
+  - id: "CODE-003"
+    tipo: "ritual"
+    nome: "Sexta do Fracasso"
+    status: "ativo"
+    descricao: "Ritual semanal onde membros compartilham algo que não funcionou"
+    frequencia: "semanal (sexta-feira)"
+    formato: "Post na comunidade com hashtag #SextaDoFracasso"
+    beneficio: "Normaliza erro e gera aprendizado coletivo"
+    participacao_media: "25-40 membros por semana"
+
+  - id: "CODE-004"
+    tipo: "ritual"
+    nome: "Auditoria de Vaidade"
+    status: "em-teste"
+    descricao: "Exercício mensal onde membros revisam suas próprias métricas de vaidade"
+    frequencia: "mensal (primeira segunda-feira)"
+    formato: "Template compartilhado + discussão em grupo"
+    beneficio: "Prática do que pregamos"
+    participacao_media: "12-18 membros (em crescimento)"
+
+  # --- Símbolos Visuais ---
+  - id: "CODE-005"
+    tipo: "visual"
+    nome: "Selo 'Métrica Real'"
+    status: "ativo"
+    descricao: "Badge visual que membros usam para marcar métricas de impacto"
+    formato_arquivo: "memetic-assets/selo-metrica-real.png"
+    uso: "Adicionado a posts, reports e apresentações"
+    variacoes:
+      - "Versão clara (fundo escuro)"
+      - "Versão escura (fundo claro)"
+      - "Versão emoji simplificada"
+
+  # --- Comportamentos ---
+  - id: "CODE-006"
+    tipo: "comportamento"
+    nome: "Perguntar 'E daí?'"
+    status: "ativo"
+    descricao: "Hábito de questionar cada métrica com 'e daí? que decisão isso gera?'"
+    contexto: "Em reuniões de review, análise de reports, planejamento"
+    beneficio: "Força foco em métricas acionáveis"
+    adocao_estimada: "alta entre champions, media na comunidade geral"
+
+regras_de_evolucao:
+  - "Novos códigos começam como 'em-teste' por no mínimo 4 semanas"
+  - "Promoção para 'ativo' requer adoção orgânica observada (não forçada)"
+  - "Códigos 'aposentados' permanecem no registro para histórico"
+  - "O Community Architect monitora adoção e sugere ajustes"

@@ -1,0 +1,115 @@
+# ============================================================================
+# Champion Registry — Registro de Champions
+# ============================================================================
+# Registro detalhado de todos os champions do movimento. Champions são
+# membros que vão além da participação — eles evangelizam, co-criam e
+# fortalecem o movimento organicamente.
+#
+# Tier: seed | bronze | silver | gold | platinum
+# Status: ativo | em-pausa | inativo | alumni
+# ============================================================================
+
+schema_version: "1.0"
+ultima_atualizacao: "2026-03-10"
+
+tiers:
+  seed:
+    descricao: "Novos champions em período de observação (4 semanas)"
+    beneficios: ["Acesso ao canal de champions", "Badge de champion"]
+    criterios_promocao: "Participar de 80%+ dos rituais por 4 semanas"
+
+  bronze:
+    descricao: "Champions consistentes com participação regular"
+    beneficios: ["Todos de seed", "Acesso antecipado a conteúdos"]
+    criterios_promocao: "Trazer 3+ novos membros, criar 2+ conteúdos originais"
+
+  silver:
+    descricao: "Champions que amplificam ativamente o movimento"
+    beneficios: ["Todos de bronze", "Co-criação com o time", "Menção em conteúdos"]
+    criterios_promocao: "Liderar 1+ iniciativa própria, impacto mensurável"
+
+  gold:
+    descricao: "Champions de alto impacto que lideram iniciativas"
+    beneficios: ["Todos de silver", "Convite para eventos", "Acesso ao Chief"]
+    criterios_promocao: "Impacto consistente por 6+ meses"
+
+  platinum:
+    descricao: "Champions excepcionais — praticamente co-fundadores do movimento"
+    beneficios: ["Todos de gold", "Participação em decisões estratégicas"]
+    criterios_promocao: "Convite exclusivo do Movement Chief"
+
+champions:
+
+  - id: "CHAMP-001"
+    pseudonimo: "MarketingRebelde"
+    tier: "gold"
+    status: "ativo"
+    data_ingresso: "2026-01-25"
+    data_ultimo_tier: "2026-03-01"
+
+    perfil:
+      area_atuacao: "Head de Marketing em SaaS B2B"
+      plataformas_ativas: ["LinkedIn", "Newsletter própria"]
+      motivacao: "Frustração genuína com métricas de vaidade no dia a dia"
+
+    metricas:
+      membros_trazidos: 12
+      conteudos_criados: 8
+      participacao_rituais: "92%"
+      comentarios_qualidade: 45
+      compartilhamentos_organicos: 23
+
+    contribuicoes_destaque:
+      - "Criou template 'Auditoria de Métricas' adotado pela comunidade"
+      - "Organizou primeira meetup presencial com 15 participantes"
+      - "Thread sobre demissão por vanity metrics viralizou (35k views)"
+
+    contato:
+      canal_preferido: "DM LinkedIn"
+      responsavel: "movement-architect"
+      ultima_interacao: "2026-03-08"
+
+  - id: "CHAMP-002"
+    pseudonimo: "DataComAlma"
+    tier: "silver"
+    status: "ativo"
+    data_ingresso: "2026-02-05"
+    data_ultimo_tier: "2026-03-05"
+
+    perfil:
+      area_atuacao: "Analista de dados em agência"
+      plataformas_ativas: ["LinkedIn", "Twitter/X"]
+      motivacao: "Quer mudar a forma como agências reportam para clientes"
+
+    metricas:
+      membros_trazidos: 5
+      conteudos_criados: 4
+      participacao_rituais: "85%"
+      comentarios_qualidade: 28
+      compartilhamentos_organicos: 11
+
+    contribuicoes_destaque:
+      - "Série de posts 'Métricas Reais vs Vaidade' com casos de agência"
+      - "Trouxe 3 analistas da mesma agência para a comunidade"
+
+    contato:
+      canal_preferido: "Telegram"
+      responsavel: "movement-architect"
+      ultima_interacao: "2026-03-07"
+
+metricas_globais:
+  total_champions: 8
+  por_tier:
+    seed: 2
+    bronze: 3
+    silver: 2
+    gold: 1
+    platinum: 0
+  taxa_retencao_30d: "87%"
+  nps_champions: 72
+
+revisao:
+  frequencia: "Mensal"
+  responsavel: "movement-architect"
+  aprovacao: "movement-chief"
+  proxima_revisao: "2026-04-01"

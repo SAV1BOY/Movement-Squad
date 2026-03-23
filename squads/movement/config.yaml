@@ -500,6 +500,67 @@ cross_squad:
       - symbol-systems
       - visual-identity
 
+  data_squad:
+    handoff_to_movement:
+      - "analytics dashboards → movement/data/metrics/ (visualização e infraestrutura de métricas)"
+      - "experiment infrastructure → movement/tasks/measurement/ (ferramentas de A/B testing)"
+      - "cohort models → movement/frameworks/ (modelos de retenção e segmentação)"
+      - "data pipelines → movement/data/registries/ (feeds automatizados de dados)"
+    handoff_from_movement:
+      - "experiment results → data/registries/ (resultados de experimentos do movimento)"
+      - "movement health metrics → data/dashboards/ (KPIs de saúde do movimento)"
+      - "signal data quantificados → data/research/ (sinais culturais com métricas)"
+      - "community metrics → data/registries/ (métricas de comunidade para modelagem)"
+    shared_assets:
+      - experiment-log
+      - health-score-dashboard
+      - cohort-retention-data
+
+  deepresearch_squad:
+    handoff_to_movement:
+      - "cultural deep-dives → movement/reference/ (pesquisas culturais aprofundadas)"
+      - "competitive movement analysis → movement/data/research/ (análise de movimentos concorrentes)"
+      - "academic foundations → movement/frameworks/ (teoria social, psicológica e cultural)"
+      - "trend reports → movement/data/research/ (relatórios de tendências macro)"
+    handoff_from_movement:
+      - "research briefs → deepresearch/tasks/ (pedidos de pesquisa cultural)"
+      - "signal clusters → deepresearch/data/ (clusters de sinais para aprofundamento)"
+      - "thesis hypotheses → deepresearch/tasks/ (hipóteses para validação acadêmica)"
+    shared_assets:
+      - research-briefs
+      - cultural-context
+      - academic-references
+
+  advisory_board_squad:
+    handoff_to_movement:
+      - "strategic direction → movement/tasks/strategy/ (direcionamento estratégico)"
+      - "capital allocation → movement/data/registries/ (budget e recursos aprovados)"
+      - "governance decisions → movement/data/registries/decision-log (decisões de alto nível)"
+      - "culture guidelines → movement/frameworks/ (princípios culturais da organização)"
+    handoff_from_movement:
+      - "movement health reports → advisory-board/data/ (relatórios de impacto)"
+      - "kill/pivot recommendations → advisory-board/tasks/ (recomendações estratégicas)"
+      - "quarterly movement review → advisory-board/reference/ (status e evolução)"
+    shared_assets:
+      - decision-log
+      - quarterly-reviews
+      - strategic-alignment
+
+  c_level_squad:
+    handoff_to_movement:
+      - "brand vision → movement/frameworks/ (visão de marca → tese de movimento)"
+      - "business objectives → movement/tasks/strategy/ (OKRs e metas como input)"
+      - "CMO priorities → movement/data/registries/ (prioridades executivas de marketing)"
+      - "resource approval → movement/data/registries/ (aprovação de recursos e budget)"
+    handoff_from_movement:
+      - "movement impact reports → c-level/data/ (ROI e business impact comprovado)"
+      - "quarterly movement review → c-level/tasks/ (status estratégico do movimento)"
+      - "crisis alerts → c-level/tasks/ (alertas de crise de reputação)"
+    shared_assets:
+      - business-impact-metrics
+      - quarterly-movement-review
+      - brand-reputation-score
+
 # ============================================================
 # QUALITY GATES
 # ============================================================
@@ -555,3 +616,207 @@ defaults:
   health_score_check: weekly
   kill_review: quarterly
   ethics_gate: mandatory
+
+# ============================================================
+# ESCALATION RULES
+# ============================================================
+
+escalation_rules:
+  agent_to_chief:
+    - condition: "Risco reputacional identificado"
+      action: "Pausar execução, notificar chief imediatamente"
+    - condition: "Conflito entre agentes sobre direção"
+      action: "Chief arbitra com base em win conditions"
+    - condition: "Output reprovado 2x no mesmo quality gate"
+      action: "Chief revisa escopo e realoca recursos"
+    - condition: "Sinal cultural com potencial de tese"
+      action: "Fenomenólogo escala para Architect + Chief"
+    - condition: "Budget necessário >20% do previsto"
+      action: "Chief escala para stakeholders"
+
+  chief_to_stakeholders:
+    - condition: "Decisão de kill/pivot de movimento ativo"
+      action: "Apresentar dados + recomendação, stakeholder decide"
+    - condition: "Investimento >R$100K ou >6 meses"
+      action: "Business case formal + aprovação"
+    - condition: "Risco legal ou compliance"
+      action: "Pausar, consultar jurídico, documentar"
+    - condition: "Conflito cross-squad não resolvido"
+      action: "Escalar para HRM Chief / central command"
+
+  cross_squad:
+    - condition: "Handoff rejeitado 2x pelo squad receptor"
+      action: "Chiefs dos dois squads alinham formato e critérios"
+    - condition: "Dependência bloqueante de outro squad"
+      action: "Chief notifica + define deadline, escala se não resolvido em 48h"
+
+# ============================================================
+# DELEGATION RULES
+# ============================================================
+
+delegation_rules:
+  chief_decides:
+    - "Win conditions e métricas de sucesso"
+    - "Kill/pivot de movimento"
+    - "Alocação de recursos entre tasks"
+    - "Aprovação final de tese e identidade"
+    - "Conflitos entre agentes"
+    - "Priorização do backlog"
+
+  chief_delegates:
+    - to: movement-architect
+      scope: "Design de sistema, loops, coerência, arquitetura de canais"
+    - to: fenomenologo
+      scope: "Pesquisa cultural, sinais, linguagem, tensões"
+    - to: identitario
+      scope: "Sistema de identidade, símbolos, pertencimento"
+    - to: estrategista-de-ciclo
+      scope: "Timing, cadência, janelas de atenção, sazonalidade"
+    - to: manifestador
+      scope: "Criação de artefatos, manifestos, memes, rituais"
+    - to: analista-de-impacto
+      scope: "Métricas, experimentos, atribuição, health score"
+
+  autonomy_levels:
+    full_autonomy: "Execução dentro do escopo delegado, sem aprovação prévia"
+    approval_needed: "Outputs que afetam identidade, tese ou cross-squad"
+    chief_only: "Kill decisions, budget >20%, stakeholder communication"
+
+# ============================================================
+# READINESS GATES (Go/No-Go)
+# ============================================================
+
+readiness_gates:
+  pre_launch:
+    name: "Gate de Prontidão para Lançamento"
+    checklist:
+      - "Tese validada com ≥5 evidências documentadas"
+      - "Identidade visual e verbal definida e aprovada"
+      - "Manifesto escrito e revisado por Chief + Identitário"
+      - "Mínimo 3 artefatos meméticos prontos para distribuição"
+      - "Comunidade seed com ≥20 membros ativos"
+      - "Canais de distribuição mapeados e configurados"
+      - "Plano 30-60-90 aprovado pelo Chief"
+      - "Dashboard de métricas configurado com baseline"
+      - "Plano de crise/backlash documentado"
+      - "Protocolo de moderação ativo"
+    approval: "Chief + Architect assinam go/no-go"
+    registry: "data/readiness-reviews/"
+    reference: "docs/readiness-review-protocol.md"
+
+  pre_scaling:
+    name: "Gate de Prontidão para Scaling"
+    checklist:
+      - "Health Score >60 por ≥4 semanas consecutivas"
+      - "Taxa de retenção da comunidade >50% em 90 dias"
+      - "≥3 champions ativos (tier silver+)"
+      - "Content-to-conversation rate >15%"
+      - "Unit economics validado (CAC vs LTV do movimento)"
+      - "Infraestrutura de moderação escala com crescimento"
+    approval: "Chief + Analista de Impacto assinam"
+
+  pre_sunset:
+    name: "Gate de Confirmação de Sunset"
+    checklist:
+      - "Health Score <30 por ≥60 dias"
+      - "≥3 tentativas de pivot documentadas e falhadas"
+      - "Análise de impacto na comunidade existente"
+      - "Plano de transição/legado documentado"
+      - "Stakeholders informados e alinhados"
+    approval: "Chief + Stakeholder assinam"
+
+# ============================================================
+# SCORE THRESHOLDS
+# ============================================================
+
+score_thresholds:
+  movement_health_score:
+    green: "≥60"
+    yellow: "40-59"
+    red: "<40"
+    critical: "<25"
+    action_red: "Investigar causa raiz, plano de recuperação em 7 dias"
+    action_critical: "Reunião emergencial, considerar pivot/kill"
+
+  community_retention:
+    healthy: "≥50% em 90 dias"
+    warning: "30-49% em 90 dias"
+    critical: "<30% em 90 dias"
+
+  content_to_conversation:
+    excellent: ">20%"
+    good: "15-20%"
+    below: "<15%"
+    action_below: "Revisar formato de conteúdo e canais"
+
+  thesis_validation:
+    strong: "≥70% das hipóteses validadas"
+    moderate: "40-69%"
+    weak: "<40%"
+    action_weak: "Pivotar tese ou revisar método de validação"
+
+  experiment_velocity:
+    healthy: "≥2 experimentos/mês"
+    slow: "1 experimento/mês"
+    stalled: "0 em 30 dias"
+    action_stalled: "Chief revisa backlog e realoca recursos"
+
+  quality_gate_pass_rate:
+    healthy: "≥80% first-pass"
+    concerning: "50-79%"
+    broken: "<50%"
+    action_broken: "Revisar briefing e capacitação dos agentes"
+
+# ============================================================
+# REWORK POLICY
+# ============================================================
+
+rework_policy:
+  max_iterations: 3
+  rules:
+    - "1ª rejeição: Agent corrige com feedback específico do reviewer"
+    - "2ª rejeição: Chief intervém, revisa escopo e briefing"
+    - "3ª rejeição: Task é pausada, root cause analysis obrigatória"
+    - "Se padrão de rejeição se repete (>3 tasks do mesmo agent): capacitação ou redesign do agent"
+
+  escalation_on_rework:
+    after_2_rejections: "Chief notificado automaticamente"
+    after_3_rejections: "Task pausada, post-mortem obrigatório"
+
+  registry: "data/registries/lessons-learned-registry"
+  learning_loop: "Cada rework gera entry em lessons-learned com: causa, correção, prevenção"
+
+# ============================================================
+# MEMORY POLICY
+# ============================================================
+
+memory_policy:
+  when_to_record:
+    always:
+      - "Decisões estratégicas → data/registries/decision-log.yaml"
+      - "Resultados de experimentos → data/registries/experiment-log.yaml"
+      - "Novos sinais culturais → data/registries/signal-archive.yaml"
+      - "Lessons learned de rework → data/registries/lessons-learned-registry.yaml"
+      - "Novos slogans/assets validados → data/registries/slogan-bank.yaml + memetic-assets/"
+    weekly:
+      - "Signal radar → data/registries/signal-archive.yaml"
+      - "Health score snapshot → data/metrics/weekly-dashboard.md"
+      - "Kaizen loop learnings → data/registries/lessons-learned-registry.yaml"
+    monthly:
+      - "Movement health review → data/metrics/movement-health-score.md"
+      - "Community health → data/metrics/community-growth-quality.md"
+      - "Business impact → data/metrics/business-impact.md"
+    quarterly:
+      - "Maturity score → data/metrics/maturity-score-history.md"
+      - "Kill/continue review → data/registries/decision-log.yaml"
+
+  how_memory_influences_execution:
+    - "Antes de criar nova tese: consultar data/registries/movement-theses.yaml para evitar repetição"
+    - "Antes de novo experimento: consultar data/registries/experiment-log.yaml para aprender com anteriores"
+    - "Antes de criar asset: consultar data/registries/memetic-assets/ para reusar e evoluir"
+    - "Antes de handoff: consultar data/registries/lessons-learned-registry.yaml para evitar erros repetidos"
+
+  retention:
+    active: "Dados dos últimos 6 meses ficam em registries/"
+    archive: "Dados >6 meses movidos para archive/"
+    permanent: "decision-log, experiment-log e lessons-learned nunca são arquivados"

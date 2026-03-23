@@ -1,0 +1,101 @@
+# ============================================================================
+# Experiment Log — Log de Experimentos
+# ============================================================================
+# Registro de todos os experimentos realizados pelo squad. Cada experimento
+# segue o ciclo: hipótese → design → execução → resultado → decisão.
+# Documentar experimentos é essencial para aprendizado cumulativo.
+#
+# Status: planejado | em-execucao | concluido | cancelado
+# Resultado: validado | invalidado | inconclusivo
+# ============================================================================
+
+schema_version: "1.0"
+ultima_atualizacao: "2026-03-10"
+
+experimentos:
+
+  - id: "EXP-001"
+    titulo: "Sexta do Fracasso gera mais engajamento que posts motivacionais"
+    status: "concluido"
+    resultado: "validado"
+
+    hipotese:
+      descricao: "Posts sobre fracassos geram 2x mais comentários que posts motivacionais"
+      metrica_primaria: "comentários por post"
+      metrica_secundaria: "qualidade dos comentários (respostas com experiência própria)"
+      threshold_sucesso: "2x mais comentários E 50%+ com experiência própria"
+
+    design:
+      duracao: "4 semanas"
+      grupo_teste: "Posts de fracasso toda sexta-feira"
+      grupo_controle: "Posts motivacionais tradicionais (segunda e quarta)"
+      tamanho_amostra: "8 posts de cada tipo"
+      responsavel: "manifestador"
+
+    execucao:
+      data_inicio: "2026-02-01"
+      data_fim: "2026-02-28"
+      ajustes_durante: "Nenhum ajuste necessário"
+      problemas_encontrados: "Uma sexta caiu em feriado — substituída pela quinta"
+
+    resultados:
+      metrica_primaria:
+        teste: 87.5
+        controle: 32.3
+        diferenca: "2.7x mais comentários"
+      metrica_secundaria:
+        teste: "72% com experiência própria"
+        controle: "23% com experiência própria"
+      insights_qualitativos:
+        - "Pessoas se sentem seguras para compartilhar erros quando veem outros fazendo"
+        - "Posts de fracasso geram threads mais longas e profundas"
+        - "Alguns membros relataram que é o motivo de voltarem toda semana"
+
+    decisao:
+      acao: "Tornar Sexta do Fracasso um ritual permanente"
+      justificativa: "Superou threshold com margem significativa"
+      proximos_passos:
+        - "Criar template para facilitar participação"
+        - "Testar variações do formato (vídeo, áudio)"
+      data_decisao: "2026-03-02"
+      decidido_por: "movement-chief"
+
+  - id: "EXP-002"
+    titulo: "Conteúdo co-criado com champions performa melhor que editorial"
+    status: "em-execucao"
+    resultado: null
+
+    hipotese:
+      descricao: "Conteúdo co-criado com champions gera 1.5x mais compartilhamentos"
+      metrica_primaria: "compartilhamentos por post"
+      metrica_secundaria: "novos membros originados do conteúdo"
+      threshold_sucesso: "1.5x mais compartilhamentos"
+
+    design:
+      duracao: "6 semanas"
+      grupo_teste: "3 posts co-criados por semana"
+      grupo_controle: "3 posts editoriais tradicionais por semana"
+      tamanho_amostra: "18 posts de cada tipo"
+      responsavel: "movement-architect"
+
+    execucao:
+      data_inicio: "2026-02-15"
+      data_fim_prevista: "2026-03-28"
+      ajustes_durante: "Reduzido para 2 co-criados por semana (dificuldade de agenda)"
+      problemas_encontrados: "Champions precisam de mais tempo para co-criar"
+
+    resultados: null
+    decisao: null
+
+template_novo_experimento:
+  id: "EXP-XXX"
+  titulo: "[Descrição clara da hipótese]"
+  status: "planejado"
+  resultado: null
+  hipotese:
+    descricao: "[O que acreditamos que vai acontecer]"
+    metrica_primaria: "[Métrica que define sucesso]"
+    threshold_sucesso: "[Número ou % que define validação]"
+  design:
+    duracao: "[X semanas]"
+    responsavel: "[agente responsável]"
